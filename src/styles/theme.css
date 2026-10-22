@@ -1,0 +1,75 @@
+:root {
+  --bg: #f4f6fb;
+  --panel: #ffffff;
+  --panel-soft: #f9fafc;
+  --panel-raised: #ffffff;
+  --line: #dfe5ee;
+  --line-strong: #c8d0dc;
+  --text: #19202a;
+  --muted: #677282;
+  --muted-strong: #4b5563;
+  --blue: #0f67d7;
+  --blue-strong: #0b59bd;
+  --blue-soft: #e8f1ff;
+  --green: #2ea043;
+  --yellow: #f5a400;
+  --gray: #949ba6;
+  --red: #c62828;
+  --purple: #7a5cff;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --shadow: 0 16px 40px rgb(22 34 51 / 8%);
+  --shadow-soft: 0 8px 22px rgb(22 34 51 / 7%);
+  --title-bar-height: 38px;
+  --toolbar-height: 66px;
+  --status-bar-height: 42px;
+  --right-panel-min: 360px;
+  --right-panel-target: clamp(360px, 28vw, 420px);
+  --theme-surface: var(--panel);
+  --theme-surface-soft: var(--panel-soft);
+  --theme-border: var(--line);
+  --theme-text: var(--text);
+  --theme-muted: var(--muted);
+  --theme-selection: var(--blue-soft);
+  --theme-on-accent: #ffffff;
+  --theme-floating: var(--panel-raised);
+  --theme-accent: var(--blue);
+  --theme-error: var(--red);
+  --theme-button-accent: var(--blue);
+  --scroll-track: #e8eef7;
+  --scroll-thumb: #829ec1;
+  --scroll-thumb-hover: #547eaf;
+  --editor-control-surface: #edf2f8;
+  color-scheme: light;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+:root[data-theme=dark]{
+ --bg:#121923;--panel:#1c2735;--panel-soft:#243244;--panel-raised:#29394c;
+ --line:#52657e;--line-strong:#6d86a4;--text:#edf2f8;--muted:#b7c5d7;--muted-strong:#c8d3e2;
+ --blue:#76b4ff;--blue-strong:#98c7ff;--blue-soft:#2a4360;--green:#82d69a;--yellow:#ffd480;--gray:#bdc9d8;--red:#ffabae;--purple:#c4b0ff;
+ --shadow:0 16px 40px #0006;--shadow-soft:0 8px 22px #0005;
+ --theme-surface:var(--panel);--theme-surface-soft:var(--panel-soft);--theme-border:var(--line);--theme-text:var(--text);--theme-muted:var(--muted);--theme-selection:var(--blue-soft);--theme-on-accent:#102033;--theme-floating:var(--panel-raised);--theme-accent:var(--blue);--theme-error:var(--red);--theme-button-accent:var(--blue);
+ color-scheme:dark;
+ --scroll-track:#203044;--scroll-thumb:#587ca6;--scroll-thumb-hover:#85addb;--editor-control-surface:#26374b;
+}
+.appearance-control{position:relative;display:inline-flex;align-items:center;}
+.appearance-control>button,.help-trigger{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:1px solid var(--line);border-radius:7px;background:var(--panel-soft);color:var(--text);cursor:pointer;}
+.appearance-control .control-icon,.help-trigger .control-icon{width:18px;height:18px;}
+.appearance-error{position:absolute;z-index:500;right:0;top:34px;width:230px;padding:8px;background:var(--panel);color:var(--red);border:1px solid var(--red);border-radius:8px;font-size:13px;}
+.toolbar-appearance{display:inline-flex;align-items:center;gap:3px;height:36px;padding:2px;border:1px solid var(--line);border-radius:9px;background:var(--panel-soft);flex:none;}
+:root[data-theme=dark] input::placeholder,:root[data-theme=dark] textarea::placeholder{color:var(--muted);opacity:1;}
+
+:root[data-theme=dark] select,:root[data-theme=dark] option{color:var(--text);background-color:var(--panel)}
+:root[data-theme=dark] .compact-select__menu,:root[data-theme=dark] .compact-select__menu [role=option]{color:var(--text);background-color:var(--panel)}
+:root[data-theme=dark] .compact-select__menu [role=option][aria-selected=true]{background-color:var(--blue-soft)}
+:root[data-theme=dark] .breadcrumb-bar,:root[data-theme=dark] .main-toolbar__path-row{box-shadow:none;background:var(--panel);color:var(--text)}
+:root[data-theme=dark] .search-controls,:root[data-theme=dark] .search-workspace,:root[data-theme=dark] .search-filters{background:var(--panel);color:var(--text)}
+:root[data-theme=dark] .control-icon{filter:brightness(1.6) saturate(.8)}
+
+:root[data-theme=dark] .favorite-toggle,:root[data-theme=dark] .details-favorite-overlay{background:color-mix(in srgb,var(--panel) 94%,transparent);border-color:var(--line);color:var(--muted)}
+:root[data-theme=dark] .favorite-toggle:hover,:root[data-theme=dark] .favorite-toggle--active,:root[data-theme=dark] .details-favorite-overlay.active{background:var(--panel-raised);color:var(--yellow)}

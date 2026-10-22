@@ -1,0 +1,2220 @@
+{
+  "common.help": [
+    "Explains what this section does and how to use its settings. Hover for a moment, or press “?” to keep the explanation open while reading. Press the button again or `Escape` to close it."
+  ],
+  "common.close-dialog": [
+    "Closes this settings or information window. To apply changes, use a separate save button, if available in the window."
+  ],
+  "common.dismiss-message": [
+    "Removes the message from the screen. If it describes an error, its cause remains: check the status of the operation in the appropriate section."
+  ],
+  "common.cancel-draft": [
+    "Cancels preparing changes to this form and returns to the previous screen. Already saved results remain."
+  ],
+  "common.reset-draft": [
+    "Returns the last saved values to the fields. Use this if you want to discard changes that you have not yet saved."
+  ],
+  "common.expand": [
+    "Shows the contents of “{раздел}”. Press again to collapse it. Opening the section does not start an operation."
+  ],
+  "common.page-prev": [
+    "Shows the previous list page \"{список}\". This is a navigation through the list entries, not a return to the previous photo."
+  ],
+  "common.page-next": [
+    "Shows the next list page \"{список}\". Use to view entries that do not fit on the current page."
+  ],
+  "common.load-more": [
+    "Loads the next part of the list \"{список}\", preserving the entries already shown."
+  ],
+  "common.retry-read": [
+    "Tries to load “{раздел}” again after a reading error. This does not repeat a paid generation request."
+  ],
+  "common.acknowledge": [
+    "Closes this message and returns to work."
+  ],
+  "common.copy-path": [
+    "Copies the full path to this file to the clipboard. It can be pasted into Windows Explorer or message to indicate the location of the file."
+  ],
+  "common.reveal-file": [
+    "Opens the file location in Windows Explorer. This way you can find the original on disk and work with it outside the program."
+  ],
+  "common.favorite-add": [
+    "Marks a photo with a star and adds it to the “Favorites” section so you can quickly find it later. The file remains in the same place."
+  ],
+  "common.favorite-remove": [
+    "Removes the star and removes the photo from the “Favorites” section. The photo and its description remain in the library."
+  ],
+  "common.minimize": [
+    "Minimizes this window to the Windows taskbar. Click its icon to return to it. The window stays open."
+  ],
+  "common.maximize": [
+    "Expands the window to view a larger area. Clicking again returns the window to its normal size."
+  ],
+  "common.restore": [
+    "Returns the maximized window to its normal size. It can be moved and resized by the edges."
+  ],
+  "common.theme-dark": [
+    "Switches the interface to dark colors. The setting affects the design of the program, not the colors of the photos."
+  ],
+  "common.theme-light": [
+    "Switches the interface to light colors. The setting affects the design of the program, not the colors of the photos."
+  ],
+  "common.wait": [
+    "Currently running \"{действие}\". Wait for the result of this operation."
+  ],
+  "common.no-selection": [
+    "First, click on the photo you want to select it. To select multiple images, hold `Ctrl` and click on their cards."
+  ],
+  "common.splitter": [
+    "Drag the border to resize adjacent areas. This helps you allocate more space to your photos or settings without changing the content."
+  ],
+  "common.window-menu": [
+    "Opens the commands of this window. Select the desired action from the list; Opening the menu itself does not change anything."
+  ],
+  "text.bold": [
+    "Makes selected words bold so they stand out in the description. First, select a piece of text, then click this button. To save the design along with the text, click “Save Description”."
+  ],
+  "text.italic": [
+    "Makes the selected text italic. Use for small semantic accents in the description."
+  ],
+  "text.underline": [
+    "Underlines the selected fragment of the description. The design change must be saved along with the text."
+  ],
+  "text.bullets": [
+    "Formats the selected rows as a list with bullets. It is convenient to list several individual characteristics of a photograph."
+  ],
+  "text.numbered": [
+    "Formats the selected rows as a numbered list. Use when the order of items is important."
+  ],
+  "text.undo": [
+    "Undoes the last action in the current text editor. This does not cancel recognition or changes to the photo."
+  ],
+  "text.redo": [
+    "Returns the action undone in the current text editor."
+  ],
+  "text.link": [
+    "First, highlight the words that will become the link, then enter the HTTP or HTTPS address. The link will be part of the saved description."
+  ],
+  "text.link-address": [
+    "Insert the full address of the page, starting with http:// or https://. It will be linked to the highlighted fragment of the description."
+  ],
+  "text.link-apply": [
+    "Applies the specified address to the selected words. To save the edited description to the library, then click Save Description."
+  ],
+  "text.expand": [
+    "Gives more space to read and edit the description. Pressing it again returns the compact view; the text does not change."
+  ],
+  "text.collapse": [
+    "Returns a compact view of the description field. The typed text remains in the editor."
+  ],
+  "main.choose-folder": [
+    "Opens a folder with photos and shows its contents in the app’s Explorer. Here you can view pictures, select them for recognition and open them in the editor."
+  ],
+  "main.refresh-folder": [
+    "Rereads the contents of an open folder to show added, deleted, or modified files. Use if you changed files outside the program and the list has not yet been updated."
+  ],
+  "main.refresh-index": [
+    "Checks information about files in the library index and updates their status. The index stores information for searching; this action itself does not trigger new AI recognition."
+  ],
+  "main.refresh-mode": [
+    "Allows you to select the action of the main button: reread the open folder or check the index. The selected option is saved for future clicks."
+  ],
+  "main.provider": [
+    "Choose where to recognize photo content: locally via Ollama or in the cloud via Fal AI/OpenRouter. For local mode, you need an installed model; for cloud mode, you need the key for the corresponding service."
+  ],
+  "main.model": [
+    "Select a model to recognize photos in new tasks. The quality of descriptions and tags, speed of work and cost depend on it. Available models depend on the service selected."
+  ],
+  "main.output": [
+    "Choose what information to receive when recognizing a photo.",
+    "**Description** - coherent text about the contents of the image. **Tags** - short words to search for, for example “cat”, “sofa”, “window”. The Description and Tags option saves both results."
+  ],
+  "main.output-description": [
+    "Saves coherent text about what is shown in the photo. Already existing tags are not replaced by the result of this mode."
+  ],
+  "main.output-tags": [
+    "Saves search words and expressions about a photo. For example: “dog”, “grass”, “walk”. The full description is not replaced by this mode."
+  ],
+  "main.output-both": [
+    "Saves both text about the contents of the photo and short search tags. This information helps you find the snapshot using different queries."
+  ],
+  "main.recursive-process": [
+    "Includes photos in subfolders at any depth. For example, select a trip folder to process pictures in its daily subfolders. This setting does not change the current list view."
+  ],
+  "main.smart-name": [
+    "Renames the file using a date and a unique code. It uses the date taken from the metadata, or the file’s modification date if no date taken is available. The name does not come from the AI-generated description.",
+    "Enable Create copy to keep the original file under its current name."
+  ],
+  "main.analysis-copy": [
+    "Keeps the original file and creates a separate copy with a smart name. This option requires Smart name; choose where to save copies in Settings."
+  ],
+  "main.copy-disabled": [
+    "First, enable “Smart name”: this setting creates exactly a copy with a new smart name."
+  ],
+  "main.only-missing": [
+    "Skips photos that already have all the requested results. If you request both a description and tags but only the tags are ready, the missing description is added. Failed or stopped work does not count as a completed result."
+  ],
+  "main.process-direct": [
+    "Adds the selected photos to the general queue and starts processing. Photos that are already pending or being processed will not be added again.",
+    "With the “Unprocessed only” setting, the program skips already completed descriptions or tags, depending on the selected result."
+  ],
+  "main.process-manual": [
+    "Adds selected photos to a manual queue **without running**. If the queue has “Add here” enabled, the photos will go to it; otherwise a new one will be created.",
+    "This way you can prepare several collections, and then open “Tasks” and launch the desired queue."
+  ],
+  "main.process-mode": [
+    "Choose whether to launch selected photos immediately or only add them to a manual queue. The main button label changes; Selecting the mode itself does not launch anything."
+  ],
+  "main.mode-direct": [
+    "The main button will be called “Process”. The selected photos go to the general queue and processing starts."
+  ],
+  "main.mode-manual": [
+    "The main button will be called “Add to Queue”. Prepare your photos, then open Tasks and separately run the desired manual queue."
+  ],
+  "main.add-key": [
+    "Opens the key entry for the selected cloud service. The key associates requests with your service account; After saving and checking, you can start recognition."
+  ],
+  "main.check-key": [
+    "Checks whether the service accepts the saved key and whether the selected model is available. If the test fails, the program will show the reason so you can correct the setting."
+  ],
+  "main.install-local": [
+    "Prepares local recognition: the program will install the required component Ollama and download the selected model. The confirmation window shows the download volume and the required actions."
+  ],
+  "main.readiness-check": [
+    "The availability of the selected service or local model is checked. Wait for the test result: after it, the button will offer processing or the necessary setting."
+  ],
+  "main.preparing": [
+    "The program collects the selected photos and checks which of them need to be processed. Do not press again: the preparation result will appear in the queue."
+  ],
+  "main.service-unavailable": [
+    "Processing is currently unavailable: {причина}. Check the selected service, model and key; After eliminating the cause, repeat the test."
+  ],
+  "main.edit-photo": [
+    "Opens one selected photo in the editor: you can crop the photo, resize it, or perform AI editing. For this button, select exactly one photo."
+  ],
+  "main.editor-projects": [
+    "Opens a list of saved editor projects. Here you can find previously edited photos and continue working with their history."
+  ],
+  "main.rename": [
+    "Opens renaming of selected files or files of the current folder without accessing the neural network. First set up the names and check the preview, then apply the changes."
+  ],
+  "main.settings": [
+    "Opens a selection of services and models, keys, file storage and processing options. The settings for new jobs do not automatically overwrite already prepared queues."
+  ],
+  "main.logs": [
+    "Shows application technical messages. They are useful in troubleshooting errors and freezes; This is a separate list from the photo changelog."
+  ],
+  "main.back": [
+    "Returns to the previous browsing history folder. This is navigation through opened folders, and not canceling actions with a photo."
+  ],
+  "main.forward": [
+    "Moves to the next history folder after returning with the Back button."
+  ],
+  "main.up": [
+    "Opens the parent folder. For example, go from a folder for one day of a trip to the folder containing the whole trip."
+  ],
+  "main.breadcrumb": [
+    "Opens the folder \"{папка}\" in the current path. This way you can quickly move up several levels without repeatedly clicking “One level up”."
+  ],
+  "main.computer": [
+    "Shows computer disks. Select the drive to open its root folder; then you can navigate through the subfolders."
+  ],
+  "main.tab-explorer": [
+    "Shows the contents of an open folder. Select files to view, recognize, or edit."
+  ],
+  "main.tab-search": [
+    "Opens a search with a separate query and detailed conditions: fields, tags, dates and other filters. It has its own terms, separate from the top quick search."
+  ],
+  "main.tab-favorites": [
+    "Shows photos marked with a star. This is a convenient list of your favorite photos without moving files to another folder."
+  ],
+  "main.tab-ready": [
+    "Shows photos with saved processing results. You can check descriptions and tags without searching for files in their original folders."
+  ],
+  "main.tab-collections": [
+    "Opens your photo collections. A photo can belong to several collections without being moved or copied on disk."
+  ],
+  "main.tab-recent": [
+    "Shows folders that you have already opened. Click the desired entry to quickly return to its content."
+  ],
+  "main.open-recent": [
+    "Opens the folder \"{папка}\" that you were looking at earlier. The program will show its current contents; this is not a saved copy of the file list."
+  ],
+  "main.refresh-results": [
+    "Reruns the current query with the same conditions and sort. Use to see library changes; The order of the search list shown is maintained until updating."
+  ],
+  "main.refresh-results-dirty": [
+    "Library data has changed since this list was received. Click to update the results and their order. The previously prepared queue retains its selected composition."
+  ],
+  "main.compare": [
+    "Shows two selected photos for comparison.",
+    "Hold `Ctrl` and click on two photos, then click Compare. You can view them side by side or overlay them and move the dividing line to reveal different parts of each photo."
+  ],
+  "main.folders": [
+    "Choose where to show folders: before files, after them, or together. Within the selected order, the current sorting applies."
+  ],
+  "main.fit-thumb": [
+    "Choose how to display your photo on the card.",
+    "**Fill** takes up the entire card, but part of the photo near the edges may be hidden. **Fit** shows the entire image; There may be free margins at the edges. This only affects the appearance of the cards, the file itself does not change."
+  ],
+  "main.view": [
+    "Select card size, list, or table. Large cards are convenient for viewing, a table is for comparing file properties."
+  ],
+  "main.files": [
+    "“Photos and Folders” hides other file types. \"All files\" also shows the remaining items in the open folder. This is a display setting, not a delete setting."
+  ],
+  "main.panel": [
+    "Opens information about the selected photo, its description and tags, tasks and library maintenance. On a narrow window, the panel can be closed to make room for pictures."
+  ],
+  "main.close-panel": [
+    "Removes the details and tasks panel from the viewing area. You can open it again using the panel button; Closing the panel does not stop background jobs."
+  ],
+  "main.filename-filter": [
+    "Shows files in the current list whose names contain the entered text. To search by descriptions and tags, use the top search or the Search tab."
+  ],
+  "main.filename-clear": [
+    "Removes the imposed name restriction and again shows matching files in the current list. Individual search terms are not cleared by this action."
+  ],
+  "main.thumbnail-size": [
+    "Changes the size of photo cards in the list. Drag the slider: smaller cards show more files, larger cards allow you to better view the content."
+  ],
+  "main.card-select": [
+    "Click a photo to select it and see details on the right. Double clicking opens the preview.",
+    "To select multiple photos, hold down `Ctrl` and click on the photos you want. You can also select a group with a frame by dragging the pointer while holding the left mouse button.",
+    "To move a photo into a folder, hold down `Alt` and drag it onto the folder. If the photo is part of the selected group, the entire group will move.",
+    "The right mouse button opens a menu with available actions."
+  ],
+  "main.folder-open": [
+    "Double-click a folder to see its contents. One click selects a folder; To select multiple folders, hold `Ctrl` and click on them.",
+    "To move a photo to this folder, hold down `Alt` and drag the photo onto it. If the photo is part of the selected group, the entire group will move. Release the left mouse button over the highlighted folder to complete the transfer."
+  ],
+  "main.folder-menu": [
+    "Shows actions for this folder and the current selection. Before processing, check whether subfolder crawling is enabled."
+  ],
+  "main.open-file": [
+    "Opens the selected file in the standard way. The photo is shown in the viewer, the folder is shown in the app’s Explorer."
+  ],
+  "main.select-all": [
+    "Selects elements of the current list for the next action. In search results, full highlighting may include photos outside of the already loaded page."
+  ],
+  "main.clear-selection": [
+    "Removes selection of elements. Files, information, and already created queues remain in place."
+  ],
+  "main.columns": [
+    "Allows you to select which file properties to show in the table. Check the required columns and apply the selection."
+  ],
+  "main.column-visible": [
+    "Includes the column \"{название}\" in the table. Unchecking the checkbox hides the column, preserving the file information itself."
+  ],
+  "main.columns-default": [
+    "Returns the default set of columns in a table setup. Check selection before use."
+  ],
+  "main.columns-apply": [
+    "Applies the selected set of columns to the table. The content of photos and their metadata do not change."
+  ],
+  "main.column-sort": [
+    "Click to sort the table by \"{название}\". Pressing again changes direction; the arrow shows the current order. For tags, their number is compared."
+  ],
+  "main.column-width": [
+    "Drag the border to change the column width and read more text. This does not change the order or data of the files."
+  ],
+  "sort.control": [
+    "Determines the order of photos. The date of shooting, file changes and processing are different events; select the base and direction. For missing dates, photos remain at the end."
+  ],
+  "sort.taken-new": [
+    "First shows pictures with a later creation date from camera metadata. This is the date the snapshot was taken, not the date the file was created when copied to a computer. Without such a date, pictures appear at the end."
+  ],
+  "sort.taken-old": [
+    "First shows pictures with an earlier creation date from camera metadata. This is not the time to add to the library. Without such a date, pictures appear at the end."
+  ],
+  "sort.modified-new": [
+    "Shows files that were modified later first. Focuses on the time of modification of the file itself, and not on adding a description to the library."
+  ],
+  "sort.modified-old": [
+    "Shows files with earlier modification times first. For a recently edited photo, this time may differ from the date it was taken."
+  ],
+  "sort.analyzed-new": [
+    "First it shows photos that were successfully recognized later than others. The date of the last saved AI result is taken into account; manual correction of the text does not change this date."
+  ],
+  "sort.analyzed-old": [
+    "Shows the photos that were recognized earlier first. Images for which the date of successful recognition is unknown are left at the end."
+  ],
+  "sort.name-asc": [
+    "Orders by file name in direct order, taking into account numbers: for example, photo2 comes before photo10."
+  ],
+  "sort.name-desc": [
+    "Sorts by file name in reverse order. This changes the list, not the names themselves."
+  ],
+  "sort.status-ready": [
+    "Groups by status: processed, queued, unprocessed, moved, unavailable, with errors. This is an order of states, not dates."
+  ],
+  "sort.status-error": [
+    "Shows errors and unavailable files first, then moved, unprocessed, pending and ready. It is convenient to start with problematic elements."
+  ],
+  "sort.ready-first": [
+    "Places processed photos in front of others. Within both groups, files are listed by name. Folders always remain at the top of the list."
+  ],
+  "sort.ready-last": [
+    "Places processed photos after the rest. Canceled and pending tasks are not considered ready. Within groups, files are listed by name."
+  ],
+  "sort.errors-first": [
+    "Places photos with processing errors before other files. Thumbnail loading error does not apply here. Within groups, files are listed by name."
+  ],
+  "sort.errors-last": [
+    "Places photos with processing errors after other files. Within groups, files are listed by name; folders remain at the beginning of the list."
+  ],
+  "sort.other": [
+    "Arranges photos by property \"{свойство}\": {направление}. “Size” compares the volume of files on the disk, “Resolution” - the number of pixels, “Tags” - their number, “Path” - the location of the files."
+  ],
+  "search.quick": [
+    "Enter the words you want to search for the photo. The results appear after a short typing pause; `Enter` starts the search immediately. The top field works separately from the conditions of the “Search” tab."
+  ],
+  "search.quick-submit": [
+    "Searches the entered text in the selected fields and area. You can press `Enter` instead of the button. Retrying after data changes updates the previous query."
+  ],
+  "search.quick-clear": [
+    "Removes the quick query and returns the previous list. The custom conditions of the Search tab are preserved."
+  ],
+  "search.scope": [
+    "Limits the search to the entire library or a selected folder. The library contains already indexed information; a search is not the same as crawling all the computer's drives."
+  ],
+  "search.fields": [
+    "Choose where to look for the entered words: in the description, tags, file name or path. For example, for a word from a file name, include \"File name\". You must select at least one field."
+  ],
+  "search.field-description": [
+    "Searches for entered words in saved photo descriptions. For example, a description mentioning a bicycle helps to find such a photo. If there is no description, there is nothing to search for in this field yet."
+  ],
+  "search.field-tags": [
+    "Searches for entered words among saved tags. For example, using the word “bicycle” you can find photos with that tag."
+  ],
+  "search.field-name": [
+    "Looks for text in the file name, such as IMG_0421 or \"vacation\". The contents of the photo are not recognized again."
+  ],
+  "search.field-path": [
+    "Searches for words in a file location, including folder names. For example, you can find pictures from the Trip folder."
+  ],
+  "search.advanced-query": [
+    "Enter words and set conditions, then click Find. You can also search without text: for example, only photos without tags or taken during the selected period. This query is independent of the top quick search."
+  ],
+  "search.advanced-submit": [
+    "Executes a query with the conditions of this panel and displays matching photos. This is a separate search result from the top quick search."
+  ],
+  "search.reset": [
+    "Clears the query and custom search terms. Use to start a new search without the limitations of the previous one."
+  ],
+  "search.filters-tab": [
+    "Returns to setting up the query, fields, and search conditions. Here you can specify which photos should be included in the result."
+  ],
+  "search.saved-tab": [
+    "Shows previously saved sets of search terms. It is convenient to repeat the same selection without manually entering all the filters."
+  ],
+  "search.save": [
+    "Saves the current conditions under the selected name. This is a request template, not a separate copy of the found photos."
+  ],
+  "search.saved-filter": [
+    "Filters the names of saved searches. This is a search through your templates, not a new search for photos in the library."
+  ],
+  "search.saved-open": [
+    "Applies the conditions \"{название}\" to obtain the corresponding selection of photos. The composition may change after the library is updated."
+  ],
+  "search.saved-star": [
+    "Stars or unchecks this set of conditions. This makes it easier to find frequently used searches in the list."
+  ],
+  "search.saved-rename": [
+    "Changes the name of a saved condition set. The photos themselves are not renamed."
+  ],
+  "search.saved-remove": [
+    "Removes this saved condition set from the list. Photos, descriptions and tags remain in the library."
+  ],
+  "search.recent": [
+    "Substitutes a query that you have already used. Please check if your current scope and filters are suitable before launching."
+  ],
+  "search.extra": [
+    "Opens conditions by favorites, collection, folder and dates. Combine them with a text query to narrow down your results."
+  ],
+  "search.status": [
+    "Leaves photos of the selected state: for example, processed, pending, or with an error. You can also find inaccessible files here. Select All States to remove this restriction."
+  ],
+  "search.tags": [
+    "Enter the required tags separated by commas. Next to it, select whether any tag is sufficient or whether all of the above are needed."
+  ],
+  "search.tags-any": [
+    "To get into the result, at least one of the listed tags is enough. For example, \"cat, dog\" will find photos tagged \"cat\", tagged \"dog\", or both."
+  ],
+  "search.tags-all": [
+    "The photo must contain all specified tags. For example, “cat, window” will leave pictures where both tags are present."
+  ],
+  "search.favorite": [
+    "Limits the result to photos marked with a star. Other search terms continue to apply."
+  ],
+  "search.word-forms": [
+    "Expands a text query with word forms and related words from the built-in dictionary. For example, it helps you find a photo even if the description uses a different form of the word. The dictionary is limited: the program does not recognize the meaning of any expression. Photos and saved tags do not change."
+  ],
+  "search.collection": [
+    "Searches only among photos of the selected collection. “All photos” removes this limitation."
+  ],
+  "search.root": [
+    "Limits the search to the specified folder and its subfolders. Enter the full path, for example `D:\\Фото\\Отпуск`. The search uses information from the library, so files that have not yet been added to it will not be included in the result."
+  ],
+  "search.date-kind": [
+    "Choose which event to limit to dates: shooting with a camera, changing a file, adding to the index, or successful recognition. These dates may vary from one photograph to another."
+  ],
+  "search.date-from": [
+    "Searches for photos starting from this day inclusive. Next to it, select which date to check: shooting, file change, or other event. The “By date” field can be left empty - then all later dates will do."
+  ],
+  "search.date-to": [
+    "Searches for photos up to and including the end of the specified day. Together with the “From date” field, sets the period. If the start of the period is not specified, all earlier dates will do."
+  ],
+  "search.quick-condition": [
+    "Applies the preset “{название}” to the search form. Check the selected conditions before running a new search."
+  ],
+  "search.condition-today": [
+    "Selects the condition for successful recognition for the current day. This is not the date of shooting or the day the file was copied to disk."
+  ],
+  "search.condition-missing": [
+    "Leaves entries for which the source file is not available via the saved path. You can check whether the file has been moved, deleted, or is on a disconnected drive."
+  ],
+  "search.condition-errors": [
+    "Limits output to photos in an error state. The reason and options for repetition should be looked at in the tasks or details of the recording."
+  ],
+  "search.condition-untagged": [
+    "Leaves photos without saved tags. This condition does not mean that there is no text description."
+  ],
+  "search.condition-favorites": [
+    "Leaves only photos with the star. Other selected search terms also remain in effect."
+  ],
+  "search.conditions-done": [
+    "Closes additional conditions. The selected values ​​remain in the search form; the request is performed using the “Search” button."
+  ],
+  "search.actions": [
+    "Opens the export of information, copying paths and opening folders for already received output. First, indicate: selected photos or the entire result."
+  ],
+  "search.action-scope": [
+    "“Selected” applies the action only to selected photos. “All results” covers all records found, including pages not yet shown."
+  ],
+  "search.csv": [
+    "Saves information about selected photos or the entire search to a CSV table. It can be opened in a spreadsheet editor. The images themselves are not included in the file."
+  ],
+  "search.json": [
+    "Saves information about selected photos or the entire output to a text file JSON. In it, the data is organized for reading by other programs and further processing; The images themselves are not included in the file."
+  ],
+  "search.paths": [
+    "Copies full paths to selected photos or to all found photos, depending on the selected scope. They can be inserted into a document or used to search for files on disk."
+  ],
+  "search.folders": [
+    "Opens the locations of found photos in Windows Explorer. No more than 10 different folders are opened per action."
+  ],
+  "search.sort-relevance": [
+    "Shows above photos that better match the text query. This is the search order, not the time the files were created or processed."
+  ],
+  "search.sort-size": [
+    "Sorts by file size on disk: from smallest to largest or vice versa. It's not the width and height of the image."
+  ],
+  "search.sort-dimensions": [
+    "Orders by total number of pixels: width × height. In the direction ↑ the smaller images come first, in the direction ↓ the larger ones. This is different from the size of the file on disk."
+  ],
+  "search.sort-type": [
+    "Groups by file type, such as JPEG or PNG. In the reverse direction, the order of types is reversed."
+  ],
+  "search.sort-camera": [
+    "Organizes by camera information stored in the photo's metadata. If the file does not contain such information, the program does not identify the camera from the image."
+  ],
+  "search.sort-path": [
+    "Sorts by complete file location. It is useful to collect photos from related folders side by side."
+  ],
+  "search.sort-tags": [
+    "Sorts by number of saved tags. This helps you find photos with a small or large number of search features."
+  ],
+  "search.sort-favorite": [
+    "Groups photos by star tag. In the ↑ direction, pictures without a star appear first; in the ↓ direction, the selected ones appear first."
+  ],
+  "collection.create": [
+    "Creates a collection with the specified name. Later, you can add photos from different folders to it, maintaining their original location."
+  ],
+  "collection.name": [
+    "Enter a meaningful name for the collection, such as \"Trip\" or \"Printable.\" This is the name of the collection in the program, not the folder on the disk."
+  ],
+  "collection.open": [
+    "Shows photos of the selection \"{название}\". Opening a collection does not transfer files or trigger processing."
+  ],
+  "collection.choose": [
+    "Switches the current selection. Next to the name the number of photos included in it is shown."
+  ],
+  "collection.target": [
+    "Select the collection you want to add the highlighted photos to, then click Add. The program will remember the selected collection. Creating a new collection does not in itself add photos to it."
+  ],
+  "collection.all": [
+    "Returns to the list of collections to select another or create a new one."
+  ],
+  "collection.refresh": [
+    "Updates the list of collections and the number of photos in each. Use after changing the composition of collections, if the list has not yet been updated."
+  ],
+  "collection.add": [
+    "Includes the selected photos in the specified collection. One photo can be included in several collections."
+  ],
+  "collection.remove": [
+    "Removes the connection of the selected photos with the “{название}” collection. Files, descriptions and tags remain in place."
+  ],
+  "details.tab-info": [
+    "Shows properties of the selected photo: path, size, resolution and available metadata. This information helps you understand which file is currently selected."
+  ],
+  "details.tab-description": [
+    "Shows saved text about the contents of the photo. It can be corrected manually and saved without re-using the neural network."
+  ],
+  "details.tab-tags": [
+    "Shows short search words for the selected photo. Add or remove tags to help you find your photo more accurately."
+  ],
+  "details.tab-tasks": [
+    "Shows recognition queues, their photos, status and results. Here you can start, pause and parse prepared jobs."
+  ],
+  "details.tab-library": [
+    "Opens photo index and source information, backups, and maintenance. The library stores data for searching, rather than replacing folders with originals."
+  ],
+  "details.tab-journal": [
+    "Shows events of photo changes and program actions. Expand the event for details; viewing the log does not repeat the action."
+  ],
+  "details.photo-open": [
+    "Opens the selected photo in the viewer. There you can enlarge it and see the details without changing the original."
+  ],
+  "details.edit-metadata": [
+    "Proceeds to manual editing of saved photo information. To change the image itself, use the \"Edit\" button."
+  ],
+  "details.description": [
+    "This is where the text about what is shown in the photo is stored. Correct any inaccuracies or add searchable details, then click Save Description."
+  ],
+  "details.save-description": [
+    "Writes the edited description and its design to the library. This is a manual save without an AI request; the original image is not redrawn."
+  ],
+  "details.tag-remove": [
+    "Removes the tag \"{тег}\" from the edit set. To write the change to the library, then click Save Tags."
+  ],
+  "details.tags": [
+    "Enter short words and expressions about the content of the photo, separated by commas. For example: “cat, white sofa, window.” Then save the tags."
+  ],
+  "details.save-tags": [
+    "Writes the prepared set of tags to the library. The already saved description is not replaced."
+  ],
+  "details.batch": [
+    "Adds or removes identical tags from selected images at once. You can change up to 256 different photos in one operation.",
+    "Exact copies that the library considers one photo use common tags: the change will be visible in all of those copies."
+  ],
+  "details.batch-add": [
+    "List the tags you want to add to all selected photos, separated by commas. Existing tags are retained unless you specifically specify them to be deleted."
+  ],
+  "details.batch-remove": [
+    "Click the cross next to a tag to mark it for removal from the selected photos. Pressing it again will remove the mark. Changes will be saved after the “Save” button."
+  ],
+  "details.batch-preview": [
+    "Calculates how the tags of the selected photos will change and shows an example of “before → after”. For now you are just testing the changes; recording is performed using a separate button."
+  ],
+  "details.batch-apply": [
+    "Adds entered tags and removes those marked with a cross from selected photos. Descriptions do not change. If the tags have changed elsewhere, the program will report this and save your draft."
+  ],
+  "details.batch-cancel": [
+    "Removes the prepared version of package tags without saving. You can change the input and calculate a new preview."
+  ],
+  "details.batch-undo": [
+    "Reverts the tags of the last available batch operation to the previous state. This applies to the specified operation, and not to the entire history of manual edits."
+  ],
+  "details.xmp": [
+    "Helps you transfer descriptions and tags along with photos to another computer. Export creates a separate XMP next to the image; transfer both files and select import in another Smart Photo library. You can select up to 256 photo files at one time."
+  ],
+  "details.xmp-export": [
+    "Creates a file with its description and tags next to each selected photo. The original photos and existing XMP are preserved without changes. Transfer XMP along with the photo."
+  ],
+  "details.xmp-import": [
+    "Reads neighboring XMP created by Smart Photo. The empty description is filled in, tags are supplemented. If the photo already has a different description or its copies offer different texts, the program saves the existing state and shows the conflict."
+  ],
+  "compare.side-by-side": [
+    "Shows two photos side by side, bringing them to a common height while maintaining proportions. If the window is not wide enough, both pictures are reduced to fit. Each side can then be scaled separately."
+  ],
+  "compare.wipe": [
+    "Overlays two photographs on top of each other. Move the border to reveal one side or the other and compare the differences."
+  ],
+  "compare.divider": [
+    "Pull the handle left or right: it changes the visible portion of the two overlayed photos. The images are not edited."
+  ],
+  "compare.zoom": [
+    "Enlarges photos to see details. In Side by Side mode, the sliders control the sides separately; with the curtain, a common scale is applied."
+  ],
+  "compare.choose-side": [
+    "Choose which photo to show from this side. The same file cannot be assigned to both parties at the same time."
+  ],
+  "compare.pair-prev": [
+    "Switches the comparison pair within the current set of photos. Please check the markings of the saved copies before confirming the deletion."
+  ],
+  "compare.pair-next": [
+    "Shows the next pair of the current set to compare other photos."
+  ],
+  "queue.section": [
+    "Photos for recognition and the state of their processing are collected here.",
+    "**Process** adds pictures to the general queue and starts it. **Add to queue** allows you to prepare individual collections without launching. Each selection is shown with a drop-down card with its own photos and a launch button."
+  ],
+  "queue.start": [
+    "Processes available queues in order: after finishing one, the program moves on to the next. Empty queues are skipped. The launch button on the card itself launches only it."
+  ],
+  "queue.pause": [
+    "Pauses the overall execution of queues, saving the remaining photos. Requests already submitted may end; their results will be saved. To continue, click “Start”."
+  ],
+  "queue.resume": [
+    "Continues unfinished work of the selected queue, saving the finished results. If it is not yet known what happened to the previous cloud request, you will first need to check it with the service."
+  ],
+  "queue.stop": [
+    "Stops execution of queues or cancels ongoing preparation. The saved results remain, the remaining photos are marked as cancelled. The service may have time to fulfill a request that has already been sent."
+  ],
+  "queue.retry-failed": [
+    "Returns photos of this queue that failed with an error for processing. If the outcome of the cloud request is unknown, verification with the service is first required: resending may be charged separately."
+  ],
+  "queue.progress": [
+    "Shows what percentage of photos in the selected queue have already completed processing. **100% does not mean that all photos were processed successfully**: there may be errors and canceled tasks among those completed. See the summary and list of photographs for their number and reasons."
+  ],
+  "queue.new": [
+    "Immediately creates an empty card and selects it for subsequent additions. Select photos and click “Add to queue” to fill it. An empty queue is stored but does not trigger processing."
+  ],
+  "queue.target": [
+    "Makes this queue the destination for the next photos you add with Add to queue. You can expand and view other queue cards without changing that destination."
+  ],
+  "queue.target-active": [
+    "New selected photos added by the “Add to queue” button will be sent here. For a separate new selection, click the plus “New Queue”."
+  ],
+  "queue.capsule-open": [
+    "Shows photographs of this queue and their condition. Expansion itself does not trigger processing or assign a queue to be added."
+  ],
+  "queue.capsule-view": [
+    "Shows a summary and parameters of this queue. This is the selection of the task to view; execution starts with the start button."
+  ],
+  "queue.capsule-start": [
+    "Starts a prepared queue or continues its unfinished operation. The action applies specifically to this card; the composition and settings of other queues are preserved."
+  ],
+  "queue.hide-ready": [
+    "Removes successfully completed items from the worklist. Errors and cancellations remain visible so they can be sorted out. Pressing again will show the finished ones."
+  ],
+  "queue.show-ready": [
+    "Again shows photos in the list whose processing has completed successfully. This is only a change in visibility: re-recognition is not triggered."
+  ],
+  "queue.remove-photo": [
+    "Removes this photo from the queue and stops working with it in the program. The file itself and the already saved results remain. The service may have time to fulfill the sent cloud request and write off the payment."
+  ],
+  "queue.remove-job": [
+    "Removes this entire queue from the work list and cancels its pending work. Photos on the disk, saved results and expense history remain."
+  ],
+  "queue.remove-all": [
+    "Clears all recognition work queues and cancels their pending work. Originals and saved results are not deleted; expense history is saved."
+  ],
+  "queue.task-photo": [
+    "Click to select this photo and see its details, description, or tags on the right. Double-clicking opens the photo in the editor."
+  ],
+  "queue.settings": [
+    "Shows the settings with which the selected job was prepared. These may differ from the current settings for new launches."
+  ],
+  "queue.concurrency": [
+    "Limits the number of concurrent requests for the selected queue, rather than the total number of its photos. For the cloud, from 1 to 100 are available, locally - one request. After changing, click \"Apply\"."
+  ],
+  "queue.concurrency-apply": [
+    "Applies the new concurrent request limit to this queue only. Already submitted requests are completed; the saved pause is not cleared. The remaining queues and settings for new jobs are not changed."
+  ],
+  "queue.new-settings": [
+    "Opens general options for future processing. Already prepared jobs retain their own parameters unless they have a separate edit action."
+  ],
+  "queue.costs": [
+    "Collects costs for recognizing and editing photos based on the saved history of the program. Confirmed amounts are shown separately from estimates and requests whose value is not yet known.",
+    "This is an accounting of work in the program, and not the balance of money in the service account. Local recognition does not require cloud fees."
+  ],
+  "queue.history": [
+    "Shows saved tasks, their status, photos and expenses. History helps to understand previous work; viewing the recording does not launch it."
+  ],
+  "queue.history-open": [
+    "Selects this saved run for detailed viewing in tasks. To continue the available work, use a separate button."
+  ],
+  "queue.job-key": [
+    "Select the added key for this cloud job and apply the replacement separately. The current key for new starts and the key for an already saved task may differ."
+  ],
+  "queue.job-key-apply": [
+    "Binds the selected key to this saved task. This does not create a new recognition request; continuation is performed separately."
+  ],
+  "queue.unknown": [
+    "There is no confirmed outcome or cost for these cloud efforts yet. First, check the known request from the service: a new launch may lead to repeated payment."
+  ],
+  "queue.unknown-choice": [
+    "Select the sending attempt that was verified in the service account. The program has not received its identifier and cannot determine the outcome itself; your decision will only apply to the attempt you select."
+  ],
+  "queue.unknown-cost": [
+    "Indicate the real cost of the selected attempt according to the service in dollars. If you leave the field blank, the cost remains unknown and the budget reserve is maintained. This is not a model tariff change."
+  ],
+  "queue.unknown-note": [
+    "Write down what you found out in the service account: whether the request was completed and where the cost is known. This post helps explain the manual solution."
+  ],
+  "queue.unknown-confirm": [
+    "Confirms that you have checked the outcome of the attempt in your account and allows a new request when continuing. It may be paid. The absence of a result on the screen does not in itself prove that the service did not do the job."
+  ],
+  "queue.unknown-apply": [
+    "Saves the result of your check and allows you to continue working with this photo. The click itself does not send it for recognition; If you continue, a new paid request is possible. Previous payment will not be refunded."
+  ],
+  "publication.section": [
+    "Shows saving finished editor frames to external files. This is a separate step from generating the image and saving the project itself."
+  ],
+  "publication.other-projects": [
+    "Shows background edits of other projects and image saving operations. Here you can find a task that is not related to the current project; opening the partition does not start it again."
+  ],
+  "publication.open-project": [
+    "Opens the project this save belongs to to view the frame and its history."
+  ],
+  "publication.resume": [
+    "Continues the incomplete saving of an already received frame. New AI generation for this is not launched."
+  ],
+  "publication.cancel": [
+    "Cancels the pending save of this copy. The already received frame remains in the project; You can check the finished files based on the operation status."
+  ],
+  "library.index": [
+    "The index stores information about photos: paths, descriptions, tags, and links to collections. It helps you search for pictures without opening each file. The originals remain in your folders."
+  ],
+  "library.refresh-info": [
+    "Rereads the number of photos, paths and last scan data. This is a summary update, not a new snapshot recognition."
+  ],
+  "library.connect": [
+    "Adds a folder as a permanent library source. The program will be able to index new and changed files; automatic updating is configured separately for this source."
+  ],
+  "library.root-open": [
+    "Reveals the state of the folder, its update settings and exclusions. The disclosure itself does not trigger photo processing."
+  ],
+  "library.root-auto": [
+    "Allows the application to monitor changes to this mounted folder and update the library information. This is not an automatic launch of paid recognition for each new photo."
+  ],
+  "library.exclusions": [
+    "Provide full paths to files or folders within this source that do not need to be checked. Each path is entered on a new line; the excluded folder is skipped along with its contents. Then click \"Save Source\". The files remain on the disk."
+  ],
+  "library.root-save": [
+    "Saves the automatic update and exclusion settings for this folder. The settings of other connected sources remain the same."
+  ],
+  "library.root-refresh": [
+    "Checks new and changed files in this connected folder and updates the index. Already saved descriptions are not replaced by new recognition from one update."
+  ],
+  "library.disconnect": [
+    "Removes the folder from the list of connected sources and stops its auto-updating. Photos on the disk and already collected library information, including descriptions, are preserved."
+  ],
+  "library.state-filter": [
+    "Select the status of the library entries you want to check, such as unavailable files or errors. This is a service list, separate from the current Explorer folder."
+  ],
+  "library.records-refresh": [
+    "Reloads the selected state's records. Use after checking the files to see the latest results."
+  ],
+  "library.check-files": [
+    "Checks the availability of files along saved paths and updates their status in the library. This helps distinguish existing photos from those that have been moved or are no longer available."
+  ],
+  "library.clean-data": [
+    "Opens confirmation for removing unused tags and old internal history. Read what will be removed first. This is separate from clearing the thumbnail cache or deleting photos."
+  ],
+  "library.select-page": [
+    "Marks all entries on the current page of the service list. Records on other pages are not selected by this action."
+  ],
+  "library.record-check": [
+    "Marks this entry for action on selected photos. Check the path to the file: the same image can be stored in different folders."
+  ],
+  "library.remove-index": [
+    "Removes the selected records from the app’s library. This deletes index information, not the original photo files. Check the listed items before confirming."
+  ],
+  "library.confirm-clean": [
+    "Performs exactly the type of cleaning specified in the open confirmation. Check the list and number of entries; pressing starts changing the data."
+  ],
+  "library.last-folder": [
+    "Opens the last saved location of an inaccessible file. The photo may have been moved or deleted and is not guaranteed to be in this folder."
+  ],
+  "library.duplicates": [
+    "Groups files with completely matching content, even if they have different names or folders. Similar pictures with different contents do not fall into the same group. You can check the copies first; deletion requires separate confirmation."
+  ],
+  "library.duplicate-group": [
+    "Shows paths of identical files. Mark the copies you want to keep; the rest can be sent to the system trash after checking."
+  ],
+  "library.keep-copy": [
+    "Mark the copy you want to keep. When you confirm the cleanup, unmarked copies of this group will be sent to the trash; the marked files will be saved."
+  ],
+  "library.compare-copies": [
+    "Opens group photos for review before cleaning. The marks in the comparison indicate copies that are kept rather than those that are deleted."
+  ],
+  "library.keep-all": [
+    "Keeps every copy and removes this group from the scan results. The decision is remembered for this set of files; a new copy can make the group appear again."
+  ],
+  "library.reset-duplicate-decisions": [
+    "Returns groups for which you clicked “Keep all” to scan. Photos, descriptions and tags are saved. After the reset, the program searches for exact copies again."
+  ],
+  "library.keep-selected": [
+    "Prepares cleaning of this group: the marked files will remain, the remaining copies will be sent to the system trash. Before execution, the program will show a list for confirmation."
+  ],
+  "library.confirm-duplicates": [
+    "Leaves the listed marked files and sends the remaining checked copies of the group to the system trash. Before action, the program re-checks the composition of the group."
+  ],
+  "library.backup-index": [
+    "Saves descriptions, tags, collections, and library history to a backup file. Original photos and service keys are not included in this copy."
+  ],
+  "library.restore-pick": [
+    "Opens a backup to check content and compatibility. Selecting a file does not replace the current library yet."
+  ],
+  "library.restore-stage": [
+    "Prepares to replace the index with the selected copy the next time the program is started. The previous database will be saved separately; The original photos do not change, the keys need to be added again."
+  ],
+  "library.restore-cancel-pick": [
+    "Removes the selected backup file from the form. The current library remains unchanged."
+  ],
+  "library.restore-cancel": [
+    "Removes the prepared recovery until the next run. When you restart, the selected copy will not be applied."
+  ],
+  "library.backup-full": [
+    "Allows you to save and restore descriptions, tags, collections, history and editor projects with their working images and masks. Export creates a folder: transfer it entirely.",
+    "External original photos and service keys are saved separately. Import replaces data after restart; Before this, the program shows which copy is selected."
+  ],
+  "library.backup-full-save": [
+    "Select a location for the full copy. The program will create a separate folder in it with library and editor data. Wait for the completion message and transfer the entire created folder, including the backup.smartphoto.json file."
+  ],
+  "library.backup-full-pick": [
+    "Select backup.smartphoto.json from the full copy folder or SQLite from the old library copy. The program will check the contents and show what will be restored. Data replacement is prepared with a separate button and applied after a restart."
+  ],
+  "library.backup-full-stage": [
+    "Prepares the restoration of the archive and editor projects the next time it is launched. The previous storage facilities are retained; Paid tasks from the copy do not run automatically. Service keys will need to be added again."
+  ],
+  "library.cache": [
+    "Stores thumbnail images for quickly displaying lists. It helps you avoid having to open the full original every time you scroll."
+  ],
+  "library.cache-clear": [
+    "Deletes saved thumbnails to free up space. The originals and descriptions remain; the next time you view it, the required thumbnails will be recreated."
+  ],
+  "journal.scope": [
+    "\"This Photo\" shows the events of the selected photo. “All Events” allows you to view the history of the entire library."
+  ],
+  "journal.refresh": [
+    "Reloads events for the selected scope to show recent activity. Reading the activity log does not repeat any actions."
+  ],
+  "journal.event": [
+    "Shows when and what information was changed. Technical details may help determine the cause of an unexpected result."
+  ],
+  "logs.level": [
+    "Limits technical messages by importance. For example, errors help you find failures, and detailed messages help you track progress."
+  ],
+  "logs.category": [
+    "Shows messages from the selected part of the application. Use to separate the desired operation from other events."
+  ],
+  "logs.interval": [
+    "Sets how often to update the public list of technical messages. This is not the speed of photo processing."
+  ],
+  "logs.search": [
+    "Searches for text among technical messages. Enter the part of the error or the name of the operation you are analyzing."
+  ],
+  "logs.copy": [
+    "Copies the displayed technical messages for further analysis. Before sending to another person, check which paths and information are present in the text."
+  ],
+  "logs.clear": [
+    "Clears the list of application technical messages. Photos and their results are not deleted; This does not correct the cause of the previous error."
+  ],
+  "errors.expand": [
+    "Expands accumulated error messages to read the cause and technical details. Not all errors mean loss of the finished result."
+  ],
+  "errors.dismiss": [
+    "Removes this message from the list of visible errors. If the operation is not completed, its status must be checked in the appropriate section."
+  ],
+  "errors.dismiss-all": [
+    "Removes accumulated error messages from the screen. This is not a repetition of operations or correction of their causes."
+  ],
+  "drop.open-folder": [
+    "Opens the first folder from the dragged set in the program's Explorer. Other elements of the set are not processed by this action."
+  ],
+  "drop.select-images": [
+    "Selects images found in the dragged set for further work. Processing begins with a separate command."
+  ],
+  "drop.process": [
+    "Transfers found photos from the dragged set to processing preparation. Check the service, the result and the current queue mode before starting."
+  ],
+  "drop.collection": [
+    "Select the collection you want to include the found photos in, then click Add. The files are not physically moved."
+  ],
+  "drop.add": [
+    "Includes photos of the dragged set in the selected collection. This is a link in the library, not copying files to a new folder."
+  ],
+  "viewer.open": [
+    "Opens this photo in a separate view. Here you can enlarge the image and view it without launching the editor."
+  ],
+  "viewer.edit": [
+    "Opens the current photo in the SMART PHOTO editor. Cropping, sizing, marking and AI editing are available there; normal viewing itself does not change the original."
+  ],
+  "viewer.rotate-left": [
+    "Rotates the photo display 90° counterclockwise. This is a view rotation, not a command to overwrite the original file."
+  ],
+  "viewer.rotate-right": [
+    "Rotates the photo display 90° clockwise. Use an editor to save the converted image."
+  ],
+  "viewer.trash": [
+    "Sends the current file to the system recycle bin Windows. This is an action with the photo itself on the disk; check the snapshot name before deleting."
+  ],
+  "viewer.print": [
+    "Opens the system print of the current photo. The paper size, printer and other parameters are selected in the print window."
+  ],
+  "viewer.share": [
+    "Opens the Windows sharing window for sharing the current photo. In it you can choose one of the available methods; their list depends on the installed applications."
+  ],
+  "viewer.more": [
+    "Opens additional commands: save a copy, resize, find a file on disk, or use an image in Windows."
+  ],
+  "viewer.external-edit": [
+    "Passes the file to the editing application configured in Windows. This is a separate program, not a SMART PHOTO editor."
+  ],
+  "viewer.save-original": [
+    "Saves a copy of the original image in the selected location. View-only scale and rotation are not carried over to this copy."
+  ],
+  "viewer.resize": [
+    "Allows you to save a copy of a photo with a different width and height. Set the dimensions and format, then choose a save location. This is a normal change in resolution without additional drawing by the neural network."
+  ],
+  "viewer.wallpaper": [
+    "Uses the current photo as the desktop background Windows. This is a change to the Windows setting, not the image content."
+  ],
+  "viewer.lock-screen-unavailable": [
+    "Setting an image to the lock screen is not available in this version. You can save the photo and select it through the Windows personalization options."
+  ],
+  "viewer.prev": [
+    "Shows the previous photo of the current set. You can also press the `←` arrow on your keyboard if you are not working in an input field."
+  ],
+  "viewer.next": [
+    "Shows the next photo of the current set. You can also press the `→` arrow on your keyboard if you are not working in an input field."
+  ],
+  "viewer.details": [
+    "Shows information about the current file next to the image. The panel can be closed to free up more photo space."
+  ],
+  "viewer.details-close": [
+    "Removes the details sidebar in this viewer and frees up photo space. The viewing window and the photo itself remain open."
+  ],
+  "viewer.actual": [
+    "Shows the photo at 100% scale. For a large photo, only part of it will be visible in the window; You can drag the enlarged image to view different areas."
+  ],
+  "viewer.zoom": [
+    "The mouse wheel zooms around the pointer: place it over the detail you want to inspect. The file resolution stays the same."
+  ],
+  "viewer.zoom-in": [
+    "Zooms the image one step closer to see fine details. The mouse wheel over the photo also changes the zoom."
+  ],
+  "viewer.zoom-out": [
+    "Zooms out the image one step to see more of the frame. To show the entire photo, click “Fit”"
+  ],
+  "viewer.fit": [
+    "Shows the entire photo, selecting the scale while maintaining proportions. If the shape of the photo differs from the shape of the window, there will be free margins around the edges. The image is not stretched or cropped."
+  ],
+  "viewer.pan": [
+    "Enlarge the image, hold down the left mouse button on the image and drag in the desired direction. This moves the viewing area without changing the photo itself."
+  ],
+  "viewer.only-photo": [
+    "Opens photos without the top and bottom toolbars by default. Double-click a photo to restore the toolbars for the current view. Your saved preference still applies the next time you open a photo."
+  ],
+  "viewer.chrome-toggle": [
+    "Hides panels or brings them back to quickly switch between photo and commands. In slideshow mode, double-clicking has another effect - exiting the slideshow."
+  ],
+  "viewer.restore-panels": [
+    "Returns the control panels to a photo. The saved preference for opening new windows is not changed by a temporary return."
+  ],
+  "viewer.slideshow": [
+    "Shows photos of the current set one by one in full screen. The interval between shots is selected nearby.",
+    "Press `Space` to pause or resume automatic playback. Double-click the photo or press `Escape` to exit the slideshow."
+  ],
+  "viewer.slideshow-interval": [
+    "Choose how many seconds to show one photo before automatically moving to the next. This is display time, not image processing speed."
+  ],
+  "viewer.interval-choice": [
+    "Each photo will show {секунды} s, then the slideshow will advance to the next one. This action changes the interval of automatic transitions."
+  ],
+  "viewer.slideshow-pause": [
+    "Stops automatic switching on the current photo, maintaining slideshow mode. To continue, press this button again or `Space`."
+  ],
+  "viewer.slideshow-resume": [
+    "Resumes automatic display at the selected interval. You can press this button or `Space`. Double-clicking a photo ends the slideshow."
+  ],
+  "viewer.slideshow-exit": [
+    "Ends the slideshow and returns to normal viewing. The photo stays open, with the usual controls available again."
+  ],
+  "viewer.close": [
+    "Closes this viewport. The photo file remains on the disk; If the original program window is open, you can continue working in it."
+  ],
+  "viewer.retry-session": [
+    "Reloads this view's data after an open error. No generation or recognition is triggered by this action."
+  ],
+  "resize.pixels": [
+    "Sets the final copy size in pixels. While maintaining proportions, changing one side automatically recalculates the other."
+  ],
+  "resize.percent": [
+    "Sets the size relative to the original photo: 100% - original dimensions, 50% - half the width and height. The proportions are maintained."
+  ],
+  "resize.width": [
+    "Specify the width of the new copy of the image. The height is recalculated while maintaining the original proportions; This is not trimming edges."
+  ],
+  "resize.height": [
+    "Specify the height of the new copy. The width is recalculated so that the photo does not become compressed or stretched on one side."
+  ],
+  "resize.percent-value": [
+    "Changes both sides in equal proportions. For example, 200% doubles the width and height. This is a normal increase in size without adding new details to the neural network."
+  ],
+  "resize.format": [
+    "Select the format for the saved copy. PNG is suitable for transparency; JPEG - for regular photos with adjustable compression. Available formats are shown in the list."
+  ],
+  "resize.quality": [
+    "Sets the quality of the saved copy JPEG: a higher value usually reduces compression losses and increases the file size. Width and height are set separately."
+  ],
+  "resize.save": [
+    "Saves a separate copy with the selected dimensions and format. Please check the result dimensions shown before confirming the path."
+  ],
+  "resize.unavailable": [
+    "The program was unable to determine the size of the source file. While they are unknown, it is impossible to correctly calculate a new copy."
+  ],
+  "editor.tools": [
+    "Opens a list of actions with a photo. Choose a conventional transformation, such as cropping, or an AI operation by description. The settings for the selected action will appear on the right."
+  ],
+  "editor.more-tools": [
+    "Shows instruments that do not fit into the main strip. Their actions coincide with the corresponding buttons on the full panel."
+  ],
+  "editor.select": [
+    "Allows you to select existing markup and work with its parameters. To draw a new area, point, or mask, select the appropriate tool."
+  ],
+  "editor.pan": [
+    "Moves the viewing area around the image. Hold the left button and pull the canvas; the position of objects within the photograph itself does not change."
+  ],
+  "editor.point": [
+    "Places a reference point for a local instruction. Describe what to add or change; the app adds a location phrase to the request.",
+    "Accuracy depends on the model. With cheaper models, also describe the location in words, such as “beside the basket.” A point does not guarantee exact placement."
+  ],
+  "editor.rect": [
+    "Marks a rectangular edit region. Drag the frame and describe the change; the app adds a location phrase at the end.",
+    "For a supported GPT Image endpoint, a single region is also sent as a mask when there is no other included markup or manual mask. Other models use the region as guidance, with varying accuracy. For economy models, describe the location in words too."
+  ],
+  "editor.mask": [
+    "Paints the area of the photo that the model should work with. Drag your brush over the desired object or shape, then apply a mask. The mask defines the shape more accurately than a regular rectangular area."
+  ],
+  "editor.eraser": [
+    "Erases the painted parts of the mask, not the pixels of the photo. Use to clarify its boundaries. A completely empty mask is removed upon use."
+  ],
+  "editor.brush-size": [
+    "Sets the thickness of the mask's brush or eraser. A large brush is useful for wide areas, a small one for edges and small details."
+  ],
+  "editor.rotate-left": [
+    "Rotates the current frame 90° counterclockwise. To get a separate file with this rotation, use \"Save image\"."
+  ],
+  "editor.rotate-right": [
+    "Rotates the working photo 90° clockwise. Check the orientation before the next operation and export."
+  ],
+  "editor.flip-horizontal": [
+    "Swaps the left and right sides of a working photograph, like in a mirror. The text and directional details will also be reflected."
+  ],
+  "editor.flip-vertical": [
+    "Swaps the top and bottom of the working photograph. This is a reflection, not a 180° rotation."
+  ],
+  "editor.zoom": [
+    "Zooms in or out on the canvas to work with details. The viewing scale does not determine the resolution of the finished image."
+  ],
+  "editor.zoom-actual": [
+    "Shows the working photograph at 100% actual scale. To see it in its entirety, use “Fit”"
+  ],
+  "editor.fit": [
+    "Selects the scale at which the photo fits on the canvas while maintaining proportions. It's just the viewing that makes the difference."
+  ],
+  "editor.tab-edit": [
+    "Shows instructions, markings and parameters of the selected tool. Please check the model and images that will be sent before launching."
+  ],
+  "editor.tab-tasks": [
+    "Shows the progress of AI edits, their results and cost. Switching to a tab does not itself cancel the background task."
+  ],
+  "editor.tab-sources": [
+    "Shows project images that can be used in your work and attached as additional pictures. Selecting a source and including it in a query are different actions."
+  ],
+  "operation.universal": [
+    "Describe what needs to be changed in the photo. For example: “Make the walls light green while keeping the furniture.” For the exact location, use the markings available to the model and additional pictures."
+  ],
+  "operation.replace-object": [
+    "Adds a new item or replaces an existing one according to your description. Specify what should appear and where; If necessary, attach a picture of the object to the photo or tag."
+  ],
+  "operation.remove-object": [
+    "Removes an unnecessary item and restores the image in its place. If the selected model needs a mask, paint over the object to be removed and apply the mask before starting."
+  ],
+  "operation.remove-background": [
+    "Separates the main object from the surroundings. Many models have enough source photography: they define the object themselves, without drawing a mask or text.",
+    "The capabilities of the selected model are indicated in its explanation. To maintain transparency, use a suitable format, such as PNG."
+  ],
+  "operation.replace-background": [
+    "Creates a new environment according to the description, preserving the main object as far as the model allows. Describe exactly the desired background, for example, “a bright room with a window on the left.”"
+  ],
+  "operation.outpaint": [
+    "Adds space beyond the edges of the original photo and completes the continuation of the scene. Change the frame on the canvas or set the dimensions on the right. If the model supports text instruction, describe what should appear in the new areas."
+  ],
+  "operation.upscale": [
+    "Increases resolution with AI detail restoration. This is different from regular resizing: the model can add features that cannot be reliably restored from the source."
+  ],
+  "operation.relight": [
+    "Changes the light and shadows of a photo according to the description. For example: “Soft daylight on the left.” For a separate area, use the markings supported by the model."
+  ],
+  "operation.recolor": [
+    "Changes the color of an object or color scheme according to instructions. Specify the item and desired color; The markings help to identify the desired area."
+  ],
+  "operation.compose": [
+    "Assembles a general scene using the source and additional pictures. Attach the required images in the “Whole image” block and describe their roles and location. The number of pictures is limited by the selected model."
+  ],
+  "operation.restore": [
+    "Improves an old or damaged photo: Available models can reduce defects and restore color and detail. Unknown details can be approximately recreated; The result should be compared with the source."
+  ],
+  "instruction.text": [
+    "Describe the desired change and what should stay unchanged. For example: “Add a small red ball near the right foot; leave the rest of the image unchanged.”"
+  ],
+  "instruction.background": [
+    "Describe the environment that should appear behind the main object. Indicate the setting and lighting if this is important; do not list actions that need to be performed on the object itself."
+  ],
+  "instruction.remove-bg": [
+    "If the model supports text, you can specify which object to keep. For example: “only a chair.” This is not a description of a new background; The possibility and tariff of text instructions depend on the model."
+  ],
+  "instruction.target": [
+    "Switches the editable instruction: for the entire image or for a selected point, area or mask.",
+    "When launched, all enabled non-empty jobs of the current tool are taken into account, not just the one that is currently open."
+  ],
+  "instruction.whole": [
+    "Here you can describe changing the entire photo without creating a point or area. If the model accepts additional pictures, please attach them to this general instruction."
+  ],
+  "instruction.mark": [
+    "Enter what should change at this point, area or mask. Selecting another annotation switches the instructions you are editing; other enabled instructions stay included."
+  ],
+  "instruction.popover": [
+    "Edit the selected annotation’s instructions next to the photo. The images tab shows additional pictures attached to this annotation."
+  ],
+  "instruction.popover-done": [
+    "Closes job editing on the canvas. This is not running a neural network; To execute, use “Start edit”."
+  ],
+  "markup.section": [
+    "A point marks a location, an area defines a rectangle and a mask defines a painted shape. Each enabled annotation can have its own instructions. The eye controls visibility; the checkbox controls inclusion in the request."
+  ],
+  "markup.undo": [
+    "Undoes the last change to annotations or the mask. This uses the annotation history; it does not cancel a paid AI edit."
+  ],
+  "markup.redo": [
+    "Restores the last undone annotation change, if it is still available in the history."
+  ],
+  "markup.visibility-all": [
+    "Shows or hides annotations on the canvas so you can inspect the photo. Hiding them with the eye does not exclude their instructions from the request."
+  ],
+  "markup.visibility": [
+    "Shows or hides this annotation on the canvas. To exclude its instructions from the AI request, clear the adjacent inclusion checkbox."
+  ],
+  "markup.include": [
+    "Controls whether this annotation’s instructions are included in the next edit. A disabled annotation stays in the project but is not sent in the request."
+  ],
+  "markup.remove": [
+    "Removes this annotation and its instructions from the project’s current annotations. The photo file on disk is kept."
+  ],
+  "markup.open": [
+    "Shows the instructions and additional pictures for this annotation. Expanding it does not start an edit."
+  ],
+  "mask.apply": [
+    "Saves the painted area as a mask for the job. If you completely erase the coloring with the eraser, the empty mask is removed."
+  ],
+  "mask.cancel": [
+    "Undoes the currently unapplied mask edit. An already saved photo is not changed."
+  ],
+  "reference.whole": [
+    "These images complement the general instructions for the entire photo. Add a file or drag a frame from the bottom filmstrip. When you select a label, the shared block is hidden, but its attachments are preserved."
+  ],
+  "reference.add-whole": [
+    "Attaches images to general instructions. They can show a subject, style or example to use. The model limit includes the source and all participating additional images."
+  ],
+  "reference.add-mark": [
+    "Attaches images to the selected annotation’s instructions. Choose a file or drag an image from the bottom filmstrip onto the annotation. A point accepts one additional picture; the total limit depends on the model."
+  ],
+  "reference.replace-point": [
+    "Replaces the image attached to a point with another: a point can have one such attachment. Pictures of other marks and general instructions are saved."
+  ],
+  "reference.include": [
+    "Includes this image in the next request. Unchecking the checkbox temporarily excludes it from submission, keeping it attached to the project."
+  ],
+  "reference.order": [
+    "Changes the order of additional pictures in this group. Order helps align the images with your instructions; the contents of the files themselves do not change."
+  ],
+  "reference.detach": [
+    "Removes this image from task attachments. The original file is not deleted; the image can remain among the project sources."
+  ],
+  "reference.limit": [
+    "The selected model accepts up to {лимит} images **along with the source**. Remove or disable unnecessary attachments, or choose a compatible model with a higher limit."
+  ],
+  "reference.wait-model": [
+    "First, select a compatible model. After checking its capabilities, the program will show how many additional pictures you can use."
+  ],
+  "reference.all": [
+    "Shows attachments for the entire photo and individual annotations. Open a group to check which instructions its pictures belong to."
+  ],
+  "reference.gallery": [
+    "Selects this saved frame as an additional image. Check the selection mark and the total limit of the model; Expanding a project alone does not switch the photo being edited."
+  ],
+  "geometry.crop": [
+    "Leaves a selected rectangular area of the photo. Drag the frame or set the dimensions on the right, then apply the trim. The result will appear as a separate frame of the project."
+  ],
+  "geometry.resize": [
+    "Changes the width and height of a photo using the usual conversion, without AI finishing. When maintaining proportions, the sides are recalculated together."
+  ],
+  "geometry.x": [
+    "Sets the position of the left edge of the crop in pixels relative to the original image. This is the position of the frame, not the addition of a margin."
+  ],
+  "geometry.y": [
+    "Sets the position of the top crop edge in pixels. Make sure the frame stays inside the original image."
+  ],
+  "geometry.width": [
+    "Sets the width of the selected crop or new size in pixels. When the preservation of proportions is turned on, it is linked to the height."
+  ],
+  "geometry.height": [
+    "Sets the height of the crop or new size in pixels. This is the size of the final frame, not the viewing scale."
+  ],
+  "geometry.lock": [
+    "Links width and height: changing one side recalculates the other. When cropping, the selected frame shape is preserved; when resizing, the original proportions of the photo are preserved."
+  ],
+  "geometry.preset": [
+    "Select an aspect ratio, such as 16:9 or 1:1.",
+    "In **cropping** it defines the shape of the frame. In **resizing** with aspect ratio preservation enabled, the photo fits into the selected format and may not take up its entire width or height. If you don't preserve proportions, the sides can be changed independently, but the image is deformed."
+  ],
+  "geometry.percent": [
+    "Changes the resolution relative to the original frame. 100% retains dimensions, 50% reduces width and height by half. An acceptable value is greater than 0 and not greater than 1000%."
+  ],
+  "geometry.apply": [
+    "Creates a new project frame with a prepared crop or size. For an external file, then use \"Save image\"."
+  ],
+  "geometry.cancel": [
+    "Removes unapplied cropping or size adjustments. You can immediately select another tool; the started background AI task is not canceled."
+  ],
+  "outpaint.side": [
+    "Specify how many pixels to add on this side of the source. The new area will be completed by the model. For an accurate overall size, you can use the total width and height fields."
+  ],
+  "outpaint.width": [
+    "Sets the desired overall width of the canvas. If it is smaller than the source, you will first need to prepare cropping; if more, an area for additional drawing will be added."
+  ],
+  "outpaint.height": [
+    "Sets the desired overall height of the canvas. The height can be changed regardless of the expansion of the other side; the need for trimming is shown in the settings."
+  ],
+  "outpaint.handle": [
+    "Pull the side handle to change the corresponding side of the blade. The corner handle changes two sides at the same time. The dimensions on the right are updated along with the frame."
+  ],
+  "outpaint.move": [
+    "Hold the left button inside the frame and move it to change the location of the future canvas relative to the source. The acceptable position depends on whether you are expanding the frame or preparing to trim."
+  ],
+  "outpaint.crop-prepare": [
+    "Crops the portion of the original photo that extends beyond the selected frame, preparing the frame for expansion. For example, you can reduce the height and then add width to the space. The original frame remains in history."
+  ],
+  "outpaint.crop-cancel": [
+    "Cancels the preparation of the smaller original area and returns the frame settings. Already existing project frames are preserved."
+  ],
+  "outpaint.autocrop": [
+    "If the model returns an image wider or taller than requested, this option crops the excess equally from opposite edges. Width and height are checked separately: excess width is cropped even if the image is shorter than requested.",
+    "Dimensions smaller than requested are not stretched. The model’s full output is also saved in the project."
+  ],
+  "project.back": [
+    "Returns to the view or list of photos from which the editor was opened. When autosave is enabled, the project is saved before exiting. If there are any changes that need to be saved manually, the program will ask what to do with them."
+  ],
+  "project.restart": [
+    "Creates a new project from the original image. The previous project is saved so you can return to it."
+  ],
+  "project.save": [
+    "Saves the working image, settings, markup and history for further work. The external photo file is not replaced by this action. You can also press `Ctrl+S`."
+  ],
+  "project.export-image": [
+    "Writes the displayed frame to a regular photo file. Choose a separate copy or an explicit replacement for the original; Saving a project and exporting an image are different actions."
+  ],
+  "project.replace-original": [
+    "Prepares recording of the current frame in place of the original file. Before replacement, the program will show the name, path and dimensions for confirmation. If you want to keep the old file, select a copy."
+  ],
+  "project.replace-confirm": [
+    "Replaces the file at the specified path with the current frame with working rotation and reflection. The original frame and history remain in the project, but the external file will be modified."
+  ],
+  "project.export-copy": [
+    "Creates a separate file of the current frame with the selected format and working orientation. The original image remains in the same place."
+  ],
+  "project.export-format": [
+    "Select the type of finished file. PNG maintains transparency, JPEG is suitable for photographs and uses compression quality; TIFF and BMP are available as separate options."
+  ],
+  "project.jpeg-quality": [
+    "Adjusts the compression of the finished JPEG copy. A higher value usually results in less loss and a larger file; it does not change the width and height."
+  ],
+  "project.storage-default": [
+    "Directs a copy to the storage location selected in the storage settings. If you need a different path, uncheck the checkbox and select the location manually."
+  ],
+  "project.publish-archive": [
+    "Includes the saved copy in the library so that it can be found and selected in the program. This refers to the finished file, not the entire history of the project."
+  ],
+  "project.choose-save": [
+    "Opens the selection of location for the finished copy and saves the shown frame. Please check the export format and settings before confirming."
+  ],
+  "project.parameters": [
+    "Opens the settings for the current editor, including autosaving of the project. They differ from the parameters of a specific AI model."
+  ],
+  "project.autosave": [
+    "Saves a changed project at the selected interval without changing the photo file. The interval and separate save-on-close option are in project settings.",
+    "“Save project” and `Ctrl+S` save immediately, independently of autosave."
+  ],
+  "project.exit-stay": [
+    "Returns you to the editor so you can check your work or save your latest changes."
+  ],
+  "project.exit-discard": [
+    "Closes the editor without saving the latest unsaved edits to the project. Already saved results and background tasks remain in the project."
+  ],
+  "project.exit-save": [
+    "First saves the latest changes to the project, then exits. This is not exporting a photo to an external file."
+  ],
+  "project.save-retry": [
+    "Once again trying to save the project state after an error. Does not re-generate the image."
+  ],
+  "project.exit-options": [
+    "Opens the choice of further action after a save problem: stay, save again, or exit without the last changes."
+  ],
+  "project.close-progress": [
+    "Removes the save status message box. Before exiting, check to see if saving the project has completed."
+  ],
+  "project.manage": [
+    "Shows saved editor projects. You can find the photo you need, reveal the composition of the project and open it separately for work."
+  ],
+  "project.search": [
+    "Searches for projects by project name or photo. This is a search across the editor's projects, rather than a general search across the entire library."
+  ],
+  "project.period": [
+    "Limits the list of projects to a selected period, such as the last week. This is a list filter, not changing photo dates."
+  ],
+  "project.card": [
+    "Reveals information and photographs of this project. Expanding does not itself switch current work; to navigate, use “Open”."
+  ],
+  "project.open": [
+    "Loads the selected project with its frames and history to continue editing. This is not the launch of a new AI edit."
+  ],
+  "project.title": [
+    "Sets the friendly name of the project in the editor. This does not change the name of the original photo file."
+  ],
+  "project.rename": [
+    "Saves the entered project name. It helps you find work among other projects."
+  ],
+  "project.duplicate": [
+    "Creates a separate project for further work options. This is a copy of the project, not a command to save a regular photo file."
+  ],
+  "project.clear-filmstrip": [
+    "Removes frames of the current project from the bottom filmstrip, leaving the original one. Steps and connections between them are saved in the “Change History”. A confirmation will appear before cleaning; other projects are not affected."
+  ],
+  "project.delete": [
+    "Prepares to delete the selected project from the editor. Photos in the archive and separately saved images will remain; Please check the project name before confirming."
+  ],
+  "project.cleanup-assets": [
+    "Frees up space by deleting internal editor files that are no longer needed by projects and unfinished tasks. A confirmation will appear before cleaning. The original photos from your folders are not deleted."
+  ],
+  "project.cleanup-confirm": [
+    "Performs the selected operation to manage the project or its files. The scope and consequences are indicated in this confirmation - check them before clicking."
+  ],
+  "project.portable-export": [
+    "Creates a portable project file to continue working in another installation of the program. This is different from exporting a single finished image."
+  ],
+  "project.portable-import": [
+    "Opens a portable project from the selected file. Use to continue previously exported work rather than adding a regular photo."
+  ],
+  "history.open": [
+    "Selects a saved project frame for viewing and further work. Hold `Ctrl` and click on frames to select them for comparison. To attach a frame as an additional picture, drag it onto the label."
+  ],
+  "history.select-many": [
+    "Hold `Shift` and click the frames in the bottom filmstrip to mark them for deletion. Then, while holding `Shift`, press the trash can next to one of the marked frames. A confirmation will appear before deletion. The original frame cannot be selected for deletion."
+  ],
+  "history.remove": [
+    "Removes the frame from the bottom filmstrip after confirmation. To delete a marked group, hold `Shift` while pressing the trash can. The frames remain available in the “Change History”; The original photo files are not deleted."
+  ],
+  "history.confirm-remove": [
+    "Removes the specified frames from the bottom filmstrip; you can return them through the “Change History”. If the current frame is among them, the source will open. The history of tasks and expenses are saved."
+  ],
+  "history.branches": [
+    "Shows saved steps and connections between frames. Here you can return to the previous result and understand from which step it was obtained."
+  ],
+  "history.step-open": [
+    "Makes this saved frame current: it can be viewed or used for the next edit. The rest of the steps remain history; viewing an already completed frame does not trigger generation."
+  ],
+  "history.hide": [
+    "Removes the frame from the bottom filmstrip, saving it in the “Change History”. From there it can be restored. The original and current frames cannot be hidden using this button."
+  ],
+  "history.restore": [
+    "Returns the hidden frame to the bottom filmstrip of the project. An already saved image is used, without a new generation."
+  ],
+  "history.scroll": [
+    "Shows footage of the project's history. The mouse wheel above the filmstrip scrolls it left and right; Above the canvas, the wheel changes scale."
+  ],
+  "editor.compare": [
+    "Hold `Ctrl` and select two frames in the bottom filmstrip, then open the comparison. Drag the dividing line to see the differences between the selected frames. You can compare the source with the result or two different edits."
+  ],
+  "editor.compare-swap": [
+    "Swaps the two sides of a comparison. The frames themselves and their history do not change."
+  ],
+  "source.add-file": [
+    "Adds an image from disk to the project sources. To use it in an AI request, attach it to the desired instruction or include the appropriate source."
+  ],
+  "source.add-archive": [
+    "Opens the selection of a photo from the program library to add to the project. It is useful when the photo is already indexed and it is easier to find it by description or tags."
+  ],
+  "source.archive-search": [
+    "Searches for an image in the library by name, description, or tags. Click the desired result to add it to the project."
+  ],
+  "source.archive-pick": [
+    "Adds this found photo to the project sources. To use it in your edit as an additional image, then attach it to the desired instructions."
+  ],
+  "source.add-url": [
+    "Allows you to add an image via a direct HTTPS link to the file. A link to a site page may not work if it does not return an image."
+  ],
+  "source.url": [
+    "Insert a link that starts with `https://` and leads to the image itself. The link to the page with the picture may not work. Once added, the file will appear in the project sources."
+  ],
+  "source.url-apply": [
+    "Downloads an image from the entered link and adds it to the project. This is not yet the launch of AI editing with it."
+  ],
+  "source.role": [
+    "Indicate what the picture should be used for: transfer an object, repeat a style, take a background, or use it as a general example. The accuracy of execution depends on the model; explain the desired use in the assignment text as well."
+  ],
+  "source.order": [
+    "Changes the order of the current query's secondary sources. The order helps to coordinate them with the instructions."
+  ],
+  "source.remove": [
+    "Excludes this source from the prepared query. The original image on the disk is not deleted."
+  ],
+  "source.open": [
+    "Shows this saved frame or project source. To participate in a request, use a separate add action."
+  ],
+  "source.include": [
+    "Attaches this image to the prepared edit if the total limit of the selected model is sufficient. Just viewing a source does not automatically include it in the submission."
+  ],
+  "job.details": [
+    "Shows the progress of editing, its duration, model, dimensions, cost and finished frames.",
+    "“Queued by the service” means that the request has been transferred to the service and the program is waiting for it to be completed. This is different from pausing the program. Expanding a card only shows details and does not trigger a new edit."
+  ],
+  "job.cancel": [
+    "Cancels the program from making this edit. A request that has already been sent may have time to be executed on the service; Cancellation does not guarantee a refund."
+  ],
+  "job.open-project": [
+    "Opens the project to which this edit belongs. This helps to find her footage and history."
+  ],
+  "job.open-result": [
+    "Selects an already received frame of this task in the project. To view the finished result, a new generation and payment are not required."
+  ],
+  "job.resume": [
+    "Continues unfinished editing using saved data: for example, checks an already sent request or downloads the finished result. If the previous submission is known to the program, it uses it, without a new paid generation request."
+  ],
+  "job.reconcile": [
+    "Checks with the service the outcome of a previously sent request. Use if the connection is interrupted and the result is unknown, before starting the paid edit again."
+  ],
+  "job.request-id": [
+    "Enter the number of the previous request from the account Fal AI to associate it with this task. You need a Request ID, not an access key or model name."
+  ],
+  "job.request-confirm": [
+    "Confirm that you took the ID of the exact request that was sent for this edit. The program will search for the result using it, so it is important not to confuse it with another request."
+  ],
+  "job.reconcile-apply": [
+    "Checks the saved task against the specified service request. The check is intended to restore the outcome, and not to start a new generation."
+  ],
+  "review.schemas": [
+    "Compares stored information about model parameters with official Fal AI schemes - descriptions of fields, options and acceptable values. This helps to notice changes in the service. The check does not trigger image generation."
+  ],
+  "review.proposal": [
+    "Insert the prepared recommendations changes in the format JSON. First, click \"View Changes\" to compare them with current recommendations; application is carried out separately. This section is intended for setting up the selection of models."
+  ],
+  "review.diff": [
+    "Shows the differences between the proposed version of the recommendations and the current one. While browsing is in progress; application is a separate command."
+  ],
+  "review.apply": [
+    "Applies the reviewed version of model selection recommendations. This is a program setting, and not a repetition of already made edits."
+  ],
+  "review.rollback": [
+    "Returns the selected saved version of recommendations. Before applying, check which version will be valid for the next selections."
+  ],
+  "review.score": [
+    "Rate the result from 1 to 5 based on how well the model performed your task. The assessment is useful along with a short note about visible problems."
+  ],
+  "review.note": [
+    "Describe what went well and what was lost or changed incorrectly. For example: “the background is correct, but the hand has disappeared.” This is a result note, not a new model instruction."
+  ],
+  "review.save": [
+    "Saves your rating and model note for this job. A new edit or service call is not launched."
+  ],
+  "project.close-error": [
+    "Closes an editor window that could not be opened. This does not cancel work that has already been saved; read the error message first if you need to find out why."
+  ],
+  "model.select": [
+    "Select the model for the current action. They differ in price, quality, speed, markup and number of input images. An explanation of the selected model shows its specific capabilities and limitations."
+  ],
+  "model.help": [
+    "Explains the capabilities of the selected model: what pictures and markup it uses, how accurately it places objects, and what is important to consider when starting. This is a description of the model, not a promise of an ideal result."
+  ],
+  "model.tier-economy": [
+    "Shows low-cost options for the selected operation. They are suitable for first tests and simple edits; Before starting, read the model's features and cost estimates."
+  ],
+  "model.tier-balanced": [
+    "Shows mid-range models for a combination of cost and quality. The actual launch price depends on the selected model and options."
+  ],
+  "model.tier-quality": [
+    "Shows options based on the quality of the selected operation. Processing may be more expensive and take longer; the full run estimate is shown nearby."
+  ],
+  "model.filters": [
+    "They allow you to select models by price, resolution and number of additional images. This is filtering the model selection, and not starting the edit yourself."
+  ],
+  "model.filters-reset": [
+    "Removes restrictions on model selection and returns normal selection by level. The results already obtained do not change."
+  ],
+  "model.filter-tier": [
+    "Limits the list of models to the economical, balanced or quality level. \"All levels\" removes this limitation."
+  ],
+  "model.filter-price": [
+    "Leaves models whose full launch estimate falls within the specified amount. This is a selection condition that is separate from the actual charge and execution budget."
+  ],
+  "model.filter-resolution": [
+    "Leaves models with a suitable result size: a finished level or your own size in pixels. Availability depends on model capabilities."
+  ],
+  "model.filter-references": [
+    "Leaves models capable of accepting the required number of additional images. The total request limit also includes the source."
+  ],
+  "model.filter-width": [
+    "Specify the desired result width to select compatible models. This is a model search condition, not a photo modification that has already been made."
+  ],
+  "model.filter-height": [
+    "Specify the desired result height to select compatible models. Check both sizes and limitations of the selected model."
+  ],
+  "model.filter-source-size": [
+    "Leaves models that can request the size of the current source image. The actual response of the neural network still needs to be verified."
+  ],
+  "model.launch-apply-choice": [
+    "Confirms the model selected by filters and its parameters. The edit has not yet been sent. After applying, check the task and click “Start edit”."
+  ],
+  "model.launch": [
+    "Sends the prepared instructions, original image and enabled additional pictures to the selected model. Check the request contents and estimated cost before starting.",
+    "The progress of editing is visible in the “Tasks” tab. You can switch tabs or close the editor: the task will continue to work and save the result while the main program is open."
+  ],
+  "model.launch-busy": [
+    "This project is already edited. Its progress is visible in the “Tasks” tab. You can switch tools and tabs: the running work will continue, but the second launch will have to be postponed until it is completed."
+  ],
+  "model.estimate": [
+    "Preliminary cost of the entire prepared launch. It takes into account the selected parameters, but does not confirm the actual charge by the service. The image counter includes the source."
+  ],
+  "model.inputs": [
+    "Shows which images and masks will be included in the next request. Before starting, make sure that the necessary pictures are selected, they are in the correct order and relate to the desired tasks."
+  ],
+  "model.advanced": [
+    "Opens the parameters of the selected model. Here you can fine-tune the result; the set of fields depends on the model. Start with standard values ​​and keep in mind that changes may affect revision time and cost."
+  ],
+  "model.tariff": [
+    "Shows used pricing and limitations information for the selected model. The final consumption is confirmed by the service data after execution."
+  ],
+  "model.features": [
+    "Explains how the selected model uses markup and additional images and what limitations it has. It is useful to read before the first launch."
+  ],
+  "model.raw-json": [
+    "Allows you to specify additional exact request fields in JSON. This is a technical setting: use only the parameters supported by the selected scheme, without replacing the program's service fields."
+  ],
+  "model.period-enable": [
+    "Includes the total cost limit for editor edits from the specified date. It takes into account multiple runs together; the limit of one edit is set separately."
+  ],
+  "model.period-value": [
+    "Sets the dollar amount for the included total period budget. Check the start date and the expense already accounted for."
+  ],
+  "model.run-budget": [
+    "Limits the allowed estimated cost of one edit before it is sent. This check does not fix the final price or guarantee a refund."
+  ],
+  "model.concurrency": [
+    "Sets the AI editor's parallel request limit. Additional restrictions of the service and the current project remain; a large number does not guarantee speedup."
+  ],
+  "model.preserve-color": [
+    "It helps to leave a black and white photo in black and white: after restoration, the program removes the color added by the model if it has determined the source as black and white. The color source is not forcibly desaturated."
+  ],
+  "model.consent": [
+    "Allows you to transfer the image and prepared attachments to a cloud service for editing. The selection is saved and used in future runs; it can be changed in the settings."
+  ],
+  "model.consent-launch": [
+    "Saves your cloud send permission and runs the request shown. Please check the number of images, dimensions and rating before confirming."
+  ],
+  "model.key": [
+    "Opens the configuration of the Fal AI key, through which AI editor edits are performed. The key associates requests with your service account."
+  ],
+  "model.review": [
+    "Displays information about model recommendations and notes about the quality of results. Evaluating the result does not trigger reprocessing."
+  ],
+  "parameter.default": [
+    "Leaves the choice of this parameter to the service. The program does not send a separate value for it, and the model uses its own standard.",
+    "This is different from an explicit null, an off switch, or the No Value · null option."
+  ],
+  "parameter.null": [
+    "Sends the special value `null` to the service - “no value”. Use it only where the model supports this option. Unlike Model Standard, the field remains in the request with an explicitly specified absence of value."
+  ],
+  "parameter.quality": [
+    "Selects the quality level supported by the model. A higher level may increase detail, time, and expense. \"Auto\" allows the service to select a level."
+  ],
+  "parameter.image-size": [
+    "Sets the desired width and height or the finished size of the result. The “Same as source” option uses the dimensions of the current photo; this is a request from the model, not a guarantee of the exact size of its response."
+  ],
+  "parameter.width": [
+    "Requests the width of the finished image in pixels. Use the range of the selected model; The result size is not equal to the viewing scale."
+  ],
+  "parameter.height": [
+    "Requests the height of the finished image in pixels. The width and acceptable proportions must be taken into account along with this side."
+  ],
+  "parameter.resolution": [
+    "Selects a preset size level, such as 1K, 2K, or 4K. The exact dimensions and acceptable aspect ratios are determined by the model."
+  ],
+  "parameter.aspect-ratio": [
+    "Sets the shape of the result: for example, 1:1 is a square, 16:9 is a wide frame. This is a separate parameter from the level of detail and quality."
+  ],
+  "parameter.output-format": [
+    "Sets the format of the image that the model will return. If transparency is required, choose a compatible model and format; JPEG does not preserve transparency."
+  ],
+  "parameter.output-compression": [
+    "Controls the compression of the output JPEG or WebP within the model schema. This is a file encoding setting, separate from generation quality and resolution."
+  ],
+  "parameter.background": [
+    "Selects the background behavior, such as automatic, transparent, or opaque. Available options are for this model; transparency must also be supported by the format."
+  ],
+  "parameter.num-images": [
+    "Sets the number of images to be retrieved per request. Several options may increase the cost; check the full run estimate."
+  ],
+  "parameter.seed": [
+    "Sets the number from which the model starts generation. With the same source, number and other settings, you can try to get a similar option again. The service does not guarantee a completely identical image."
+  ],
+  "parameter.guidance": [
+    "Adjusts the influence of the text task on generation. A higher value does not always give a better result; Use the acceptable range and recommendations of the selected model."
+  ],
+  "parameter.prompt-expansion": [
+    "Allows the service to expand or clarify your text before generation. This may help the model, but added language may change the interpretation of the problem."
+  ],
+  "parameter.prompt-mode": [
+    "Selects how the service improves the task text before generation. **Standard** focuses on image quality, **Fast** reduces generation time. The parameter is available for models that support this refinement."
+  ],
+  "parameter.rendering-speed": [
+    "Selects the execution mode supported by the model. The accelerated option may differ in detail and tariff; the score refers to the current choice."
+  ],
+  "parameter.thinking": [
+    "Sets how much additional reasoning the model uses, where supported. It can affect processing time and cost, but does not guarantee better quality."
+  ],
+  "parameter.web-search": [
+    "Allows the supporting model to refer to an Internet search when preparing a result. This feature may cost extra; turn it on only when necessary."
+  ],
+  "parameter.system": [
+    "Specifies an additional control instruction for the model where the service supports it. This is a technical parameter, separate from the usual description of the desired edit."
+  ],
+  "parameter.safety": [
+    "Selects the level of content filtering available in the scheme. The service rules continue to apply; the parameter does not guarantee the acceptance of any request."
+  ],
+  "parameter.limit-generations": [
+    "Asks the model to create one image at each stage of work and ignore requests for several images in the text of the assignment. This is an experimental mode; it may affect the quality.",
+    "It does not replace the selection of the number of results or the editor's monetary budget."
+  ],
+  "parameter.style": [
+    "Choose what visual style you want the model to create the result in. For example, the options available with this model can be designed for realistic photography or design. The list is determined by the selected model."
+  ],
+  "parameter.style-preset": [
+    "Applies a pre-made style from model options. Check whether it is suitable for the task if it is important to preserve the photographic appearance of the source."
+  ],
+  "parameter.style-codes": [
+    "Sets the style with special codes that this model supports. Each code consists of eight hexadecimal characters - the numbers 0-9 and the letters A-F. Use either codes or regular style selection; sharing these settings together is not supported."
+  ],
+  "parameter.palette": [
+    "Sets the desired colors for models that support `color_palette`. In the “JSON Parameters” you can specify a ready-made palette, for example `{\"color_palette\":{\"name\":\"PASTEL\"}}`, or a list of colors in the model schema format. A ready-made palette and a custom list are not specified at the same time."
+  ],
+  "parameter.negative": [
+    "Lists undesirable outcome features of models that support a negative instruction. This is a generation wish, and not an absolute ban on the appearance of an item."
+  ],
+  "parameter.prompt": [
+    "Allows you to specify the desired result with text if the selected model mode accepts instructions. Describe what needs to be changed or kept. The availability of this option may vary by model."
+  ],
+  "parameter.preserve-alpha": [
+    "Asks the model to preserve the transparent areas of the original image. Check the result and use a format with transparency when saving."
+  ],
+  "parameter.refine-foreground": [
+    "Improves the separation of the front object from the calculated mask. Useful for object boundaries when removing background; the result depends on the model and source."
+  ],
+  "parameter.mask-only": [
+    "Returns only a black and white object separation mask instead of a regular photo with the background removed. Refinement of object edges is skipped in this mode. Use when you need the mask itself."
+  ],
+  "parameter.output-mask": [
+    "Asks the service to additionally return a mask that separates the object from the background. To replace the usual result with one mask, another setting is provided - “Mask only”."
+  ],
+  "parameter.mask-expansion": [
+    "Extends the boundary of the processed mask by the specified number of pixels. A small margin may catch the edges of the object; too big will change the surrounding environment."
+  ],
+  "parameter.model-remove": [
+    "Selects the object or background removal algorithm within this service. General, portrait and other options are intended for different sources; This is not a change in the main provider."
+  ],
+  "parameter.model-object-removal": [
+    "Selects the level of processing of the deleted area: from `low_quality` - low quality - to `best_quality` - the best in this service. Changing levels may affect price and time; the main editor service remains the same."
+  ],
+  "parameter.model-background": [
+    "Selects the BiRefNet option: universal, portrait or designed for precise edge separation. Start with a universal option; check the object boundaries on the result."
+  ],
+  "parameter.model-precision": [
+    "Selects the Topaz Precision option for the source: regular photo, low resolution, graphics, text or faces. The Text Refine option focuses on clarity of text and shapes."
+  ],
+  "parameter.model-generative": [
+    "Selects the Topaz variant for generative detail restoration. Variants balance preserving the original image and recreating missing details differently. Compare the result with the original."
+  ],
+  "parameter.model-restore": [
+    "Selects the Topaz recovery method. Recover 3 recreates details, Dust-Scratch V2 is designed to remove dust and scratches. These are different tasks for processing an old photograph."
+  ],
+  "parameter.operating-resolution": [
+    "Defines the size at which the model calculates object separation. The larger option can more accurately handle high resolution, but is not available for all algorithms."
+  ],
+  "parameter.mode-outpaint": [
+    "Selects the mode for adding new fields. **High** is focused on more accurate results, **Fast** is faster, but may be worse at continuing complex details. The size of the future canvas is specified by the frame and size fields."
+  ],
+  "parameter.upscale-mode": [
+    "Select magnification by ratio or target resolution. In the first case, the multiplier of the sides is set, in the second - the required level of result."
+  ],
+  "parameter.upscale-factor": [
+    "Specifies how many times to increase the width and height. For example, **2×** turns 1000 × 600 into 2000 × 1200 pixels—both sides are doubled, and the total number of pixels quadruples."
+  ],
+  "parameter.target-resolution": [
+    "Selects the final size level in target resolution mode. The available options and the preservation of proportions are determined by the model."
+  ],
+  "parameter.steps": [
+    "Sets the number of model processing steps. More steps may increase the time and does not necessarily improve the result beyond a certain level."
+  ],
+  "parameter.creativity": [
+    "Regulates the freedom of the model when restoring new parts. A high value may give more expressiveness, but will change the original features more."
+  ],
+  "parameter.resemblance": [
+    "Controls how much the result should preserve features of the original image. Combine with finishing details if it is important to avoid unnecessary changes."
+  ],
+  "parameter.denoise": [
+    "Controls the reduction of visual noise. Strong processing can smooth out the useful fine texture."
+  ],
+  "parameter.sharpen": [
+    "Controls the emphasis of edges and fine details. Excessive sharpening can create ghosting and does not reliably restore missing detail."
+  ],
+  "parameter.fix-compression": [
+    "Tries to reduce blocks and distortions resulting from strong file compression. This feature is not available for all modes of the selected model."
+  ],
+  "parameter.strength-text": [
+    "Adjusts the strength of the enhancement in the Topaz Precision Model's Text Refine mode. This option does not set the weight of your text instruction and is not used in all zoom modes."
+  ],
+  "parameter.face": [
+    "Includes special facial processing to enhance the visibility of details. The reconstructed features may differ from the real person, so compare the result with the original."
+  ],
+  "parameter.face-strength": [
+    "Regulates the expression of facial processing. The stronger the transformation, the more carefully it is worth checking the safety of the original features."
+  ],
+  "parameter.face-creativity": [
+    "Adjusts the freedom of the model when recreating facial details. Works when face restoration is enabled; high freedom can change appearance."
+  ],
+  "parameter.enhancement": [
+    "Adjusts the degree of generative recovery in supported augmentation mode. If the parameter is not specified, the model can choose the value automatically."
+  ],
+  "parameter.subject": [
+    "Selects a part of the image to automatically detect the object when enhancing: **All** - the entire image, **Foreground** - the foreground, **Background** - the background. It is taken into account only by model algorithms that support this choice."
+  ],
+  "parameter.noise-scale": [
+    "The model uses this noise factor when generating the image. Start with the standard value. The service does not explain the exact visual effect of the parameter in the diagram, so changing it does not promise a certain degree of detail or similarity."
+  ],
+  "parameter.light-direction": [
+    "Choose where you want the light to come from: left, right, top or bottom. The option without a given direction leaves this choice to the model."
+  ],
+  "parameter.cfg-light": [
+    "Controls the effect of given light conditions when processed by this model. A higher value may change the scene more."
+  ],
+  "parameter.lowres-denoise": [
+    "Adjusts the conversion force on the first, reduced machining pass. This is not the number of description recognition passes in the main program."
+  ],
+  "parameter.hr-fix": [
+    "Includes an additional high-resolution processing pass. Its settings are made available separately and may increase execution time."
+  ],
+  "parameter.hr-downscale": [
+    "Leave the default value at 0.5 unless you are customizing the IC-Light process. The service allows values ​​from 0.01 to 1, but does not explain the effect of the parameter in the published schema; the expected visual effect is not promised in advance."
+  ],
+  "parameter.highres-denoise": [
+    "Adjusts the strength of changes in the additional high-resolution pass. Used only when the second pass is enabled."
+  ],
+  "parameter.enhance-resolution": [
+    "Enables this model's resolution enhancement during recovery. The final dimensions need to be checked after receiving the result."
+  ],
+  "parameter.fix-colors": [
+    "Enables processing of faded or distorted colors in an old photo. If you want to preserve the black and white character, also check the original color preservation setting."
+  ],
+  "parameter.remove-scratches": [
+    "Includes treatment of scratches and damage to old photographs. The model can approximately restore the contents hidden by them."
+  ],
+  "settings.hover-hints": [
+    "Shows explanations when you hover over or navigate to an element using the `Tab` key. Turn them off when no longer needed. The `?` buttons continue to open explanations when pressed. The selection is saved after the program is closed."
+  ],
+  "settings.recursive-view": [
+    "Also shows photos of subfolders in Explorer. This is a list setting; bypassing subfolders during processing is enabled by a separate option “Subfolders” in the processing panel."
+  ],
+  "settings.images-only": [
+    "Hides other files in the lists so that they do not interfere with the selection of photos. Files hidden by this filter are not deleted."
+  ],
+  "settings.cloud-consent": [
+    "Maintains permission to send images to the selected cloud service and model provider. It is used both in recognition and in the editor; There is no need to re-confirm each launch as long as the permission is saved."
+  ],
+  "settings.request-delay": [
+    "Adds a pause between recognition requests in milliseconds. May help comply with service restrictions, but increases overall uptime."
+  ],
+  "settings.job-budget": [
+    "Sets the new job's spending limit in dollars. **0 - no limitation**. For a given limit, the program takes into account the estimate of requests and already known costs; the actual charge is reported by the service."
+  ],
+  "settings.retries": [
+    "Sets the number of times the request will be repeated in case of temporary failures. This helps you continue working after a short-term connection or service problem.",
+    "An incorrect key must be corrected manually. If the outcome of a previous cloud request is unknown, reconciliation is required first to avoid resubmitting the same work."
+  ],
+  "settings.passes": [
+    "In one pass, the model immediately produces a description or tags. If there are several, the program receives options, and in the last pass it double-checks them using a photograph.",
+    "More passes require more time and cloud requests; the number of passes does not apply to editing the image itself."
+  ],
+  "settings.concurrency": [
+    "Limits the number of concurrent recognition requests. It's not the number of photos in the entire queue; the local model processes one photo at a time."
+  ],
+  "settings.pause-ai-error": [
+    "Pauses the queue after a final recognition error so you can investigate the cause. When turned off, the remaining available photos continue to be processed."
+  ],
+  "settings.pause-rename-error": [
+    "Suspends related work after a rename error. Useful if it is important to check file names and availability before proceeding."
+  ],
+  "settings.tokens": [
+    "Limits the length of the model's complete response. Token is a small fragment of text; it is not equal to one word or sentence. The limit is spent on the description, tags and service structure of the response.",
+    "A value that is too low may cut off the response. The desired detail of the description is also specified by the model instructions."
+  ],
+  "settings.image-side": [
+    "Limits the size of the image prepared for recognition. A smaller frame may be processed faster, but lose fine detail; the original file is not reduced."
+  ],
+  "settings.copy-destination": [
+    "Choose to create copies next to the source or in a separate folder. This is a location for recognition copies, separate from the storage of editor projects."
+  ],
+  "settings.copy-choose": [
+    "Specifies a folder for smartly named files when copying to the selected location is enabled. The original photos remain in their folders."
+  ],
+  "settings.photo-storage": [
+    "Choose where to save the editor's results: as a new file next to the source or in a separate folder. You can also set the location to be selected each time you save."
+  ],
+  "settings.photo-folder": [
+    "Specifies the folder for the editor's finished images. This is a setup for future saves, not a transfer of all previous exported files."
+  ],
+  "settings.project-storage": [
+    "Projects store working images and editor history, while the cache stores temporary viewing data. These vaults are carried separately from the original photos and general Ollama models."
+  ],
+  "settings.move-projects": [
+    "Moves the editor's project storage to the selected location and checks the copy. Before transferring, close the editor; The old folder is retained for testing."
+  ],
+  "settings.move-cache": [
+    "Moves the cache storage to the selected folder. This helps place temporary data on another drive without moving photos and projects."
+  ],
+  "key.input": [
+    "Insert the API key from the personal account of the selected service. Using this key, the service identifies your account and allows requests from the program. The Fal AI key is suitable for Fal AI, the OpenRouter key is suitable for OpenRouter."
+  ],
+  "key.paste": [
+    "Substitutes text from the clipboard into the key field. Make sure that you copied the key for the desired service, then save it."
+  ],
+  "key.show": [
+    "Temporarily displays the entered characters to verify insertion. If there are other people nearby or your screen is being recorded, use hidden input."
+  ],
+  "key.hide": [
+    "Masks the entered key in the field. Hiding characters does not delete the key or prevent it from being saved."
+  ],
+  "key.save": [
+    "Remembers the entered key for the selected service. Checking the connection and starting recognition are performed separately; this press only saves the key."
+  ],
+  "key.save-check": [
+    "Saves the entered key and checks the readiness of the service. After successful verification, you can return to processing without re-entering."
+  ],
+  "key.check-saved": [
+    "Checks the already added key and access to the selected model. There is no need to enter a new key if the saved one remains valid."
+  ],
+  "key.check-service": [
+    "Checks the connection and access of the selected service with the current key. This is a readiness check, not a photo edit."
+  ],
+  "local.endpoint": [
+    "Indicates where the program should contact Ollama. To work on the same computer, `http://127.0.0.1:11434` is usually used. If Ollama is configured with a different address, enter it here; This is not a link to download the model."
+  ],
+  "local.check": [
+    "Checks whether Ollama is available and the selected model is installed. If something is missing, use the model setup."
+  ],
+  "local.setup": [
+    "Prepares Ollama and the selected local model automatically. Before starting, the loading plan and volume are shown; The first launch requires time, internet and free space."
+  ],
+  "local.confirm-install": [
+    "Launches the shown plan: the program itself will install the necessary components Ollama and download the selected model. Wait for it to be ready and return to processing. There is no need to enter commands in the terminal."
+  ],
+  "local.installing": [
+    "The program loads and prepares local components. Follow the stage and progress shown; repeating the command does not speed up loading."
+  ],
+  "local.cancel-install": [
+    "Interrupts the current preparation or loading of a model. Already existing photos and library information are not affected. You can restart the preparation later."
+  ],
+  "local.ready": [
+    "The selected local model is ready for use. Recognition is performed on this computer; The time depends on the model, image size and computer resources."
+  ],
+  "local.setup-capsule": [
+    "Shows the readiness of the selected model and the available preparation action. If the model is not yet installed, click to configure and read the download plan."
+  ],
+  "cloud.check-capsule": [
+    "Shows the key and availability status of the selected cloud model. Pressing performs a check and does not recognize the selected image."
+  ],
+  "recovery.section": [
+    "Allows you to replace the key of a saved task and check the outcome of previous requests. Already paid known answers are restored separately from the new launch."
+  ],
+  "recovery.fal": [
+    "Checks the states of saved Fal requests with the service. This is a check of previously submitted work, without creating new generation requests."
+  ],
+  "consent.continue": [
+    "Saves the cloud send permission and continues the action for which the issue is open. Please read what images will be transferred before confirming."
+  ],
+  "rename.about": [
+    "Explains how new names are constructed and how to test them before writing them down. Renaming changes the file name, not the content of the photo, and does not require an AI request."
+  ],
+  "rename.names": [
+    "Opens rules and previews of new names. Set up the base, extensions and numbering, then check the result."
+  ],
+  "rename.history": [
+    "Shows previous rename operations and available actions to continue or revert names. This is a different history from image editing."
+  ],
+  "rename.operation": [
+    "Shows the saved rename operation: status, time and number of files. Select it to check the result and available actions."
+  ],
+  "rename.prefix": [
+    "Adds text before the main part of the name. For example, the prefix “Vacation” helps to unite files with a common theme. Check the full name in the preview."
+  ],
+  "rename.base": [
+    "Choose to keep the same name or have a common base for all selected files. Numbering helps distinguish files with a common basis."
+  ],
+  "rename.common": [
+    "Enter the main part of the new name, for example \"Product\". If there are several files, check the numbering and possible matches in the preview."
+  ],
+  "rename.suffix": [
+    "Adds text after the main part of the name. It can indicate an option or a group of shots; The file extension is processed separately by the program."
+  ],
+  "rename.numbering": [
+    "Adds a sequential number to names. This allows you to distinguish between multiple files with a common basis. Position, start and pitch are adjustable side by side."
+  ],
+  "rename.number-position": [
+    "Selects whether the number will appear before or after the main part of the name. Check the resulting order in the preview."
+  ],
+  "rename.start": [
+    "Specifies the number of the first file in the sequence. For example, starting with 101 allows you to continue the existing numbering."
+  ],
+  "rename.digits": [
+    "Adds leading zeros to the desired length: for example, 001 instead of 1. Without leading zeros, the number is written in the usual way."
+  ],
+  "rename.order": [
+    "Determines the order in which files are numbered: as listed, by name, or by date modified. This is important before applying numbering."
+  ],
+  "rename.separator": [
+    "Selects a character between parts of the new name: underscore, hyphen, space, or no separator. The full result is visible in the preview."
+  ],
+  "rename.recursive": [
+    "Adds subfolder files to this rename operation. This is a custom setting for this window, separate from viewing and AI processing of subfolders."
+  ],
+  "rename.step": [
+    "Sets how much to increase the next file number. For example, starting with 1 and step 2 will result in numbers 1, 3, 5."
+  ],
+  "rename.per-folder": [
+    "Restarts numbering within each folder. Without this setting, the counter follows the general order of the operation."
+  ],
+  "rename.apply": [
+    "Gives new names to files ready to be renamed in preview. Please check the displayed names, matches and errors before running. The content of the photos remains the same."
+  ],
+  "rename.resume": [
+    "Continues an unfinished saved operation in its log. This is not creating a new naming scheme from scratch."
+  ],
+  "rename.rollback": [
+    "Restores the previous names from the unfinished operation’s log. A complete rollback may be impossible if files were later moved or renamed outside the app."
+  ],
+  "rename.restore-names": [
+    "Uses the log of the selected operation to revert available files to their previous names. Before performing, check which operation you have chosen."
+  ],
+  "rename.preview-cancel": [
+    "Removes prepared name variants without using them. You can change the settings and check the new result."
+  ],
+  "rename.preview-confirm": [
+    "Confirms the names shown and continues the action for which the preview was opened: processing or preparing a queue. This confirmation is only required for public preview; The \"Process\" mode does not ask it before each launch."
+  ],
+  "help.open": [
+    "Opens tour for the current window and reference book. You can search for the function you need or ask the program to show its location."
+  ],
+  "help.tour-tab": [
+    "Opens a step-by-step introduction to the elements of the current window. The program shows where the function is and explains its purpose."
+  ],
+  "help.reference-tab": [
+    "Opens articles explaining the program's capabilities. You can read the material without going through all the steps of the tour."
+  ],
+  "help.hints-reveal": [
+    "Pulls out the tooltip toggle. The checkbox turns on or off explanations when hovering over program elements."
+  ],
+  "help.hints-toggle": [
+    "Enables or disables explanations when hovering over program elements. When the checkbox is unchecked, other tooltips do not appear."
+  ],
+  "help.group": [
+    "Limits tour to the selected topic. \"All sections in this window\" returns the full set of available functions."
+  ],
+  "help.feature": [
+    "Selects a specific function to explain and display in the current window. Item unavailability may depend on the selected photo or job status."
+  ],
+  "help.all": [
+    "Begins familiarizing yourself with all available training steps in this window. Processing actions do not trigger from just showing tooltips."
+  ],
+  "help.continue": [
+    "Returns to the next available step of getting to know the interface."
+  ],
+  "help.group-start": [
+    "Starts tour only on the selected topic, such as search or queuing."
+  ],
+  "help.groups": [
+    "Returns to the list of tour topics to select a different program area."
+  ],
+  "help.step-prev": [
+    "Shows the previous training step. This is not undoing the photo action."
+  ],
+  "help.step-next": [
+    "Shows the next tour step. The final step, “Done” completes the tour."
+  ],
+  "help.search": [
+    "Searches for help articles based on the entered words. This is a search for explanations of functions, not a search for photographs."
+  ],
+  "help.article": [
+    "Opens the selected article describing the feature. To show its place in the interface, use the associated tour commands."
+  ],
+  "help.show-feature": [
+    "Shows the location of \"{функция}\" in the program and its explanation. Demonstration does not automatically perform this function."
+  ],
+  "help.screenshot": [
+    "Opens the illustration larger to see the arrangement of elements. This is a reference shot and not an image of your current photo."
+  ],
+  "preview.gestures": [
+    "The mouse wheel zooms in or out. After zooming in, hold down the left button and drag the photo to view another area. Double-clicking again shows the entire image, selecting the appropriate scale."
+  ],
+  "compare.pan": [
+    "Enlarge the photo, hold down the left button and drag it to view the desired area. In Side by Side mode, you can move the left and right images independently. The photos themselves do not change."
+  ],
+  "layout.panel-width": [
+    "Drag the border left or right to change where you place your photos and settings. If the handle is selected from the keyboard, it can be moved using the arrows; `Home` and `End` select extreme sizes."
+  ],
+  "layout.markup-height": [
+    "Drag the border to give more or less space to the markup list. Double clicking returns automatic height."
+  ],
+  "layout.editor-split": [
+    "Drag the divider to resize adjacent areas of the editor. This is an adjustment to the layout of the panels, not the size of the image."
+  ],
+  "layout.column-width": [
+    "Drag a column border to reveal more text. Double-clicking returns the default width of that column."
+  ],
+  "geometry.frame": [
+    "Drag the frame or its handles to set the position and dimensions of the current crop or transform. Check the values ​​on the right and apply the result with a separate button."
+  ],
+  "markup.open-on-canvas": [
+    "In selection mode, double-click an existing mark to open its assignment next to the canvas. Then you can change the description and additional pictures."
+  ],
+  "search.status-all": [
+    "Does not limit search to processing state. The remaining terms of the request remain in effect."
+  ],
+  "search.status-ready": [
+    "Shows photos with the status “Processed”: the recognition result has already been saved for them. These can be just the tags, just the description, or both. The missing fields can be retrieved with the \"Unprocessed only\" setting."
+  ],
+  "search.status-queued": [
+    "Shows photos marked as pending or in processing. See the progress of a specific task in the “Tasks” tab."
+  ],
+  "search.status-not-ready": [
+    "Limits the result to photos with the “Not processed” status. To run only missing results, use a separate \"Unprocessed only\" setting."
+  ],
+  "search.status-error": [
+    "Shows photos with error status. Check the reasons and availability of restart in the tasks; the filter itself does not repeat the request."
+  ],
+  "search.status-missing": [
+    "Shows photos whose file is not found in the saved path. Check the drive connection and last known location."
+  ],
+  "search.status-relocated": [
+    "Shows entries for which the library has detected a path change. This is the file's location status, separate from the date it was taken or the contents of the image."
+  ],
+  "main.folders-first": [
+    "Places folders before files, maintaining the selected sorting within groups. This makes it easier to select subfolders first."
+  ],
+  "main.folders-last": [
+    "Places files before folders, maintaining the selected sorting within groups."
+  ],
+  "main.folders-mixed": [
+    "Removes a separate grouping of folders. Folders and files participate in the general list order according to the selected sorting."
+  ],
+  "main.fit-fill": [
+    "Fills the entire card with the photo. Part of the image at the edges can be hidden only in the preview; the original file is not cropped."
+  ],
+  "main.fit-contain": [
+    "Shows the entire photo in the card while maintaining its proportions. If the shape of the card and the photo do not match, there will be empty fields."
+  ],
+  "main.view-table": [
+    "Shows files in rows with properties: size, dates, status and other selected columns. You can change the width and composition of the columns."
+  ],
+  "main.view-list": [
+    "Shows photos in compact lines with previews and details. Convenient for viewing names and a large number of files."
+  ],
+  "main.view-size": [
+    "Selects thumbnail size from small to extra large. The larger the card, the better the details are visible and the fewer photos can fit at once."
+  ],
+  "main.no-folder-refresh": [
+    "First open the folder. The refresh button refers to its content or index; it does not scan all drives itself."
+  ],
+  "main.edit-one-required": [
+    "Select one photo to edit. To compare two photos, select them from `Ctrl` and use Compare."
+  ],
+  "main.process-empty": [
+    "Select the photos or folders you want to process. In the search, you can select results; prepared fields with “Unprocessed only” enabled will be skipped."
+  ],
+  "queue.concurrency-disabled": [
+    "For a local model, one photo is taken at a time. For a completed or stopped job, the limit is no longer editable; For another queue, select its summary."
+  ],
+  "reference.unsupported": [
+    "No additional images are used for this operation and model. Please select a compatible model if you would like to include a picture with the instructions; saved project attachments do not need to be deleted for viewing."
+  ],
+  "reference.point-replace": [
+    "The dot uses one additional image. The new will replace it; To attach multiple pictures, use the model-supported general instruction or area."
+  ],
+  "model.filtered-empty": [
+    "No model meets the selected conditions. Loosen the restrictions on price, size, or number of images, or reset the filters. The edit has not been submitted yet."
+  ],
+  "model.filter-loading": [
+    "The program checks which models are suitable for your conditions and calculates the cost of editing with current parameters. Wait for the result, then apply the selection. The check is performed without generating an image."
+  ],
+  "model.launch-error": [
+    "Editing cannot be started yet: {причина}. Correct the specified parameter, instruction, key or image composition, then restart."
+  ],
+  "geometry.pending-crop": [
+    "The entire original photo does not fit into the selected frame. Click Apply Crop to prepare a smaller frame, or change the size and position of the frame. Then you can set the margins for additional drawing."
+  ],
+  "geometry.invalid-size": [
+    "Specify the final width and height as integers from 1 to 2048 pixels. You can add up to 1024 pixels on each side.",
+    "These are the customization limits of the extension frame. If the model returns different dimensions, its usable result is still preserved."
+  ],
+  "key.wait": [
+    "The selected key is now being saved or verified. Wait for the response so as not to confuse the status of the previous and new input."
+  ],
+  "files.copy": [
+    "Stores selected photos for copying inside Smart Photo. Open the desired folder in the program and select \"Paste\" or click `Ctrl+V`. The original files will remain in place. Before the new command, you can insert this set again."
+  ],
+  "files.cut": [
+    "Remembers selected photos for moving. Then open the destination folder and click `Ctrl+V`. Before insertion, the files remain in the same place; The \"Cut\" command itself does not delete anything."
+  ],
+  "files.paste-copy": [
+    "Copies saved photos to an open folder. The current selection in the grid does not change the prepared set. If the name is already taken, you can replace the file, save both with different names, or skip the conflict."
+  ],
+  "files.paste-move": [
+    "Moves saved photos to an open folder. After a successful transfer, the source files move out of the previous folder. If some files could not be transferred, the program will report this separately."
+  ],
+  "files.copy-to": [
+    "Opens the folder selection and copies the selected photos there. You can select a destination without leaving your current folder or search results. Deselecting does not change the files."
+  ],
+  "files.move-to": [
+    "Opens the folder selection and transfers the selected photos there. After a successful transfer, descriptions, tags and links in the library are saved. If the name is busy, the program will offer options for this conflict."
+  ],
+  "files.trash": [
+    "Sends the selected photos to the Windows trash bin. They can be restored from the recycle bin in the usual way. If sending to trash is not available, the program will report an error and will not replace it with permanent deletion."
+  ],
+  "files.drag-move": [
+    "Hold `Alt` and drag a photo onto the destination folder. If the photo belongs to a selected group, all selected photos move together. Without `Alt`, dragging still draws a selection rectangle. `Esc` cancels the drag before you release the mouse button."
+  ],
+  "files.replace": [
+    "Replaces a file in the destination folder with the selected photo. The previous contents of the target file will be replaced, so compare the specified paths. This selection does not trigger recognition or change other files with similar names."
+  ],
+  "files.replace-source-disabled": [
+    "This file is also included in the selected source set. It cannot be replaced during this operation. Choose \"Save Both\" or \"Skip\" to avoid losing the selected photo."
+  ],
+  "files.keep-both": [
+    "Keeps the existing file and saves the selected photo under an available name, such as “Photo (1).jpg”. The number is added before the extension; other files are not renamed."
+  ],
+  "files.skip": [
+    "Skips this conflict without changing either file, then continues with the remaining photos. For a move, the skipped original stays in its current folder."
+  ],
+  "files.apply-all": [
+    "Uses the selected option for the remaining conflicts of this operation. The next time you make a separate copy or move, the program will prompt you again for a choice. A target file that has changed after confirmation requires a new solution."
+  ],
+  "files.cancel-remaining": [
+    "Does not start the following files in this set. Already completed actions are saved; This is not a cancellation of a previously completed copy or transfer. The currently started file phase may first complete safely."
+  ],
+  "settings.language": [
+    "Choose the language of the application. Labels, hints and guided tours update in the main window, editor and viewer. The application remembers your choice for the next launch.",
+    "Changing the interface language does not translate your descriptions, tags or file names. The language used by AI to describe photos is selected separately."
+  ]
+}

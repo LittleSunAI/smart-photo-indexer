@@ -1,0 +1,8 @@
+.hover-hints-setting{min-width:0;max-width:100%;}
+.hover-hints-setting__capsule{display:flex;align-items:center;gap:8px;min-width:0;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--panel-soft);color:var(--text);}
+.hover-hints-setting__label{display:flex;align-items:center;gap:7px;flex:1;min-width:0;font-size:13px;line-height:1.4;cursor:pointer;}
+.hover-hints-setting__label input{flex:none;margin:0;accent-color:var(--blue);}
+.hover-hints-setting__capsule>.info-hint{display:inline-flex;flex:none;}
+.settings-card .hover-hints-setting__error{margin:4px 0 0;color:var(--danger,#b42318);}
+
+.language-setting__row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}.language-setting__row select{width:140px;max-width:60%;min-width:0}.language-setting [role="alert"]{margin:4px 0 8px}

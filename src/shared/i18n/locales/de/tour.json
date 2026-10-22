@@ -1,0 +1,1643 @@
+{
+  "main.folder.choose": {
+    "title": "Ordner auswählen",
+    "bodyRef": "main.choose-folder"
+  },
+  "main.folder.refresh": {
+    "title": "Ordner aktualisieren",
+    "paragraphs": [
+      "Aktualisiert die Informationen zum geöffneten Ordner. Was dabei geschieht, hängt vom gewählten Modus ab. Dessen Name steht auf der Schaltfläche.",
+      "**Ordner aktualisieren** liest den Inhalt erneut ein. Das ist hilfreich, wenn Sie Dateien außerhalb der Anwendung hinzugefügt, gelöscht oder verschoben haben. **Index aktualisieren** aktualisiert die Dateiinformationen in der Bibliothek. Neue Beschreibungen und Tags werden durch eine separate Verarbeitung erzeugt."
+    ]
+  },
+  "main.folder.refresh-options": {
+    "title": "Aktualisierungsoptionen",
+    "paragraphs": [
+      "Der Pfeil öffnet die Wahl zwischen der Aktualisierung des Ordners und der Aktualisierung seines Index. Die ausgewählte Option wird zur Hauptaktion der angrenzenden Schaltfläche.",
+      "Wenn Sie die im Windows Explorer vorgenommenen Änderungen sehen möchten, aktualisieren Sie zunächst den Ordner. Um eine Beschreibung oder Tags von einem Modell erneut zu erhalten, verwenden Sie die Fotoverarbeitung."
+    ]
+  },
+  "main.recognition.overview": {
+    "title": "Service, Modell und Ergebnis",
+    "paragraphs": [
+      "Hier wählen Sie **wo die Fotos verarbeitet werden sollen**, **welches Modell verwendet werden soll** und **was Sie als Ergebnis erhalten**. Diese Entscheidungen hängen zusammen: Jeder Dienst verfügt über einen eigenen Satz von Modellen, und das Ergebnis kann eine Beschreibung, Tags oder beides sein.",
+      "Wählen Sie zunächst den Dienst, dann das Modell und die erforderlichen Informationen aus. Die Verarbeitungsbedingungen und der Start-Button befinden sich rechts."
+    ]
+  },
+  "main.recognition.provider": {
+    "title": "Verarbeitungsort",
+    "bodyRef": "main.provider"
+  },
+  "main.recognition.model": {
+    "title": "Erkennungsmodell",
+    "bodyRef": "main.model"
+  },
+  "main.recognition.output": {
+    "title": "Gewünschte Ergebnisse",
+    "paragraphs": [
+      "**Beschreibung** – zusammenhängender Text darüber, was auf dem Foto sichtbar ist. **Tags** sind kurze Wörter und Ausdrücke, mit denen Sie bequem nach einem Foto suchen können. Sie können nur eine Art von Informationen auswählen oder beide erhalten.",
+      "Bei einem Foto am Meer wird die Beschreibung beispielsweise über die Menschen, die Küste und die Beleuchtung Auskunft geben, und die Tags könnten „Meer“, „Strand“ oder „Sonnenuntergang“ lauten. Diese Auswahl bestimmt auch, welche Ergebnisse beim Überspringen verarbeiteter Fotos als fertig gelten."
+    ]
+  },
+  "main.processing.overview": {
+    "title": "Verarbeitung vorbereiten und starten",
+    "paragraphs": [
+      "Hier legen Sie die Verarbeitung der ausgewählten Fotos fest. Links wählen Sie, ob Unterordner einbezogen, intelligente Namen und Kopien verwendet oder bereits fertige Ergebnisse übersprungen werden. Die Schaltfläche rechts führt die gewählte Aktion aus.",
+      "Es gibt zwei Modi: **Verarbeiten** ergänzt die gemeinsame Warteschlange und startet die Verarbeitung. **Zur Warteschlange** stellt eine separate Fotogruppe zusammen, ohne sie zu starten. Den Modus wählen Sie über den Pfeil neben der Schaltfläche."
+    ]
+  },
+  "main.processing.recursive": {
+    "title": "Unterordner einbeziehen",
+    "paragraphs": [
+      "Aktivieren Sie diese Option, um neben dem gewählten Ordner auch Fotos in dessen Unterordnern zu verarbeiten. Ist die Option ausgeschaltet, werden Unterordner nicht einbezogen.",
+      "Prüfen Sie vor dem Start eines großen Ordners die enthaltenen Fotos und die Kostenschätzung. In den Unterordnern können deutlich mehr Bilder liegen, als auf der aktuellen Ebene sichtbar sind."
+    ]
+  },
+  "main.processing.smart-name": {
+    "title": "Intelligenter Name",
+    "bodyRef": "main.smart-name"
+  },
+  "main.processing.copy": {
+    "title": "Kopie erstellen",
+    "bodyRef": "main.analysis-copy"
+  },
+  "main.processing.only-missing": {
+    "title": "Nur unverarbeitete",
+    "bodyRef": "main.only-missing"
+  },
+  "main.processing.action": {
+    "title": "Verarbeiten oder zur Warteschlange hinzufügen",
+    "paragraphs": [
+      "Die Schaltfläche verwendet die ausgewählten Fotos und Ordner. **Verarbeiten** ergänzt die gemeinsame Warteschlange und startet die Verarbeitung; bereits wartende oder laufende Fotos werden nicht doppelt hinzugefügt. **Zur Warteschlange** fügt die Auswahl ohne Start zur gewählten manuellen Warteschlange hinzu. Ist kein Ziel gewählt, wird eine neue erstellt.",
+      "Den Inhalt der Warteschlangen und den Fortschritt sehen Sie rechts unter Aufgaben.",
+      "Fordert die Schaltfläche zur Installation eines Modells oder zum Hinzufügen eines API-Schlüssels auf, richten Sie den gewählten Dienst zuerst ein. Wird geprüft… bedeutet, dass die Bereitschaft geprüft wird."
+    ]
+  },
+  "main.processing.mode": {
+    "title": "Aktion der Hauptschaltfläche",
+    "paragraphs": [
+      "In diesem Menü wählen Sie aus, was die Hauptschaltfläche tun soll: **Sofort verarbeiten** oder **Zur Warteschlange hinzufügen, ohne zu starten**. Nach der Auswahl ändert sich auch die Beschriftung der Schaltfläche, sodass die Aktion vor dem Drücken sichtbar ist.",
+      "Verarbeiten verwendet die gemeinsame Warteschlange. Mit manuellen Warteschlangen bereiten Sie mehrere getrennte Fotogruppen vor und starten diese anschließend unter Aufgaben."
+    ]
+  },
+  "main.commands.overview": {
+    "title": "Andere Programmbefehle",
+    "paragraphs": [
+      "Dieser Teil der oberen Symbolleiste öffnet den Fotoeditor, die Umbenennung, die Einstellungen und die technischen Protokolle. Rechts können Sie das Farbschema ändern und die Hilfe öffnen.",
+      "Diese Befehle lösen unterschiedliche Probleme: Der Editor ändert das Bild, das Umbenennen funktioniert mit dem Dateinamen und die Einstellungen bestimmen die Betriebsbedingungen des Programms. Schauen wir uns als Nächstes die einzelnen Elemente der Reihe nach an."
+    ]
+  },
+  "main.commands.edit": {
+    "title": "Foto bearbeiten",
+    "paragraphs": [
+      "Öffnet das ausgewählte Foto im Editor. Dort können Sie das Bild selbst verändern: zum Beispiel zuschneiden, die Größe anpassen oder eine Bearbeitung anhand eines Modells vorbereiten.",
+      "Die Erkennung erzeugt Beschreibungen und Tags, während der Editor das Bild selbst verändert. Die eigene Einführung des Editors starten Sie über die Hilfe in seinem Fenster."
+    ]
+  },
+  "main.commands.rename": {
+    "title": "Intelligente Umbenennung",
+    "paragraphs": [
+      "Öffnet die Umbenennung ausgewählter Dateien oder Dateien im aktuellen Ordner gemäß den Regeln. Neue Namen können vorbereitet und eine vorläufige Liste vor der Verwendung überprüft werden.",
+      "Dieser Befehl sendet keine Fotos an ein Modell. Er eignet sich, wenn Sie bereits wissen, wie die Dateien heißen sollen."
+    ]
+  },
+  "main.commands.settings": {
+    "title": "Programmeinstellungen",
+    "paragraphs": [
+      "Hier konfigurieren Sie Erkennungsdienste, lokale Verarbeitung und Bedingungen für neue Aufgaben. Sie können Tooltips auch in den Einstellungen ein- und ausschalten.",
+      "Das Ändern der Einstellungen neuer Aufgaben sollte nicht mit der Verwaltung einer bereits erstellten Warteschlange verwechselt werden: Ihre Parameter werden separat auf der Registerkarte „Aufgaben“ angezeigt."
+    ]
+  },
+  "main.commands.logs": {
+    "title": "Anwendungsprotokolle",
+    "paragraphs": [
+      "Öffnet die technischen Nachrichten der Anwendung. Sie helfen Ihnen herauszufinden, in welcher Phase das Problem aufgetreten ist, und geben Ihnen die Einzelheiten bekannt, wenn Sie um Hilfe bitten.",
+      "Den Verlauf der Fotoaktionen finden Sie separat unter Aktivitätsprotokoll im rechten Bereich."
+    ]
+  },
+  "main.commands.theme": {
+    "title": "Helles und dunkles Farbschema",
+    "paragraphs": [
+      "Wechselt zwischen einem hellen und einem dunklen Farbschema. Die Auswahl wird gespeichert und für die Fenster der Anwendung übernommen.",
+      "Das Farbschema ändert nur die Benutzeroberfläche. Die Farben der Fotos bleiben unverändert."
+    ]
+  },
+  "main.help.overview": {
+    "title": "Einführung und Nachschlagewerk",
+    "paragraphs": [
+      "Die Schaltfläche mit dem Fragezeichen öffnet die Hilfe. **In der Anwendung zeigen** erklärt die Elemente des aktuellen Fensters der Reihe nach. Im **Nachschlagewerk** können Sie einzelne Themen nachlesen.",
+      "Hauptfenster, Editor und Bildbetrachter haben jeweils eine eigene Einführung. Öffnen Sie die Hilfe in dem Fenster, das Sie kennenlernen möchten."
+    ]
+  },
+  "main.help.hover": {
+    "title": "Hinweise beim Zeigen mit der Maus",
+    "paragraphs": [
+      "Neben dem Fragezeichen befindet sich ein ausziehbarer Schalter für Hinweise. Öffnen Sie ihn mit dem Pfeil, um die Erklärungen beim Zeigen mit der Maus ein- oder auszuschalten.",
+      "Der Schalter und die entsprechende Option in den Einstellungen bleiben synchron. Auch bei ausgeschalteten Hinweisen öffnet die Schaltfläche ? weiterhin die Hilfe. Der Hinweis am Schalter selbst bleibt ebenfalls verfügbar, damit Sie die Erklärungen wieder einschalten können."
+    ]
+  },
+  "main.navigation.overview": {
+    "title": "Zwischen Ordnern wechseln",
+    "paragraphs": [
+      "Diese Zeile hilft beim Wechsel zwischen Ordnern. Links finden Sie die Schaltflächen für den Navigationsverlauf und den übergeordneten Ordner. Daneben stehen die Laufwerksauswahl und der Pfad des aktuellen Ordners.",
+      "Verlauf und Pfad haben unterschiedliche Aufgaben. Die Pfeile führen zu zuvor geöffneten Orten zurück. Über die einzelnen Pfadabschnitte wechseln Sie direkt zur gewünschten Ebene."
+    ]
+  },
+  "main.navigation.back": {
+    "title": "Zurück",
+    "paragraphs": [
+      "Kehrt zur vorherigen Position im Navigationsverlauf zurück. Dies kann ein völlig anderer Ordner sein als der übergeordnete Ordner des aktuellen.",
+      "Wenn es noch keine Möglichkeit gibt, zurückzukehren, ist die Schaltfläche nicht verfügbar. Nach dem Zurückgehen können Sie mit dem nebenstehenden Pfeil wieder vorwärts gehen."
+    ]
+  },
+  "main.navigation.forward": {
+    "title": "Vorwärts",
+    "paragraphs": [
+      "Wechselt zum nächsten Ort im Navigationsverlauf, nachdem Sie zurückgegangen sind. Die Schaltfläche ist nur verfügbar, wenn ein solcher Ort im Verlauf vorhanden ist.",
+      "Zum übergeordneten Ordner gelangen Sie mit dem Aufwärtspfeil, nicht mit den Verlaufsschaltflächen."
+    ]
+  },
+  "main.navigation.up": {
+    "title": "Eine Ebene höher",
+    "paragraphs": [
+      "Öffnet den Ordner, der den aktuellen Ordner enthält. Vom Ordner „Urlaub“ in „Fotos“ gelangen Sie beispielsweise zu „Fotos“.",
+      "Im Stammverzeichnis eines Laufwerks gibt es keinen übergeordneten Ordner. Über das Computersymbol wählen Sie ein anderes Laufwerk."
+    ]
+  },
+  "main.navigation.computer": {
+    "title": "Computer und Festplatten",
+    "paragraphs": [
+      "Das Computersymbol öffnet eine Liste der verfügbaren Laufwerke. Wählen Sie ein Laufwerk aus, um zu dessen Stammordner zu wechseln und von dort aus mit der Navigation fortzufahren.",
+      "Wenn Sie beispielsweise **C:** auswählen, wird das Stammverzeichnis des Laufwerks C: geöffnet. Wenn das benötigte Wechsel- oder Netzlaufwerk nicht verfügbar ist, überprüfen Sie zunächst dessen Verbindung."
+    ]
+  },
+  "main.navigation.breadcrumbs": {
+    "title": "Aktueller Pfad",
+    "paragraphs": [
+      "Hier wird der Pfad zum geöffneten Ordner angezeigt, aufgeteilt in Teile. Klicken Sie auf den Namen eines der vorherigen Level, um direkt dorthin zu gelangen.",
+      "Der letzte Abschnitt bezeichnet den aktuellen Ordner und ist daher möglicherweise nicht anklickbar. Um einen benachbarten Ordner zu öffnen, wechseln Sie zunächst zur passenden übergeordneten Ebene."
+    ]
+  },
+  "main.quick.overview": {
+    "title": "Schnellsuche",
+    "paragraphs": [
+      "Diese Zeile hilft Ihnen, Fotos mithilfe gespeicherter Informationen schnell zu finden. Wählen Sie Ihren Suchbereich und Ihre Suchfelder aus und geben Sie dann Ihre Wörter ein. Die Ergebnisse werden nach einer kurzen Pause aktualisiert.",
+      "Die Schnellsuche ist von der Registerkarte Suche darunter unabhängig. Dort können Sie genauere Suchbedingungen festlegen und zur späteren Verwendung speichern."
+    ]
+  },
+  "main.quick.scope": {
+    "title": "Wo suchen",
+    "paragraphs": [
+      "**Aktueller Ordner** beschränkt die Suche auf den ausgewählten Ordner und seine Unterordner. Wenn in dem Bereich ein anderer Pfad gespeichert ist, wird dieser als **Ausgewählter Ordner** angezeigt. **Gesamte Bibliothek** durchsucht Fotos, für die das Programm bereits Informationen hat.",
+      "Das Durchsuchen der gesamten Bibliothek bedeutet nicht, dass alle Datenträger noch einmal durchsucht werden müssen. Um Fotos anhand der Beschreibung oder Tags zu finden, müssen Sie diese Informationen zunächst speichern."
+    ]
+  },
+  "main.quick.fields": {
+    "title": "Nach welchen Informationen Sie suchen sollten",
+    "paragraphs": [
+      "Wählen Sie aus, welche Informationen berücksichtigt werden sollen: **Beschreibung**, **Tags**, **Dateiname** und **Pfad**. Sie können mehrere Felder belassen oder die Suche auf eines beschränken.",
+      "Beispielsweise kann in Beschreibungen und Tags nach dem Wort „Meer“ und im Pfad nach dem Ordnernamen gesucht werden. Wenn alle Felder deaktiviert sind, ist die Suche nicht verfügbar: Aktivieren Sie zuerst mindestens eines."
+    ]
+  },
+  "main.quick.query": {
+    "title": "Schnellsuchleiste",
+    "paragraphs": [
+      "Geben Sie das Wort oder den Ausdruck ein, den Sie in den ausgewählten Feldern erwarten. Zum Beispiel „rotes Auto“, ein Dateiname oder ein Teil eines Pfades.",
+      "Die Suche beginnt nach einer kurzen Eingabepause, damit das Programm nicht für jeden Buchstaben unnötige Arbeit leistet. Das Ergebnis hängt von den bereits hinterlegten Informationen ab: Das Modell schaut sich die Fotos nicht bei jeder Anfrage erneut an."
+    ]
+  },
+  "main.quick.actions": {
+    "title": "Suchen und leeren",
+    "paragraphs": [
+      "Die Schaltfläche **Suche** startet die Suche mit dem aktuellen Text und den ausgewählten Feldern. Das Kreuz leert die obere Suchanfrage und zeigt wieder den normalen Inhalt des Arbeitsbereichs.",
+      "Dabei werden keine Fotos, Beschreibungen oder Tags gelöscht. Die Bedingungen auf der separaten Registerkarte Suche gehören zu einer anderen Suche."
+    ]
+  },
+  "main.workspace.overview": {
+    "title": "Möglichkeiten, mit Fotos zu arbeiten",
+    "paragraphs": [
+      "Hier können Sie zwischen Ordnern, Suche, Favoriten und fertigen Fotos, Sammlungen und zuletzt verwendeten Ordnern wechseln. Der Explorer zeigt die Dateien des geöffneten Ordners an; Durch Suchen und Sammlungen können Sie Bilder anhand der in der Bibliothek gespeicherten Informationen finden.",
+      "Zuerst schauen wir uns die Registerkarten und deren Inhalte an, dann schauen wir uns die Anzeige, Sortierung und die Arbeit mit Fotos an."
+    ]
+  },
+  "main.workspace.explorer": {
+    "title": "Explorer",
+    "paragraphs": [
+      "Der Explorer zeigt den Inhalt eines geöffneten Ordners an. Hier können Sie zu Unterordnern navigieren, Fotos auswählen und diese zum Anzeigen oder Bearbeiten öffnen.",
+      "Ordner befinden sich vor Dateien. Sie können die Liste auf Fotos beschränken oder alle Dateien anzeigen – dieser Schalter befindet sich rechts über dem Inhalt des Ordners."
+    ]
+  },
+  "main.search.overview": {
+    "title": "Detaillierte Suche",
+    "paragraphs": [
+      "Auf dieser Registerkarte können Sie eine Auswahl basierend auf mehreren Bedingungen zusammenstellen: Wörter, Tags, Verarbeitungsstatus und Datum. Ein komfortabler Satz von Bedingungen kann gespeichert und wieder verwendet werden.",
+      "Im Gegensatz zur Top-Schnellsuche bereiten Sie hier die Bedingungen vor und klicken auf **Suchen**. Wenn Sie die Filter danach ändern, können sich die bereits angezeigten Ergebnisse auf die vorherigen Bedingungen beziehen – achten Sie auf die Änderungsmarkierung."
+    ]
+  },
+  "main.search.sections": {
+    "title": "Filter und gespeicherte Suchen",
+    "paragraphs": [
+      "Im Reiter **„Filter“** legen Sie eine neue Suche fest. Die Registerkarte **„Gespeichert“** enthält Sätze von Bedingungen, denen Sie bereits Namen gegeben haben.",
+      "Mit dem Stern daneben speichern Sie die aktuellen Suchbedingungen unter einem Namen Ihrer Wahl. Bei einer späteren Suche können andere Fotos gefunden werden, etwa wenn passende Bilder hinzugekommen sind."
+    ]
+  },
+  "main.search.query": {
+    "title": "Abfrage- und Detailsuchbereich",
+    "paragraphs": [
+      "Wählen Sie aus, wo und in welchen Feldern gesucht werden soll, geben Sie die Wörter ein und klicken Sie auf **Suchen**. Sie können wie in der obersten Zeile nach Beschreibung, Tags, Dateiname oder Pfad suchen.",
+      "Mit der Schaltfläche „Zurücksetzen“ werden die Begriffe dieser Suche gelöscht. Es werden weder Fotos noch gespeicherte Beschreibungen oder Tags gelöscht."
+    ]
+  },
+  "main.search.primary-filters": {
+    "title": "Fotostatus und Tags",
+    "paragraphs": [
+      "Der Statusfilter hilft Ihnen bei der Auswahl beispielsweise abgeschlossener Fotos oder Einträge mit Fehlern. Im nebenstehenden Feld können Sie durch Kommas getrennte Tags angeben.",
+      "**Beliebiges Tag** findet Fotos mit mindestens einem der angegebenen Tags. **Alle Tags** setzt voraus, dass jedes genannte Tag am Foto vorhanden ist. Diese Filter gelten zusätzlich zur Suchanfrage."
+    ]
+  },
+  "main.search.additional": {
+    "title": "Zusätzliche Bedingungen",
+    "paragraphs": [
+      "Weitere Filter beschränken die Suche etwa auf Favoriten, Fotos ohne Tags, eine Sammlung oder einen anderen Ordner. Hier legen Sie auch fest, ob Wortformen und Synonyme berücksichtigt werden.",
+      "Die Bedingungen gelten gemeinsam. Stellen Sie daher sicher, dass sie sich nicht gegenseitig ausschließen. Beispielsweise führt die Suche nach bestimmten Tags zusammen mit der Bedingung „Keine Tags“ nicht zur gewünschten Auswahl."
+    ]
+  },
+  "main.search.dates": {
+    "title": "Suche nach Datum",
+    "paragraphs": [
+      "Wählen Sie zunächst **welches Datum** berücksichtigt werden soll: Dateiänderung, Aufnahme mit Kameradaten, Hinzufügen zum Index oder letzte Erkennung. Legen Sie dann den Beginn und das Ende des Zeitraums fest.",
+      "Das sind unterschiedliche Ereignisse. Beispielsweise könnte ein Foto vor langer Zeit aufgenommen worden sein, die Beschreibung dafür aber bereits heute eingegangen sein. Um kürzlich erkannte Bilder zu finden, wählen Sie das Erkennungsdatum aus."
+    ]
+  },
+  "main.search.saved": {
+    "title": "Gespeicherte Suchen",
+    "paragraphs": [
+      "Hier finden Sie die unter eigenen Namen gespeicherten Suchen. Wählen Sie einen Eintrag, um seine Bedingungen zu übernehmen. Passen Sie diese bei Bedarf an und starten Sie die Suche.",
+      "Die Liste kann nach Namen gefiltert und häufig verwendete Einträge mit einem Stern markiert werden. Das Umbenennen oder Löschen einer gespeicherten Suche ändert nur diesen Eintrag, nicht die Fotos."
+    ]
+  },
+  "main.search.result-actions": {
+    "title": "Aktionen für Suchergebnisse",
+    "paragraphs": [
+      "Diese Schaltfläche öffnet Aktionen mit den Ergebnissen der durchgeführten Suche. Im Inneren können Sie einen Bereich auswählen: ausgewählte Fotos oder die gesamte gefundene Auswahl, einschließlich der Ergebnisse außerhalb der aktuellen Seite.",
+      "Überprüfen Sie den Bereich, bevor Sie Maßnahmen ergreifen. Geänderte, aber noch nicht übernommene Suchbegriffe bedeuten nicht, dass die bereits angezeigte Auswahl neu geordnet wurde."
+    ]
+  },
+  "main.search.results": {
+    "title": "Suchergebnisse",
+    "paragraphs": [
+      "Die Anzahl der gefundenen Fotos gehört zur letzten ausgeführten Suche. Große Ergebnismengen werden nach und nach geladen. Deshalb können weniger Fotos sichtbar sein, als insgesamt gefunden wurden.",
+      "Aus den Ergebnissen können Sie Fotos auswählen, öffnen und bearbeiten. Das neue Änderungsflag fordert Sie auf, die Ergebnisse zu aktualisieren, um Informationen zu berücksichtigen, die nach der Suche angezeigt werden."
+    ]
+  },
+  "main.workspace.favorites": {
+    "title": "Favoriten",
+    "paragraphs": [
+      "Hier werden mit einem Stern gekennzeichnete Fotos gesammelt. Diese Markierung hilft Ihnen, schnell zu den gewünschten Bildern aus verschiedenen Ordnern zurückzukehren.",
+      "Um ein Foto aus Ihren Favoriten zu entfernen, entfernen Sie den Stern. Die Datei selbst und ihre Beschreibung bleiben erhalten."
+    ]
+  },
+  "main.workspace.ready": {
+    "title": "Fertige Fotos",
+    "paragraphs": [
+      "Auf dieser Registerkarte werden Fotos mit gespeicherten Erkennungsergebnissen angezeigt. Es hilft Ihnen, zu den Beschreibungen und Tags, die Sie bereits erhalten haben, zurückzukehren und deren Qualität zu bewerten.",
+      "Ein einziges Ergebnis bedeutet nicht immer, dass alles, was Sie brauchen, bereit ist. Beispielsweise kann ein Foto Tags ohne Beschreibung enthalten; Bei der Verarbeitung mit der Einstellung „Nur unverarbeitet“ wird der ausgewählte Ergebnistyp berücksichtigt."
+    ]
+  },
+  "main.workspace.collections": {
+    "title": "Sammlungen",
+    "paragraphs": [
+      "Eine Sammlung ist eine benannte Gruppe von Fotos aus beliebigen Ordnern. So stellen Sie Bilder zu einem Thema zusammen, etwa Zum Drucken oder Reise.",
+      "Durch das Hinzufügen zu einer Sammlung werden keine Dateien verschoben oder kopiert. Ein Foto kann in mehrere Sammlungen aufgenommen werden. Eine bequeme Möglichkeit, ausgewählte Bilder hinzuzufügen, finden Sie auch in den „Details“ im rechten Bereich."
+    ]
+  },
+  "main.workspace.recent": {
+    "title": "Zuletzt geöffnete Ordner",
+    "paragraphs": [
+      "Hier können Sie schnell zu Ordnern zurückkehren, die Sie zuvor geöffnet haben. Der Eintrag zeigt den Namen und den Pfad an, um Ordner mit demselben Namen unterscheiden zu können.",
+      "Die Liste hält zuvor geöffnete Ordner fest. Ist ein Laufwerk getrennt oder ein Ordner verschoben, kann der alte Pfad unzugänglich sein. Der Verlaufseintrag stellt fehlende Dateien nicht wieder her."
+    ]
+  },
+  "main.display.overview": {
+    "title": "So zeigen Sie Fotos an",
+    "paragraphs": [
+      "Diese Bedienelemente bestimmen den Bildausschnitt der Miniaturansichten, die Listenansicht, die Sortierung und die angezeigten Dateitypen.",
+      "Damit passen Sie die Anzeige des aktuellen Ordners oder der Suchergebnisse an. In einem schmalen Fenster kann die Gruppe zu kompakten Symbolen wechseln. Die Funktionen bleiben gleich."
+    ]
+  },
+  "main.display.fit": {
+    "title": "Ausfüllen oder einpassen",
+    "paragraphs": [
+      "**Ausfüllen** füllt die gesamte Miniaturbildzelle; Einige Kanten des Fotos sind möglicherweise nicht in der Vorschau enthalten. **Einpassen** zeigt das gesamte Foto an und lässt bei Bedarf Platz um das Foto herum.",
+      "Die Auswahl gilt nur für Miniaturansichten. Das Bild in der Datei ist nicht zugeschnitten."
+    ]
+  },
+  "main.display.view": {
+    "title": "Listenansicht",
+    "paragraphs": [
+      "Wählen Sie eine Tabelle, Liste oder Karten in der entsprechenden Größe aus. Die Tabelle eignet sich zum Vergleichen von Informationen und große Karten eignen sich zum Anzeigen des Inhalts von Fotos.",
+      "Durch das Wechseln der Ansicht werden die Dateien selbst nicht geändert. Auch die Größe der Karten kann über den Schieberegler in der unteren Zeile verändert werden."
+    ]
+  },
+  "main.display.columns": {
+    "title": "Tabellenspalten",
+    "paragraphs": [
+      "In einer Tabellenansicht können Sie auswählen, welche Informationen in separaten Spalten angezeigt werden sollen. Die Schaltfläche zur Spaltenauswahl öffnet die Liste; Markieren Sie die gewünschten und klicken Sie auf **Anwenden**.",
+      "Mithilfe der Einstellungen können Sie nützliche Daten in der Tabelle belassen. **„Standard“** gibt den Standardsatz zurück und „Abbrechen“ schließt die Auswahl, ohne die vorbereiteten Änderungen anzuwenden."
+    ]
+  },
+  "main.display.sort": {
+    "title": "Sortierung",
+    "paragraphs": [
+      "Die Sortierung bestimmt die Reihenfolge der Fotos. **Aufnahmedatum** verwendet das Kameradatum, **Geändert** den Änderungszeitpunkt der Datei und **Verarbeitet** den Zeitpunkt, zu dem Erkennungsergebnisse erfolgreich gespeichert wurden. Neueste und älteste kehren die Reihenfolge um.",
+      "Sie können auch nach Name oder Typ sortieren oder fertige Fotos und Fehler an den Anfang oder das Ende setzen. Im Explorer stehen Ordner immer vor Dateien. Für Suchergebnisse gibt es passende eigene Optionen, darunter die Relevanz zur Suchanfrage."
+    ]
+  },
+  "main.display.files": {
+    "title": "Welche Dateien angezeigt werden sollen",
+    "paragraphs": [
+      "**„Fotos und Ordner“** hinterlässt Bilder und Ordner für die Arbeit mit Ihrer Fotobibliothek. **Alle Dateien** zeigt auch die verbleibenden Dateien im geöffneten Ordner an.",
+      "Bilder werden von unserem Viewer geöffnet und andere Dateien werden von der ihnen in Windows zugewiesenen Anwendung geöffnet. Dieser Schalter ist spezifisch für den Explorer; Die Fotosuche nutzt eine Bildbibliothek."
+    ]
+  },
+  "main.display.filename": {
+    "title": "Dateinamenfilter",
+    "paragraphs": [
+      "Dieser Filter hilft dabei, Dateien mit dem entsprechenden Namen im aktuellen Ordner zu belassen. Dies ist nützlich, wenn Sie sich an einen Teil eines Titels erinnern und die sichtbare Liste schnell eingrenzen möchten.",
+      "Die Suche nach Beschreibung und Tags finden Sie oben. Der Namensfilter fordert das Modell nicht auf, den Inhalt von Fotos zu erkennen."
+    ]
+  },
+  "main.canvas.overview": {
+    "title": "Fotos und Dateien",
+    "paragraphs": [
+      "Hier befindet sich der Inhalt des ausgewählten Ordners oder der ausgewählten Sammlung. Wählen Sie zunächst die gewünschten Elemente aus und verwenden Sie dann den Prozess, die Ansicht oder eine andere geeignete Aktion.",
+      "Das Auswählen und Ziehen in einen Ordner ist anders: Eine normale Mausbewegung hilft beim Auswählen, und das Verschieben von Fotos beginnt mit dem Gedrückthalten von `Alt`. Wir werden uns die Details genauer ansehen."
+    ]
+  },
+  "main.canvas.selection": {
+    "title": "Mehrere Fotos auswählen",
+    "paragraphs": [
+      "Klicken Sie auf ein Foto, um es auszuwählen. Für mehrere einzelne Fotos halten Sie `Ctrl` gedrückt und klicken jeweils auf das Foto. Ein erneuter Klick mit gedrückter `Ctrl`-Taste hebt dessen Auswahl auf.",
+      "Sie können Elemente auch auswählen, indem Sie die Maus bewegen und dabei die linke Taste gedrückt halten. Die ausgewählten Fotos werden von nachfolgenden Befehlen verwendet. Sehen Sie sich daher vor dem Ausführen den Auswahlzähler an."
+    ]
+  },
+  "main.canvas.open": {
+    "title": "Öffnen Sie ein Foto oder einen Ordner",
+    "paragraphs": [
+      "Ein Doppelklick auf ein Foto öffnet den Viewer und auf den Ordner – seinen Inhalt. Im Viewer können Sie das Foto ansehen und zu benachbarten Fotos des verfügbaren Sets wechseln.",
+      "Wenn „Alle Dateien anzeigen“ aktiviert ist, öffnet ein Doppelklick auf einen anderen Dateityp diesen über Windows. Zum Ändern von Fotos gibt es einen separaten Editorbefehl."
+    ]
+  },
+  "main.canvas.context": {
+    "title": "Menü für die Auswahl",
+    "paragraphs": [
+      "Ein Rechtsklick öffnet das Menü für die ausgewählten Elemente. So finden Sie passende Befehle direkt bei den Elementen, mit denen Sie arbeiten.",
+      "Die verfügbaren Aktionen hängen davon ab, ob ein Foto, eine andere Datei, ein Ordner oder mehrere Elemente ausgewählt sind."
+    ]
+  },
+  "main.canvas.drag": {
+    "title": "Fotos in Ordner verschieben",
+    "paragraphs": [
+      "Um ausgewählte Fotos in einen Ordner zu ziehen, halten Sie `Alt` gedrückt, während Sie mit dem Ziehen beginnen. Dann verschiebt die Mausbewegung die Bilder, anstatt die Auswahl zu verändern. Lassen Sie sie über dem gewünschten Ordner los.",
+      "Wenn die Aktion noch nicht ausgeführt wurde, bricht `Escape` das Ziehen ab. Wenn die Namen übereinstimmen, bietet das Programm an, den Konflikt zu lösen. Die Auswahl kann auf mehrere Übereinstimmungen angewendet werden."
+    ]
+  },
+  "main.canvas.compare": {
+    "title": "Vergleichen Sie zwei Fotos",
+    "paragraphs": [
+      "Wählen Sie zwei Fotos aus: Klicken Sie auf das erste, halten Sie dann `Ctrl` gedrückt und klicken Sie auf das zweite. Danach steht der Vergleichsbefehl zur Verfügung.",
+      "Der Befehl öffnet beide Fotos nebeneinander zum Vergleichen. Das unterscheidet sich von der Suche nach exakten Duplikaten: Dabei fasst die Bibliothek identische Dateien automatisch in Gruppen zusammen."
+    ]
+  },
+  "main.footer.status": {
+    "title": "Status und Auswahl",
+    "paragraphs": [
+      "In der unteren Zeile werden die Anzahl der Elemente und deren Status angezeigt: bereit, in der Warteschlange, noch nicht verarbeitet oder Fehler. In der Nähe finden Sie Informationen zur aktuellen Auswahl.",
+      "Für ein Foto können Sie Format, Auflösung und Größe sehen. Bei mehreren Artikeln wird eine allgemeine Zusammenfassung angezeigt; Die Inhalte der Ordner werden im Hintergrund gezählt. Auch wenn die Berechnung nicht abgeschlossen ist oder ein Teil der Daten nicht verfügbar ist, meldet das Programm dies, anstatt eine unvollständige Größe als korrekt auszugeben."
+    ]
+  },
+  "main.footer.view": {
+    "title": "Miniaturbildgröße",
+    "paragraphs": [
+      "Der Schieberegler schaltet die Ansicht von Tabelle und Liste auf Karten unterschiedlicher Größe um. Verschieben Sie es, wenn Sie mehrere Dateien auf einmal sehen möchten, oder schauen Sie sich die Miniaturansichten genauer an.",
+      "Diese Skala bezieht sich auf die Liste. Um das Foto selbst zu vergrößern, öffnen Sie es im Viewer."
+    ]
+  },
+  "main.inspector.overview": {
+    "title": "Informationen, Ergebnisse und Aufgaben",
+    "paragraphs": [
+      "Das rechte Bedienfeld hilft Ihnen, mit dem ausgewählten Foto zu arbeiten und dessen Verarbeitung zu überwachen. Dazu gehören Dateiinformationen, Beschreibungen, Tags, Warteschlangen, Bibliotheksdaten und der Aktionsverlauf.",
+      "Schauen wir uns zunächst die Registerkarten an, dann deren Inhalt von oben nach unten. Für Beschreibungen und Tags ist die Auswahl des Fotos links wichtig; Aufgaben und Bibliothek sind ohne diese Auswahl verfügbar."
+    ]
+  },
+  "main.inspector.tabs": {
+    "title": "Registerkarten im rechten Bedienfeld",
+    "paragraphs": [
+      "**Details** zeigen Informationen zum ausgewählten Element an, **Beschreibung** und **Tags** zeigen gespeicherte Ergebnisse und deren Bearbeitung. **Aufgaben** dienen der Verarbeitung, **Bibliothek** für allgemeine Daten und Wartung, **Aktivitätsprotokoll** für den Aktivitätsverlauf.",
+      "Durch das Wechseln der Registerkarten können Sie eine andere Art von Informationen sehen. Um ein anderes Foto auszuwählen, klicken Sie im Arbeitsbereich oder in der Liste der Warteschlangenelemente darauf."
+    ]
+  },
+  "main.details.overview": {
+    "title": "Ausgewählte Details",
+    "paragraphs": [
+      "Hier können Sie überprüfen, welche Datei ausgewählt ist, wo sie sich befindet und welche Informationen darüber bekannt sind. Für das Foto sind Vorschauen und zugehörige Aktionen verfügbar.",
+      "Wenn Sie mehrere Elemente auswählen, ändern sich die Informationen. Allgemeine Daten zur Auswahl, einschließlich der Größe, können auch in der unteren Zeile des Hauptfensters angezeigt werden."
+    ]
+  },
+  "main.details.preview": {
+    "title": "Sehen Sie sich ein Foto an und bearbeiten Sie es",
+    "paragraphs": [
+      "Die Vorschau hilft Ihnen, das ausgewählte Foto zu erkennen. Daneben können Sie ein Foto zur Ansicht öffnen, zu seinem Speicherort navigieren oder den Editor öffnen, wenn Sie das Bild ändern müssen.",
+      "Der Stern fügt das Foto zu den Favoriten hinzu. Beschreibung und Tags bearbeiten Sie auf den benachbarten Registerkarten im rechten Bereich."
+    ]
+  },
+  "main.details.file-info": {
+    "title": "Dateiinformationen",
+    "paragraphs": [
+      "Mithilfe der Informationen können Sie zwischen ähnlichen Dateien unterscheiden, indem Sie Name, Pfad, Typ, Größe und verfügbare Bilddaten überprüfen. Der Zeilensatz hängt vom ausgewählten Element und dem, was aus der Datei gelesen wurde, ab.",
+      "Ein unbekannter Wert bedeutet, dass das Programm diese Informationen noch nicht hat. Sie wird nicht durch eine Größen- oder Datumsannahme ersetzt."
+    ]
+  },
+  "main.details.collections": {
+    "title": "Auswahl der Sammlungen",
+    "paragraphs": [
+      "Dieser Block fügt ausgewählte Fotos zu benannten Sammlungen hinzu. Die obere Zeile wählt eine bestehende Sammlung aus, die untere Zeile erstellt eine neue.",
+      "Sammlungen helfen Ihnen, Bilder aus verschiedenen Ordnern zu kombinieren, ohne Dateien zu verschieben. Die ausgewählte Sammlung wird gespeichert, sodass Sie neue Fotos einzeln auswählen und zu einer Sammlung hinzufügen können."
+    ]
+  },
+  "main.details.collection-add": {
+    "title": "Zur vorhandenen Sammlung hinzufügen",
+    "paragraphs": [
+      "Wählen Sie eine Sammlung aus der Liste aus und klicken Sie auf **Hinzufügen**, um die ausgewählten Fotos einzuschließen. Durch die Auswahl aus der Liste allein werden keine Bilder hinzugefügt.",
+      "Die Bezeichnungen darunter zeigen, in welchen Sammlungen die gewählten Fotos enthalten sind. Entfernen Sie eine solche Zuordnung, werden die Fotos nur aus der Sammlung genommen. Die Dateien bleiben auf dem Datenträger."
+    ]
+  },
+  "main.details.collection-create": {
+    "title": "Neue Sammlung",
+    "paragraphs": [
+      "Geben Sie einen aussagekräftigen Namen ein und klicken Sie auf das Pluszeichen, um eine Sammlung zu erstellen. Der neue Eintrag wird in der Liste angezeigt und für zukünftige Ergänzungen ausgewählt.",
+      "Das Erstellen einer Sammlung und das Hinzufügen von Fotos sind unterschiedliche Aktionen. Klicken Sie nach der Erstellung auf **Hinzufügen**, wenn Sie die aktuelle Auswahl einschließen möchten."
+    ]
+  },
+  "main.description.overview": {
+    "title": "Beschreibung des Fotos",
+    "paragraphs": [
+      "Eine Beschreibung erklärt, was auf dem Foto zu sehen ist. Sie können sie durch die Bilderkennung erzeugen und anschließend mit eigenen Worten überarbeiten.",
+      "Hier arbeiten Sie mit dem Text des ausgewählten Fotos. Wenn keine Beschreibung vorhanden ist, beginnen Sie mit der Eingabe Ihres Textes in das leere Feld und speichern Sie ihn."
+    ]
+  },
+  "main.description.edit": {
+    "title": "Text und Design",
+    "paragraphs": [
+      "Geben Sie eine Beschreibung ein oder bearbeiten Sie sie. Im Bereich über dem Feld können Sie wichtige Wörter hervorheben, eine Liste erstellen oder einen Link zum ausgewählten Textabschnitt hinzufügen.",
+      "Mit Rückgängig und Wiederholen korrigieren Sie Ihre Eingaben. Das Vergrößern des Felds schafft mehr Platz für langen Text. Speichern müssen Sie die Änderungen weiterhin mit der Schaltfläche zum Speichern."
+    ]
+  },
+  "main.description.save": {
+    "title": "Beschreibung speichern",
+    "paragraphs": [
+      "Klicken Sie auf **Beschreibung speichern**, um Ihre Änderungen am ausgewählten Foto zu speichern. **Zurücksetzen** setzt das Feld in seinen gespeicherten Zustand zurück und verwirft die aktuellen, nicht gespeicherten Änderungen.",
+      "Wenn sich während der Bearbeitung Informationen zum Foto geändert haben, meldet das Programm dies. Überprüfen Sie zunächst den aktuellen Text, um ein Überschreiben neuerer Ergebnisse zu vermeiden."
+    ]
+  },
+  "main.tags.overview": {
+    "title": "Foto-Tags",
+    "paragraphs": [
+      "Tags sind kurze Wörter und Ausdrücke, die Ihnen beim Auffinden von Fotos und beim Sammeln von Sammlungen helfen. Zum Beispiel: „Wald“, „Herbst“, „Spaziergang“.",
+      "Für ein Foto können Sie dessen Tags einzeln ändern. Für mehrere Fotos unten gibt es einen gemeinsamen Block: Er ermöglicht es Ihnen, direkt aus der Auswahl neue Tags hinzuzufügen und unnötige zu entfernen."
+    ]
+  },
+  "main.tags.single": {
+    "title": "Tags eines Fotos ändern",
+    "paragraphs": [
+      "Geben Sie Tags durch Kommas getrennt ein. Der aktuelle Satz wird als separate Kacheln angezeigt; Das Kreuz entfernt das Tag aus dem bearbeitbaren Satz.",
+      "Klicken Sie nach den Korrekturen auf **Tags speichern**. Bis die Änderungen gespeichert sind, gibt **Zurücksetzen** den vorherigen Satz zurück."
+    ]
+  },
+  "main.tags.batch-overview": {
+    "title": "Tags für mehrere Fotos",
+    "paragraphs": [
+      "Dieser Block wendet Änderungen auf ausgewählte Fotos an. Sie können Tags zum Hinzufügen eingeben und vorhandene Tags zum Entfernen markieren und dann beide Änderungen zusammen speichern.",
+      "Der Vorgang ist für einen Satz von bis zu **256 verschiedenen Fotos** ausgelegt. Verlinkte Kopien desselben Fotos teilen Informationen, daher gilt die Änderung der Tags auch für sie."
+    ]
+  },
+  "main.tags.batch-add": {
+    "title": "Fügen Sie allgemeine Tags hinzu",
+    "paragraphs": [
+      "Geben Sie durch Kommas getrennt die Wörter ein, die Sie allen ausgewählten Fotos hinzufügen möchten. Für Schnappschüsse einer Reise können Sie beispielsweise den Ort und den Namen des Ereignisses hinzufügen.",
+      "Die neuen Tags ergänzen die vorhandenen und behalten die verbleibenden Wörter für jedes Foto bei. Um ein vorheriges Tag zu entfernen, überprüfen Sie es unten. Anschließend übernehmen Sie die vorbereiteten Änderungen mit der Schaltfläche **Speichern**."
+    ]
+  },
+  "main.tags.batch-remove": {
+    "title": "Markieren Sie Tags zum Löschen",
+    "paragraphs": [
+      "Hier sind die Tags, die in den ausgewählten Fotos gefunden wurden. Nicht jedes Foto hat unbedingt ein Tag auf dieser Liste.",
+      "Klicken Sie auf das Kreuz, um **das Tag zum Löschen zu markieren**. Durch erneutes Drücken können Sie das Häkchen vor dem Speichern entfernen. Wenn das Tag angewendet wird, wird es von den ausgewählten Fotos entfernt, auf denen es vorhanden ist."
+    ]
+  },
+  "main.tags.batch-save": {
+    "title": "Änderungen für mehrere Fotos speichern",
+    "paragraphs": [
+      "**Speichern** fügt gleichzeitig die eingegebenen Tags hinzu und entfernt die ausgewählten. Stellen Sie vor dem Klicken sicher, dass links die gewünschten Fotos ausgewählt sind.",
+      "Nach einer erfolgreichen Änderung erscheint ein Befehl zum Abbrechen des letzten Vorgangs mit Tags. Es bezieht sich auf die durchgeführte Chargenänderung, nicht auf den gesamten Verarbeitungsverlauf."
+    ]
+  },
+  "main.tags.xmp": {
+    "title": "Übergabe von Beschreibungen und Tags über XMP",
+    "paragraphs": [
+      "**XMP exportieren** speichert Beschreibungen und Tags in separaten Dateien neben den Fotos. Übertragen Sie diese Dateien zusammen mit den Bildern und verwenden Sie dann **XMP importieren** in der Anwendung auf dem anderen Computer.",
+      "Wählen Sie bis zu **256 Dateien** pro Transaktion aus. Wird beim Import eine abweichende Beschreibung gefunden, meldet das Programm einen Konflikt und behält den vorhandenen Text ohne stillen Ersatz bei. Die Übertragung der gesamten Bibliothek, Sammlungen und Projekte erfolgt separat – im Block „Programmdaten“."
+    ]
+  },
+  "main.queue.overview": {
+    "title": "Erkennungswarteschlangen",
+    "paragraphs": [
+      "Im Reiter „Aufgaben“ sehen Sie, welche Fotos zur Erkennung vorbereitet werden, was gerade erledigt wird und welche Ergebnisse bereits erzielt wurden. Hier können Sie nach einer Pause weiterarbeiten und Fehler überprüfen.",
+      "Für die Verarbeitung wird sofort die gemeinsam genutzte Warteschlange verwendet. Manuelle Warteschlangen speichern einzelne Sammlungen, die Sie über die Schaltfläche „Zur Warteschlange hinzufügen“ gesammelt haben. Diese werden in den Dropdown-Karten unten angezeigt."
+    ]
+  },
+  "main.queue.controls": {
+    "title": "Starten, pausieren und stoppen",
+    "paragraphs": [
+      "Die Haupttaste verändert sich je nach Betriebszustand: ermöglicht Starten, Anhalten oder Fortfahren. Durch das Anhalten wird die verbleibende Arbeit eingespart; Stoppen beendet den aktuellen Lauf. Fehlerhafte Fotos können mit dem verfügbaren Wiederholungsbefehl wiederholt werden.",
+      "Beim allgemeinen Start werden vorbereitete Warteschlangen nacheinander ausgeführt: Nach einer geht das Programm zur nächsten über. Eine leere Warteschlange erzeugt keine Arbeit. Wenn die Warteschlange auf die vorherige wartet, ist dies an ihrem Zustand zu erkennen."
+    ]
+  },
+  "main.queue.cost": {
+    "title": "Geschätzte und bestätigte Kosten",
+    "paragraphs": [
+      "Die Schätzung zeigt die voraussichtlichen Kosten vor der Verarbeitung. Bestätigte Kosten zeigen bekannte Gebühren abgeschlossener Anfragen. Beide Beträge können voneinander abweichen.",
+      "Die Kosten hängen vom Dienst, vom Modell und von den Aufgabeneinstellungen ab. Lokale Verarbeitung und Cloud-Anfragen werden unterschiedlich erfasst. Das Warten auf den Dienst oder einen Statusabgleich bedeutet noch keinen Abschluss."
+    ]
+  },
+  "main.queue.progress": {
+    "title": "Bearbeitungsfortschritt",
+    "paragraphs": [
+      "Der Gesamtfortschritt zeigt den Status des aktuellen Auftrags an und Zähler helfen bei der Unterscheidung zwischen bereiten, ausstehenden und fehlgeschlagenen Elementen. Die Details eines bestimmten Fotos befinden sich in der entsprechenden Zeile in der Warteschlange.",
+      "Ein Fehler bei einem einzelnen Foto und eine Pause durch den Nutzer sind unterschiedliche Zustände. Wie Fehler behandelt werden, hängt auch von den Aufgabeneinstellungen ab. Die Fehlermeldung hilft bei der Entscheidung, was wiederholt oder korrigiert werden kann."
+    ]
+  },
+  "main.queue.list": {
+    "title": "Warteschlangenkarten",
+    "paragraphs": [
+      "Öffnen Sie die Karte, um die enthaltenen Fotos anzuzeigen. In der Kopfzeile werden die Anzahl der Aufnahmen, die Anzahl der abgeschlossenen Aufnahmen und der Arbeitsstatus angezeigt; Durch Klicken auf den Namen werden die Parameter dieser Warteschlange in einer Zusammenfassung angezeigt, ohne sie zu starten.",
+      "**Fertige ausblenden** entfernt das abgeschlossene Element aus der Anzeige und **Fertige anzeigen** gibt es zurück. Dieser Filter löscht keine Ergebnisse und blendet fehlerhafte Elemente nicht als fertige Elemente aus."
+    ]
+  },
+  "main.queue.new": {
+    "title": "Neue leere Warteschlange",
+    "bodyRef": "queue.new"
+  },
+  "main.queue.target": {
+    "title": "Wo kann man Fotos hinzufügen?",
+    "bodyRef": "queue.target"
+  },
+  "main.queue.card-actions": {
+    "title": "Individuelle Warteschlangenverwaltung",
+    "paragraphs": [
+      "Der Startknopf in der Karte startet oder setzt diese bestimmte Warteschlange fort. Ein Papierkorb in einer Karte entfernt sie aus der Arbeitsliste, und ein Papierkorb in der allgemeinen Kopfzeile löscht alle Erkennungsarbeitswarteschlangen.",
+      "Durch diese Aktionen werden weder Originale noch bereits gespeicherte Ergebnisse gelöscht. Sie ändern geplante Arbeiten; Der Ausgabenverlauf wird gespeichert."
+    ]
+  },
+  "main.queue.photo": {
+    "title": "Foto in der Warteschlange",
+    "paragraphs": [
+      "Klicken Sie auf die Miniaturansicht oder den Namen, um das Foto auszuwählen und seine Details auf der rechten Seite anzuzeigen. Ein Doppelklick öffnet das Foto im Editor.",
+      "Die Zeile zeigt den Betriebsstatus und verfügbare Fehlerdetails an. Der Papierkorb auf der rechten Seite entfernt ein einzelnes Element aus der Warteschlange. die Datei selbst verbleibt auf der Festplatte."
+    ]
+  },
+  "main.queue.summary": {
+    "title": "Zusammenfassung des Durchlaufs",
+    "paragraphs": [
+      "Die Zusammenfassung ist spezifisch für einen ausgewählten Lauf: Zeigt dessen Status, das aktuelle Foto und die Anzahl der Elemente an, die bereit sind, warten oder fehlgeschlagen sind. Nach Abschluss der Bearbeitung bleibt das Ergebnis hier bestehen.",
+      "Um eine andere Warteschlange anzuzeigen, klicken Sie in der Liste auf ihren Namen. Der Verbrauch des ausgewählten Laufs und der Gesamtverbrauch der Historie werden separat angezeigt."
+    ]
+  },
+  "main.queue.parameters": {
+    "title": "Ausgewählte Joboptionen",
+    "paragraphs": [
+      "Hier sehen Sie die gespeicherten Einstellungen der gewählten Aufgabe: Dienst, Modell und weitere Verarbeitungsparameter. Das verfügbare Limit für gleichzeitige Verarbeitungen übernehmen Sie über eine separate Schaltfläche. Im lokalen Modus wird jeweils ein Foto verarbeitet.",
+      "Einstellungen für **neue** Aufgaben werden mit einem separaten Befehl geöffnet. Eine Änderung bedeutet nicht, dass die bereits erstellte Warteschlange ein anderes Modell oder eine andere Ergebniszusammensetzung erhalten hat."
+    ]
+  },
+  "main.queue.history": {
+    "title": "Aufgabenverlauf",
+    "paragraphs": [
+      "Der Verlauf hilft Ihnen, Informationen über frühere Aufgaben abzurufen: wann sie abgeschlossen wurden, wie sie endeten und welche Kosten bekannt sind. Wenn Sie über eine große Anzahl von Datensätzen verfügen, verwenden Sie Seiten und verfügbare Filter.",
+      "Verlauf und Arbeitswarteschlangenliste lösen unterschiedliche Probleme. Durch das Löschen geplanter Arbeiten werden weder der Ausgabenverlauf noch gespeicherte Beschreibungen gelöscht."
+    ]
+  },
+  "main.library.overview": {
+    "title": "Programmbibliothek",
+    "paragraphs": [
+      "Die Bibliothek speichert Suchinformationen: Fotopfade, Beschreibungen und Tags. Hier können Sie verbundene Ordner überprüfen, mit unzugänglichen Dateien und exakten Kopien umgehen, Programmdaten übertragen oder den Miniaturbild-Cache leeren.",
+      "Die Schaltfläche **Aktualisieren** in der Kopfzeile liest nur die Bibliothekszusammenfassung erneut. Das Scannen von Dateien und die neue Erkennung werden separat gestartet. Die Originalfotos selbst verbleiben in ihren Ordnern auf der Festplatte."
+    ]
+  },
+  "main.library.roots": {
+    "title": "Verbundene Ordner",
+    "paragraphs": [
+      "Mithilfe dieser Liste können Sie die Ordner sehen, mit denen die Bibliothek arbeitet, ihre Verfügbarkeit überprüfen und Informationen aktualisieren. Dies ist nützlich, wenn sich Fotos auf mehreren Laufwerken oder an verschiedenen Orten befinden.",
+      "Wenn der Ordner verschoben wurde oder das Laufwerk offline ist, überprüfen Sie den Pfad. Das Entfernen einer Verbindung zu einer Bibliothek und das Löschen von Dateien auf der Festplatte sind unterschiedliche Aktionen. Weitere Informationen finden Sie in der Beschreibung des ausgewählten Befehls."
+    ]
+  },
+  "main.library.maintenance": {
+    "title": "Problemeinträge",
+    "paragraphs": [
+      "Hier finden Sie Einträge, die Probleme mit dem Pfad oder der Verfügbarkeit der Datei haben. Durch die Überprüfung können Sie herausfinden, welche Fotos verschoben wurden, welche nicht mehr verfügbar sind und wo Sie Ihre Informationen aktualisieren müssen.",
+      "Prüfen Sie zuerst den Status des Eintrags und den Pfad. Wählen Sie danach die passende Aktion. Das Entfernen eines Bibliothekseintrags stellt ein fehlendes Original nicht wieder her."
+    ]
+  },
+  "main.library.duplicates": {
+    "title": "Exakte Kopien",
+    "paragraphs": [
+      "**„Exakte Kopien suchen“** sammelt verifizierte identische Dateien in Gruppen. Öffnen Sie die Gruppe und vergleichen Sie die Pfade: Die Häkchen zeigen an, welche Kopien Sie behalten möchten.",
+      "**Alle behalten** belässt die Dateien und blendet die Gruppe aus den Ergebnissen aus. Die Entscheidung wird gespeichert und gilt in der Karte genauso wie im Vergleich. Mit **Duplikatentscheidungen zurücksetzen** beziehen Sie solche Gruppen wieder ein. Prüfen Sie vor Markierte behalten die Auswahl genau: Nicht markierte Kopien werden gelöscht. Behalten Sie mindestens eine Kopie."
+    ]
+  },
+  "main.library.backup": {
+    "title": "Programmdaten",
+    "paragraphs": [
+      "**„Datenexport“** speichert Beschreibungen, Tags, Sammlungen, Verlauf und Projekte des Editors mit seinen Bildern und Masken. Externe Originalfotos und API-Schlüssel sind in dieser Kopie nicht enthalten – sie müssen separat übertragen werden.",
+      "**Daten importieren** zeigt zunächst Details der ausgewählten Kopie an. Nach der Vorbereitung des Imports und dem nächsten Start werden die Daten entsprechend der angezeigten Zusammensetzung wiederhergestellt; Dadurch werden die relevanten Daten ersetzt und keine Fotos zum Ordner hinzugefügt. Aufgeschobene Importe können vor ihrer Anwendung storniert werden. Bezahlte Aufgaben aus der Kopie werden nicht automatisch gestartet."
+    ]
+  },
+  "main.library.cache": {
+    "title": "Miniaturbild-Cache",
+    "paragraphs": [
+      "Der Cache speichert vorbereitete Miniaturansichten, sodass sich die Liste der Fotos schneller öffnet. Hierbei handelt es sich um unterstützende Bilder zu Anzeigezwecken und nicht um Ihre Originale.",
+      "Das Leeren des Caches gibt den belegten Speicherplatz frei. Beim nächsten Durchsehen erstellt die Anwendung die Miniaturansichten neu. Einige Vorschauen können deshalb langsamer erscheinen."
+    ]
+  },
+  "main.library.technical": {
+    "title": "Technische Informationen zur Bibliothek",
+    "paragraphs": [
+      "Hier werden die Version der Bibliotheksdatenbank und der Pfad zu ihrer Datei angezeigt. Mithilfe dieser Informationen können Sie überprüfen, mit welchen Daten das Programm arbeitet, und Probleme beheben.",
+      "Dies ist der Speicherort der Programmdaten, nicht der ursprüngliche Fotoordner. Für den normalen Betrieb müssen Sie die Datenbankdatei nicht manuell ändern."
+    ]
+  },
+  "main.journal.overview": {
+    "title": "Aktionsprotokoll",
+    "paragraphs": [
+      "Das Protokoll zeigt den Aktionsverlauf mit Fotos und Programmdaten. Es hilft Ihnen zu verstehen, wann sich die Informationen geändert haben und zu welcher Datei die Aktion gehörte.",
+      "Wählen Sie den gewünschten Protokollbereich aus und öffnen Sie die Eintragsdetails, wenn Sie die Änderungen überprüfen möchten. Technische Protokolle der Anwendung befinden sich separat – klicken Sie auf die Schaltfläche „Protokolle“ in der oberen Zeile."
+    ]
+  },
+  "editor.overview": {
+    "title": "Ein Foto ändern",
+    "paragraphs": [
+      "Der Editor arbeitet mit dem Bild selbst. Oben befinden sich Markup-Tools und Speicherbefehle, links sind Vorgänge, in der Mitte ein Foto und rechts Bearbeitungsbedingungen und Aufgaben. Der Frame-Verlauf wird unten gespeichert.",
+      "**Projekt** speichert den Fortschritt, um fortzufahren, und **Bild speichern** erstellt eine endgültige Datei oder ersetzt die Quelle durch das ausgewählte Ergebnis. Schauen wir uns diese Aktionen separat an."
+    ]
+  },
+  "editor.top.back": {
+    "title": "Aus dem Editor zurückkehren",
+    "paragraphs": [
+      "Speichert das Projekt und kehrt zu den Fotos oder der Ansicht zurück, von der aus der Editor geöffnet wurde. Wenn Sie beim Beenden auswählen müssen, was mit nicht gespeicherten Änderungen geschehen soll, zeigt Ihnen das Programm die Optionen an.",
+      "Das Schließen eines Fensters sollte nicht mit dem Abbrechen einer bereits laufenden Cloud-Bearbeitung verwechselt werden. Sein Zustand und die erzielten Ergebnisse werden während der Laufzeit des Programms in Editor-Aufgaben gespeichert."
+    ]
+  },
+  "editor.top.operations-panel": {
+    "title": "Fotobearbeitung",
+    "paragraphs": [
+      "Links wählen Sie die gewünschte Bearbeitung: Zuschneiden, Größe ändern oder eine KI-Bearbeitung.",
+      "Bei schmalem Fenster öffnet die obere Schaltfläche diese Leiste. Punkt, Bereich und Maske in der oberen Zeile bestimmen die Stelle der Änderung, nicht die Bearbeitungsart."
+    ]
+  },
+  "editor.top.restart": {
+    "title": "Beginnen Sie erneut",
+    "paragraphs": [
+      "Startet ein neues Projekt mit dem Originalbild. Dies ist praktisch, wenn Sie einen anderen Bearbeitungspfad ausprobieren möchten, ohne die aktuelle Änderungskette fortzusetzen.",
+      "Das vorherige Projekt bleibt separat gespeichert. Neu beginnen ist etwas anderes, als den letzten Pinselstrich rückgängig zu machen oder ein früheres Bild im Verlauf auszuwählen."
+    ]
+  },
+  "editor.tools.overview": {
+    "title": "So geben Sie an, wo bearbeitet werden soll",
+    "paragraphs": [
+      "Mit den Werkzeugen oben wählen Sie Markierungen aus, verschieben das Bild und legen fest, wo es bearbeitet werden soll. Ein **Punkt** dient als Orientierung, ein **Bereich** kennzeichnet einen rechteckigen Ausschnitt und eine **Maske** eine mit dem Pinsel ausgefüllte Form.",
+      "Wählen Sie die passende Form für den gewünschten Bildbereich: einen Orientierungspunkt, ein Rechteck oder eine mit dem Pinsel ausgefüllte Form. Ob Markierungen unterstützt werden und wie genau sie beachtet werden, hängt vom Vorgang und vom Modell ab. Prüfen Sie das Foto nach der Bearbeitung."
+    ]
+  },
+  "editor.tools.select": {
+    "title": "Markierungen auswählen",
+    "paragraphs": [
+      "Wählen Sie eine vorhandene Markierung aus, um sie zu bearbeiten. Das ist hilfreich, wenn ein Foto mehrere Punkte, Bereiche oder Masken enthält und Sie die Anweisung für eine bestimmte Stelle genauer festlegen möchten.",
+      "Die Markierungsliste rechts zeigt, welche Markierung ausgewählt ist, ob sie sichtbar ist und ob sie in die Anfrage einbezogen wird."
+    ]
+  },
+  "editor.tools.pan": {
+    "title": "Ein Bild verschieben",
+    "paragraphs": [
+      "Ermöglicht das Verschieben des vergrößerten Fotos im Anzeigebereich. Wählen Sie das Werkzeug aus, halten Sie die linke Maustaste auf der Leinwand gedrückt und ziehen Sie das Bild.",
+      "Dadurch ändert sich die Betrachtungsposition. Der Inhalt des Fotos und die Position von Objekten innerhalb des Fotos selbst ändern sich nicht."
+    ]
+  },
+  "editor.tools.point": {
+    "title": "Punkt",
+    "paragraphs": [
+      "Setzen Sie einen Punkt als Orientierung für die gewünschte Bearbeitung und geben Sie die Anweisung für diese Markierung ein. Ein Punkt kann zum Beispiel zeigen, wo ein kleines neues Objekt erscheinen soll.",
+      "Der Punkt stellt einen Ort dar, keine genaue Form. Wenn Sie einen komplexen Bereich umreißen müssen, verwenden Sie eine Maske, die vom ausgewählten Modell unterstützt wird."
+    ]
+  },
+  "editor.tools.region": {
+    "title": "Rechteckiger Bereich",
+    "paragraphs": [
+      "Zeichnen Sie ein Rechteck um den Bereich, auf den sich die Aufgabe bezieht. Ein Bereich ist nützlich, wenn Sie einen Teil einer Szene zusammen mit einem kleinen umgebenden Bereich angeben möchten.",
+      "Die Anweisung beschreibt, was sich innerhalb des Bereichs ändern soll. Ob Bereiche unterstützt und wie genau ihre Grenzen beachtet werden, hängt vom Modell ab."
+    ]
+  },
+  "editor.tools.mask": {
+    "title": "Maske",
+    "bodyRef": "editor.mask"
+  },
+  "editor.tools.eraser": {
+    "title": "Maskenverfeinerung",
+    "bodyRef": "editor.eraser"
+  },
+  "editor.top.more-tools": {
+    "title": "Markieren und Drehen",
+    "paragraphs": [
+      "Punkt, Bereich und Maske bestimmen die Stelle der Bearbeitung. Daneben finden Sie Drehen und Spiegeln. Im breiten Fenster stehen diese Schaltflächen direkt oben.",
+      "Im schmalen Fenster liegen einige Werkzeuge im Dreipunktmenü. Die Einführung zeigt deren Position, ohne Änderungen anzuwenden."
+    ]
+  },
+  "editor.top.orientation": {
+    "title": "Drehen und umdrehen",
+    "paragraphs": [
+      "Durch Drehen wird die Ausrichtung des Rahmens um eine Vierteldrehung geändert, durch Spiegeln wird er in die ausgewählte Richtung gedreht. Diese Befehle helfen bei der Vorbereitung des Frames vor der weiteren Bearbeitung.",
+      "Überprüfen Sie das resultierende Bild und Markup. Bei einigen Vorgängen sind Transformationen vorübergehend nicht verfügbar, um die Grundlage der ausgeführten Arbeit nicht zu verändern."
+    ]
+  },
+  "editor.tools.brush": {
+    "title": "Pinselgröße",
+    "paragraphs": [
+      "Der Pinseldurchmesser bestimmt die Strichbreite in Pixeln des Ausgangsbildes. Verwenden Sie für große Flächen einen größeren und an Rändern einen kleineren Pinsel.",
+      "Das Feld gilt für Maskenpinsel und Radierer. Bei einem anderen Werkzeug zeigt die Einführung das Feld deaktiviert und behält Ihr Werkzeug bei."
+    ]
+  },
+  "editor.top.compare": {
+    "title": "Bilder vergleichen",
+    "paragraphs": [
+      "Wählen Sie mit gedrückter `Ctrl`-Taste zwei Bilder im Verlauf unten aus und öffnen Sie den Vergleich. So sehen Sie leichter, was sich geändert hat und welches Ergebnis besser passt.",
+      "Zum Vergleich werden zwei Frames der aktuellen Arbeit benötigt. Es werden keine Bilder an das Modell gesendet und kein neues Ergebnis erstellt."
+    ]
+  },
+  "editor.top.zoom": {
+    "title": "Zoom im Editor",
+    "paragraphs": [
+      "Mit diesen Bedienelementen verkleinern oder vergrößern Sie die Anzeige. **100 %** zeigt das Bild in Originalgröße. Einpassen macht das gesamte Bild wieder sichtbar.",
+      "Der Anzeigemaßstab ändert nicht die Anzahl der Pixel in der Datei. Nutzen Sie hierzu die Funktion „Größe ändern“ auf der linken Seite."
+    ]
+  },
+  "editor.top.project-save": {
+    "title": "Projekt speichern",
+    "paragraphs": [
+      "Speichert das Arbeitsbild, die Einstellungen, die Markierungen und den Verlauf, damit Sie später weiterarbeiten können. Speichern ist auch mit `Ctrl+S` möglich.",
+      "Dadurch wird das Programmprojekt gespeichert. Die externe Fotodatei von diesem Befehl wird nicht ersetzt – es gibt ein „Bild speichern“ dafür."
+    ]
+  },
+  "editor.top.image-save": {
+    "title": "Bild speichern",
+    "paragraphs": [
+      "Speichert den angezeigten Frame in einer Datei. Sie können wählen, ob Sie eine separate Kopie erstellen oder das Originalbild ersetzen möchten, sofern diese Option verfügbar ist.",
+      "Überprüfen Sie vor dem Austausch den ausgewählten Rahmen. Das Speichern einer Kopie ist praktisch, wenn Sie die Originaldatei behalten und das Ergebnis separat verwenden möchten."
+    ]
+  },
+  "editor.top.parameters": {
+    "title": "Rechtes Editor-Panel",
+    "paragraphs": [
+      "Blendet den rechten Bereich mit Bearbeitungseinstellungen, Aufgaben und Quellen ein oder aus. In einem kleinen Fenster bleibt so mehr Platz für das Foto.",
+      "Das Ausblenden des Panels bedeutet nicht, dass der Auftrag abgebrochen wird. Der Status einer laufenden Bearbeitung kann durch Öffnen der Registerkarte „Aufgaben“ angezeigt werden."
+    ]
+  },
+  "editor.top.menu": {
+    "title": "Projektmenü",
+    "paragraphs": [
+      "Hier werden Projektverwaltung, Änderungshistorie, Projektübertragung und automatische Speichereinstellungen gesammelt. Der Export des Projekts ist erforderlich, um die Arbeit des Editors zu übertragen; Speichern eines Bildes – um eine reguläre Datei mit dem Ergebnis zu erhalten.",
+      "Ist die automatische Speicherung aus, speichern Sie das Projekt mit der Speicherschaltfläche oder `Ctrl+S`. Beim Anwenden eines Zuschnitts oder einer Maske sowie beim Start einer Bearbeitung werden die dafür benötigten Daten gespeichert. Spätere lokale Änderungen speichern Sie manuell."
+    ]
+  },
+  "editor.top.help": {
+    "title": "Hilfe zum Editor",
+    "paragraphs": [
+      "Die Schaltfläche ? öffnet die Einführung und das Nachschlagewerk des Editors. Die Einführung führt durch Werkzeuge, Vorgänge, Arbeitsfläche, Bearbeitungseinstellungen, Aufgaben und Verlauf dieses Fensters.",
+      "Ein Schiebeschalter in der Nähe steuert Tooltips im gesamten Programm. Die Möglichkeit, explizite Hilfe erneut zu öffnen, wird dadurch nicht deaktiviert."
+    ]
+  },
+  "editor.operations.overview": {
+    "title": "Operationen an einem Bild",
+    "paragraphs": [
+      "Links wählen Sie, **was Sie mit dem Foto machen möchten**. Oben finden Sie die lokalen Werkzeuge zum Zuschneiden und zur Größenänderung. Darunter folgen KI-Bearbeitungen. Deren Ergebnis hängt vom gewählten Modell und Ihrem Auftrag ab.",
+      "Der Punkt, die Region und die Maske geben den Ort an, und die Operation definiert die Aktion. Beispielsweise kann dieselbe Maske einen Bereich zum Löschen von Objekten oder für andere unterstützte Bearbeitungen angeben."
+    ]
+  },
+  "editor.operations.crop": {
+    "title": "Zuschneiden",
+    "paragraphs": [
+      "Beim Zuschneiden bleibt der ausgewählte Teil des Fotos erhalten und die Kanten außerhalb des Rahmens werden entfernt. Verschieben Sie den Rahmen, ändern Sie ihn mithilfe der Griffe oder legen Sie die Abmessungen in den Feldern fest. Voreinstellungen für Seitenverhältnisse wie 16:9 helfen dabei, den Rahmen mit der gewünschten Form vorzubereiten.",
+      "Bis zur Anwendung ist der Rahmen nur eine Vorschau. Wenden Sie den Zuschnitt an, um das zugeschnittene Bild zu erhalten, oder brechen Sie ab. Der Wechsel zu einem anderen Vorgang wendet einen unfertigen Zuschnitt nicht an."
+    ]
+  },
+  "editor.operations.resize": {
+    "title": "Größe ändern",
+    "paragraphs": [
+      "Legt die Breite und Höhe des Bildes in Pixel fest. Mit der Einstellung **Seitenverhältnis beibehalten** ändern sich Breite und Höhe kontinuierlich, um die Form des Fotos beizubehalten.",
+      "Der Vorgang ändert die Größe des Rahmens lokal. Wenn Sie möchten, dass das Modell beim Vergrößern Details hinzufügt, gibt es einen weiteren Befehl: „Details erhöhen“."
+    ]
+  },
+  "editor.operations.universal": {
+    "title": "Bearbeitung nach Beschreibung",
+    "paragraphs": [
+      "Dieser Vorgang eignet sich für Änderungen, die sich gut mit Worten beschreiben lassen, etwa die Stimmung einer Szene oder das Aussehen eines Bildbereichs. Beschreiben Sie das gewünschte Ergebnis und wählen Sie anschließend ein Modell und dessen Einstellungen.",
+      "Markierungen und zusätzliche Bilder helfen bei der Verdeutlichung der Aufgabe, sofern das Modell diese unterstützt. Die verfügbaren Optionen werden basierend auf dem ausgewählten Modell angezeigt."
+    ]
+  },
+  "editor.operations.replace": {
+    "title": "Ein Objekt hinzufügen oder ersetzen",
+    "paragraphs": [
+      "Verwenden Sie diesen Vorgang, um der Szene ein Objekt hinzuzufügen oder ein vorhandenes zu ersetzen. Beschreiben Sie das Objekt selbst und die gewünschte Änderung; Geben Sie bei Bedarf den Standort mit einem Punkt, einer Fläche oder einer Maske an.",
+      "Zum Beispiel: „Fügen Sie auf der freien Tischfläche einen kleinen roten Ball hinzu.“ Wenn Sie ein zusätzliches Bild anhängen, erklären Sie, welche Elemente daraus übernommen werden sollen."
+    ]
+  },
+  "editor.operations.remove": {
+    "title": "Objekt löschen",
+    "paragraphs": [
+      "Hilft, unnötige Objekte zu entfernen und freien Platz zu füllen. Bei einem Modell mit Maske übermalen Sie das zu entfernende Objekt, verfeinern die Grenzen sorgfältig und wenden die Maske an.",
+      "Manche Modelle benötigen Text, andere brauchen nur eine Maske. Das Aufgabenfeld und die Erklärung daneben zeigen, was in der aktuellen Version verwendet wird."
+    ]
+  },
+  "editor.operations.remove-background": {
+    "title": "Hintergrund entfernen",
+    "paragraphs": [
+      "Trennt das gewünschte Objekt vom Hintergrund. Nimmt das Modell Text an, können Sie angeben, welches Objekt erhalten bleiben soll. Für eine automatische Hintergrundentfernung wählen Sie das passende Modell und dessen Einstellungen.",
+      "Wenn Sie in der gespeicherten Datei einen transparenten Hintergrund benötigen, wählen Sie ein Format, das Transparenz unterstützt. Die Qualität komplexer Grenzen hängt vom Modell und dem Originalbild ab."
+    ]
+  },
+  "editor.operations.replace-background": {
+    "title": "Hintergrund ersetzen",
+    "paragraphs": [
+      "Beschreiben Sie die Umgebung, in der Sie den bisherigen Hintergrund ersetzen möchten: zum Beispiel „ein helles Studio mit sanftem Tageslicht“. Die Aufgabe bezieht sich auf den neuen Hintergrund und nicht auf die Beschreibung des gesamten vorherigen Fotos.",
+      "Überprüfen Sie nach Erhalt des Ergebnisses das Hauptobjekt und seine Grenzen. Das Modell kann kleine Details ändern, wenn ein Objekt mit einer neuen Umgebung verbunden wird."
+    ]
+  },
+  "editor.operations.outpaint": {
+    "title": "Bild erweitern",
+    "paragraphs": [
+      "Fügt Platz über die Ränder des Fotos hinaus hinzu, damit das Modell die Szene fortsetzen kann. Die Größe der zukünftigen Leinwand kann durch die Ränder oder den Rahmen auf dem Bild festgelegt werden.",
+      "Dabei werden neue Bereiche hinzugefügt, anstatt das Originalbild zu strecken. Detaillierte Abmessungen und optionales automatisches Zuschneiden des Ergebnisses finden Sie rechts."
+    ]
+  },
+  "editor.operations.upscale": {
+    "title": "Erhöhen Sie die Detailgenauigkeit",
+    "paragraphs": [
+      "Verwendet das Modell, um die Auflösung zu erhöhen und sichtbare Details wiederherzustellen. Das Verhältnis und die verfügbaren Einstellungen hängen von der ausgewählten Option ab.",
+      "Betrachten Sie das Ergebnis in einer Vergrößerung: Das Modell kann Details hinzufügen, die im Quellbild nicht sichtbar sind. Um einfach die Anzahl der Pixel ohne eine solche zusätzliche Zeichnung zu ändern, verwenden Sie „Größe ändern“."
+    ]
+  },
+  "editor.operations.relight": {
+    "title": "Beleuchtung ändern",
+    "paragraphs": [
+      "Ermöglicht die Beschreibung von anderem Licht, Schatten oder der Atmosphäre einer Szene. Zum Beispiel: „Rechts warmes Abendlicht, weiche Schatten.“",
+      "Um einen bestimmten Abschnitt zu bearbeiten, verwenden Sie die vom Modell unterstützten Markierungen. Überprüfen Sie dann, wie die neue Beleuchtung zum Rest des Fotos passt."
+    ]
+  },
+  "editor.operations.recolor": {
+    "title": "Farbe ändern",
+    "paragraphs": [
+      "Hilft, die Farbe eines Objekts oder das gesamte Farbschema zu ändern. Benennen Sie das Objekt und die gewünschte Farbe; Um einen einzelnen Abschnitt zu ändern, überprüfen Sie die Position anhand der verfügbaren Markierungen.",
+      "Zum Beispiel: „Machen Sie die Jacke dunkelgrün, behalten Sie die Falten und die Beleuchtung bei.“ Die Aufgabe gibt also sowohl die gewünschte Farbe als auch die Eigenschaften an, die es zu erhalten gilt."
+    ]
+  },
+  "editor.operations.compose": {
+    "title": "Bilder kombinieren",
+    "paragraphs": [
+      "Kombiniert das Originalbild und zusätzliche Bilder gemäß Ihrer Beschreibung. Erklären Sie, was aus den einzelnen Bildern entnommen werden soll und wie die Elemente in der Gesamtszene angeordnet werden.",
+      "Das Modell bestimmt, wie viele Eingabebilder möglich sind und wie sie verwendet werden. Prüfen Sie vor dem Start die Anhänge und die Kostenschätzung rechts."
+    ]
+  },
+  "editor.operations.restore": {
+    "title": "Foto wiederherstellen",
+    "paragraphs": [
+      "Geeignet für alte oder beschädigte Fotos: Das Modell kann Mängel reduzieren und die Sichtbarkeit von Details verbessern. Die verfügbaren Wiederherstellungsmethoden hängen vom ausgewählten Modell ab.",
+      "Vergleichen Sie das Ergebnis mit dem Original, insbesondere Gesichter und kleine Objekte. Das Modell kann völlig verlorene Details annähernd wiederherstellen."
+    ]
+  },
+  "editor.canvas.overview": {
+    "title": "Editor-Canvas",
+    "paragraphs": [
+      "Die Leinwand zeigt das Arbeitsbild, Markierungen und vorläufige Rahmen. Mit dem Zoom prüfen Sie Details; die Werkzeuge oben helfen dabei, den gewünschten Bildbereich anzugeben.",
+      "Bevor Sie mit der Bearbeitung beginnen, überprüfen Sie das Bild hier und die Aufgaben rechts. Das ausgewählte Etikett hilft bei der Bearbeitung seiner Bedingungen; Die Sichtbarkeit eines Markierungen selbst bestimmt nicht, ob es in der Anfrage enthalten ist."
+    ]
+  },
+  "editor.canvas.outpaint-frame": {
+    "title": "Erweiterungsrahmen",
+    "paragraphs": [
+      "Ziehen Sie an einer Ecke oder Seite des Rahmens, um die zukünftigen Ränder des Bildes zu ändern. Halten Sie die linke Taste innerhalb des Rahmens gedrückt, um ihn relativ zum Originalfoto zu verschieben.",
+      "Auf diese Weise können Sie auf der gewünschten Seite mehr Platz schaffen und gleichzeitig eine klare Größe der Leinwand beibehalten. Wenn der Rahmen einen Teil der Quelle abschneidet, müssen Sie zunächst den Vorzuschnitt anwenden – dieser Vorgang wird in den Optionen rechts angezeigt."
+    ]
+  },
+  "editor.inspector.overview": {
+    "title": "Bearbeiten von Bedingungen und Ergebnissen",
+    "paragraphs": [
+      "Die Registerkarte **Bearbeiten** enthält Markup, Job, Modell und Lauf. **Aufgaben** zeigt die übermittelten Änderungen und deren Ergebnisse. **Quellen** hilft Ihnen beim Hinzufügen von Bildern, die in Ihrem Projekt verwendet werden.",
+      "Dies sind Teile derselben Arbeit: Zuerst die Aufgabe vorbereiten, dann das entsprechende Modell ausführen und die resultierenden Frames in den Aufgaben und dem Verlauf unten auswerten."
+    ]
+  },
+  "editor.markup.overview": {
+    "title": "Ein Foto markieren",
+    "paragraphs": [
+      "Hier finden Sie die Punkte, Bereiche und Masken des aktuellen Bilds. Wählen Sie eine Markierung, um ihre Einbeziehung in die Anfrage und die zugehörigen zusätzlichen Bilder zu prüfen.",
+      "Eine Markierung hat zwei unabhängige Einstellungen: **auf der Arbeitsfläche sichtbar** und **in der Anfrage enthalten**. Das Ausblenden im Bild schließt sie nicht automatisch von der Aufgabe aus."
+    ]
+  },
+  "editor.markup.controls": {
+    "title": "Markierung anzeigen, einbeziehen oder entfernen",
+    "paragraphs": [
+      "Das Auge zeigt oder verbirgt die Markierung im Bild. Das Kontrollkästchen bestimmt, ob sie in der Anfrage enthalten ist. Die Papierkorbschaltfläche entfernt die Markierung.",
+      "Überprüfen Sie vor dem Start die Aktivierungsflags. Durch die Auswahl einer Zeile zur Bearbeitung werden andere aktivierte Jobs nicht deaktiviert."
+    ]
+  },
+  "editor.markup.mask-apply": {
+    "title": "Auftragen einer Maske",
+    "paragraphs": [
+      "Während Sie zeichnen, besteht die Maske aus vorbereiteten Strichen. **„Maske anwenden“** fasst sie zur weiteren Bearbeitung in einer Maske zusammen und **„Maske rückgängig machen“** löscht die aktuell nicht angewendeten Striche.",
+      "Prüfen Sie nach dem Anwenden die Form der Maske und ob sie in der Anfrage enthalten ist. Der Radiergummi verfeinert die bemalte Fläche, ohne das Foto zu löschen."
+    ]
+  },
+  "editor.instruction.overview": {
+    "title": "Was muss geändert werden",
+    "paragraphs": [
+      "Hier legen Sie das Ergebnis fest, das Sie mit dem Modell erhalten möchten. Der Name des Feldes ändert sich mit der Operation: zum Beispiel, was hinzugefügt werden soll, welcher Hintergrund erstellt werden soll oder wie das Licht geändert werden soll.",
+      "Beschreiben Sie die gewünschte Änderung und die wichtigen Eigenschaften, die erhalten bleiben sollen. Dieser Text ist eine Bearbeitungsaufgabe und keine Bildunterschrift oder Beschreibung eines Fotos für die Bibliothek."
+    ]
+  },
+  "editor.instruction.target": {
+    "title": "Gesamtfoto oder Einzelmarke",
+    "paragraphs": [
+      "Unter **Position** wählen Sie, welche Anweisung Sie bearbeiten: für das gesamte Bild, einen Punkt oder einen Bereich. Wechseln Sie zwischen den Einträgen, um mehrere Stellen nacheinander vorzubereiten.",
+      "Beim Start werden alle einbezogenen Markierungen mit ausgefüllter Anweisung für den aktuellen Vorgang berücksichtigt, nicht nur die ausgewählte Zeile. Die Anweisung für das gesamte Bild kommt hinzu."
+    ]
+  },
+  "editor.instruction.text": {
+    "title": "Klare Anweisungen schreiben",
+    "paragraphs": [
+      "Benennen Sie die Aktion, das Objekt und wichtige Eigenschaften des Ergebnisses. Zum Beispiel: **„Legen Sie eine kleine rote Kugel auf den Tisch, behalten Sie die Beleuchtung und andere Gegenstände bei“**.",
+      "Geben Sie einen bestimmten Bildbereich mit Markierungen an. Benötigt das Modell nur eine Maske oder Einstellungen und nimmt keinen Text an, erscheint statt des Eingabefelds eine Erklärung."
+    ]
+  },
+  "editor.references.whole": {
+    "title": "Zusätzliche Bilder zum Foto",
+    "paragraphs": [
+      "Diese Bilder ergänzen die allgemeine Anweisung für das gesamte Foto. Fügen Sie eine Datei über das Plus hinzu oder ziehen Sie ein Bild aus der unteren Bildleiste hierher. Beschreiben Sie in der Anweisung, was daraus übernommen werden soll.",
+      "Wenn Sie eine einzelne Markierung auswählen, wird dieser allgemeine Bereich ausgeblendet. Seine Anhänge bleiben erhalten und können weiterhin in die Anfrage einbezogen werden. Das Gesamtlimit des Modells umfasst das Original und alle verwendeten zusätzlichen Bilder."
+    ]
+  },
+  "editor.references.mark": {
+    "title": "Zusätzliche Bilder für eine Markierung",
+    "paragraphs": [
+      "Bilder an einem Punkt oder Bereich gehören zur Anweisung dieser Markierung. Sie verdeutlichen, welches Objekt oder Aussehen Sie an dieser Stelle wünschen.",
+      "Ein Punkt nimmt ein zusätzliches Bild auf. Fügen Sie ein anderes hinzu, ersetzt es das bisherige. Für einen Bereich sind mehrere Bilder innerhalb des Gesamtlimits des Modells möglich. Masken haben diesen Anhangsbereich nicht."
+    ]
+  },
+  "editor.references.limits": {
+    "title": "Welche Bilder sind enthalten?",
+    "paragraphs": [
+      "Prüfen Sie vor Beginn, welche Bilder enthalten sind und auf welche Aufgaben sie sich beziehen. Die Anzahl der verfügbaren Eingaben ist auf das ausgewählte Modell beschränkt und umfasst das Originalbild.",
+      "Ist das Limit erreicht, lassen sich keine weiteren Bilder hinzufügen. Entfernen Sie einen nicht benötigten Anhang oder wählen Sie ein kompatibles Modell mit genügend Bildeingaben. Prüfen Sie anschließend den Inhalt der Anfrage erneut."
+    ]
+  },
+  "editor.model.overview": {
+    "title": "Auswahl eines Bearbeitungsmodells",
+    "paragraphs": [
+      "Das Modell bestimmt die Möglichkeiten: welche Anweisungen es versteht, ob es Masken und zusätzliche Bilder annimmt und welche Größen und Einstellungen verfügbar sind. Unter der gewählten Option steht die Kostenschätzung.",
+      "Wählen Sie ein passendes Modell und prüfen Sie dessen Einstellungen und Eingabebilder. Die Schätzung hilft bei der Kostenplanung. Bestätigte Abbuchungen werden separat in der Aufgabe angezeigt."
+    ]
+  },
+  "editor.model.profiles": {
+    "title": "Sparsam, ausgewogen und Qualität",
+    "paragraphs": [
+      "Mithilfe dieser Ebenen können Sie schnell eine Option für Ihren aktuellen Betrieb auswählen: eine, die wirtschaftlicher, ausgewogener oder qualitätsorientierter ist. Überprüfen Sie nach der Auswahl das spezifische Modell in der Liste unten.",
+      "Beim Wechsel des Levels wird die entsprechende Modellvariante ausgewählt. Vergleichen Sie seine Fähigkeiten und seine Kostenschätzung: Die Namen der Stufen helfen bei der Auswahl und es werden spezifische Bedingungen für das ausgewählte Modell angezeigt."
+    ]
+  },
+  "editor.model.filters": {
+    "title": "Finden Sie das richtige Modell",
+    "paragraphs": [
+      "Filter grenzen die Liste nach Stufe, geschätzten Kosten des gesamten Starts, Auflösung und Anzahl zusätzlicher Bilder ein. Das Original zählt bei dieser Anzahl nicht mit. Außerdem können Sie nach Modellen suchen, bei denen sich die Originalabmessungen anfordern lassen.",
+      "Wenn nichts gefunden wird, lockern Sie die Bedingungen oder setzen Sie die Filter zurück. Eine Größenübereinstimmung bedeutet, dass Sie es anfordern können; Das ausgewählte Modell führt die interne Bildverarbeitung nach seinen eigenen Regeln durch."
+    ]
+  },
+  "editor.model.details": {
+    "title": "Funktionen und Tarif",
+    "paragraphs": [
+      "Öffnen Sie die Modelldetails, um die Unterstützung für Markierungen und zusätzliche Bilder, die verfügbaren Abmessungen und die Eigenschaften der gewählten Variante zu prüfen. Modelle können dieselbe Maske oder Anweisung unterschiedlich umsetzen.",
+      "Der Tarif und die Kostenschätzung helfen bei der Ausgabenplanung. Hängt die Abrechnung von Tokens oder Rechenzeit ab, kann die Schätzung von der tatsächlichen Abbuchung des Dienstes abweichen."
+    ]
+  },
+  "editor.model.output": {
+    "title": "Ergebnisgröße und Parameter",
+    "paragraphs": [
+      "Hier stellen Sie die dem Modell zur Verfügung stehenden Ergebnisparameter ein: zum Beispiel Größe, Qualität oder Anzahl der Bilder. Die Zusammensetzung der Felder hängt von der gewählten Option ab.",
+      "Prüfen Sie vor dem Start die Parameter zusammen mit der Kostenschätzung. Die angegebene Größe ist die gewünschte Größe; die tatsächlichen Abmessungen der erhaltenen Datei stehen in der Aufgabe."
+    ]
+  },
+  "editor.outpaint.size": {
+    "title": "Erweiterte Bildgröße",
+    "paragraphs": [
+      "Die Felder **Links**, **Rechts**, **Oben** und **Unten** geben den hinzugefügten Platz in Pixeln an. Unten können Sie die **endgültige Breite und Höhe** angeben, die Sie erreichen möchten.",
+      "Schneidet der geplante Rahmen einen Teil des Originals ab, wenden Sie zunächst den vorläufigen Zuschnitt über die angebotene Schaltfläche an. Danach können Sie die zusätzliche Fläche ergänzen lassen. Mit dem Rahmen auf der Leinwand und den Größenfeldern legen Sie den Ausschnitt genau fest."
+    ]
+  },
+  "editor.outpaint.autocrop": {
+    "title": "Ergebnis automatisch zuschneiden",
+    "bodyRef": "outpaint.autocrop"
+  },
+  "editor.model.advanced": {
+    "title": "Zusätzliche Optionen",
+    "paragraphs": [
+      "Dieser Block enthält die restlichen Parameter des ausgewählten Modells. Felder mit eigenen Erklärungen helfen Ihnen zu verstehen, welche Auswirkungen die Einstellung hat und welche Werte zulässig sind.",
+      "Der JSON-Modus dient der genauen Angabe zusätzlicher Modellfelder. Beginnen Sie für die allgemeine Bearbeitung mit den Grundeinstellungen; Die technischen Namen der Parameter in JSON müssen dem ausgewählten Modell entsprechen."
+    ]
+  },
+  "editor.model.limits": {
+    "title": "Budget und gleichzeitige Anfragen",
+    "paragraphs": [
+      "Das Budget pro Start wird vor dem Senden mit der Schätzung verglichen. Übersteigt die Schätzung das Limit, startet die Bearbeitung nicht. Ein aktiviertes Zeitraum-Budget umfasst mehrere Starts. Die tatsächlichen Gebühren des Dienstes werden separat angezeigt.",
+      "**Gleichzeitige Anfragen** begrenzt die Zahl parallel laufender Anfragen. Das hilft, Last und Kosten zu steuern. Die einzelne Anfrage wird dadurch nicht schneller."
+    ]
+  },
+  "editor.model.inputs": {
+    "title": "Inhalt der Anfrage prüfen",
+    "paragraphs": [
+      "Prüfen Sie hier die vorbereitete Anfrage: die Bilder, Masken und Parameter, die gesendet werden. Das ist besonders hilfreich bei Projekten mit vielen Markierungen und zusätzlichen Bildern.",
+      "Für Cloud-Bearbeitungen benötigen Sie einen API-Schlüssel des gewählten Dienstes. Fügen Sie ihn über die separate Schaltfläche hinzu. Das Öffnen der Anfragedetails startet keine Generierung."
+    ]
+  },
+  "editor.launch": {
+    "title": "Bearbeitung starten",
+    "paragraphs": [
+      "Prüfen Sie vor dem Start das Arbeitsbild, die einbezogenen Markierungen, die Anweisungen, das Modell und die geschätzten Kosten. Die Schaltfläche sendet die vorbereitete Bearbeitung. Falls erforderlich, bittet die Anwendung vorher um Zustimmung zur Bildübertragung.",
+      "Während die aktuelle Bearbeitung ausgeführt wird, ist ein Neustart nicht möglich. Wenn die Ausführung fehlschlägt oder unterbrochen wird, öffnen Sie „Aufgaben“. Dort werden der Status und die verfügbaren Aktionen für die vorherige Anforderung angezeigt."
+    ]
+  },
+  "editor.jobs.overview": {
+    "title": "Bearbeitungsaufgaben",
+    "paragraphs": [
+      "Hier stehen die gestarteten Bearbeitungen. Klappen Sie eine Karte auf, um Modell, Zeitangaben, Abmessungen, Ergebnisse und Kosten zu sehen.",
+      "**„Öffnen“** wählt ein bereits erhaltenes Bild aus, ohne es erneut zu generieren. Bestätigte Abbuchungen und unbestätigte Schätzungen stehen getrennt, damit bekannte Kosten von noch ungeklärten Beträgen zu unterscheiden sind."
+    ]
+  },
+  "editor.jobs.recovery": {
+    "title": "Vorherige Aufgabe fortsetzen",
+    "paragraphs": [
+      "Wenn die Ausführung nach dem Senden unterbrochen wird, hilft ein verfügbarer Fortsetzungsbefehl dabei, das Ergebnis der vorherigen Anfrage abzurufen und zu speichern. Es ist nicht erforderlich, eine neue Bearbeitung zu erstellen, nur weil das Ergebnis noch nicht vollständig geladen ist.",
+      "Wenn das Programm nicht weiß, ob die Einreichung angenommen wurde, verwenden Sie den vorgeschlagenen Abgleich der vorherigen Anfrage. Es ist anders als die neue Generation. Der Status „Service Queued“ bedeutet Warten auf der Serviceseite, kein fertiges Ergebnis."
+    ]
+  },
+  "editor.jobs.cancel": {
+    "title": "Laufende Bearbeitung abbrechen",
+    "paragraphs": [
+      "Das Abbruchkreuz betrifft diese laufende Aufgabe. Es wirkt nicht auf alle Projekte und löscht kein Foto. Prüfen Sie nach dem Abbruch den aktualisierten Status der Karte.",
+      "Wenn der Dienst die Anfrage bereits angenommen hat, führt eine Stornierung nicht automatisch zu einer Rückerstattung. Der resultierende Status und der bekannte Verbrauch werden in den Aufgabendetails gespeichert."
+    ]
+  },
+  "editor.sources.overview": {
+    "title": "Projektquellen",
+    "paragraphs": [
+      "Hier finden Sie die für das Projekt verfügbaren Bilder. Sie können aus einer Datei hinzugefügt, aus einem Archiv ausgewählt oder über einen direkten HTTPS-Link zum Bild heruntergeladen werden.",
+      "Ein Klick auf ein Bild öffnet es als Arbeitsbild. Die separate Hinzufügen-Schaltfläche bindet es als zusätzliche Quelle für die aktuelle Bearbeitung ein. So verwenden Sie ein anderes Foto als Material, ohne das Arbeitsbild zu wechseln."
+    ]
+  },
+  "editor.sources.roles": {
+    "title": "Rolle und Beteiligung der Quelle",
+    "paragraphs": [
+      "Wählen Sie in zusätzlichen Quellen die Rolle des Bildes aus: **Objekt**, **Stil**, **Hintergrund** oder allgemein **zusätzliches Bild**. Diese Rolle erklärt, wie das Material verwendet wird. Pfeile ändern die Reihenfolge der Quellen in der Abfrage.",
+      "Ein Kreuz schließt das Bild von weiteren Quellen aus. Das Bild selbst verbleibt unter den Projektmaterialien und kann erneut verwendet werden."
+    ]
+  },
+  "editor.history.overview": {
+    "title": "Bildverlauf",
+    "paragraphs": [
+      "Unten sehen Sie die bearbeiteten Bilder und die erhaltenen Ergebnisse. Wählen Sie ein Bild, um es anzusehen und damit weiterzuarbeiten.",
+      "Im Verlauf vergleichen Sie Varianten, ohne Dateien in Ordnern suchen zu müssen. Sie können ein Bild auch in einen unterstützten Bereich für zusätzliche Bilder ziehen, um es für eine weitere Bearbeitung zu verwenden."
+    ]
+  },
+  "editor.history.compare": {
+    "title": "Wählen Sie zwei Frames zum Vergleich aus",
+    "paragraphs": [
+      "Halten Sie `Ctrl` gedrückt, wählen Sie zwei Verlaufsbilder aus und klicken Sie dann auf die Schaltfläche „Vergleichen“ in der oberen Leiste. Auf diese Weise können Sie die Quelle und das Ergebnis oder zwei verschiedene Optionen vergleichen.",
+      "Der Vergleich zeigt vorhandene Frames. Es wird keine neue Anfrage erstellt und die Datei auf der Festplatte wird nicht durch die ausgewählte Option ersetzt."
+    ]
+  },
+  "editor.history.branches": {
+    "title": "Variantenbaum",
+    "paragraphs": [
+      "Der Baum zeigt, aus welchem Bild jede Variante entstanden ist. Die Ebenen verlaufen von links nach rechts; von einem Bild können mehrere Zweige ausgehen.",
+      "Mit dem Mausrad zoomen Sie, mit der mittleren Taste verschieben Sie die Karte. Ein Klick wählt ein Bild; ein Doppelklick oder Enter öffnet die Vorschau. „Dieses Bild verwenden“ macht es zum Arbeitsbild. Das Vorschaufenster lässt sich verschieben und vergrößern. Darin zoomen Sie mit dem Mausrad und verschieben das Foto mit der mittleren Taste. Wählen Sie zwei Bilder mit Strg zum Vergleichen."
+    ]
+  },
+  "viewer.overview": {
+    "title": "Foto ansehen",
+    "paragraphs": [
+      "Der Viewer hilft Ihnen, das Foto anzusehen, Details zu vergrößern und zu benachbarten Fotos zu wechseln. Die Hauptaktionen befinden sich oben, die Steuerelemente für Zoom und Anzeige befinden sich unten.",
+      "Sie können Panels ausblenden, um sie in Ruhe anzusehen oder eine Diashow auszuführen. Diese Modi unterscheiden sich von der normalen Fotovergrößerung; Schauen wir sie uns nach den Hauptschaltflächen an."
+    ]
+  },
+  "viewer.top.overview": {
+    "title": "Aktionen mit dem aktuellen Foto",
+    "paragraphs": [
+      "Oben stehen der Übergang zum Editor, Drehen, Löschen, Drucken und Versenden des Fotos. Zusätzliche Befehle sind in einem Dreipunktmenü gruppiert, mit Hilfe und Fenstersteuerelementen auf der rechten Seite.",
+      "Alle Aktionen beziehen sich auf das gezeigte Bild. Überprüfen Sie vor dem Speichern oder Löschen den Namen und das Bild, insbesondere nach dem Wischen."
+    ]
+  },
+  "viewer.top.edit": {
+    "title": "Editor öffnen",
+    "paragraphs": [
+      "Öffnet dieses Foto im Smart Photo-Editor. Dort können Sie das Bild zuschneiden, seine Größe ändern oder eine Bearbeitung anhand des Modells vorbereiten.",
+      "Ansehen und Vergrößern verändern die Datei nicht. Verwenden Sie diesen Befehl, wenn Sie das Bild bearbeiten möchten. Die eigene Einführung des Editors finden Sie über die Hilfe in seinem Fenster."
+    ]
+  },
+  "viewer.top.rotate": {
+    "title": "Drehen Sie ein Foto",
+    "paragraphs": [
+      "Dreht das angezeigte Bild um eine Vierteldrehung nach links oder rechts. Dies ist praktisch, wenn das Foto seitlich angezeigt wird.",
+      "Durch die Drehung ändert sich lediglich die Darstellung im Viewer. Um die gewünschte Ausrichtung in eine Datei zu schreiben, öffnen Sie den Editor, drehen Sie das Bild darin und speichern Sie das Bild."
+    ]
+  },
+  "viewer.top.delete": {
+    "title": "Datei löschen",
+    "paragraphs": [
+      "Dies ist ein Befehl zum Löschen eines Fotos, nicht zum Schließen des Anzeigefensters. Überprüfen Sie vor der Verwendung den Namen und das angezeigte Bild, insbesondere wenn Sie schnell durch die Dateien geblättert haben.",
+      "Um das Surfen einfach zu beenden, verwenden Sie die Schaltfläche zum Schließen des Fensters auf der rechten Seite."
+    ]
+  },
+  "viewer.top.print": {
+    "title": "Drucken",
+    "paragraphs": [
+      "Öffnet den Druckdialog für das aktuelle Foto. Wählen Sie einen verfügbaren Drucker und prüfen Sie die Einstellungen, bevor Sie den Druckauftrag senden.",
+      "Durch Vergrößern des Bildes im Viewer können Sie die Details besser erkennen, die Druckeinstellungen werden jedoch separat ausgewählt."
+    ]
+  },
+  "viewer.top.share": {
+    "title": "Teilen",
+    "paragraphs": [
+      "Öffnet eine zugängliche Möglichkeit, das aktuelle Foto über Windows-Tools zu übertragen. Anwendungen und Optionen variieren je nach System.",
+      "Dieser Befehl gilt für eine Fotodatei. Um Beschreibungen und Tags zwischen Bibliotheken zu übertragen, gibt es im Hauptfenster XMP und den Datenexport."
+    ]
+  },
+  "viewer.top.more": {
+    "title": "Andere Aktionen",
+    "paragraphs": [
+      "Das Menü enthält zusätzliche Aktionen mit dem aktuellen Foto und dem Einrichten einer zukünftigen Öffnung ohne Panels. Die Verfügbarkeit einzelner Befehle hängt von der Datei und den Fähigkeiten von Windows ab.",
+      "Wählen Sie im Menü die gewünschte Aktion aus. Durch das Erweitern der Liste selbst wird weder das Bild gespeichert noch der Editor gestartet."
+    ]
+  },
+  "viewer.menu.only-photo": {
+    "title": "Im Nur-Foto-Modus öffnen",
+    "bodyRef": "viewer.only-photo"
+  },
+  "viewer.menu.resize": {
+    "title": "Größenänderung aus der Ansicht",
+    "paragraphs": [
+      "Öffnet die Vorbereitung für die Größenänderung von Fotos. Überprüfen Sie vor der Anwendung die Breite, Höhe und Speicheroption.",
+      "Dies ist eine Änderung an einer Datei oder einer gespeicherten Kopie davon. Dies unterscheidet sich von der Anzeigeskala im unteren Bereich, die Ihnen hilft, das Foto anzuzeigen, ohne die Anzahl der Pixel zu ändern."
+    ]
+  },
+  "viewer.menu.file-actions": {
+    "title": "Datei- und externe Anwendungen",
+    "paragraphs": [
+      "**„Speichern unter...“** erstellt eine Kopie der Originaldatei: Maßstab und Drehung der Ansicht werden darin nicht aufgezeichnet. Um den geänderten Frame zu speichern, verwenden Sie den Editor über die obere Schaltfläche **„Ändern“**.",
+      "Über dasselbe Menü können Sie die Datei in ihrem Ordner anzeigen oder einen externen Editor öffnen, der Windows zugewiesen ist. Es kann vom Editor Smart Photo abweichen."
+    ]
+  },
+  "viewer.top.help": {
+    "title": "Hilfe und Tipps",
+    "paragraphs": [
+      "Das Fragezeichen öffnet die Hilfe des Bildbetrachters. Gehen Sie die Bedienelemente dieses Fensters der Reihe nach durch oder suchen Sie ein Thema im Nachschlagewerk.",
+      "Ein Schiebeschalter in der Nähe schaltet Hover-Anmerkungen ein und aus. Explizite Hilfe bei „?“ unabhängig davon verfügbar."
+    ]
+  },
+  "viewer.top.window": {
+    "title": "Fensterverwaltung",
+    "paragraphs": [
+      "Diese Schaltflächen minimieren das Fenster, ändern seine Größe oder schließen die Ansicht. Ein maximiertes Fenster gibt dem Foto mehr Platz und behält gleichzeitig die Kontrolle über den Betrachter.",
+      "Fenstergröße, Nur-Foto-Modus und Diashow sind unterschiedliche Anzeigemethoden. Die Diashow scrollt zusätzlich zeitlich durch die Fotos."
+    ]
+  },
+  "viewer.image.overview": {
+    "title": "Bild und Details",
+    "paragraphs": [
+      "Das aktuelle Foto wird hier angezeigt. Vergrößern Sie den gewünschten Teil und schwenken Sie dann das Bild, um Details außerhalb des sichtbaren Bereichs anzuzeigen.",
+      "Durch Zoomen und Verschieben ändert sich lediglich die Ansicht. Wenn das Bild nicht geöffnet werden konnte, wird auf der Leinwand eine Meldung mit dem Grund angezeigt; Überprüfen Sie dies, bevor Sie weitere Aktionen mit der Datei durchführen."
+    ]
+  },
+  "viewer.image.pan": {
+    "title": "Verschieben eines vergrößerten Fotos",
+    "bodyRef": "viewer.pan"
+  },
+  "viewer.image.neighbors": {
+    "title": "Vorheriges und nächstes Foto",
+    "paragraphs": [
+      "Pfeile entlang der Ränder bewegen sich zum vorherigen oder nächsten Foto des geöffneten Satzes. Wenn eine Datei separat von Windows geöffnet wird, werden die verfügbaren angrenzenden Fotos aus ihrem Ordner entnommen.",
+      "Wenn nur ein Bild verfügbar ist, gibt es nichts zum Durchwischen, sodass die Pfeile möglicherweise nicht angezeigt werden. Das normale Zoomen und Schwenken eines Fotos funktioniert unabhängig von der Anzahl der Nachbarn."
+    ]
+  },
+  "viewer.image.panels": {
+    "title": "Bedienleisten aus- und einblenden",
+    "paragraphs": [
+      "In der Normalansicht werden durch Doppelklicken auf ein Foto die oberen und unteren Bereiche ausgeblendet. Ein erneuter Doppelklick bringt sie zurück. Es wird mehr Platz für das Bild frei.",
+      "Die Aktion ist auch für ein vergrößertes, verschobenes Bild verfügbar. In einer Diashow bewirkt ein Doppelklick noch etwas anderes: Die Show wird beendet."
+    ]
+  },
+  "viewer.bottom.overview": {
+    "title": "Details, Darstellung und Maßstab",
+    "paragraphs": [
+      "Auf der linken Seite befinden sich Favoriten und Dateiinformationen, in der Mitte das Intervall und der Anzeigebeginn und auf der rechten Seite die Zoomsteuerung.",
+      "Mithilfe dieser Befehle können Sie die Qualität des Bildes bewerten und eine geeignete Anzeigemethode auswählen. Beginnen wir mit den Informationen, dann schauen wir uns die Darstellung und Vergrößerung an."
+    ]
+  },
+  "viewer.bottom.favorite": {
+    "title": "Favoriten",
+    "paragraphs": [
+      "Der Stern fügt das Foto zu den Favoriten hinzu oder hebt den Stern auf. So können Sie gelungene Bilder direkt beim Betrachten markieren.",
+      "Im Hauptfenster sind sie auf der Registerkarte **Favoriten** verfügbar. Durch die Markierung wird keine Kopie der Datei erstellt und ihr Bild wird nicht geändert."
+    ]
+  },
+  "viewer.bottom.details": {
+    "title": "Dateiinformationen",
+    "paragraphs": [
+      "Öffnet Informationen zur aktuellen Datei. Sie helfen dabei, den Namen, den Speicherort und bekannte Parameter des Bildes zu überprüfen.",
+      "Wenn Daten verfügbar sind, werden in der unteren Zeile auch die Auflösung und die Dateigröße angezeigt. Ein unbekannter Wert bedeutet, dass keine Informationen gelesen wurden und dass die Fotogröße nicht Null ist."
+    ]
+  },
+  "viewer.bottom.interval": {
+    "title": "Diashow-Intervall",
+    "paragraphs": [
+      "Hier wählen Sie aus, wie lange ein Foto angezeigt wird, bevor zum nächsten übergegangen wird. Ein kurzes Intervall eignet sich zum schnellen Betrachten, ein langes Intervall gibt Zeit zum Betrachten des Fotos.",
+      "Die Auswahl eines Intervalls allein löst die Anzeige nicht aus. Klicken Sie zum Starten auf die nebenstehende Diashow-Schaltfläche."
+    ]
+  },
+  "viewer.bottom.slideshow": {
+    "title": "Diashow",
+    "bodyRef": "viewer.slideshow"
+  },
+  "viewer.bottom.actual-size": {
+    "title": "Tatsächliche Größe",
+    "paragraphs": [
+      "Stellt den Zoom auf **100 %** ein, um das Foto anzuzeigen, ohne es zu verkleinern, damit es in das Fenster passt. Ein großes Bild passt möglicherweise nicht vollständig.",
+      "Verschieben Sie das vergrößerte Bild, um verschiedene Bereiche zu prüfen. Mit Einpassen sehen Sie wieder das gesamte Foto."
+    ]
+  },
+  "viewer.bottom.zoom": {
+    "title": "Erhöhen oder verringern",
+    "paragraphs": [
+      "Die Liste, der Schieberegler und die Schaltflächen ändern den Maßstab des aktuellen Fotos. Der Prozentsatz gibt an, um wie viel es im Verhältnis zur tatsächlichen Größe vergrößert oder verkleinert wird.",
+      "Dies hilft, die Details zu sehen, fügt sie jedoch nicht zur Datei hinzu. Um die Bildauflösung zu ändern, verwenden Sie einen separaten Größenänderungsbefehl oder Editor."
+    ]
+  },
+  "viewer.bottom.fit": {
+    "title": "An den Sichtbereich anpassen",
+    "paragraphs": [
+      "Wählt einen Maßstab aus, in dem das gesamte Foto bequem in einem zugänglichen Bereich angezeigt werden kann. Dies ist eine schnelle Möglichkeit, von der Betrachtung kleiner Details zum Gesamtbild zurückzukehren.",
+      "„Anpassen“ unterscheidet sich vom Maximieren eines Fensters und einer Diashow: Es steuert die Skalierung des Fotos in der aktuellen Ansicht."
+    ]
+  },
+  "viewer.slideshow.controls": {
+    "title": "Diashow steuern",
+    "paragraphs": [
+      "Während der Diashow können Sie pausieren, zwischen Fotos wechseln oder die Anzeige beenden. Mit der `Leertaste` halten Sie den automatischen Wechsel an und setzen ihn fort. Ein Doppelklick oder `Escape` beendet die Diashow.",
+      "Beim Zeigen mit der Maus werden die Bedienelemente deutlicher sichtbar. Bei geöffneter Hilfe bleibt das aktuelle Bild stehen. Nach dem Schließen läuft eine zuvor laufende Diashow weiter. Eine von Ihnen gesetzte Pause bleibt erhalten."
+    ]
+  },
+  "tour.ui.title": "Hilfe",
+  "tour.ui.tour-tab": "Schritt-für-Schritt-Anleitung",
+  "tour.ui.reference-tab": "Nachschlagewerk",
+  "tour.ui.intro": "Lernen Sie die Elemente dieses Fensters der Reihe nach kennen oder wählen Sie eine Gruppe. Die Anleitung erklärt die Oberfläche, ohne die Fotoverarbeitung zu starten.",
+  "tour.ui.start-all": "Dieses Fenster erkunden",
+  "tour.ui.continue": "Fortsetzen",
+  "tour.ui.start-group": "Diese Gruppe erkunden",
+  "tour.ui.all-groups": "Alle Bereiche dieses Fensters",
+  "tour.ui.group-label": "Gruppe",
+  "tour.ui.step-label": "Schritt",
+  "tour.ui.progress": "Schritt {шаг} von {всего}",
+  "tour.ui.previous": "Zurück",
+  "tour.ui.next": "Weiter",
+  "tour.ui.finish": "Fertig",
+  "tour.ui.to-groups": "Zur Gruppenübersicht",
+  "tour.ui.close": "Hilfe schließen",
+  "tour.ui.to-reference": "Nachschlagewerk",
+  "tour.ui.completed": "Sie haben diese Einführung abgeschlossen. Einzelne Themen erreichen Sie weiterhin über die Gruppenliste oder das Nachschlagewerk.",
+  "tour.ui.other-windows": "Editor und Bildbetrachter haben eigene Einführungen. Öffnen Sie das gewünschte Fenster und wählen Sie ?, um dessen Elemente kennenzulernen.",
+  "tour.ui.not-visible": "Dieses Element wird derzeit nicht angezeigt.",
+  "tour.ui.disabled": "Die Aktion ist derzeit nicht verfügbar.",
+  "tour.ui.condition-followup": "Sie können mit dem Lernen fortfahren und später zu diesem Schritt zurückkehren.",
+  "tour.ui.target-missing": "Das Element konnte im aktuellen Fensterstatus nicht angezeigt werden. Sein Zweck wird hier beschrieben; Sie können mit dem nächsten Schritt fortfahren.",
+  "tour.ui.old-progress": "Die Einführung wurde geändert. Der frühere Schritt ist nicht mehr verfügbar. Wählen Sie eine Gruppe oder beginnen Sie die Einführung dieses Fensters neu.",
+  "tour.ui.progress-save-error": "Ihre Position in der Einführung konnte nicht gespeichert werden. Sie können weiterlesen, möglicherweise wird dieser Schritt beim nächsten Öffnen jedoch nicht wiederhergestellt.",
+  "tour.ui.reference-search": "Im Nachschlagewerk suchen",
+  "tour.ui.reference-empty-title": "Nichts gefunden",
+  "tour.ui.reference-empty": "Versuchen Sie es mit einem anderen Wort: zum Beispiel „Maske“, „zusätzliche Bilder“, „Umbenennen“ oder „Warteschlange“.",
+  "tour.ui.reference-show": "Anzeigen: {название}",
+  "tour.ui.reference-in-editor": "„{название}“ kann im geöffneten Editor angezeigt werden. Führen Sie die Hilfe aus.",
+  "tour.ui.reference-in-viewer": "„{название}“ kann im geöffneten Viewer angezeigt werden. Führen Sie die Hilfe aus.",
+  "tour.ui.reference-in-main": "Im Hauptfenster kann „{название}“ angezeigt werden. Führen Sie die Hilfe aus.",
+  "tour.ui.picture-open": "Vergrößern Sie den Schnappschuss der Benutzeroberfläche",
+  "tour.ui.picture-close": "Vergrößertes Foto schließen",
+  "busy-folder": "Der Ordner wird noch eingelesen. Warten Sie, bis das Laden abgeschlossen ist, bevor Sie ihn erneut auswählen oder seinen Inhalt durchsehen.",
+  "no-folder": "Öffnen Sie zunächst Ihren Fotoordner. Anschließend können Sie den Inhalt und die Dateiinformationen aktualisieren.",
+  "busy-action": "Die Aufgabe wird noch vorbereitet oder der Befehl wird bereits ausgeführt. Warten Sie auf das Ergebnis der aktuellen Aktion.",
+  "process-selection": "Wählen Sie zunächst die zu verarbeitenden Fotos oder Ordner aus.",
+  "provider-not-ready": "Die ausgewählte Verarbeitungsmethode ist noch nicht fertig. Die Schaltfläche zeigt die erforderliche Aktion an: ein lokales Modell installieren, einen Schlüssel hinzufügen oder überprüfen. Wenn der Dienst nicht verfügbar ist, wird der Grund daneben angezeigt.",
+  "copy-needs-smart-name": "Das Erstellen einer Kopie hier hängt mit dem Smart-Namen zusammen. Um diese Einstellung zu verwenden, aktivieren Sie zunächst Smart Name.",
+  "one-photo": "Dieser Block bezieht sich auf ein Foto. Wählen Sie im Arbeitsbereich ein Foto aus, um dessen Details und verfügbare Aktionen anzuzeigen.",
+  "photo-selection": "Wählen Sie Fotos aus. Dieser Bearbeitungsblock ist für Ordner und reguläre Dateien nicht verfügbar.",
+  "selection-needed": "Wählen Sie die Datei, den Ordner oder das Foto aus, zu dem Sie Details anzeigen möchten.",
+  "rename-source": "Wählen Sie zunächst die Dateien aus oder öffnen Sie den Ordner, in dem Sie die Umbenennung vorbereiten möchten.",
+  "history-back": "Im Navigationsverlauf gibt es noch keinen vorherigen Ort. Die Schaltfläche wird nach dem Wechsel zwischen Ordnern verfügbar.",
+  "history-forward": "Im Navigationsverlauf gibt es keinen nächsten Ort. Diese Schaltfläche verwenden Sie nach dem Zurückgehen.",
+  "no-parent": "Sie befinden sich im Stammverzeichnis der Festplatte: Hier gibt es keinen übergeordneten Ordner. Über das Computersymbol kann ein anderes Laufwerk ausgewählt werden.",
+  "folder-scope": "Um den aktuellen Ordner zu durchsuchen, öffnen Sie ihn zunächst. Eine Suche in der gesamten Bibliothek ist mit bereits gespeicherten Informationen möglich.",
+  "no-search-results": "Aktionen sind spezifisch für die durchgeführte Suche. Legen Sie zunächst die Bedingungen fest und klicken Sie auf „Suchen“.",
+  "explorer-only": "Dieses Element bezieht sich auf den Inhalt des Ordners im Explorer. Die Suchergebnisse verwenden eigene Begriffe und Reihenfolge.",
+  "table-only": "Die Spaltenauswahl ist in tabellarischer Form verfügbar. Wenn „Tabelle“ aktiviert ist, befindet sich die Schaltfläche in der Kopfzeile.",
+  "empty-content": "Hier sind noch keine Artikel verfügbar. Öffnen Sie Ihren Fotoordner oder wählen Sie eine andere Sammlung aus.",
+  "two-photos": "Wählen Sie zum Vergleichen zwei Fotos aus und halten Sie die Taste Ctrl gedrückt, während Sie das zweite auswählen.",
+  "right-panel-hidden": "Das rechte Panel ist jetzt ausgeblendet. In einem schmalen Fenster wird es über die Schaltfläche „Panel“ neben den Ansichtssteuerelementen geöffnet. Dort finden Sie Informationen zum Foto, Beschreibung, Tags und Aufgaben.",
+  "collection-target": "Wählen Sie Fotos und eine vorhandene Sammlung aus. Über die folgende Zeile kann eine neue Sammlung erstellt werden.",
+  "metadata-save": "Das Speichern ist möglich, wenn Änderungen vorgenommen wurden und das Foto in der Bibliothek verfügbar ist. Wenn die Quellinformationen während der Bearbeitung aktualisiert wurden, prüfen Sie zunächst das neue Ergebnis.",
+  "manual-queue": "Manuelle Warteschlangen haben den Zweck „Hier hinzufügen“. Die Verarbeitung verwendet unabhängig von dieser Auswahl sofort die gemeinsam genutzte Warteschlange.",
+  "no-queue-items": "Zurzeit sind in dieser Warteschlange keine Fotos zum Anzeigen vorhanden. Wenn „Abgeschlossene ausblenden“ aktiviert ist, werden abgeschlossene Elemente nicht angezeigt. Eine leere manuelle Warteschlange kann mit der Schaltfläche „Zur Warteschlange hinzufügen“ gefüllt werden.",
+  "queue-selected": "Wählen Sie zunächst die erstellte Aufgabe aus, deren Parameter Sie anzeigen möchten.",
+  "editor-busy": "Dieser Befehl ist während der Frame-Konvertierung oder des Frame-Vergleichs nicht verfügbar. Kehren Sie vom Vergleich zurück oder warten Sie, bis die Konvertierung abgeschlossen ist, und wiederholen Sie dann den Vorgang.",
+  "brush-mode": "Dieses Feld gilt für Maskenpinsel und Radierer. Zurzeit ist ein anderes Werkzeug gewählt; die Einführung zeigt das Feld daher deaktiviert.",
+  "two-history-frames": "Für den Vergleich sind zwei Bilder aus dem Verlauf erforderlich. Halten Sie beim Auswählen Ctrl gedrückt.",
+  "outpaint-mode": "Der Rahmen und die Abmessungen der Erweiterung beziehen sich auf den Vorgang „Bild erweitern“. Sie werden angezeigt, wenn Sie es selbst auswählen.",
+  "no-markup": "Es sind noch keine Punkte, Flächen oder Masken im Rahmen vorhanden. Sie werden in der Liste angezeigt, nachdem das Markup erstellt wurde.",
+  "no-mask-strokes": "Derzeit gibt es keine nicht angewendeten Maskenstriche. Während Sie damit arbeiten, werden die Schaltflächen „Übernehmen“ und „Abbrechen“ angezeigt.",
+  "instruction-targets": "Die Positionsauswahl ist bei Vorgängen mit Anweisungen für einzelne Markierungen verfügbar. Andere Vorgänge verwenden die Anweisung für das gesamte Bild.",
+  "model-without-text": "In dieser Version verwendet das Modell keine Textanweisungen. Die Bearbeitung wird durch das unterstützte Markup und die unterstützten Parameter bestimmt.",
+  "whole-image-references": "Ein allgemeiner Block zusätzlicher Bilder ist sichtbar, wenn Sie „Gesamtes Bild“ für eine geeignete Operation und ein geeignetes Modell auswählen. Wenn ein Etikett ausgewählt ist, wird es ausgeblendet und Anhänge gespeichert.",
+  "mark-references": "Zusätzliche Bilder für eine Markierung sind bei Vorgängen mit Punkten oder Bereichen verfügbar. Masken haben diesen Anhangsbereich nicht.",
+  "model-output": "Die Zusammensetzung der Ergebnisparameter ist modellabhängig. Einige Optionen verfügen nicht über ein separates Feld für Größe oder Qualität.",
+  "pending-outpaint-crop": "Der zukünftige Rahmen schneidet einen Teil der Quelle ab. Tragen Sie zuerst den Vorbeschnitt auf; dann gelten die folgenden Verlängerungsbedingungen.",
+  "editor-launch": "Überprüfen Sie die Bereitschaft der Aufgabe: das ausgewählte Modell, Anweisungen oder die erforderliche Maske, Schlüssel und akzeptable Bewertung. Während die Bearbeitung läuft, ist ein Neustart nicht möglich; Der konkrete Grund wird im Editor angezeigt.",
+  "no-editor-jobs": "Änderungen an diesem Projekt wurden noch nicht gestartet. Nach dem Start erscheint hier eine Aufgabenkarte mit Status und Ergebnis.",
+  "recoverable-editor-job": "Fortsetzung und Abgleich sind verfügbar, wenn die Aufgabe unterbrochen wurde oder nicht bekannt ist, ob der Dienst sie angenommen hat. Für eine abgeschlossene Aufgabe können Sie das fertige Ergebnis öffnen.",
+  "running-editor-job": "Der Abbruch ist für eine laufende Aufgabe möglich. Es ist nicht erforderlich, eine abgeschlossene Bearbeitung als aktive Anfrage abzubrechen.",
+  "viewer-neighbors": "Im aktuellen Set sind noch keine weiteren Fotos zum Durchblättern verfügbar.",
+  "slideshow-only": "Diese Bedienelemente erscheinen während einer Diashow. Die Einführung startet die Diashow nicht automatisch.",
+  "tour.group.main.folder": {
+    "title": "Ordner",
+    "overviewId": "main.folder.choose",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.recognition": {
+    "title": "Service und Ergebnis",
+    "overviewId": "main.recognition.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.processing": {
+    "title": "Verarbeitung",
+    "overviewId": "main.processing.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.commands": {
+    "title": "Befehle und Hilfe",
+    "overviewId": "main.commands.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.navigation": {
+    "title": "Navigation",
+    "overviewId": "main.navigation.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.quick": {
+    "title": "Schnellsuche",
+    "overviewId": "main.quick.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.workspace": {
+    "title": "Arbeitsregisterkarten",
+    "overviewId": "main.workspace.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.search": {
+    "title": "Detaillierte Suche",
+    "overviewId": "main.search.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.display": {
+    "title": "Anzeige",
+    "overviewId": "main.display.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.canvas": {
+    "title": "Fotos",
+    "overviewId": "main.canvas.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.inspector": {
+    "title": "Rechtes Panel",
+    "overviewId": "main.inspector.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.details": {
+    "title": "Details",
+    "overviewId": "main.details.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.description": {
+    "title": "Beschreibung",
+    "overviewId": "main.description.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.tags": {
+    "title": "Tags",
+    "overviewId": "main.tags.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.queue": {
+    "title": "Warteschlangen",
+    "overviewId": "main.queue.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.library": {
+    "title": "Bibliothek",
+    "overviewId": "main.library.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.journal": {
+    "title": "Aktivitätsprotokoll",
+    "overviewId": "main.journal.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.introduction": {
+    "title": "Einführung",
+    "overviewId": "editor.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.tools": {
+    "title": "Markierungswerkzeuge",
+    "overviewId": "editor.tools.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.operations": {
+    "title": "Operationen",
+    "overviewId": "editor.operations.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.canvas": {
+    "title": "Arbeitsfläche",
+    "overviewId": "editor.canvas.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.inspector": {
+    "title": "Rechtes Panel",
+    "overviewId": "editor.inspector.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.markup": {
+    "title": "Markierungen",
+    "overviewId": "editor.markup.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.instruction": {
+    "title": "Anweisungen",
+    "overviewId": "editor.instruction.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.references": {
+    "title": "Zusätzliche Bilder",
+    "overviewId": "editor.references.whole",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.model": {
+    "title": "Modell und Start",
+    "overviewId": "editor.model.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.jobs": {
+    "title": "Aufgaben",
+    "overviewId": "editor.jobs.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.sources": {
+    "title": "Quellen",
+    "overviewId": "editor.sources.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.history": {
+    "title": "Verlauf",
+    "overviewId": "editor.history.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.introduction": {
+    "title": "Einführung",
+    "overviewId": "viewer.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.top": {
+    "title": "Obere Bedienleiste",
+    "overviewId": "viewer.top.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.image": {
+    "title": "Bild",
+    "overviewId": "viewer.image.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.bottom": {
+    "title": "Untere Bedienleiste",
+    "overviewId": "viewer.bottom.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.slideshow": {
+    "title": "Diashow",
+    "overviewId": "viewer.bottom.slideshow",
+    "previewFrom": "first paragraph"
+  },
+  "editor-compact-panel": "In einem breiten Fenster ist dieser Bereich bereits sichtbar. Bei schmaleren Fenstern erscheint eine eigene Schaltfläche zum Ein- und Ausblenden.",
+  "editor-compact-tools": "In einem breiten Fenster stehen die Werkzeuge direkt in der oberen Leiste. In der kompakten Ansicht finden Sie einige davon in diesem Menü.",
+  "editor-reference-limits": "Zusätzliche Bilder und ihre zulässige Anzahl lassen sich bei kompatiblen Modellen und Aufgaben verwalten. Vorhandene Anhänge bleiben beim Wechsel des Modus im Projekt gespeichert.",
+  "tour.about.version": "Version {version}",
+  "tour.about.description": "Fotos ansehen und organisieren, Beschreibungen und Tags erstellen, die Fotobibliothek durchsuchen und Bilder bearbeiten.",
+  "tour.about.author": "Autor: {author}",
+  "tour.about.third-party": "Komponenten von Drittanbietern",
+  "tour.ui.about-tab": "Über das Programm",
+  "tour.about.tagline": "Smart Photo Indexer — finden Sie Fotos anhand ihres Inhalts.",
+  "tour.about.lead": "Sehen Sie sich Bilder in ihren gewohnten Ordnern an, ergänzen Sie Beschreibungen und Tags, suchen Sie mit passenden Begriffen und öffnen Sie Fotos zur Bearbeitung. Die Verarbeitung erfolgt mit einem lokalen Modell auf Ihrem Computer oder über einen eingerichteten Cloud-Dienst.",
+  "tour.about.step1.title": "Öffnen Sie Ihren Ordner.",
+  "tour.about.step1.body": "Betrachten Sie Fotos als Kacheln, Liste oder Tabelle. Markieren Sie Favoriten und ordnen Sie Bilder in Sammlungen ein.",
+  "tour.about.step1.alt": "Einen Fotoordner auswählen",
+  "tour.about.step2.title": "Ergänzen Sie Beschreibungen und Tags.",
+  "tour.about.step2.body": "Wählen Sie Fotos, Modell und gewünschtes Ergebnis. Verarbeiten Sie die Bilder sofort oder stellen Sie zuerst eine Warteschlange zusammen.",
+  "tour.about.step2.alt": "Beschreibungen und Tags erstellen",
+  "tour.about.step3.title": "Finden Sie ein Bild mit passenden Begriffen.",
+  "tour.about.step3.body": "Durchsuchen Sie gespeicherte Beschreibungen, Tags, Dateinamen und Pfade im aktuellen Ordner oder in der gesamten Bibliothek. Die Suche startet keine Erkennung für noch nicht verarbeitete Fotos.",
+  "tour.about.step3.alt": "Gespeicherte Inhalte mit Worten suchen",
+  "tour.about.step4.title": "Betrachten und bearbeiten Sie Ihr Foto.",
+  "tour.about.step4.body": "Vergrößern Sie Details im Bildbetrachter oder starten Sie eine Diashow. Der Editor bietet Zuschneiden, Größenänderungen und unterstützte KI-Bearbeitungen.",
+  "tour.about.step4.alt": "Betrachten, vergleichen und bearbeiten",
+  "tour.about.more": "Weitere Werkzeuge. Fotovergleich, gemeinsame Bearbeitung von Tags, intelligentes Umbenennen, Dateiaktionen, XMP, Datensicherungen und Editorprojekte.",
+  "tour.about.requirements": "Zum Betrachten benötigen Sie keinen KI-Schlüssel. Für die lokale Erkennung muss ein Modell installiert sein. Cloud-Aktionen erfordern einen eigenen Schlüssel und können kostenpflichtig sein. Prüfen Sie die vom Modell erstellten Beschreibungen, Tags und Bilder.",
+  "tour.about.examples": "Die Abbildungen zeigen Beispiele mit englischen Beschriftungen.",
+  "tour.about.license-pending": "Dieses Projekt steht unter der Apache-Lizenz 2.0.",
+  "main.settings.overview": {
+    "title": "Einstellungen nach Gruppen",
+    "paragraphs": [
+      "Fünf Register ordnen die Einstellungen: Allgemein, Erkennung, Warteschlange, Speicher und Projekte. Wählen Sie oben ein Register.",
+      "Änderungen werden im jeweiligen Feld übernommen. Es gibt keine gemeinsame Speichern-Schaltfläche. Ein Registerwechsel startet weder Verarbeitung noch Modellinstallation."
+    ]
+  },
+  "main.settings.general": {
+    "title": "Darstellung und Sprache",
+    "paragraphs": [
+      "Hier wählen Sie Sprache, Design, Hinweise und die reine Fotoansicht. Darunter stehen Unterordneranzeige und Bildfilter.",
+      "Die Unterordneranzeige betrifft den Explorer. Unterordner bei der Erkennung einzubeziehen ist eine eigene Option im Register Erkennung."
+    ]
+  },
+  "main.settings.recognition": {
+    "title": "Dienst und Modell",
+    "paragraphs": [
+      "Wählen Sie lokale Verarbeitung oder einen verfügbaren Cloud-Dienst und danach ein Modell. Lokale Modelle können Sie hier installieren und prüfen; für Cloud-Dienste geben Sie Ihren eigenen Schlüssel ein und prüfen ihn.",
+      "Darunter stehen Unterordner für die Verarbeitung, intelligente Namen, Kopien, das Überspringen vorhandener Ergebnisse und die Cloud-Zustimmung. Ein Dienstwechsel sendet keine Fotos. Nicht verfügbare Optionen bleiben deaktiviert."
+    ]
+  },
+  "main.settings.queue": {
+    "title": "Warteschlange und Grenzen",
+    "paragraphs": [
+      "Hier legen Sie Anfrageabstand, Wiederholungen, Durchläufe, parallele Cloud-Anfragen sowie Antwort- und Bildgröße fest. Diese Werte steuern die Fotoerkennung.",
+      "Darunter wählen Sie das Verhalten nach einem Neustart. Prüfen Sie die Grenzen vor einer großen Verarbeitung; ein Registerwechsel startet keine wartenden Aufträge."
+    ]
+  },
+  "main.settings.storage": {
+    "title": "Speicherorte",
+    "paragraphs": [
+      "Kopien bei der Erkennung und Bildexporte aus dem Editor haben getrennte Zielordner. Wählen Sie für jede Gruppe neben dem Original, einen eigenen Ordner oder eine andere verfügbare Option.",
+      "Darunter sehen Sie internen Editorspeicher und Cache. Diese sind nicht der Zielordner für exportierte Fotos. Beim Abbrechen der Ordnerwahl bleibt das bisherige Ziel erhalten."
+    ]
+  },
+  "main.settings.projects": {
+    "title": "Projekte speichern",
+    "paragraphs": [
+      "Automatisches Speichern sichert ein geändertes Projekt im gewählten Intervall. „Beim Schließen immer speichern“ ist eine eigene Einstellung. Beide gelten auch im Editor.",
+      "Ein Projekt enthält Bilder und Verlauf; die Fotodatei wird separat gespeichert. Die Verwaltung öffnet den gemeinsamen Projektspeicher, in dem Sie vor dem Bereinigen Liste und Größe prüfen können."
+    ]
+  },
+  "main.library.projects": {
+    "title": "Projektspeicher",
+    "paragraphs": [
+      "Dieser Abschnitt zeigt die Anzahl der Editorprojekte und ihren Speicherbedarf. In der Verwaltung bereiten Sie die Bereinigung ausgewählter Fotos, aller Projekte oder älterer Projekte vor.",
+      "Zuerst sehen Sie die konkreten Projekte und den geschätzten Platz. Löschen erfordert eine eigene Bestätigung; offene Projekte und laufende Aufträge sind geschützt. Originale und exportierte Fotos bleiben erhalten, der bereinigte Projektverlauf ist danach nicht mehr verfügbar."
+    ]
+  },
+  "tour.group.main.settings.title": "Einstellungen",
+  "editor.project.preferences": {
+    "title": "Projekte speichern",
+    "paragraphs": [
+      "Automatisches Speichern sichert ein geändertes Projekt im gewählten Intervall. „Beim Schließen immer speichern“ ist eine eigene Einstellung. Beide gelten auch im Editor.",
+      "Ein Projekt enthält Bilder und Verlauf; die Fotodatei wird separat gespeichert. Die Verwaltung öffnet den gemeinsamen Projektspeicher, in dem Sie vor dem Bereinigen Liste und Größe prüfen können."
+    ]
+  },
+  "tour.about.license-text": "Apache-Lizenz 2.0"
+}

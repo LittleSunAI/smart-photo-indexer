@@ -1,0 +1,347 @@
+{
+  "helpGroups.basics": {
+    "title": "Erste Schritte",
+    "description": "Ordner, Navigation, Ansichten und Sortierung"
+  },
+  "helpGroups.search": {
+    "title": "Suche",
+    "description": "Abfrage, Umfang, Filter und gespeicherte Bedingungen"
+  },
+  "helpGroups.favorites": {
+    "title": "Favoriten",
+    "description": "Markierte Fotos und Arbeiten mit der Auswahl"
+  },
+  "helpGroups.processed": {
+    "title": "Fertige",
+    "description": "Fotos mit gespeicherten Ergebnissen"
+  },
+  "helpGroups.collections": {
+    "title": "Sammlungen",
+    "description": "Eigene Sammlungen ohne Verschieben von Dateien"
+  },
+  "helpGroups.recent": {
+    "title": "Zuletzt geöffnete Ordner",
+    "description": "Rückkehr zu zuvor geöffneten Ordnern"
+  },
+  "helpGroups.rename": {
+    "title": "Umbenennen",
+    "description": "Dateinamen, Reihenfolge, Nummern und Löschung"
+  },
+  "helpGroups.recognition": {
+    "title": "Bilderkennung",
+    "description": "Service, Modell, Ergebnis und Einstellungen"
+  },
+  "helpGroups.inspector": {
+    "title": "Beschreibung, Tags und Journal",
+    "description": "Fotodetails und manuelle Textbearbeitung"
+  },
+  "helpGroups.queue": {
+    "title": "Aufgaben",
+    "description": "Fortschritt, Startfotos, Parameter und Verlauf"
+  },
+  "helpGroups.index": {
+    "title": "Bibliothek und Index",
+    "description": "Quellen, Pflege und Sicherheit von Informationen"
+  },
+  "helpGroups.editor-tools": {
+    "title": "Editor · Leinwand und Layout",
+    "description": "Werkzeuge, Koordinaten, Pinsel und lokale Änderungen"
+  },
+  "helpGroups.editor-request": {
+    "title": "Editor · Bearbeitung neuronaler Netze",
+    "description": "Anweisungen, Standort, Modell, Parameter und Start"
+  },
+  "helpGroups.editor-results": {
+    "title": "Editor · Ergebnisse",
+    "description": "Historie, Vergleich, Speichern und Zurückgeben"
+  },
+  "helpGroups.viewer": {
+    "title": "Sehen Sie sich ein Foto an",
+    "description": "Navigation, Zoom, Diashows und Aktionen"
+  },
+  "helpFeatures.choose-folder": {
+    "title": "Ordner auswählen",
+    "explanation": "Öffnen Sie den Ordner mit den Fotos auf Ihrem Computer oder angeschlossenen Laufwerk. Sein Inhalt wird im Explorer angezeigt; Die Quelldateien werden nicht geändert. Dabei wird ein Ordner zum Anzeigen ausgewählt und kein Editorprojekt erstellt.",
+    "unavailable": "Verfügbar im oberen Bereich des Hauptfensters."
+  },
+  "helpFeatures.navigation": {
+    "title": "Navigation",
+    "explanation": "Pfeile kehren zum vorherigen Ordner zurück, bewegen sich vorwärts oder auf eine höhere Ebene. Mit Breadcrumbs können Sie das übergeordnete Verzeichnis direkt öffnen. Ein unzugänglicher Pfeil bedeutet, dass es derzeit keinen solchen Übergang gibt.",
+    "unavailable": "Öffnen Sie das Hauptanwendungsfenster."
+  },
+  "helpFeatures.refresh": {
+    "title": "Aktualisieren",
+    "explanation": "Die Hauptschaltfläche führt das ausgewählte Update durch; Der Pfeil ändert die Aktion. Der Index führt das neuronale Netzwerk nicht aus.",
+    "unavailable": "Verfügbar neben der Ordnerauswahl."
+  },
+  "helpFeatures.workspace-tabs": {
+    "title": "Bibliotheksbereiche",
+    "explanation": "Wechseln Sie zwischen Explorer, Suche, Favoriten, fertigen Fotos, Sammlungen und zuletzt verwendeten Ordnern. Dies sind unterschiedliche Darstellungen derselben Bibliothek. In den folgenden Trainingsgruppen wird jeder Abschnitt separat eröffnet.",
+    "unavailable": "Verfügbar über dem Fotoraster."
+  },
+  "helpFeatures.view": {
+    "title": "Ansicht",
+    "explanation": "Wählen Sie eine Kartengröße, eine kompakte Liste oder eine Dateiinformationstabelle. Der untere Maßstab steuert dieselbe Ansicht. Beim Verkleinern des Fensters werden die Schaltflächenbeschriftungen ausgeblendet, ihre Funktionen bleiben jedoch über Symbole zugänglich.",
+    "unavailable": "Verfügbar über dem Raster."
+  },
+  "helpFeatures.sort": {
+    "title": "Sortierung",
+    "explanation": "Bestellen Sie nach Name, Datum oder anderen verfügbaren Informationen. Sie können Ordner separat vor Dateien, nach ihnen oder zusammen platzieren. Durch Ändern der Reihenfolge werden die Dateien selbst nicht auf der Festplatte verschoben.",
+    "unavailable": "Oberhalb des Rasters verfügbar, mit Ausnahme der zuletzt verwendeten Ordner."
+  },
+  "helpFeatures.table-columns": {
+    "title": "Tabellenspalten",
+    "explanation": "Plus öffnet eine Auswahl sichtbarer Spalten; Bestätigen Sie die Einstellung mit der Schaltfläche „Übernehmen“. Ziehen Sie den Rand der Kopfzeile, um die Breite zu ändern, und doppelklicken Sie, um ihn zurückzusetzen. Durch Klicken auf einen Spaltennamen ändert sich die Sortierung.",
+    "unavailable": "Wählen Sie zunächst die Tabellenansicht aus und öffnen Sie dann erneut die Hilfe."
+  },
+  "helpFeatures.search-scope": {
+    "title": "Wo suchen",
+    "explanation": "Der aktuelle Ordner mit Unterordnern oder die gesamte indizierte Bibliothek.",
+    "unavailable": "Im Explorer – in der Suchleiste; auf der Registerkarte „Suchen“ – neben der Anfrage."
+  },
+  "helpFeatures.search-filters": {
+    "title": "Suchfilter",
+    "explanation": "Geben Sie Wörter aus Beschreibungen oder Tags ein, wählen Sie einen Suchbereich und die gewünschten Begriffe aus. Klicken Sie dann auf „Suchen“: Durch das Ändern der Felder wird die aktuelle Ausgabe nicht ersetzt. Wenn es keine Ergebnisse gibt, versuchen Sie, einige der Einschränkungen zu entfernen.",
+    "unavailable": "Öffnen Sie zunächst die Registerkarte „Suchen“ und deren „Filter“."
+  },
+  "helpFeatures.recognition-model": {
+    "title": "Service und Modell",
+    "explanation": "Wählen Sie lokal Ollama oder Cloud Fal AI oder OpenRouter und dann das Modell des ausgewählten Dienstes aus. Lokale Arbeit erfordert ein etabliertes Modell; Cloud - gespeicherter Schlüssel und Zustimmung zum Senden von Fotos. Die Auswahl hier wird für neue Zuweisungen verwendet.",
+    "unavailable": "Verfügbar im oberen Bereich."
+  },
+  "helpFeatures.recognition-output": {
+    "title": "Ergebnis",
+    "explanation": "Wählen Sie aus, was gespeichert werden soll: nur schnelle Markup-Tags, nur detaillierte Beschreibungen oder beide Ergebnisse. Die Einstellung wird beim nächsten Start übernommen. Ein nicht zur Bearbeitung ausgewähltes Feld behält seinen ursprünglichen Inhalt.",
+    "unavailable": "Verfügbar im oberen Bereich."
+  },
+  "helpFeatures.process": {
+    "title": "Verarbeiten",
+    "explanation": "Wählen Sie die Fotos aus und klicken Sie auf „Verarbeiten“. Standardmäßig landen sie in einem Hintergrundjob und werden sofort erkannt. Im manuellen Warteschlangenmodus müssen Sie auf der Registerkarte „Aufgaben“ auf „Ausführen“ klicken. Graue Aktion ist nicht verfügbar; Wenn kein lokales Modell vorhanden ist, wird dessen Installation empfohlen.",
+    "unavailable": "Verfügbar im oberen Bereich; Wählen Sie zuerst Fotos aus."
+  },
+  "helpFeatures.settings": {
+    "title": "Einstellungen",
+    "explanation": "Hier werden separate Schlüssel Fal AI und OpenRouter, die Erlaubnis zum Senden von Fotos und Parameter neuer Aufgaben gespeichert. Lokale Modelle werden nach Ihrer Wahl installiert. Durch das Ändern der Einstellungen wird ein bereits erstellter Start nicht geändert.",
+    "unavailable": "Verfügbar im oberen Bereich."
+  },
+  "helpFeatures.queue": {
+    "title": "Aufgaben",
+    "explanation": "Hier wirken Erkennungsaufgaben. „Verarbeiten“ erstellt einen Lauf aus den ausgewählten Fotos. Wenn die manuelle Warteschlange aktiviert ist, beginnt der vorbereitete Start erst nach „Ausführen“. Eine Pause stoppt die Ausgabe neuer Anfragen, die bereits gesendete kann jedoch abgeschlossen werden.",
+    "unavailable": "Öffnen Sie „Aufgaben“ im rechten Bereich."
+  },
+  "helpFeatures.inspector-tabs": {
+    "title": "Rechtes Panel",
+    "explanation": "Details zeigen Informationen zum ausgewählten Foto an; Mit Beschreibung und Tags können Sie Suchmarkierungen bearbeiten. Aufgaben steuern die Verarbeitung, die Bibliothek steuert den Index und das Protokoll zeigt Änderungen an. Die Breite des Paneels kann durch einen Trennsteg verändert werden.",
+    "unavailable": "Erweitern Sie den rechten Bereich."
+  },
+  "helpFeatures.viewer-controls": {
+    "title": "Ansichtskontrolle",
+    "explanation": "Die Pfeile bewegen sich zu benachbarten Fotos, das Sternchen verändert die Favoritenmarkierung. Der Bearbeiten-Button öffnet das aktuelle Foto im Editor. Die Diashow zeigt die Fotos der Reihe nach; Beenden Sie es, um zum normalen Surfen zurückzukehren.",
+    "unavailable": "Geben Sie die Kontrolle zurück, indem Sie auf das Foto doppelklicken."
+  },
+  "helpFeatures.viewer-scale": {
+    "title": "Zoom",
+    "explanation": "„Anpassen“ platziert das Foto im verfügbaren Bereich, „1:1“ (100 %) zeigt es im Maßstab eins zu eins. Die Vergrößerung hilft Ihnen, Details zu erkennen. Diese Aktionen ändern nur die Ansicht und nicht die Größe der Originaldatei.",
+    "unavailable": "Gewinnen Sie die Kontrolle über das Betrachten zurück."
+  },
+  "helpFeatures.viewer-image": {
+    "title": "Fotografie",
+    "explanation": "Durch Doppelklicken auf ein Foto werden die Steuerelemente zur freien Ansicht ausgeblendet. wiederholt gibt es zurück. Bewegen Sie beim Vergrößern das Bild, um den gewünschten Bereich anzuzeigen. Durch Schließen des Viewers kehren Sie zum Hauptprogramm zurück.",
+    "unavailable": "Öffnen Sie das Foto im Viewer."
+  },
+  "helpFeatures.editor-tools": {
+    "title": "Markierungen",
+    "explanation": "Wählen Sie einen Punkt, eine Fläche, eine Maske oder einen Radiergummi aus der oberen Markup-Gruppe aus. Ein Punkt definiert einen Orientierungspunkt, eine Fläche definiert eine rechteckige Fläche und eine Maske definiert eine Form. Sobald ein Punkt oder Bereich erstellt wurde, ist die Auswahl aktiviert und die neue Gruppe auf der rechten Seite bleibt ausgeblendet. Der Pinsel erscheint für die Maske und den Radiergummi. Tag-Details und zusätzliche Bilder finden Sie rechts; Bei einem schmalen Fenster sind einige der Tools über das Menü verfügbar.",
+    "unavailable": "Verfügbar in der obersten Zeile des Editors."
+  },
+  "helpFeatures.editor-brush": {
+    "title": "Pinselgröße",
+    "explanation": "Der Durchmesser wird in Pixeln des Arbeitsbildes eingestellt: Ein großer Pinsel malt das Objekt schneller, ein kleiner hilft am Rand. Die Einstellung ist für Maske und Radiergummi gleich. Das Tutorial zeigt nur den Controller – die vorhandenen Markierungen werden nicht verändert.",
+    "unavailable": "Wählen Sie zunächst die Maske oder den Radiergummi aus und schließen Sie den Vergleich."
+  },
+  "helpFeatures.editor-operations": {
+    "title": "Operationen",
+    "explanation": "Wählen Sie eine Aktion für den aktuellen Frame aus: Zuschneiden, Größe, Objekt, Hintergrund, Licht, Farbe oder andere neuronale Netzwerkbearbeitung. Der Vorgang bestimmt die erforderlichen Felder, Bilder und kompatiblen Modelle. Durch Drehen und Spiegeln können Sie die Ausrichtung zusammen mit dem Layout ändern, ohne einen separaten Story-Rahmen.",
+    "unavailable": "Erweitern Sie die linke Symbolleiste."
+  },
+  "helpFeatures.editor-instruction": {
+    "title": "Aufgabe und Ort",
+    "explanation": "„Standort“ wählt aus, wessen Anweisungen Sie gerade bearbeiten. Der Lauf führt alle aktivierten nicht leeren Punkt- und Flächenjobs des aktuellen Werkzeugs zusammen, nicht nur die ausgewählte Zeile. Allgemeine Hinweise werden ebenfalls berücksichtigt. Für ein automatisches Modell ist möglicherweise kein Text erforderlich. die Erklärung verbleibt an dieser Stelle.",
+    "unavailable": "Öffnen Sie „Bearbeiten“ im rechten Bereich und wählen Sie einen Vorgang mit Anweisungen aus."
+  },
+  "helpFeatures.editor-launch": {
+    "title": "Bearbeitung starten",
+    "explanation": "Startet eine neue Bearbeitung mit allen aktivierten Jobs dieses Tools. Vor dem Versand werden Bildkomposition, Modell, Maße, Tonart, Einwilligung und Budget geprüft. Der Fortschritt ist auf der Registerkarte „Aufgaben“ sichtbar. Das Ergebnis wird als separater Rahmen mit sauberen Markierungen gespeichert; Vorherige Jobs werden nicht automatisch fortgesetzt.",
+    "unavailable": "Erweitern Sie den rechten Bereich und öffnen Sie Bearbeiten."
+  },
+  "helpFeatures.editor-history": {
+    "title": "Verarbeitungshistorie",
+    "explanation": "Jeder Frame speichert sein eigenes Markup; Das neue Ergebnis beginnt sauber. Ziehen Sie den Rand über das Band – die Karten wachsen mit der Höhe und es erscheint ein horizontaler Bildlauf. Ctrl + zwei Frames ermöglichen den Vergleich. Ziehen Sie den Rahmen für ein zusätzliches Bild auf die Markierung. Der Papierkorb löscht den Bestätigungsrahmen; Nachfolgende Ergebnisse werden gespeichert.",
+    "unavailable": "Verfügbar im unteren Feed des Editors."
+  },
+  "helpFeatures.editor-save": {
+    "title": "Projekt speichern",
+    "explanation": "Speichert das Projekt mit Verlauf, ausgewähltem Frame und Markup für die weitere Arbeit. Dies ist kein Export des endgültigen Fotos. Wenn das Speichern fehlschlägt, bleiben Sie im Editor, speichern Sie erneut oder wählen Sie den bereitgestellten Exit ohne die neuesten Änderungen.",
+    "unavailable": "In einem schmalen Fenster, verfügbar im Editor-Menü."
+  },
+  "helpFeatures.editor-return": {
+    "title": "Rückkehr",
+    "explanation": "Kehrt zu dem Fenster zurück, in dem der Editor geöffnet ist, und schließt den Editor, nachdem entschieden wurde, ob er speichern möchte. Wenn nicht gespeicherte Änderungen vorhanden sind, können Sie speichern, fortfahren oder ohne sie beenden. Das Originalfoto verbleibt auf der Festplatte.",
+    "unavailable": "Verfügbar links in der einzelnen oberen Reihe."
+  },
+  "helpFeatures.appearance": {
+    "title": "Betreff",
+    "explanation": "Wechselt zwischen hellem und dunklem Erscheinungsbild; Die Fotos bleiben gleich.",
+    "unavailable": "Die Schaltfläche „Mond“ oder „Sonne“ befindet sich rechts im oberen Bereich des Hauptfensters."
+  },
+  "helpFeatures.search-saved": {
+    "title": "Gespeicherte Suchen",
+    "explanation": "Wörter, Suchbereich und Filter werden gespeichert, keine Fotos. Wählen Sie die gespeicherten Begriffe aus und klicken Sie auf „Suchen“, um die aktuellen Ergebnisse zu erhalten. Eine leere Liste bedeutet, dass die Bedingungen noch nicht gespeichert wurden.",
+    "unavailable": "Verfügbar im Tab „Gespeichert“ der Suche."
+  },
+  "helpFeatures.search-actions": {
+    "title": "Aktionen mit Ergebnissen",
+    "explanation": "Das Ausgabemenü kopiert Pfade, öffnet Ordner und exportiert CSV/JSON. Exportiert Details der Ergebnisse statt Kopien der Fotos. Wählen Sie ein Foto aus, um auf die Auswahl zu reagieren. Ohne eine angewendete Suche ist das Menü nicht verfügbar.",
+    "unavailable": "Befindet sich rechts neben den Suchregisterkarten."
+  },
+  "helpFeatures.favorites-workspace": {
+    "title": "Favoriten",
+    "explanation": "Der Stern fügt das Foto zu Ihren Favoriten hinzu. Hier sind getaggte Fotos aus der indizierten Bibliothek, unabhängig vom Ordner. Durch erneutes Drücken des Sterns wird das Häkchen gelöscht, die Datei wird jedoch nicht gelöscht. Wenn die Liste leer ist, markieren Sie ein beliebiges Foto im Explorer.",
+    "unavailable": "Abschnitt „Favoriten“ über dem Raster."
+  },
+  "helpFeatures.processed-workspace": {
+    "title": "Fertige Fotos",
+    "explanation": "Hier werden Fotos mit gespeicherten Bearbeitungsergebnissen gesammelt. Sie können deren Beschreibungen und Tags suchen, öffnen und ändern. Das Indizieren einer Datei allein macht sie noch nicht fertig. Bearbeiten Sie im leeren Bereich zunächst das Foto oder speichern Sie seine Beschreibung.",
+    "unavailable": "Der Abschnitt „Bereit“ befindet sich über dem Raster."
+  },
+  "helpFeatures.collections-workspace": {
+    "title": "Sammlungen",
+    "explanation": "Eine Sammlung ist eine benannte Sammlung von Links zu Fotos. Erstellen Sie eine Auswahl und fügen Sie dann ausgewählte Fotos hinzu. Die Dateien selbst bleiben in ihren Ordnern. Öffnen Sie eine Sammlung, um deren Inhalt anzuzeigen. Durch das Löschen einer Sammlung werden die Originale nicht gelöscht.",
+    "unavailable": "Abschnitt „Sammlungen“ über dem Raster."
+  },
+  "helpFeatures.recent-workspace": {
+    "title": "Zuletzt geöffnete Ordner",
+    "explanation": "Hier sind die Pfade der zuletzt geöffneten Ordner. Klicken Sie auf den Pfad, um zurückzukehren. Wenn die Verbindung zum Laufwerk getrennt oder der Ordner umbenannt wird, schließen Sie das Laufwerk an oder öffnen Sie einen neuen Pfad. Fotos werden nicht in der aktuellen Liste gespeichert.",
+    "unavailable": "Der Abschnitt „Zuletzt verwendete Ordner“ befindet sich über dem Raster."
+  },
+  "helpFeatures.description-panel": {
+    "title": "Beschreibung des Fotos",
+    "explanation": "Wählen Sie ein Foto aus und bearbeiten Sie den Suchtext. Die Formatierung ändert das Erscheinungsbild und „Beschreibung speichern“ schreibt den Text in den Index. „Zurücksetzen“ gibt die gespeicherte Option zurück. Durch das Ändern des Textes wird das Foto nicht neu gezeichnet.",
+    "unavailable": "Wählen Sie ein Foto aus: Auf der rechten Seite erscheint ein Beschreibungsfeld."
+  },
+  "helpFeatures.tags-panel": {
+    "title": "Foto-Tags",
+    "explanation": "Kurze Wörter und Ausdrücke helfen Ihnen beim Auffinden von Fotos. Trennen Sie sie durch Kommas, Semikolons oder Zeilen und speichern Sie sie. Stapel-Tags in der Dropdown-Gruppe fügen gemeinsame Tags zu mehreren ausgewählten Fotos hinzu oder entfernen sie.",
+    "unavailable": "Wählen Sie ein Foto aus, um seine Tags zu bearbeiten."
+  },
+  "helpFeatures.journal-panel": {
+    "title": "Änderungsprotokoll",
+    "explanation": "Hier werden Aktionen mit Fotos und Metadaten erfasst. Erweitern Sie den Eintrag, um die alten und neuen Werte zu vergleichen. Ein leeres Protokoll bedeutet, dass in dieser Bibliothek keine aufgezeichneten Aktionen vorhanden sind. Es handelt sich nicht um eine Verlauf von Cloud-Zahlungen.",
+    "unavailable": "Rechte Registerkarte „Journal“."
+  },
+  "helpFeatures.queue-progress": {
+    "title": "Gesamtfortschritt",
+    "explanation": "Zeigt den Prozentsatz der abgeschlossenen Elemente für den ausgewählten Lauf an. Bei drei Fotos ergibt die Fertigstellung des ersten 33 %, des zweiten 67 % und des dritten 100 %. Fehlerhafte, abgebrochene und verpasste Elemente werden ebenfalls vervollständigt: 100 % bedeutet nicht, dass alle Fotos erfolgreich erkannt wurden.",
+    "unavailable": "Auf der Registerkarte „Aufgaben“."
+  },
+  "helpFeatures.queue-items": {
+    "title": "Warteschlangenelemente",
+    "explanation": "Hier werden Fotos des ausgewählten Laufs und deren Zustand gezeigt. Das „Hide Ready“ in der Kopfzeile blendet nur erfolgreich abgeschlossene Zeilen aus, ohne Dateien oder Ergebnisse zu löschen. Fehler bleiben sichtbar. Die Liste scrollt innerhalb des verfügbaren Bedienfeldbereichs.",
+    "unavailable": "Auf der Registerkarte „Aufgaben“."
+  },
+  "helpFeatures.queue-details": {
+    "title": "Zusammenfassung starten",
+    "explanation": "Erweitern Sie, um die Anzahl der ausstehenden, abgeschlossenen, fehlgeschlagenen, abgebrochenen Fotos und die aktuelle Anfrage anzuzeigen. Auch der Abschluss oder Stopp wird hier angezeigt. Diese Informationen gelten für den ausgewählten Lauf, nicht für die gesamte Bibliothek.",
+    "unavailable": "Auf der Registerkarte „Aufgaben“."
+  },
+  "helpFeatures.queue-settings": {
+    "title": "Joboptionen",
+    "explanation": "Dies sind die gespeicherten Parameter des ausgewählten Laufs: Dienst, Modell, Durchgänge und Einschränkungen. Durch das Ändern der Einstellungen für neue Aufgaben werden alte nicht geändert. Bei einer noch nicht abgeschlossenen Cloud-Ausführung können Sie das Limit für gleichzeitige Anforderungen separat ändern. Durchgänge eines Fotos werden nacheinander durchgeführt.",
+    "unavailable": "Auf der Registerkarte „Aufgaben“."
+  },
+  "helpFeatures.queue-history": {
+    "title": "Startgeschichte",
+    "explanation": "Ein Lauf kombiniert zusammengefügte Fotos. Öffnen Sie es, um die Fotos und ihre Ergebnisse in der Artikelliste anzuzeigen. Beim Anzeigen eines abgeschlossenen Laufs wird das Foto nicht erneut verarbeitet. Beim Scrollen durch den Verlauf werden alte Starts geladen.",
+    "unavailable": "Auf der Registerkarte „Aufgaben“."
+  },
+  "helpFeatures.index-library": {
+    "title": "Bibliothek und Index",
+    "explanation": "Der Index speichert Pfade, Beschreibungen, Tags und Informationen zu Fotos auf diesem Computer. Es wird nach dem Schließen des Programms gespeichert. „Aktualisieren“ liest hier die Datenbankinformationen erneut; Hierbei handelt es sich nicht um die Neuerkennung von Fotos oder das Löschen von Beschreibungen.",
+    "unavailable": "Öffnen Sie „Bibliothek“ im rechten Bereich des Hauptfensters."
+  },
+  "helpFeatures.library-roots": {
+    "title": "Verbundene Ordner",
+    "explanation": "Der verbundene Ordner ist die Quelle der Bibliothek. Das Update fügt Dateiinformationen hinzu und verfolgt Änderungen, ohne die Originale zu bearbeiten oder das Modell aufzurufen. Konfigurieren Sie Ausnahmen und automatische Updates separat für jede Quelle. Durch das Deaktivieren der Quelle bleiben der Index und die Beschreibungen erhalten.",
+    "unavailable": "Erweitern Sie „Zugeordnete Ordner“ auf der Registerkarte „Bibliothek“."
+  },
+  "helpFeatures.index-maintenance": {
+    "title": "Problemeinträge",
+    "explanation": "Die Pfadprüfung erkennt unzugängliche, verschobene oder fehlerhafte Dateien. Reparieren Sie zunächst die Festplatte oder überprüfen Sie den Pfad. Das Entfernen eines Eintrags aus dem Index ist eine separate Aktion. Der Scan führt keine Erkennung durch und löscht Quellen nicht automatisch.",
+    "unavailable": "Erweitern Sie „Problemeinträge“ auf der Registerkarte „Bibliothek“."
+  },
+  "helpFeatures.index-duplicates": {
+    "title": "Exakte Duplikate",
+    "explanation": "Mithilfe von Gruppen übereinstimmender Dateien können Sie Kopien eines Fotos überprüfen. Überprüfen Sie die Pfade, bevor Sie eine Entscheidung treffen: Der gleiche Name bedeutet nicht den gleichen Inhalt. In diesem Abschnitt wird nicht nur nach ähnlichen Geschichten gesucht.",
+    "unavailable": "Erweitern Sie „Exakte Duplikate“."
+  },
+  "helpFeatures.index-backup": {
+    "title": "Indexsicherung",
+    "explanation": "Die Kopie bewahrt lokale Informationen und Beschreibungen. Originalfotos bitte separat übertragen. Überprüfen Sie vor dem Wiederherstellen das Datum und die Zusammensetzung der Kopie: Durch das Wiederherstellen wird der aktuelle Index geändert. Das Training übernimmt nicht die Wiederherstellung für Sie.",
+    "unavailable": "Erweitern Sie „Sicherung“."
+  },
+  "helpFeatures.index-cache": {
+    "title": "Miniaturbild-Cache",
+    "explanation": "Der Cache beschleunigt die Anzeige von Fotos. Durch die Reinigung werden nur die vorbereiteten Miniaturansichten entfernt. Sie werden beim nächsten Aufruf erneut erstellt. Quellen, Beschreibungen und Tags bleiben erhalten. Wenn eine bestimmte Vorschau fehlschlägt, versuchen Sie zunächst erneut, das Foto hochzuladen.",
+    "unavailable": "Erweitern Sie den Miniaturbild-Cache."
+  },
+  "helpFeatures.index-technical": {
+    "title": "Technische Details",
+    "explanation": "Die Datenbankversion und der Pfad werden für Diagnose und Sicherung benötigt. Dies ist der Indexspeicherort, nicht der Ordner aller Fotos. Der Pfad kann kopiert werden; Für die normale Anzeige kann dieser Abschnitt geschlossen bleiben.",
+    "unavailable": "Erweitern Sie „Technische Informationen“."
+  },
+  "helpFeatures.editor-canvas": {
+    "title": "Netz und Bewegung",
+    "explanation": "Der ausgewählte Rahmen und seine Markierungen sind auf der Leinwand sichtbar. Das Rad ändert den Maßstab; Mit der Hand oder der Mitteltaste wird das Bild verschoben. Ein Punkt gibt einen Ort an, ein rechteckiger Bereich definiert einen Bereich und eine Maske malt die genaue Form. Escape bricht eine unvollständige Geste ab.",
+    "unavailable": "Öffnen Sie das Foto im Editor."
+  },
+  "helpFeatures.editor-models": {
+    "title": "Modellauswahl",
+    "explanation": "Die Stufen „Economy“, „Balance“ und „Quality“ helfen Ihnen bei der Modellauswahl; Nachfolgend finden Sie eine Liste kompatibler Optionen. Das Fragezeichen nach „Modell“ erläutert Einschränkungen und Beobachtungen zur Platzierungsgenauigkeit. Der Preis ist eine Schätzung der gesamten Start. Das Eingabelimit umfasst die Quelle. Auflösung und verfügbare Qualität werden separat unter dem Modell eingestellt.",
+    "unavailable": "Im rechten Bereich „Bearbeiten“."
+  },
+  "helpFeatures.editor-export": {
+    "title": "Bild speichern",
+    "explanation": "Exportiert den ausgewählten Rahmen unter Berücksichtigung der Arbeitsausrichtung in eine Datei. Für ein Zwischenergebnis wählen Sie den gewünschten Frame in der Story aus. Durch das separate Speichern des Projekts werden Markup und Verlauf gespeichert: Ein Projekt reicht nicht aus, um das endgültige JPG/PNG zu erhalten.",
+    "unavailable": "In der obersten Zeile des Editors."
+  },
+  "helpFeatures.smart-rename": {
+    "title": "Intelligente Umbenennung",
+    "explanation": "Öffnet ein Fenster mit zukünftigen Namen für die ausgewählten Dateien oder Ordner; Ohne Auswahl wird der aktuelle Ordner verwendet. Geben Sie den allgemeinen Namen, das Präfix, das Suffix und die Nummerierung an. Überprüfen Sie die Bestellung in der Vorschau, bevor Sie sich bewerben. Fotos werden nicht neu gezeichnet, das neuronale Netzwerk wird nicht aufgerufen. Die Stornierung ist im Umbenennungsprotokoll verfügbar.",
+    "unavailable": "Öffnen Sie den Ordner oder wählen Sie die benötigten Dateien aus. Das Tag-Symbol befindet sich in der oberen Leiste."
+  },
+  "helpFeatures.editor-markup": {
+    "title": "Tags und zusätzliche Bilder",
+    "explanation": "Karten von Punkten und Regionen werden zunächst kollabiert. Außerdem können Sie neben dem Fotozähler eine Datei auswählen und die gewünschte Gruppe erweitern. Ein Rahmen aus dem unteren Menüband kann direkt auf die Markierung gezogen werden: Das einzige zusätzliche Bild an der Stelle wird ersetzt und an der Stelle wird ein neues hinzugefügt. Das Auge verändert die Sichtbarkeit, die Checkbox verändert die Teilnahme an der Anfrage. Der Griff unten ändert die Höhe der Liste.",
+    "unavailable": "Öffnen Sie die Registerkarte „Bearbeiten“. Während der Einführung werden keine neuen Etiketten erstellt."
+  },
+  "helpFeatures.editor-model-filters": {
+    "title": "Modellfilter",
+    "explanation": "Das Trichtersymbol öffnet Bedingungen anstelle von Ebenen: Preis des gesamten Starts, Auflösung, Anzahl zusätzlicher Bilder ohne Quelle und Unterstützung für Originalgröße. Die Bedingungen wählen die Liste aus, senden jedoch keine Anfrage oder wählen automatisch ein anderes Modell aus. Das Kreuz gibt die normale Auswahl zurück.",
+    "unavailable": "Öffnen Sie Bearbeiten und schließen Sie das Fenster zum Zuschneiden oder Ändern der Größe."
+  },
+  "helpFeatures.editor-output": {
+    "title": "Auflösung und Qualität",
+    "explanation": "Die Auflösung gibt die Abmessungen in Pixel an; Qualität – verfügbarer Modus des Modells. Das sind unterschiedliche Einstellungen. „Wie Quelle“ erfordert die Unterstützung der Originalabmessungen. Wenn Sie 1K/2K oder einen anderen Modus auswählen, wird eine neue Größe angefordert. Einige Tools geben einen Maßstab statt einer Auflösung an; unnötige Felder werden nicht angezeigt.",
+    "unavailable": "Die Felder variieren je nach Modell. Um das Bild zu vergrößern, legen Sie die Ränder an den Seiten fest; Zum Vergrößern stellen Sie den verfügbaren Maßstab ein. Wenn Filter geöffnet sind, schließen Sie diese zuerst."
+  },
+  "helpFeatures.editor-tasks": {
+    "title": "Aufgaben bearbeiten",
+    "explanation": "Öffnen Sie den Titel der gewünschten Karte: Darin werden Datum, Dauer, Modell, Abmessungen und Ergebnisse angezeigt. „Öffnen“ wählt einen fertigen Rahmen ohne neue Generation aus. Schätzung und bestätigter Verbrauch werden getrennt. Die Liste verwendet alle verfügbaren Höhen; Alte Aufgaben werden nicht automatisch fortgesetzt.",
+    "unavailable": "Gehen Sie rechts zur Registerkarte „Aufgaben“. Vor der ersten Bearbeitung wird hier der leere Zustand angezeigt."
+  },
+  "helpFeatures.editor-sources": {
+    "title": "Projektquellen",
+    "explanation": "Dem Projekt hinzugefügte Bilder werden hier gespeichert. Wenn Sie ein Bild auswählen, wird dessen Arbeitsbild geöffnet. Dies ist kein Anhang zu einem Tag. Um einen Rahmen als zusätzliches Bild zu verwenden, ziehen Sie ihn aus dem unteren Menüband an einen Punkt oder Bereich im Markup. Import und Löschung erfolgen nur auf Ihren Befehl hin.",
+    "unavailable": "Öffnen Sie die Registerkarte „Quellen“ im rechten Bereich des Editors."
+  }
+}

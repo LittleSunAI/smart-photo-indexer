@@ -1,0 +1,201 @@
+{
+  "status": "first-editorial-draft-requires-route-specific-review",
+  "entries": [
+    {
+      "schemaKey": "aspect_ratio",
+      "helpId": "parameter.aspect-ratio"
+    },
+    {
+      "schemaKey": "background",
+      "helpId": "parameter.background"
+    },
+    {
+      "schemaKey": "cfg",
+      "helpId": "parameter.cfg-light"
+    },
+    {
+      "schemaKey": "color_palette",
+      "helpId": "parameter.palette"
+    },
+    {
+      "schemaKey": "creativity",
+      "helpId": "parameter.creativity"
+    },
+    {
+      "schemaKey": "denoise",
+      "helpId": "parameter.denoise"
+    },
+    {
+      "schemaKey": "enable_hr_fix",
+      "helpId": "parameter.hr-fix"
+    },
+    {
+      "schemaKey": "enable_prompt_expansion",
+      "helpId": "parameter.prompt-expansion"
+    },
+    {
+      "schemaKey": "enhance_prompt",
+      "helpId": "parameter.prompt-expansion"
+    },
+    {
+      "schemaKey": "enhance_prompt_mode",
+      "helpId": "parameter.prompt-mode"
+    },
+    {
+      "schemaKey": "enhance_resolution",
+      "helpId": "parameter.enhance-resolution"
+    },
+    {
+      "schemaKey": "enhancement_strength",
+      "helpId": "parameter.enhancement"
+    },
+    {
+      "schemaKey": "face_enhancement",
+      "helpId": "parameter.face"
+    },
+    {
+      "schemaKey": "face_enhancement_creativity",
+      "helpId": "parameter.face-creativity"
+    },
+    {
+      "schemaKey": "face_enhancement_strength",
+      "helpId": "parameter.face-strength"
+    },
+    {
+      "schemaKey": "fix_colors",
+      "helpId": "parameter.fix-colors"
+    },
+    {
+      "schemaKey": "fix_compression",
+      "helpId": "parameter.fix-compression"
+    },
+    {
+      "schemaKey": "guidance_scale",
+      "helpId": "parameter.guidance"
+    },
+    {
+      "schemaKey": "highres_denoise",
+      "helpId": "parameter.highres-denoise"
+    },
+    {
+      "schemaKey": "hr_downscale",
+      "helpId": "parameter.hr-downscale"
+    },
+    {
+      "schemaKey": "image_size",
+      "helpId": "parameter.image-size"
+    },
+    {
+      "schemaKey": "initial_latent",
+      "helpId": "parameter.light-direction"
+    },
+    {
+      "schemaKey": "lowres_denoise",
+      "helpId": "parameter.lowres-denoise"
+    },
+    {
+      "schemaKey": "mask_expansion",
+      "helpId": "parameter.mask-expansion"
+    },
+    {
+      "schemaKey": "model",
+      "helpId": "parameter.model-remove"
+    },
+    {
+      "schemaKey": "negative_prompt",
+      "helpId": "parameter.negative"
+    },
+    {
+      "schemaKey": "noise_scale",
+      "helpId": "parameter.noise-scale"
+    },
+    {
+      "schemaKey": "num_inference_steps",
+      "helpId": "parameter.steps"
+    },
+    {
+      "schemaKey": "operating_resolution",
+      "helpId": "parameter.operating-resolution"
+    },
+    {
+      "schemaKey": "output_compression",
+      "helpId": "parameter.output-compression"
+    },
+    {
+      "schemaKey": "output_format",
+      "helpId": "parameter.output-format"
+    },
+    {
+      "schemaKey": "output_mask",
+      "helpId": "parameter.output-mask"
+    },
+    {
+      "schemaKey": "preserve_alpha",
+      "helpId": "parameter.preserve-alpha"
+    },
+    {
+      "schemaKey": "prompt",
+      "helpId": "parameter.prompt"
+    },
+    {
+      "schemaKey": "quality",
+      "helpId": "parameter.quality"
+    },
+    {
+      "schemaKey": "refine_foreground",
+      "helpId": "parameter.refine-foreground"
+    },
+    {
+      "schemaKey": "remove_scratches",
+      "helpId": "parameter.remove-scratches"
+    },
+    {
+      "schemaKey": "resemblance",
+      "helpId": "parameter.resemblance"
+    },
+    {
+      "schemaKey": "resolution",
+      "helpId": "parameter.resolution"
+    },
+    {
+      "schemaKey": "seed",
+      "helpId": "parameter.seed"
+    },
+    {
+      "schemaKey": "sharpen",
+      "helpId": "parameter.sharpen"
+    },
+    {
+      "schemaKey": "strength",
+      "helpId": "parameter.strength-text"
+    },
+    {
+      "schemaKey": "style",
+      "helpId": "parameter.style"
+    },
+    {
+      "schemaKey": "style_preset",
+      "helpId": "parameter.style-preset"
+    },
+    {
+      "schemaKey": "subject_detection",
+      "helpId": "parameter.subject"
+    },
+    {
+      "schemaKey": "target_resolution",
+      "helpId": "parameter.target-resolution"
+    },
+    {
+      "schemaKey": "thinking_level",
+      "helpId": "parameter.thinking"
+    },
+    {
+      "schemaKey": "upscale_factor",
+      "helpId": "parameter.upscale-factor"
+    },
+    {
+      "schemaKey": "upscale_mode",
+      "helpId": "parameter.upscale-mode"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import {text as localeText, useCurrentLocale} from "../../shared/i18n/Runtime";
+import {Hint} from "../../shared/help/Hint";
+import {useRef,useState} from 'react';
+import {Icon} from '../../shared/ui/Icon';
+import {AnchoredPanel} from '../../shared/ui/AnchoredPanel';
+import {searchFieldOptions,defaultSearchFields,type SearchField} from './SearchFieldsContract';
+export function SearchFields({value=defaultSearchFields,onChange,tourId}:{tourId?:string;value?:SearchField[];onChange(value:SearchField[]):void}){
+  useCurrentLocale();
+ const [open,setOpen]=useState(false),anchor=useRef<HTMLButtonElement>(null),label=value.length===4?localeText("search", "ui.SearchFields.b4a6b7103d0d3b33"):value.length===2&&value.includes('description')&&value.includes('tags')?localeText("search", "ui.SearchFields.17849ba07cacdc75"):value.length===1?searchFieldOptions().find(([key])=>key===value[0])?.[1]:value.length?localeText("search", "ui.SearchFields.8a22ea747af2f5ff", {"value1": (value.length)}):localeText("search", "ui.SearchFields.334aa94ec4192b35");
+ return <><Hint message={{id:"search.fields"}}><button data-tour-id={tourId} ref={anchor} type="button" className="search-fields" aria-label={localeText("search", "ui.SearchFields.a99b94733c879eac")} title={searchFieldOptions().filter(([key])=>value.includes(key)).map(([,name])=>name).join(', ')||localeText("search", "ui.SearchFields.d4184751f2fa38a1")} aria-haspopup="dialog" aria-expanded={open} onClick={()=>setOpen(v=>!v)}><span>{label}</span><Icon name="down"/></button></Hint>{open?<AnchoredPanel anchor={anchor} label={localeText("search", "ui.SearchFields.211b831710423d00")} onClose={()=>setOpen(false)} width={210}>{searchFieldOptions().map(([key,name])=><Hint key={key} message={{id:({description:"search.field-description",tags:'search.field-tags',fileName:'search.field-name',path:'search.field-path'} as const)[key]}}><label key={key} className="search-fields__option"><input type="checkbox" checked={value.includes(key)} onChange={e=>onChange(searchFieldOptions().map(([key])=>key).filter(k=>k===key?e.target.checked:value.includes(k)))}/>{name}</label></Hint>)}{!value.length?<small role="status">{localeText("search", "ui.SearchFields.075330e7e924fd19")}</small>:null}</AnchoredPanel>:null}</>;
+}

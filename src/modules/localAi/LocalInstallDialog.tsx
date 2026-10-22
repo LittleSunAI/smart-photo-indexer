@@ -1,0 +1,13 @@
+import {text as localeText, useCurrentLocale} from "../../shared/i18n/Runtime";
+import {Hint} from "../../shared/help/Hint";
+import {useEffect,useState} from 'react';
+import {invoke} from "../../shared/tauri/invoke";
+import {EditorModal} from '../photoEditor/EditorModal';
+import {installLocalModel} from './LocalModelInstallation';
+interface Plan{runtimeInstalled:boolean;runtimePath:string;modelsPath:string;installerCache:string;runtimeDownloadBytes:number;modelDownloadBytes:number;allowed:boolean;message:string}
+const size=(bytes:number)=>localeText("settings", "ui.LocalInstallDialog.9c90a0c8a882c4ba", {"value1": ((bytes/1e9).toFixed(2))});
+export function LocalInstallDialog({model,endpoint,onClose}:{model:string;endpoint:string;onClose():void}){
+  useCurrentLocale();
+ const [plan,setPlan]=useState<Plan|null>(null),[error,setError]=useState('');useEffect(()=>{let alive=true;void invoke<Plan>('preview_local_installation',{model,endpoint}).then(v=>{if(alive)setPlan(v);}).catch(e=>{if(alive)setError(String(e));});return()=>{alive=false;};},[model,endpoint]);
+ return <EditorModal title={localeText("settings", "ui.LocalInstallDialog.fc6d135160b34bd3")} onClose={onClose}>{plan?<><p>{plan.runtimeInstalled?localeText("settings", "ui.LocalInstallDialog.21cce3aa5453ee22"):localeText("settings", "ui.LocalInstallDialog.24bf6bea5ba54960")}</p><strong>{model}</strong><dl className="local-install-plan"><dt>{localeText("settings", "ui.LocalInstallDialog.7bc22fad4f1b3215")}</dt><dd>{size(plan.runtimeDownloadBytes)}</dd><dt>{localeText("settings", "ui.LocalInstallDialog.c53665d0c21ddfc5")}</dt><dd>{size(plan.modelDownloadBytes)}</dd><dt>{localeText("settings", "ui.LocalInstallDialog.0e4705102f8b8019")}</dt><dd>{plan.runtimePath}</dd><dt>{localeText("settings", "ui.LocalInstallDialog.3d5ee495c6e09b53")}</dt><dd>{plan.modelsPath}</dd><dt>{localeText("settings", "ui.LocalInstallDialog.17ca7f6295a1524b")}</dt><dd>{plan.installerCache}</dd></dl><small>{plan.message} {' '}{localeText("settings", "ui.LocalInstallDialog.c9c6d2236dd4c118")}</small></>:<p>{error||localeText("settings", "ui.LocalInstallDialog.1cc2c26dc9b24949")}</p>}<footer><Hint message={{id:"common.cancel-draft"}}><button type="button" onClick={onClose}>{localeText("settings", "ui.LocalInstallDialog.ae83700ddcc4a252")}</button></Hint><Hint message={{id:"local.confirm-install"}}><button type="button" className="editor-primary" disabled={!plan?.allowed} onClick={()=>{onClose();void installLocalModel(model,endpoint);}}>{localeText("settings", "ui.LocalInstallDialog.4e8fd203a6620ed8")}</button></Hint></footer></EditorModal>;
+}

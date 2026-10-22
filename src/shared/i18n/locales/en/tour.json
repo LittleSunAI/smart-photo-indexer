@@ -1,0 +1,1643 @@
+{
+  "main.folder.choose": {
+    "title": "Choose folder",
+    "bodyRef": "main.choose-folder"
+  },
+  "main.folder.refresh": {
+    "title": "Refresh folder",
+    "paragraphs": [
+      "Updates information about the open folder. The selected refresh mode determines what happens; its name appears on the button.",
+      "**Refresh folder** checks the folder’s contents again. Use it after adding, deleting or moving files outside the app. **Refresh index** updates the library’s information about those files. Generate new descriptions and tags by starting photo processing separately."
+    ]
+  },
+  "main.folder.refresh-options": {
+    "title": "Refresh options",
+    "paragraphs": [
+      "The arrow lets you choose between refreshing the folder and refreshing its index. Your choice becomes the action of the adjacent button.",
+      "To see changes made in Windows Explorer, refresh the folder. To generate a new description or new tags, start photo processing instead."
+    ]
+  },
+  "main.recognition.overview": {
+    "title": "Service, model and result",
+    "paragraphs": [
+      "Here you choose **where to process the photos**, **which model to use** and **what you get as a result**. These decisions are related: each service has its own set of models, and the result can be a description, tags, or both.",
+      "First select the service, then the model and the required information. The processing conditions and the start button are to the right."
+    ]
+  },
+  "main.recognition.provider": {
+    "title": "Where photos are processed",
+    "bodyRef": "main.provider"
+  },
+  "main.recognition.model": {
+    "title": "Recognition model",
+    "bodyRef": "main.model"
+  },
+  "main.recognition.output": {
+    "title": "Requested results",
+    "paragraphs": [
+      "**Description** - coherent text about what is visible in the photograph. **Tags** are short words and expressions that can be used to conveniently search for a photo. You can choose only one type of information or get both.",
+      "For example, for a photograph by the sea, the description will tell about the people, coastline and lighting, and the tags could be “sea”, “beach”, “sunset”. This selection also determines which results are considered ready when skipping processed photos."
+    ]
+  },
+  "main.processing.overview": {
+    "title": "Processing options and start",
+    "paragraphs": [
+      "These controls prepare the selected photos for recognition. On the left, choose whether to include subfolders, use smart names and copies, or skip results that are already complete. The button on the right carries out the selected action.",
+      "There are two modes: **Process** adds photos to the shared queue and starts processing; **Add to queue** collects a separate batch without starting it. Choose the mode using the arrow beside the button."
+    ]
+  },
+  "main.processing.recursive": {
+    "title": "Include subfolders",
+    "paragraphs": [
+      "Enable this option to process photos in subfolders as well as in the selected folder. With it turned off, subfolders are excluded.",
+      "Before starting a large folder, check which photos are included and the estimated cost. Subfolders may contain far more images than you can see at the current level."
+    ]
+  },
+  "main.processing.smart-name": {
+    "title": "Smart name",
+    "bodyRef": "main.smart-name"
+  },
+  "main.processing.copy": {
+    "title": "Create copy",
+    "bodyRef": "main.analysis-copy"
+  },
+  "main.processing.only-missing": {
+    "title": "Unprocessed only",
+    "bodyRef": "main.only-missing"
+  },
+  "main.processing.action": {
+    "title": "Process or add to queue",
+    "paragraphs": [
+      "This button uses the selected photos and folders. **Process** adds them to the shared queue and starts processing; photos already waiting or being processed are not duplicated. **Add to queue** adds the selection without starting it, using the chosen manual queue or creating one if no destination is selected.",
+      "Queue contents and progress appear in Tasks on the right.",
+      "If the button asks you to install a model or add an API key, prepare that service first. Checking… means the app is checking whether it is ready."
+    ]
+  },
+  "main.processing.mode": {
+    "title": "Main button mode",
+    "paragraphs": [
+      "In this menu you select what the main button does: **process immediately** or **add to queue without launch**. After selection, the button label also changes so that the action is visible before pressing.",
+      "Process uses the shared queue. Manual queues let you prepare several separate groups of photos, then start them from Tasks."
+    ]
+  },
+  "main.commands.overview": {
+    "title": "Other program commands",
+    "paragraphs": [
+      "This part of the top toolbar opens the photo editor, renaming tools, settings and technical logs. On the right, you can change the theme and open Help.",
+      "These commands solve different problems: the editor changes the image, renaming works with the file name, and the settings determine the operating conditions of the program. Next, let's look at each one in order."
+    ]
+  },
+  "main.commands.edit": {
+    "title": "Edit photo",
+    "paragraphs": [
+      "Opens the selected photo in the editor. There you can change the image itself: for example, crop it, adjust the size, or prepare an edit using a model.",
+      "Recognition generates descriptions and tags; the editor changes the image itself. Start the editor’s own tour from Help inside that window."
+    ]
+  },
+  "main.commands.rename": {
+    "title": "Smart renaming",
+    "paragraphs": [
+      "Opens renaming of selected files or files in the current folder according to the rules. New names can be prepared and a preliminary list can be checked before use.",
+      "This command does not send photos to a model. Use it when you already know how you want to name the files."
+    ]
+  },
+  "main.commands.settings": {
+    "title": "Program settings",
+    "paragraphs": [
+      "Here you configure recognition services, local processing and conditions for new tasks. You can also turn tooltips on and off in the settings.",
+      "Changing the settings of new tasks should not be confused with managing an already created queue: its parameters are shown separately in the “Tasks” tab."
+    ]
+  },
+  "main.commands.logs": {
+    "title": "Application logs",
+    "paragraphs": [
+      "Opens the application's technical messages. They help you figure out at what stage the problem arose and convey the details when asking for help.",
+      "The history of actions on photos is separate, under Activity log in the right panel."
+    ]
+  },
+  "main.commands.theme": {
+    "title": "Light and dark theme",
+    "paragraphs": [
+      "Switches the appearance of the program between light and dark themes. The selection is saved and applied to program windows.",
+      "The theme changes the design of the interface; the colors of the photographs themselves remain the same."
+    ]
+  },
+  "main.help.overview": {
+    "title": "Tour and reference",
+    "paragraphs": [
+      "The question-mark button opens Help. **Show me around** explains the current window in order. **Reference** lets you find a topic and read about it separately.",
+      "The main window, editor and viewer each have their own tour. Open Help in the window you want to learn about."
+    ]
+  },
+  "main.help.hover": {
+    "title": "Hover tooltips",
+    "paragraphs": [
+      "A slide-out tooltip switch sits beside the question mark. Open it with the arrow to turn hover explanations on or off.",
+      "This switch and the option in Settings stay in sync. Turning tooltips off leaves the ? Help button available. The switch’s own tooltip also remains available so you can turn explanations back on."
+    ]
+  },
+  "main.navigation.overview": {
+    "title": "Folder navigation",
+    "paragraphs": [
+      "Use this row to move between folders. On the left are the navigation-history buttons and the button for going up one level. Beside them are the drive selector and the current folder path.",
+      "History and the path serve different purposes. The arrows revisit locations you have already opened; the path segments let you jump directly to a particular level."
+    ]
+  },
+  "main.navigation.back": {
+    "title": "Back",
+    "paragraphs": [
+      "Returns to the previous location in the navigation history. This may be a completely different folder than the parent folder of the current one.",
+      "If there is nowhere to return yet, the button is not available. After going back, you can go back forward using the adjacent arrow."
+    ]
+  },
+  "main.navigation.forward": {
+    "title": "Forward",
+    "paragraphs": [
+      "Returns to the next location in your navigation history after you have gone back. The button is available only when there is a location to return to.",
+      "To open the parent folder, use the up arrow instead of the history buttons."
+    ]
+  },
+  "main.navigation.up": {
+    "title": "One level up",
+    "paragraphs": [
+      "Opens the folder containing the current one. For example, from the “Vacation” folder inside “Photos” you will go to “Photos”.",
+      "At a drive’s root there is no parent folder. Use the computer icon to choose another drive."
+    ]
+  },
+  "main.navigation.computer": {
+    "title": "Computer and disks",
+    "paragraphs": [
+      "The computer icon opens a list of available drives. Select a drive to go to its root folder and continue navigation from there.",
+      "For example, selecting **C:** opens the root of the C: drive. If the required removable or network drive is not available, first check its connection."
+    ]
+  },
+  "main.navigation.breadcrumbs": {
+    "title": "Current path",
+    "paragraphs": [
+      "This shows the path to the open folder, divided into parts. Click on the name of one of the previous levels to go directly there.",
+      "The last segment is the current folder, so it may not be clickable. To browse a neighboring folder, first open the appropriate parent level."
+    ]
+  },
+  "main.quick.overview": {
+    "title": "Quick search",
+    "paragraphs": [
+      "This line helps you quickly find photos using saved information. Select your search area and fields, then enter your words - the results will update after a short pause.",
+      "Quick search is independent of the Search tab below. Use that tab to build more detailed search conditions and save them for reuse."
+    ]
+  },
+  "main.quick.scope": {
+    "title": "Where to look",
+    "paragraphs": [
+      "**Current folder** limits the search to the selected folder and its subfolders. If another path is saved in the area, it is indicated as **Selected folder**. **Entire library** searches among photographs for which the program already has information.",
+      "Searching the entire library does not mean going through all the disks again. To find photos by description or tags, you must first save this information."
+    ]
+  },
+  "main.quick.fields": {
+    "title": "What information to look for",
+    "paragraphs": [
+      "Select what information to consider: **Description**, **Tags**, **File name**, and **Path**. You can leave several fields or limit the search to one.",
+      "For example, the word “sea” can be searched in descriptions and tags, and the folder name can be searched in the path. If all fields are turned off, search is not available: check at least one first."
+    ]
+  },
+  "main.quick.query": {
+    "title": "Quick search bar",
+    "paragraphs": [
+      "Enter the word or expression you expect to find in the selected fields. For example, \"red car\", a file name or part of a path.",
+      "The search begins after a short pause in the input so that the program does not do unnecessary work for each letter. The result depends on the information already stored: the model does not look at the photos anew with each request."
+    ]
+  },
+  "main.quick.actions": {
+    "title": "Find and clear",
+    "paragraphs": [
+      "The **Search** button explicitly starts a search for the current line and selected fields. The cross clears the top query and returns the normal contents of the workspace.",
+      "Clearing this request does not remove photos, descriptions, or tags. The terms on the individual Search tab apply to a different search."
+    ]
+  },
+  "main.workspace.overview": {
+    "title": "Ways to work with photos",
+    "paragraphs": [
+      "Here you can switch between folders, search, favorites and ready photos, collections and recent folders. Explorer shows the files of the open folder; Search and collections help you find images based on information stored in the library.",
+      "First, we’ll look at the tabs and their contents, then we’ll look at display, sorting, and working with photos."
+    ]
+  },
+  "main.workspace.explorer": {
+    "title": "Explorer",
+    "paragraphs": [
+      "Explorer shows the contents of an open folder. Here you can navigate to subfolders, select photos, and open them for viewing or editing.",
+      "Folders are located before files. You can limit the list to photos or show all files - this switch is located on the right above the contents of the folder."
+    ]
+  },
+  "main.search.overview": {
+    "title": "Detailed search",
+    "paragraphs": [
+      "This tab helps you collect a selection based on several conditions: words, tags, processing status, and dates. A convenient set of conditions can be saved and used again.",
+      "Unlike the top quick search, here you prepare the conditions and click **Search**. If you change the filters after this, the results already shown may refer to the previous conditions - pay attention to the change mark."
+    ]
+  },
+  "main.search.sections": {
+    "title": "Filters and saved searches",
+    "paragraphs": [
+      "In the **\"Filters\"** tab you set a new search. The **\"Saved\"** tab contains sets of conditions that you have already given names.",
+      "The nearby star saves the current search conditions under a name you choose. Running that saved search later can return different photos, for example after new matching images have been added."
+    ]
+  },
+  "main.search.query": {
+    "title": "Query and detailed search area",
+    "paragraphs": [
+      "Choose where and in what fields to search, enter the words and click **Search**. You can search by description, tags, file name or path, as in the top line.",
+      "The reset button clears the terms of this search. It doesn't delete photos or erase saved descriptions or tags."
+    ]
+  },
+  "main.search.primary-filters": {
+    "title": "Photo status and tags",
+    "paragraphs": [
+      "The status filter helps you select, for example, completed photos or entries with errors. In the adjacent field you can specify tags separated by commas.",
+      "**Any tag** finds photos with at least one of the listed tags. **All tags** requires every listed tag to be present on the photo. These filters apply alongside the main query."
+    ]
+  },
+  "main.search.additional": {
+    "title": "Additional terms",
+    "paragraphs": [
+      "Additional filters can limit results to favorites, photos without tags, a collection or another folder. You can also choose whether to match word forms and synonyms.",
+      "The terms apply together, so check that they are not mutually exclusive. For example, searching for specific tags along with the “No tags” condition will not provide the desired selection."
+    ]
+  },
+  "main.search.dates": {
+    "title": "Search by dates",
+    "paragraphs": [
+      "First, select **which date** to take into account: file change, shooting using camera data, adding to the index, or last recognition. Then set the start and end of the period.",
+      "These are different events. For example, a photograph could have been taken a long time ago, but a description for it could have been received today. To find recently recognized pictures, select the recognition date."
+    ]
+  },
+  "main.search.saved": {
+    "title": "Saved searches",
+    "paragraphs": [
+      "These are searches saved under names you chose. Select an entry to restore its conditions, adjust them if needed, then run the search.",
+      "The list can be filtered by name, and frequently used entries can be marked with a star. Renaming or deleting a saved search only changes that entry, not the photos."
+    ]
+  },
+  "main.search.result-actions": {
+    "title": "Actions on search results",
+    "paragraphs": [
+      "This button opens actions with the results of the search performed. Inside, you can select an area: selected photos or the entire selection found, including results outside the current page.",
+      "Check the area before action. Search terms that have been changed but not yet applied do not mean that the selection already shown has been rearranged."
+    ]
+  },
+  "main.search.results": {
+    "title": "Search results",
+    "paragraphs": [
+      "The number of photos found belongs to the last completed search. Large result sets load progressively, so fewer photos may currently be visible than the total found.",
+      "You can select photos from the results, open them and process them. The new changes flag prompts you to update the results to take into account information that appears after the search."
+    ]
+  },
+  "main.workspace.favorites": {
+    "title": "Favorites",
+    "paragraphs": [
+      "Photos marked with a star are collected here. This mark helps you quickly return to the desired pictures from different folders.",
+      "To remove a photo from your favorites, remove the star. The file itself and its description remain in place."
+    ]
+  },
+  "main.workspace.ready": {
+    "title": "Finished photos",
+    "paragraphs": [
+      "This tab shows photos with saved recognition results. It helps you return to the descriptions and tags you have already received and evaluate their quality.",
+      "Having one result does not always mean that everything you need is ready. For example, a photo may have tags without a description; When processing with the “Unprocessed only” setting, the selected result type is taken into account."
+    ]
+  },
+  "main.workspace.collections": {
+    "title": "Collections",
+    "paragraphs": [
+      "A collection is a named group of photos that may come from different folders. Use it to gather images for a purpose, such as Print or a Trip.",
+      "Adding to a collection does not move or copy files. One photo can be included in several collections. A convenient way to add selected pictures is also in the “Details” of the right panel."
+    ]
+  },
+  "main.workspace.recent": {
+    "title": "Recent folders",
+    "paragraphs": [
+      "Here you can quickly return to folders that you opened before. The entry shows the name and path to distinguish between folders with the same name.",
+      "This list records folders you visited. If a drive is disconnected or a folder has moved, its old path may no longer work. The history entry does not restore missing files."
+    ]
+  },
+  "main.display.overview": {
+    "title": "How to display photos",
+    "paragraphs": [
+      "These controls determine how thumbnails fit their cells, which list view to use, how files are sorted and which file types are shown.",
+      "Use them to make the current folder or search results easier to browse. In a narrow window, the group can switch to compact icons; the commands keep the same purpose."
+    ]
+  },
+  "main.display.fit": {
+    "title": "Fill or fit",
+    "paragraphs": [
+      "**Fill** fills the entire thumbnail cell; Some edges of the photo may not be included in the preview. **Fit** shows the entire photo, leaving space around it if necessary.",
+      "The selection only applies to thumbnails. The image in the file is not cropped."
+    ]
+  },
+  "main.display.view": {
+    "title": "List view",
+    "paragraphs": [
+      "Select a table, list, or cards of the appropriate size. The table is convenient for comparing information, and large cards are useful for viewing the contents of photos.",
+      "Switching the view does not change the files themselves. The size of the cards can also be changed using the slider in the bottom line."
+    ]
+  },
+  "main.display.columns": {
+    "title": "Table Columns",
+    "paragraphs": [
+      "In a table view, you can choose which information to display in separate columns. The column selection button opens the list; Mark the ones you want and click **Apply**.",
+      "Settings help you leave useful data in the table. **\"Default\"** returns the default set, and cancel closes the selection without applying the prepared changes."
+    ]
+  },
+  "main.display.sort": {
+    "title": "Sort",
+    "paragraphs": [
+      "Sorting controls the order of photos. **Date taken** uses the camera’s date, **Modified** uses the file’s modification time, and **Processed** uses the time recognition results were successfully saved. Newest and oldest reverse the order.",
+      "You can also sort by name or type, or put completed photos and errors first or last. Explorer always places folders before files. Search results have their own relevant options, including relevance to the query."
+    ]
+  },
+  "main.display.files": {
+    "title": "Which files to show",
+    "paragraphs": [
+      "**\"Photos and Folders\"** leaves images and folders for working with your photo library. **All files** also shows the remaining files in the open folder.",
+      "Pictures are opened by our viewer, and other files are opened by the application assigned to them in Windows. This switch is specific to Explorer; Photo search uses an image library."
+    ]
+  },
+  "main.display.filename": {
+    "title": "File name filter",
+    "paragraphs": [
+      "This filter helps to leave files with the appropriate name in the current folder. It's useful when you remember part of a title and want to quickly narrow down the visible list.",
+      "Search by description and tags is above. The name filter does not ask the model to recognize the content of photos."
+    ]
+  },
+  "main.canvas.overview": {
+    "title": "Photos and files",
+    "paragraphs": [
+      "This is where the contents of the selected folder or collection are located. First, select the elements you want, then use the process, view, or other appropriate action.",
+      "Selecting and dragging into a folder are different: normal mouse movement helps to select, and moving photos starts with holding down `Alt`. We'll look into the details further."
+    ]
+  },
+  "main.canvas.selection": {
+    "title": "Selecting multiple photos",
+    "paragraphs": [
+      "Click a photo to select it. To select several separate photos, hold `Ctrl` while clicking each one. Clicking a selected photo again while holding `Ctrl` removes it from the selection.",
+      "You can also select elements by moving the mouse while holding down the left button. The selected photos are used by subsequent commands, so look at the selection counter before running."
+    ]
+  },
+  "main.canvas.open": {
+    "title": "Open a photo or folder",
+    "paragraphs": [
+      "Double clicking on a photo opens the viewer, and on the folder - its contents. In the viewer, you can view the photo and move to adjacent photos of the available set.",
+      "When show all files is enabled, double-clicking on another file type opens it via Windows. There is a separate editor command for changing photos."
+    ]
+  },
+  "main.canvas.context": {
+    "title": "Selection menu",
+    "paragraphs": [
+      "Right-click to open the menu for the selected items. It puts relevant commands next to the items you are working with.",
+      "The available actions depend on whether you selected a photo, another file, a folder or several items."
+    ]
+  },
+  "main.canvas.drag": {
+    "title": "Move photos to folder",
+    "paragraphs": [
+      "To drag selected photos into a folder, hold `Alt` as you begin dragging. Then the mouse movement moves the pictures, rather than changing the selection. Release them over the desired folder.",
+      "If the action has not yet been performed, `Escape` cancels the dragging. If the names match, the program will offer to resolve the conflict; the selection can be applied to multiple matches."
+    ]
+  },
+  "main.canvas.compare": {
+    "title": "Compare two photos",
+    "paragraphs": [
+      "Select two photos: click on the first one, then hold `Ctrl` and click on the second one. After this, the comparison command will become available.",
+      "The command opens both photos side by side so you can compare them. This differs from finding exact duplicates: the library’s duplicate check automatically groups identical files."
+    ]
+  },
+  "main.footer.status": {
+    "title": "State and selection",
+    "paragraphs": [
+      "The bottom line shows the number of elements and their status: ready, in queue, not yet processed, or error. Nearby are information about the current selection.",
+      "For one photo you can see the format, resolution and size. For multiple items, a general summary is displayed; The contents of the folders are counted in the background. While the calculation is not completed or part of the data is unavailable, the program reports this, rather than passing off an incomplete size as an accurate one."
+    ]
+  },
+  "main.footer.view": {
+    "title": "Thumbnail Size",
+    "paragraphs": [
+      "The slider switches the view from table and list to cards of different sizes. Move it if you want to see more files at once or take a closer look at the thumbnails.",
+      "This scale refers to the list. To enlarge the photo itself, open it in the viewer."
+    ]
+  },
+  "main.inspector.overview": {
+    "title": "Information, results and tasks",
+    "paragraphs": [
+      "The right panel helps you work with the selected photo and monitor its processing. This contains file information, description, tags, queues, library data and action history.",
+      "First, let's look at the tabs, then their contents from top to bottom. For descriptions and tags, selecting the photo on the left is important; tasks and library are available without this choice."
+    ]
+  },
+  "main.inspector.tabs": {
+    "title": "Right panel tabs",
+    "paragraphs": [
+      "**Details** show information about the selected item, **Description** and **Tags** show saved results and their editing. **Tasks** are for processing, **Library** for general data and maintenance, **Activity log** for activity history.",
+      "Switching tabs helps you see a different type of information. To select another photo, click on it in the work area or in the list of queue items."
+    ]
+  },
+  "main.details.overview": {
+    "title": "Selected details",
+    "paragraphs": [
+      "Here you can check which file is selected, where it is located and what information is known about it. Previews and related actions are available for the photo.",
+      "When you select multiple items, the information changes. General data about the selection, including size, can also be viewed in the bottom line of the main window."
+    ]
+  },
+  "main.details.preview": {
+    "title": "View and act on a photo",
+    "paragraphs": [
+      "The preview helps you recognize the selected photo. Next to it, you can open a photo for viewing, navigate to its location, or open the editor if you need to change the image.",
+      "The star adds the photo to Favorites. Edit its description and tags in the neighboring tabs of the right panel."
+    ]
+  },
+  "main.details.file-info": {
+    "title": "File information",
+    "paragraphs": [
+      "The information helps you differentiate between similar files by checking the name, path, type, size, and available image data. The set of lines depends on the selected element and what was read from the file.",
+      "An unknown value means that the program does not yet have this information. It is not replaced by an assumption of size or date."
+    ]
+  },
+  "main.details.collections": {
+    "title": "Collections selection",
+    "paragraphs": [
+      "This block adds selected photos to named collections. The top line selects an existing collection, the bottom line creates a new one.",
+      "Collections help you combine pictures from different folders without moving files. The selected collection is remembered, so you can select new photos one by one and add them to one collection."
+    ]
+  },
+  "main.details.collection-add": {
+    "title": "Add to existing collection",
+    "paragraphs": [
+      "Select a collection from the list and click **Add** to include the selected photos. Selecting from the list by itself does not add pictures.",
+      "The labels below show which collections contain the selected photos. Removing a collection link removes the photos from that collection while keeping their files on disk."
+    ]
+  },
+  "main.details.collection-create": {
+    "title": "New collection",
+    "paragraphs": [
+      "Enter a meaningful name and click plus to create a collection. The new entry will appear in the list and will be selected for future additions.",
+      "Creating a collection and adding photos are different actions. Once created, click **Add** if you want to include the current selection."
+    ]
+  },
+  "main.description.overview": {
+    "title": "Description of the photo",
+    "paragraphs": [
+      "A description explains what is visible in the photo. You can generate one through recognition, then refine it in your own words.",
+      "Here you work with the text of the selected photo. If there is no description, start typing your text in the empty field and save it."
+    ]
+  },
+  "main.description.edit": {
+    "title": "Text and design",
+    "paragraphs": [
+      "Enter or edit a description. In the panel above the field, you can highlight important words, create a list, or add a link to the selected piece of text.",
+      "Undo and redo help you correct your edits. Expanding the field gives you more room for long text; you still need to save your changes with the save button."
+    ]
+  },
+  "main.description.save": {
+    "title": "Save description",
+    "paragraphs": [
+      "Click **Save Description** to record your changes to the selected photo. **Reset** returns the field to its saved state, discarding the current unsaved edits.",
+      "If information about the photo has changed during editing, the program reports this. Check the current text first to avoid overwriting newer results."
+    ]
+  },
+  "main.tags.overview": {
+    "title": "Photo tags",
+    "paragraphs": [
+      "Tags are short words and expressions that help you find photos and collect collections. For example: “forest”, “autumn”, “walk”.",
+      "For one photo, you can change its tags individually. For several photos below, there is a common block: it allows you to add new tags and remove unnecessary ones right from the selection."
+    ]
+  },
+  "main.tags.single": {
+    "title": "Change tags of one photo",
+    "paragraphs": [
+      "Enter tags separated by commas. The current set is shown as separate tiles; The cross removes the tag from the editable set.",
+      "After corrections, click **Save Tags**. Until the changes are saved, **Reset** returns the previous set."
+    ]
+  },
+  "main.tags.batch-overview": {
+    "title": "Tags for multiple photos",
+    "paragraphs": [
+      "This block applies changes to selected photos. You can enter tags to add and mark existing tags to remove, then save both changes together.",
+      "The operation is designed for a set of up to **256 different photos**. Linked copies of the same photo share information, so changing its tags applies to them as well."
+    ]
+  },
+  "main.tags.batch-add": {
+    "title": "Add general tags",
+    "paragraphs": [
+      "Enter the words separated by commas that you want to add to all selected photos. For example, for snapshots of one trip, you can add the location and name of the event.",
+      "The new tags will complement the existing ones, preserving the remaining words for each photo. To remove a previous tag, check it below; then apply the prepared changes with the **Save** button."
+    ]
+  },
+  "main.tags.batch-remove": {
+    "title": "Mark tags for deletion",
+    "paragraphs": [
+      "Here are the tags found in the selected photos. Not every photo necessarily has a tag on this list.",
+      "Click the cross to **mark the tag for deletion**. By pressing again you can remove the check mark before saving. When applied, the tag will be removed from those selected photos that have it."
+    ]
+  },
+  "main.tags.batch-save": {
+    "title": "Saving batch changes",
+    "paragraphs": [
+      "**Save** simultaneously adds the entered tags and removes the selected ones. Before clicking, make sure the photos you want are selected on the left.",
+      "After a successful change, a command to cancel the last operation with tags appears. It refers to the batch change performed, not the entire processing history."
+    ]
+  },
+  "main.tags.xmp": {
+    "title": "Transfer of descriptions and tags via XMP",
+    "paragraphs": [
+      "**Export XMP** saves descriptions and tags in separate files beside the photos. Transfer those files along with the photos, then use **Import XMP** in the app on the other computer.",
+      "Select up to **256 files** per transaction. If a different description is found during import, the program reports a conflict and keeps the existing text without silent replacement. The transfer of the entire library, collections and projects is located separately - in the “Program Data” block."
+    ]
+  },
+  "main.queue.overview": {
+    "title": "Recognition queues",
+    "paragraphs": [
+      "In the “Tasks” tab you can see which photos are prepared for recognition, what is being done and what results have already been obtained. Here you can continue working after a pause and check errors.",
+      "Processing immediately uses the shared queue. Manual queues store individual collections that you have collected using the “Add to queue” button. These are shown in the drop-down cards below."
+    ]
+  },
+  "main.queue.controls": {
+    "title": "Start, pause and stop",
+    "paragraphs": [
+      "The main button changes depending on the operating status: allows you to start, pause or continue. Pausing saves the remaining work; stopping terminates the current run. Erroneous photos can be repeated using the available repeat command.",
+      "During general startup, prepared queues are executed sequentially: after one, the program moves on to the next. An empty queue does not create work. If the queue is waiting for the previous one, this can be seen from its state."
+    ]
+  },
+  "main.queue.cost": {
+    "title": "Estimated and confirmed cost",
+    "paragraphs": [
+      "The estimate shows the expected cost before processing. Confirmed spending shows known charges for completed requests. The two amounts can differ.",
+      "Cost depends on the service, model and task settings. Local processing and cloud requests are accounted for differently. Waiting for the service or for a status check does not mean the work is complete."
+    ]
+  },
+  "main.queue.progress": {
+    "title": "Processing progress",
+    "paragraphs": [
+      "Overall progress shows the status of the current job, and counters help distinguish between ready, pending, and failed items. The details of a particular photo are in its row within the queue.",
+      "An error on one photo and a user pause are different states. Error handling also depends on the task settings. Read the error message to see what can be retried or corrected."
+    ]
+  },
+  "main.queue.list": {
+    "title": "Queue cards",
+    "paragraphs": [
+      "Open the card to see the included photos. The header shows the number of shots, the number of completed ones and the work status; Clicking on the name displays the parameters of this queue in a summary, without launching it.",
+      "**Hide completed** removes the completed item from display, and **Show completed** returns it. This filter does not delete results and does not hide erroneous elements as ready ones."
+    ]
+  },
+  "main.queue.new": {
+    "title": "New empty queue",
+    "bodyRef": "queue.new"
+  },
+  "main.queue.target": {
+    "title": "Where to add photos",
+    "bodyRef": "queue.target"
+  },
+  "main.queue.card-actions": {
+    "title": "Individual queue management",
+    "paragraphs": [
+      "The start button in the card starts or continues this particular queue. A trash can in a card removes it from the work list, and a trash bin in the general header clears all recognition work queues.",
+      "These actions do not delete originals or already saved results. They change planned work; expense history is saved."
+    ]
+  },
+  "main.queue.photo": {
+    "title": "Photo in the queue",
+    "paragraphs": [
+      "Click on the thumbnail or name to select that photo and see its details on the right. Double-clicking opens the photo in the editor.",
+      "The line shows the operating status and available error details. The trash bin on the right removes an individual item from the queue; the file itself remains on the disk."
+    ]
+  },
+  "main.queue.summary": {
+    "title": "Launch Summary",
+    "paragraphs": [
+      "The summary is specific to one selected run: shows its status, current photo, and how many items are ready, waiting, or failed. After processing is completed, the result remains here.",
+      "To view another queue, click on its name in the list. The consumption of the selected run and the total consumption of the history are shown separately."
+    ]
+  },
+  "main.queue.parameters": {
+    "title": "Selected Job Options",
+    "paragraphs": [
+      "These are the selected task’s saved settings: its service, model and other processing parameters. Use the separate button to apply the available concurrency limit. Local mode processes one photo at a time.",
+      "Settings for **new** tasks are opened with a separate command. Changing them does not mean that the already created queue received a different model or a different composition of results."
+    ]
+  },
+  "main.queue.history": {
+    "title": "Task history",
+    "paragraphs": [
+      "History helps you return to information about previous tasks: when they were completed, how they ended, and what costs are known. If you have a large number of records, use pages and available filters.",
+      "History and work queue list solve different problems. Clearing scheduled work does not delete expense history or saved descriptions."
+    ]
+  },
+  "main.library.overview": {
+    "title": "Program library",
+    "paragraphs": [
+      "The library stores search information: photo paths, descriptions, and tags. Here you can check connected folders, deal with inaccessible files and exact copies, transfer program data, or clear the thumbnail cache.",
+      "The **Refresh** button in the header only rereads the library summary. File scanning and new recognition are launched separately. The original photos themselves remain in their folders on the disk."
+    ]
+  },
+  "main.library.roots": {
+    "title": "Connected folders",
+    "paragraphs": [
+      "This list helps you see the folders the library works with, check their availability, and update information. This is useful when photos are located on multiple drives or in different locations.",
+      "If the folder has been moved or the drive is offline, check the path. Removing a connection to a library and deleting files on disk are different actions; refer to the description of the selected command."
+    ]
+  },
+  "main.library.maintenance": {
+    "title": "Problem entries",
+    "paragraphs": [
+      "Here you can find entries that have problems with the path or availability of the file. Checking helps you figure out which photos have been moved, which are no longer available, and where you need to update your information.",
+      "Check the entry’s status and path before choosing an action. Removing a library entry does not restore a missing original file."
+    ]
+  },
+  "main.library.duplicates": {
+    "title": "Exact copies",
+    "paragraphs": [
+      "**\"Find Exact Copies\"** collects verified identical files into groups. Open the group and compare the paths: the checkmarks indicate which copies you want to keep.",
+      "**Keep all** keeps the files and removes their group from the results, remembering your decision. It works the same in a group card and in comparison. Use **Reset duplicate decisions** to include those groups again. Before choosing Keep marked, check the selection carefully: unmarked copies are deleted. Keep at least one copy."
+    ]
+  },
+  "main.library.backup": {
+    "title": "Program data",
+    "paragraphs": [
+      "**\"Data Export\"** saves descriptions, tags, collections, history and projects of the editor with its images and masks. External original photographs and API keys are not included in this copy - they must be transferred separately.",
+      "**Import Data** first shows details of the selected copy. After preparing the import and the next launch, the data will be restored according to the composition shown; this is replacing the relevant data, not adding photos to the folder. Deferred imports can be canceled before they are applied. Paid tasks from the copy are not automatically launched."
+    ]
+  },
+  "main.library.cache": {
+    "title": "Thumbnail cache",
+    "paragraphs": [
+      "The cache stores prepared thumbnails so that the list of photos opens faster. These are supporting images for display purposes and not your originals.",
+      "Clearing the cache frees the space it occupies. The app rebuilds thumbnails when you browse again, so some previews may take longer to appear."
+    ]
+  },
+  "main.library.technical": {
+    "title": "Library technical information",
+    "paragraphs": [
+      "The version of the library database and the path to its file are shown here. This information helps you check what data the program is working with and troubleshoot problems.",
+      "This is the program data location, not the original photo folder. For normal work, you do not need to manually modify the database file."
+    ]
+  },
+  "main.journal.overview": {
+    "title": "Action log",
+    "paragraphs": [
+      "The log shows the history of actions with photos and program data. It helps you understand when the information changed and which file the action belonged to.",
+      "Select the desired log area and open the entry details if you want to review the changes. Technical logs of the application are located separately - click on the “Logs” button in the top line."
+    ]
+  },
+  "editor.overview": {
+    "title": "Changing a photo",
+    "paragraphs": [
+      "The editor works with the image itself. At the top are markup tools and saving commands, on the left are operations, in the center is a photograph, and on the right are editing conditions and tasks. The frame history is stored below.",
+      "**Project** saves progress to continue, and **Save Image** creates a final file or replaces the source with the selected result. Let's look at these actions separately."
+    ]
+  },
+  "editor.top.back": {
+    "title": "Return from editor",
+    "paragraphs": [
+      "Saves the project and returns to the photos or view from which the editor was opened. If you need to choose what to do with unsaved changes when exiting, the program will show you the options.",
+      "Closing a window should not be confused with canceling an already running cloud edit. Its state and the results obtained are stored in editor tasks while the program continues to run."
+    ]
+  },
+  "editor.top.operations-panel": {
+    "title": "Photo operations",
+    "paragraphs": [
+      "The left panel contains cropping, resizing and AI edits. Choose the operation you want here.",
+      "In a narrow window, use the top button to open this panel. Point, region and mask tools in the top row specify where to edit; they do not choose the operation."
+    ]
+  },
+  "editor.top.restart": {
+    "title": "Start again",
+    "paragraphs": [
+      "Starts a new project from the original image. This is convenient if you want to try a different edit path without continuing the current chain of changes.",
+      "The previous project is kept separately. Starting over differs from undoing the last brush stroke or selecting an earlier image in the history."
+    ]
+  },
+  "editor.tools.overview": {
+    "title": "How to indicate where to edit",
+    "paragraphs": [
+      "The tools at the top let you select markup, move the image and indicate where to edit. A **Point** provides a reference location, an **Area** defines a rectangle, and a **Mask** defines a painted shape.",
+      "Choose the best way to specify the location: a reference point, a rectangle or a painted shape. Support for markup, and how closely it is followed, depend on the operation and model. Check the resulting photo after editing."
+    ]
+  },
+  "editor.tools.select": {
+    "title": "Select annotations",
+    "paragraphs": [
+      "Select an existing annotation to work on it. This is useful when a photo has several points, areas or masks and you want to refine the instructions for one of them.",
+      "The annotation list on the right shows which annotation is selected, whether it is visible and whether it is included in the request."
+    ]
+  },
+  "editor.tools.pan": {
+    "title": "Moving an Image",
+    "paragraphs": [
+      "Allows you to move the enlarged photo in the viewing area. Select the tool, hold down the left mouse button on the canvas and drag the image.",
+      "This changes the viewing position. The contents of the photo and the position of objects within the photo itself do not change."
+    ]
+  },
+  "editor.tools.point": {
+    "title": "Point",
+    "paragraphs": [
+      "Place a point to indicate where you want the edit, then enter instructions for that annotation. For example, use a point to show where a small new object should appear.",
+      "The dot represents a location, not an exact shape. If you need to outline a complex area, use a mask supported by the selected model."
+    ]
+  },
+  "editor.tools.region": {
+    "title": "Rectangular area",
+    "paragraphs": [
+      "Draw a rectangle around the area to which the task relates. An area is useful when you want to specify part of a scene along with a small surrounding area.",
+      "The instructions explain what should change inside the area. Support for areas, and how closely their boundaries are followed, depend on the model."
+    ]
+  },
+  "editor.tools.mask": {
+    "title": "Mask",
+    "bodyRef": "editor.mask"
+  },
+  "editor.tools.eraser": {
+    "title": "Mask refinement",
+    "bodyRef": "editor.eraser"
+  },
+  "editor.top.more-tools": {
+    "title": "Markup and rotation tools",
+    "paragraphs": [
+      "Point, region and mask tools specify where to edit. Rotation and flip controls are nearby. In a wide window these buttons appear directly on the top toolbar.",
+      "In a narrow window, some tools move to the three-dot menu. This tutorial shows their location without applying changes."
+    ]
+  },
+  "editor.top.orientation": {
+    "title": "Rotate and flip",
+    "paragraphs": [
+      "Rotation changes the orientation of the frame by a quarter turn, and mirroring flips it in the selected direction. These commands help prepare the frame before further editing.",
+      "Check the resulting image and markup. During some operations, transformations are temporarily unavailable so as not to change the basis of the work being performed."
+    ]
+  },
+  "editor.tools.brush": {
+    "title": "Brush size",
+    "paragraphs": [
+      "The brush diameter sets stroke width in source-image pixels. Use a larger brush for broad areas and a smaller one near edges.",
+      "This field applies to the mask brush and eraser. With another tool selected, the tutorial shows the field disabled and keeps your current tool."
+    ]
+  },
+  "editor.top.compare": {
+    "title": "Compare images",
+    "paragraphs": [
+      "Hold `Ctrl` to select two images in the history at the bottom, then open comparison. This helps you see what changed and which result works better.",
+      "For comparison, two frames of the current work are needed. It does not send images to the model and does not create a new result."
+    ]
+  },
+  "editor.top.zoom": {
+    "title": "Editor zoom",
+    "paragraphs": [
+      "These controls zoom the photo out or in. **100%** shows the image at actual size; Fit makes the whole image visible again.",
+      "The viewing scale does not change the number of pixels in the file. For this purpose, use the “Resize” operation on the left."
+    ]
+  },
+  "editor.top.project-save": {
+    "title": "Save project",
+    "paragraphs": [
+      "Saves the working image, settings, annotations and history so you can continue editing later. You can also save with `Ctrl+S`.",
+      "This is saving the program project. The external photo file from this command is not replaced - there is a “Save image” for it."
+    ]
+  },
+  "editor.top.image-save": {
+    "title": "Save image",
+    "paragraphs": [
+      "Saves the displayed frame to a file. You can choose to make a separate copy or replace the original image, if that option is available.",
+      "Before replacing, check the selected frame. Saving a copy is convenient when you want to keep the original file and use the result separately."
+    ]
+  },
+  "editor.top.parameters": {
+    "title": "Right editor panel",
+    "paragraphs": [
+      "Shows or hides the right panel containing edit settings, tasks and sources. Hiding it gives the photo more room in a small window.",
+      "Hiding the panel does not mean canceling the job. The status of a running edit can be viewed by opening the “Tasks” tab."
+    ]
+  },
+  "editor.top.menu": {
+    "title": "Project menu",
+    "paragraphs": [
+      "Project management, change history, project transfer and autosave settings are collected here. Exporting the project is needed to transfer the editor's work; saving an image - to obtain a regular file with the result.",
+      "If autosave is off, save the project with the save button or `Ctrl+S`. Applying a crop or mask and starting an edit saves the data needed for that operation. Save any later local changes manually."
+    ]
+  },
+  "editor.top.help": {
+    "title": "Editor help",
+    "paragraphs": [
+      "The ? button opens the editor’s tour and reference. The tour follows this window’s tools, operations, canvas, edit settings, tasks and history.",
+      "A slide-out switch nearby controls tooltips throughout the program. It does not disable the ability to reopen explicit help."
+    ]
+  },
+  "editor.operations.overview": {
+    "title": "Operations on an image",
+    "paragraphs": [
+      "On the left you select **what to do** with the photo. At the top are local operations - cropping and resizing. Below are neural network edits: their result depends on the selected model and task.",
+      "The point, region, and mask specify the location, and the operation defines the action. For example, the same mask can indicate an area for object deletion or other supported edits."
+    ]
+  },
+  "editor.operations.crop": {
+    "title": "Crop",
+    "paragraphs": [
+      "Cropping leaves the selected portion of the photo and removes the edges outside the frame. Move the frame, change it using the handles, or set dimensions in the fields. Aspect ratio presets, such as 16:9, help prepare the frame with the desired shape.",
+      "The frame is only a preview until you apply it. Apply the crop to create the cropped image, or cancel it to return to the previous view. Switching operations does not apply an unfinished crop."
+    ]
+  },
+  "editor.operations.resize": {
+    "title": "Resize",
+    "paragraphs": [
+      "Sets the width and height of the image in pixels. With the **Keep aspect ratio** setting, the width and height change consistently to maintain the shape of the photo.",
+      "The operation resizes the frame locally. If you want the model to add detail when zooming in, there is another command - “Increase detail”."
+    ]
+  },
+  "editor.operations.universal": {
+    "title": "Editing by description",
+    "paragraphs": [
+      "Use this for changes best described in words, such as the atmosphere of a scene or the appearance of part of the photo. Describe the desired result, then choose a model and its settings.",
+      "Markings and additional pictures help clarify the task if the model supports them. Available options are shown based on the selected model."
+    ]
+  },
+  "editor.operations.replace": {
+    "title": "Add or replace an object",
+    "paragraphs": [
+      "Use this operation to add an object to the scene or replace an existing one. Describe the object itself and the desired change; if necessary, indicate the location with a dot, area, or mask.",
+      "For example: “Add a small red ball to the empty part of the table.” If you attach an additional picture, explain which elements to use from it."
+    ]
+  },
+  "editor.operations.remove": {
+    "title": "Delete object",
+    "paragraphs": [
+      "Helps remove unnecessary objects and fill free space. For a model with a mask, paint over the object to be removed, carefully refine the boundaries and apply the mask.",
+      "Some models need text, others just need a mask. The task field and the explanation next to it show what is used in the current version."
+    ]
+  },
+  "editor.operations.remove-background": {
+    "title": "Remove background",
+    "paragraphs": [
+      "Separates the object you want to keep from its background. If the model accepts text, specify which object to keep. For automatic background removal, choose the appropriate model and settings.",
+      "If you need a transparent background in the saved file, choose a format that supports transparency. The quality of complex boundaries depends on the model and the original image."
+    ]
+  },
+  "editor.operations.replace-background": {
+    "title": "Replace background",
+    "paragraphs": [
+      "Describe the environment you want to replace the previous background: for example, “a bright studio with soft daylight.” The task relates to the new background, and not to the description of the entire previous photograph.",
+      "After receiving the result, check the main object and its boundaries. The model can change small details when connecting an object to a new environment."
+    ]
+  },
+  "editor.operations.outpaint": {
+    "title": "Extend image",
+    "paragraphs": [
+      "Adds space beyond the edges of the photo to allow the model to continue the scene. The size of the future canvas can be set by the margins or frame on the image.",
+      "This is the addition of new areas, rather than stretching the original image. Detailed dimensions and optional auto-crop of the result are on the right."
+    ]
+  },
+  "editor.operations.upscale": {
+    "title": "Increase detail",
+    "paragraphs": [
+      "Uses the model to increase resolution and restore visible detail. The ratio and available settings depend on the option selected.",
+      "Consider the result in magnification: the model can add details that are not visible in the source image. To simply change the number of pixels without such additional drawing, use “Resize”."
+    ]
+  },
+  "editor.operations.relight": {
+    "title": "Change lighting",
+    "paragraphs": [
+      "Allows you to describe other light, shadows, or the atmosphere of a scene. For example: “Warm evening light on the right, soft shadows.”",
+      "To edit a specific section, use the markings supported by the model. Then check how the new lighting matches the rest of the photo."
+    ]
+  },
+  "editor.operations.recolor": {
+    "title": "Change color",
+    "paragraphs": [
+      "Helps change the color of an object or the overall color scheme. Name the object and desired color; To change a separate section, check the location using the available markings.",
+      "For example: “Make the jacket dark green, keep its folds and lighting.” So the task indicates both the desired color and the properties that are important to preserve."
+    ]
+  },
+  "editor.operations.compose": {
+    "title": "Create a composite",
+    "paragraphs": [
+      "Combines the original image and additional images according to your description. Explain what to take from each image and how to arrange the elements in the overall scene.",
+      "The model determines how many input images it accepts and how they can be used. Before starting, check the attachments and cost estimate on the right."
+    ]
+  },
+  "editor.operations.restore": {
+    "title": "Restore photo",
+    "paragraphs": [
+      "Suitable for old or damaged photographs: the model can reduce defects and improve the visibility of details. Available recovery methods depend on the selected model.",
+      "Compare the result with the original, especially faces and small objects. The model can approximately recreate completely lost details."
+    ]
+  },
+  "editor.canvas.overview": {
+    "title": "Editor Canvas",
+    "paragraphs": [
+      "The canvas shows the working image, markings and preliminary frames. The scale helps you see details, and the tools in the top panel help you indicate the area of ​​change.",
+      "Before you start editing, check the image here and the assignments on the right. The selected annotation helps edit its conditions; The visibility of a label itself does not determine whether it is included in the request."
+    ]
+  },
+  "editor.canvas.outpaint-frame": {
+    "title": "Expansion Frame",
+    "paragraphs": [
+      "Drag a corner or side of the frame to change the future borders of the image. Hold the left button inside the frame to move it relative to the original photo.",
+      "This way you can add more space on the desired side while maintaining a clear size of the canvas. If the frame cuts off part of the source, you will first need to apply pre-cropping - this action is shown in the options on the right."
+    ]
+  },
+  "editor.inspector.overview": {
+    "title": "Editing conditions and results",
+    "paragraphs": [
+      "The **Edit** tab contains markup, job, model and run. **Tasks** shows the submitted edits and their results. **Sources** helps you add images used in your project.",
+      "These are parts of the same work: first prepare the task, then run the appropriate model and evaluate the resulting frames in the tasks and the bottom history."
+    ]
+  },
+  "editor.markup.overview": {
+    "title": "Marking up a photo",
+    "paragraphs": [
+      "This list contains the current image’s points, areas and masks. Select an annotation to check whether it is included in the request and see its additional images.",
+      "An annotation has two independent settings: **visible on canvas** and **included in request**. Hiding it on the image does not necessarily exclude it from the task."
+    ]
+  },
+  "editor.markup.controls": {
+    "title": "Show, include or remove an annotation",
+    "paragraphs": [
+      "The eye shows or hides the annotation on the image. The checkbox controls whether it is included in the request. The trash button removes it from the current annotations.",
+      "Before starting, check the enable flags. Selecting one line for editing does not disable other enabled jobs."
+    ]
+  },
+  "editor.markup.mask-apply": {
+    "title": "Applying a mask",
+    "paragraphs": [
+      "While you are drawing, the mask consists of prepared strokes. **\"Apply Mask\"** collects them into a mask for further work, and **\"Undo Mask\"** cancels the current unapplied strokes.",
+      "After applying the mask, check its shape and whether it is included in the request. The eraser refines the painted area without erasing the photo."
+    ]
+  },
+  "editor.instruction.overview": {
+    "title": "What needs to be changed",
+    "paragraphs": [
+      "Here you set the result you want to get from the model. The name of the field changes along with the operation: for example, what to add, what background to make, or how to change the light.",
+      "Describe the change you want and the important properties that should be preserved. This text is a task for editing, and not a caption or description of a photograph for the library."
+    ]
+  },
+  "editor.instruction.target": {
+    "title": "Entire photo or individual mark",
+    "paragraphs": [
+      "**Location** selects which instructions you are editing: the whole image, a point or an area. Switch between entries to prepare several locations in turn.",
+      "A run includes all enabled annotations with non-empty instructions for the current operation, not just the selected row. The whole-image instructions are included as well."
+    ]
+  },
+  "editor.instruction.text": {
+    "title": "Write clear instructions",
+    "paragraphs": [
+      "Name the action, object, and important properties of the result. For example: **\"Add a small red ball to the table, keep the lighting and other items\"**.",
+      "Use annotations to specify a particular part of the image. If the chosen model only needs a mask or settings and does not accept text, an explanation appears instead of the input field."
+    ]
+  },
+  "editor.references.whole": {
+    "title": "Additional pictures for the photo",
+    "paragraphs": [
+      "These pictures support the general instructions for the entire photo. Add a file with the plus button or drag an image from the bottom filmstrip, then explain in the instructions what to use from it.",
+      "Selecting an individual annotation hides this shared section, but keeps its attachments. They can still be included in the request. The model’s overall image limit includes the original and any additional pictures used."
+    ]
+  },
+  "editor.references.mark": {
+    "title": "Additional images for an annotation",
+    "paragraphs": [
+      "Pictures attached to a point or area belong to that annotation’s instructions. They help show which object or appearance you want at that location.",
+      "A point accepts one additional image; adding another replaces it. An area can accept several images within the model’s total limit. Masks do not have this attachment block."
+    ]
+  },
+  "editor.references.limits": {
+    "title": "What pictures are included?",
+    "paragraphs": [
+      "Before starting, check which pictures are included and which tasks they relate to. The number of available inputs is limited to the selected model and includes the original image.",
+      "When the limit is reached, adding more images is unavailable. Remove an attachment you do not need, or choose a compatible model with enough image inputs. Then check the request contents again."
+    ]
+  },
+  "editor.model.overview": {
+    "title": "Selecting an editing model",
+    "paragraphs": [
+      "The model determines which edits are possible: the instructions it understands, whether it accepts masks and additional images, and the sizes and settings available. A cost estimate appears below the selected option.",
+      "Choose a suitable model, then check its settings and input images. The estimate helps you plan spending. Confirmed charges appear separately in the task."
+    ]
+  },
+  "editor.model.profiles": {
+    "title": "Economy, balanced and quality",
+    "paragraphs": [
+      "These levels help you quickly select an option for your current operation: one that is more economical, balanced, or quality-oriented. Once selected, check the specific model in the list below.",
+      "When changing the level, the corresponding model variant is selected. Compare its capabilities and cost estimate: the names of the levels help with the choice, and specific conditions are shown for the selected model."
+    ]
+  },
+  "editor.model.filters": {
+    "title": "Find the right model",
+    "paragraphs": [
+      "Filters narrow the list by tier, estimated cost for the run, resolution and number of additional pictures, excluding the original. You can also find models that let you request the original photo dimensions.",
+      "If nothing is found, loosen the conditions or reset the filters. A size match means you can request it; The selected model performs internal image processing according to its own rules."
+    ]
+  },
+  "editor.model.details": {
+    "title": "Features and tariff",
+    "paragraphs": [
+      "Open the model details to check support for annotations and additional pictures, available dimensions and the selected option’s features. Models may interpret the same mask or instructions differently.",
+      "The rate and cost estimate help you plan spending. If billing depends on tokens or processing time, the estimate can differ from the service’s actual charge."
+    ]
+  },
+  "editor.model.output": {
+    "title": "Result size and parameters",
+    "paragraphs": [
+      "Here you set the result parameters available to the model: for example, size, quality or number of images. The composition of the fields depends on the selected option.",
+      "Before starting, check the parameters and cost estimate together. The size you enter is the requested size; the task shows the actual dimensions of the returned file."
+    ]
+  },
+  "editor.outpaint.size": {
+    "title": "Extended Image Size",
+    "paragraphs": [
+      "The **Left**, **Right**, **Top**, and **Bottom** fields specify the added space in pixels. Below you can specify the **final width and height** you want to achieve.",
+      "If the planned frame cuts into the original photo, apply the preliminary crop with the available button first. Then start generating the additional space. Use the frame on the canvas together with the size fields to position it precisely."
+    ]
+  },
+  "editor.outpaint.autocrop": {
+    "title": "Auto-crop the result",
+    "bodyRef": "outpaint.autocrop"
+  },
+  "editor.model.advanced": {
+    "title": "Additional options",
+    "paragraphs": [
+      "This block contains the remaining parameters of the selected model. Fields with their own explanations help you understand what the setting affects and what values ​​are allowed.",
+      "The JSON mode is intended for accurately specifying additional model fields. For general editing, start with the basic settings; The technical names of the parameters in JSON must correspond to the selected model."
+    ]
+  },
+  "editor.model.limits": {
+    "title": "Budget and concurrent requests",
+    "paragraphs": [
+      "The per-run budget is checked against the estimate before sending. An edit estimated above that limit will not start. An enabled period budget covers several runs. Actual service charges are shown separately.",
+      "**Concurrent requests** limits how many requests run in parallel. It helps control load and spending; it does not shorten each individual request."
+    ]
+  },
+  "editor.model.inputs": {
+    "title": "Check request contents",
+    "paragraphs": [
+      "Check the prepared request here: images, masks and parameters that will be sent. This is especially useful when a project has many annotations and additional pictures.",
+      "Cloud editing requires an API key for the chosen service. Add it with the separate button. Opening the request details does not start generation."
+    ]
+  },
+  "editor.launch": {
+    "title": "Start edit",
+    "paragraphs": [
+      "Before starting, check the working image, enabled annotations, instructions, model and estimated cost. The button submits the prepared edit. If needed, the app first asks you to confirm sending the images.",
+      "While the current edit is in progress, restarting is not available. If it fails or is interrupted, open Tasks: it shows the status and available actions for the previous request."
+    ]
+  },
+  "editor.jobs.overview": {
+    "title": "Editing tasks",
+    "paragraphs": [
+      "Edits you have submitted are listed here. Expand a card to see its model, timing, dimensions, results and costs.",
+      "**“Open”** selects an image already received without generating it again. Confirmed charges and unconfirmed estimates appear separately, so you can distinguish known costs from amounts still awaiting confirmation."
+    ]
+  },
+  "editor.jobs.recovery": {
+    "title": "Continue previous task",
+    "paragraphs": [
+      "If execution is interrupted after sending, an available continuation command helps retrieve and save the result of the previous request. There is no need to create a new edit just because the result has not finished loading.",
+      "If the program does not know whether the submission was accepted, use the suggested reconciliation of the previous request. It is different from the new generation. The status “Queued by the service” means waiting on the service side, not a ready result."
+    ]
+  },
+  "editor.jobs.cancel": {
+    "title": "Cancel a running edit",
+    "paragraphs": [
+      "The cancel cross applies to this running task. It does not affect all projects or delete a photo. After cancelling, check the card’s updated status.",
+      "If the service has already accepted the request, cancellation does not automatically result in a refund. The resulting status and known consumption are stored in the task details."
+    ]
+  },
+  "editor.sources.overview": {
+    "title": "Project sources",
+    "paragraphs": [
+      "Here are the images available to the project. They can be added from a file, selected from an archive, or downloaded via a direct HTTPS link to the image.",
+      "Click an image to use it as the working image. The separate add button attaches it as an additional source for the current edit. This lets you use another photo as material without changing the working image."
+    ]
+  },
+  "editor.sources.roles": {
+    "title": "Role and involvement of the source",
+    "paragraphs": [
+      "In additional sources, select the role of the image: **object**, **style**, **background** or general **additional image**. This role explains how to use the material; arrows change the order of sources in the query.",
+      "A cross excludes the picture from additional sources. The image itself remains among the project materials and can be used again."
+    ]
+  },
+  "editor.history.overview": {
+    "title": "Image history",
+    "paragraphs": [
+      "The bottom strip contains the images you worked with and the results you received. Select an image to view it and continue working from it.",
+      "History lets you compare versions without looking for files in folders. You can also drag an image into a supported additional-pictures section to use it in another edit."
+    ]
+  },
+  "editor.history.compare": {
+    "title": "Select two frames for comparison",
+    "paragraphs": [
+      "Hold `Ctrl` and select two frames of history, then click the compare button in the top bar. This way you can compare the source and the result, or two different options.",
+      "The comparison shows existing frames. It does not create a new request and does not replace the file on disk with the selected option."
+    ]
+  },
+  "editor.history.branches": {
+    "title": "Version tree",
+    "paragraphs": [
+      "Open the tree to see which frame each version came from. Levels run from left to right, and a frame can have several branches.",
+      "Use the wheel to zoom and the middle button to pan the map. Click to select a frame; double-click or press Enter to preview it. “Use this frame” makes it the working frame. Move or resize the preview window; inside it, use the wheel to zoom the photo and the middle button to pan. Ctrl-click two frames to compare them."
+    ]
+  },
+  "viewer.overview": {
+    "title": "View photo",
+    "paragraphs": [
+      "The viewer helps you look at the photo, zoom in on details, and move on to adjacent photos. The main actions are at the top, zoom and display controls are at the bottom.",
+      "You can hide panels for quiet viewing or run a slide show. These modes are different from normal photo enlargement; Let's look at them after the main buttons."
+    ]
+  },
+  "viewer.top.overview": {
+    "title": "Actions with the current photo",
+    "paragraphs": [
+      "At the top are the transition to the editor, rotation, deletion, printing and sending of the photo. Additional commands are grouped into a three-dot menu, with help and window controls on the right.",
+      "All actions refer to the image shown. Before saving or deleting, check its name and image, especially after swiping."
+    ]
+  },
+  "viewer.top.edit": {
+    "title": "Open editor",
+    "paragraphs": [
+      "Opens this photo in the Smart Photo editor. There you can crop the image, resize it, or prepare an edit using the model.",
+      "Viewing and zooming do not edit the file. Use this command to change the image. The editor has its own tour, available through Help inside its window."
+    ]
+  },
+  "viewer.top.rotate": {
+    "title": "Rotate a photo",
+    "paragraphs": [
+      "Rotates the image in view a quarter turn to the left or right. This is convenient if the photo is displayed sideways.",
+      "Rotation only changes the display in the viewer. To write the desired orientation to a file, open the editor, rotate the image in it and save the image."
+    ]
+  },
+  "viewer.top.delete": {
+    "title": "Delete file",
+    "paragraphs": [
+      "This is a command to delete a photo, not to close the viewing window. Before using it, check the name and the image shown, especially if you quickly flipped through the files.",
+      "To simply end browsing, use the close window button on the right."
+    ]
+  },
+  "viewer.top.print": {
+    "title": "Print",
+    "paragraphs": [
+      "Opens printing for the current photo. In the print dialog, choose an available printer and check the settings before sending the job.",
+      "Enlarging the image in the viewer helps you see the details, but print settings are selected separately."
+    ]
+  },
+  "viewer.top.share": {
+    "title": "Share",
+    "paragraphs": [
+      "Opens an accessible way to transfer the current photo through Windows tools. Applications and options vary by system.",
+      "This command applies to a photo file. To transfer descriptions and tags between libraries, there is XMP and data export in the main window."
+    ]
+  },
+  "viewer.top.more": {
+    "title": "Other actions",
+    "paragraphs": [
+      "The menu contains additional actions with the current photo and setting up a future opening without panels. The availability of individual commands depends on the file and the capabilities of Windows.",
+      "Select the desired action from within the menu. Expanding the list itself does not save the image or launch the editor."
+    ]
+  },
+  "viewer.menu.only-photo": {
+    "title": "Open in Photo Only mode",
+    "bodyRef": "viewer.only-photo"
+  },
+  "viewer.menu.resize": {
+    "title": "Resizing from View",
+    "paragraphs": [
+      "Opens preparation for photo resizing. Check the width, height and save option before applying.",
+      "This is a change to a file or a saved copy of it. This is different from the viewing scale in the bottom panel, which helps you view the photo without changing the number of pixels."
+    ]
+  },
+  "viewer.menu.file-actions": {
+    "title": "File and external applications",
+    "paragraphs": [
+      "**“Save as...”** creates a copy of the original file: the scale and rotation of the view are not recorded in it. To save the changed frame, use the editor using the top button **“Change”**.",
+      "Through the same menu you can show the file in its folder or open an external editor assigned to Windows. It may differ from the editor Smart Photo."
+    ]
+  },
+  "viewer.top.help": {
+    "title": "Help and tips",
+    "paragraphs": [
+      "The question mark opens the viewer’s Help. Explore this window’s controls in order, or find a topic in Reference.",
+      "A slide-out switch nearby turns hover annotations on and off. Explicit help with \"?\" available regardless of it."
+    ]
+  },
+  "viewer.top.window": {
+    "title": "Window management",
+    "paragraphs": [
+      "These buttons minimize the window, change its size, or close the view. A maximized window gives more space to the photo while maintaining control of the viewer.",
+      "Window size, Photo Only mode, and Slideshow are different viewing methods. The slide show additionally scrolls through photos by time."
+    ]
+  },
+  "viewer.image.overview": {
+    "title": "Picture and details",
+    "paragraphs": [
+      "The current photo is shown here. Zoom in on the part you want, then pan the image to see details outside the visible area.",
+      "Zooming and moving only changes the view. If the image could not be opened, a message appears on the canvas indicating the reason; check it before further actions with the file."
+    ]
+  },
+  "viewer.image.pan": {
+    "title": "Moving an enlarged photo",
+    "bodyRef": "viewer.pan"
+  },
+  "viewer.image.neighbors": {
+    "title": "Previous and next photo",
+    "paragraphs": [
+      "Arrows along the edges move to the previous or next photo of the open set. If a file is opened separately from Windows, available adjacent photos are taken from its folder.",
+      "With one image available, there is nothing to swipe through, so the arrows may not appear. Normal zooming and panning of a photo works regardless of the number of neighbors."
+    ]
+  },
+  "viewer.image.panels": {
+    "title": "Hide and bring back panels",
+    "paragraphs": [
+      "In normal view, double-clicking a photo hides the top and bottom panels; double-clicking again brings them back. More space is freed up for the image.",
+      "The action is also available for an enlarged, shifted image. In a slideshow, double-clicking does another thing: it ends the show."
+    ]
+  },
+  "viewer.bottom.overview": {
+    "title": "Details, display and scale",
+    "paragraphs": [
+      "On the left are favorites and file information, in the middle are the interval and display start, and on the right are zoom controls.",
+      "These commands help you evaluate the quality of the image and choose a convenient viewing method. Let's start with information, then we'll look at display and magnification."
+    ]
+  },
+  "viewer.bottom.favorite": {
+    "title": "Favorites",
+    "paragraphs": [
+      "The star adds the photo to favorites or unstars it. This way you can mark successful pictures right while viewing.",
+      "In the main window they will be available in the **Favorites** tab. Marking does not create a copy of the file or change its image."
+    ]
+  },
+  "viewer.bottom.details": {
+    "title": "File information",
+    "paragraphs": [
+      "Opens information about the current file. They help check the name, location and known parameters of the image.",
+      "The resolution and file size are also visible in the bottom line when data is available. An unknown value means no information read, not a photo size of zero."
+    ]
+  },
+  "viewer.bottom.interval": {
+    "title": "Slideshow interval",
+    "paragraphs": [
+      "Here you select how long one photo is displayed before moving on to the next. A short interval is convenient for quick viewing, a long interval gives time to look at the photo.",
+      "Selecting an interval by itself does not trigger the display. To start, click the adjacent slide show button."
+    ]
+  },
+  "viewer.bottom.slideshow": {
+    "title": "Slideshow",
+    "bodyRef": "viewer.slideshow"
+  },
+  "viewer.bottom.actual-size": {
+    "title": "Actual size",
+    "paragraphs": [
+      "Sets the zoom to **100%** to view the photo without shrinking it to fit into the window. A large picture may not fit entirely.",
+      "Drag the enlarged image to inspect different areas. Use Fit to see the whole photo again."
+    ]
+  },
+  "viewer.bottom.zoom": {
+    "title": "Increase or decrease",
+    "paragraphs": [
+      "The list, slider and buttons change the scale of the current photo. The percentage shows how much it is increased or decreased relative to the actual size.",
+      "This helps to see the details, but does not add them to the file. To change the image resolution, use a separate resizing command or editor."
+    ]
+  },
+  "viewer.bottom.fit": {
+    "title": "Fit to viewing area",
+    "paragraphs": [
+      "Selects a scale at which it is convenient to see the entire photo in an accessible area. It's a quick way to get back from looking at small details to getting the big picture.",
+      "Fit is different from maximizing a window and from a slideshow: it controls the scale of the photo within the current view."
+    ]
+  },
+  "viewer.slideshow.controls": {
+    "title": "Slideshow controls",
+    "paragraphs": [
+      "During a slideshow, you can pause, move between photos or leave the show. `Space` pauses and resumes automatic playback. Double-click or press `Escape` to exit the slideshow.",
+      "Controls become clearer when you hover over them. Opening Help pauses the current image. When you close Help, a previously running slideshow resumes; a pause you set yourself stays in place."
+    ]
+  },
+  "tour.ui.title": "Help",
+  "tour.ui.tour-tab": "Step-by-step guide",
+  "tour.ui.reference-tab": "Reference",
+  "tour.ui.intro": "Explore the elements of this window in order, or choose a group. The guide explains the interface without starting photo processing.",
+  "tour.ui.start-all": "Explore this window",
+  "tour.ui.continue": "Continue",
+  "tour.ui.start-group": "Explore this group",
+  "tour.ui.all-groups": "All sections in this window",
+  "tour.ui.group-label": "Group",
+  "tour.ui.step-label": "Step",
+  "tour.ui.progress": "Step {шаг} of {всего}",
+  "tour.ui.previous": "Back",
+  "tour.ui.next": "Next",
+  "tour.ui.finish": "Done",
+  "tour.ui.to-groups": "Back to groups",
+  "tour.ui.close": "Close help",
+  "tour.ui.to-reference": "Reference",
+  "tour.ui.completed": "You have finished this tour. Return to any topic through the group list or Reference.",
+  "tour.ui.other-windows": "The editor and viewer have their own tours. Open the window you want and select ? to explore it.",
+  "tour.ui.not-visible": "This element is not currently shown.",
+  "tour.ui.disabled": "The action is currently unavailable.",
+  "tour.ui.condition-followup": "You can continue learning and return to this step later.",
+  "tour.ui.target-missing": "The element could not be shown in the current window state. Its purpose is described here; you can move on to the next step.",
+  "tour.ui.old-progress": "The tour has changed and the previous step is no longer available. Choose a group or restart this window’s tour.",
+  "tour.ui.progress-save-error": "Your position in the tour could not be saved. You can keep reading, but this step may not be restored next time.",
+  "tour.ui.reference-search": "Search Reference",
+  "tour.ui.reference-empty-title": "Nothing found",
+  "tour.ui.reference-empty": "Try a different word: for example, \"Mask\", \"Additional images\", \"rename\" or \"Queue\".",
+  "tour.ui.reference-show": "Show: {название}",
+  "tour.ui.reference-in-editor": "\"{название}\" can be shown in the open editor. Run help in it.",
+  "tour.ui.reference-in-viewer": "\"{название}\" can be shown in the open viewer. Run help in it.",
+  "tour.ui.reference-in-main": "\"{название}\" can be shown in the main window. Run help in it.",
+  "tour.ui.picture-open": "Enlarge interface snapshot",
+  "tour.ui.picture-close": "Close enlarged photo",
+  "busy-folder": "The folder is still loading. Wait for it to finish before choosing it again or browsing its contents.",
+  "no-folder": "First, open your photos folder. After this, you can update its contents and file information.",
+  "busy-action": "The task is still being prepared or the command is already being executed. Wait for the result of the current action.",
+  "process-selection": "First, select the photos or folder to process.",
+  "provider-not-ready": "The selected processing method is not ready yet. The button shows the required action: install a local model, add or check a key. If the service is unavailable, the reason will be indicated next to it.",
+  "copy-needs-smart-name": "Creating a copy here is related to the smart name. To use this setting, first enable Smart Name.",
+  "one-photo": "This block refers to one photo. Select a photo in the workspace to see its details and available actions.",
+  "photo-selection": "Select photos. This editing block is not available for folders and regular files.",
+  "selection-needed": "Select the file, folder, or photo you want to view details about.",
+  "rename-source": "First, select the files or open the folder where you want to prepare the rename.",
+  "history-back": "There is no previous location in the navigation history yet. This button becomes available after you move between folders.",
+  "history-forward": "There is no next location in the navigation history. Use this button after going back.",
+  "no-parent": "You are at the root of the disk: there is no parent folder here. Another drive can be selected via the computer icon.",
+  "folder-scope": "To search the current folder, first open it. A search throughout the entire library is available using already saved information.",
+  "no-search-results": "Actions are specific to the search performed. First, set the conditions and click \"Search\".",
+  "explorer-only": "This element refers to the contents of the folder in Explorer. The search results use its own terms and order.",
+  "table-only": "Column selection is available in tabular form. When Table is enabled, the button is in its header.",
+  "empty-content": "There are no items available here yet. Open your photo folder or select a different collection.",
+  "two-photos": "To compare, select two photos, holding down Ctrl while selecting the second one.",
+  "right-panel-hidden": "The right panel is now hidden. In a narrow window, it is opened by the “Panel” button next to the view controls. There you will find information about the photo, description, tags and tasks.",
+  "collection-target": "Select photos and an existing collection. A new collection can be created using the line below.",
+  "metadata-save": "Saving is available when there are changes and the photo is available in the library. If the source information was updated during editing, check the new result first.",
+  "manual-queue": "Manual queues have an “Add here” purpose. Processing immediately uses the shared queue regardless of this choice.",
+  "no-queue-items": "There are no photos to display in this queue at this time. When “Hide completed” is enabled, completed items are not displayed. An empty manual queue can be filled with the “Add to queue” button.",
+  "queue-selected": "First, select the created task whose parameters you want to view.",
+  "editor-busy": "This command is not available during frame conversion or comparison. Return from comparison or wait for the conversion to complete, then repeat the action.",
+  "brush-mode": "This field works with the mask brush and eraser. Another tool is currently selected, so the tutorial shows the field disabled.",
+  "two-history-frames": "Comparison needs two images from the history. Hold Ctrl while selecting them when they are available.",
+  "outpaint-mode": "The frame and dimensions of the expansion refer to the Expand Image operation. They will appear when you select it yourself.",
+  "no-markup": "There are no points, areas or masks in the frame yet. They will appear in the list after the markup is created.",
+  "no-mask-strokes": "There are currently no unapplied mask strokes. Apply and cancel buttons appear as you work with them.",
+  "instruction-targets": "Choose a location for operations that accept instructions for individual annotations. Other operations use the whole-image instructions.",
+  "model-without-text": "In this version, the model does not use text instructions. Editing is determined by the supported markup and parameters.",
+  "whole-image-references": "A general block of additional images is visible when you select “Whole image” for a suitable operation and model. If a label is selected, it is hidden, saving attachments.",
+  "mark-references": "Additional images for an annotation are available for operations on points or areas. Masks do not have this attachment block.",
+  "model-output": "The composition of the result parameters depends on the model. Some options do not have a separate size or quality field.",
+  "pending-outpaint-crop": "The future frame cuts off part of the source. Apply pre-trimming first; then the following extension conditions will become available.",
+  "editor-launch": "Check the readiness of the task: the selected model, instructions or the required mask, key and acceptable rating. While editing is in progress, restarting is not available; the specific reason is shown in the editor.",
+  "no-editor-jobs": "Edits in this project have not yet been launched. After launch, a task card with its status and result will appear here.",
+  "recoverable-editor-job": "Continuation and reconciliation are available if the task was interrupted or it is unknown whether the service accepted it. For a completed task, you can open the finished result.",
+  "running-editor-job": "Cancellation is available for a running task. There is no need to cancel a completed edit as an active request.",
+  "viewer-neighbors": "There are no other photos available to flip through in the current set yet.",
+  "slideshow-only": "These controls appear during a slideshow. The tour does not start the slideshow automatically.",
+  "tour.group.main.folder": {
+    "title": "Folder",
+    "overviewId": "main.folder.choose",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.recognition": {
+    "title": "Service and result",
+    "overviewId": "main.recognition.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.processing": {
+    "title": "Processing",
+    "overviewId": "main.processing.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.commands": {
+    "title": "Commands and help",
+    "overviewId": "main.commands.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.navigation": {
+    "title": "Navigation",
+    "overviewId": "main.navigation.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.quick": {
+    "title": "Quick search",
+    "overviewId": "main.quick.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.workspace": {
+    "title": "Work tabs",
+    "overviewId": "main.workspace.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.search": {
+    "title": "Detailed search",
+    "overviewId": "main.search.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.display": {
+    "title": "Display",
+    "overviewId": "main.display.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.canvas": {
+    "title": "Photos",
+    "overviewId": "main.canvas.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.inspector": {
+    "title": "Right panel",
+    "overviewId": "main.inspector.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.details": {
+    "title": "Details",
+    "overviewId": "main.details.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.description": {
+    "title": "Description",
+    "overviewId": "main.description.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.tags": {
+    "title": "Tags",
+    "overviewId": "main.tags.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.queue": {
+    "title": "Queues",
+    "overviewId": "main.queue.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.library": {
+    "title": "Library",
+    "overviewId": "main.library.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.main.journal": {
+    "title": "Activity log",
+    "overviewId": "main.journal.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.introduction": {
+    "title": "Introduction",
+    "overviewId": "editor.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.tools": {
+    "title": "Marking tools",
+    "overviewId": "editor.tools.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.operations": {
+    "title": "Operations",
+    "overviewId": "editor.operations.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.canvas": {
+    "title": "Canvas",
+    "overviewId": "editor.canvas.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.inspector": {
+    "title": "Right panel",
+    "overviewId": "editor.inspector.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.markup": {
+    "title": "Markup",
+    "overviewId": "editor.markup.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.instruction": {
+    "title": "Instructions",
+    "overviewId": "editor.instruction.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.references": {
+    "title": "Additional images",
+    "overviewId": "editor.references.whole",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.model": {
+    "title": "Model and start",
+    "overviewId": "editor.model.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.jobs": {
+    "title": "Tasks",
+    "overviewId": "editor.jobs.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.sources": {
+    "title": "Sources",
+    "overviewId": "editor.sources.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.editor.history": {
+    "title": "History",
+    "overviewId": "editor.history.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.introduction": {
+    "title": "Introduction",
+    "overviewId": "viewer.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.top": {
+    "title": "Top panel",
+    "overviewId": "viewer.top.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.image": {
+    "title": "Image",
+    "overviewId": "viewer.image.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.bottom": {
+    "title": "Bottom panel",
+    "overviewId": "viewer.bottom.overview",
+    "previewFrom": "first paragraph"
+  },
+  "tour.group.viewer.slideshow": {
+    "title": "Slideshow",
+    "overviewId": "viewer.bottom.slideshow",
+    "previewFrom": "first paragraph"
+  },
+  "editor-compact-panel": "This panel is already visible in a wide window. A separate button for showing or hiding it appears when the window is narrower.",
+  "editor-compact-tools": "In a wide window, the tools appear directly on the top toolbar. In a compact layout, some of them are available from this menu.",
+  "editor-reference-limits": "Additional image controls and capacity checks are available for compatible models and tasks. Existing attachments stay in the project when you switch modes.",
+  "tour.about.version": "Version {version}",
+  "tour.about.description": "View and organize photos, create descriptions and tags, search your photo library, and edit images.",
+  "tour.about.author": "Author: {author}",
+  "tour.about.third-party": "Third-party components",
+  "tour.ui.about-tab": "About",
+  "tour.about.tagline": "Smart Photo Indexer — find the photos you need by what they show.",
+  "tour.about.lead": "Browse pictures in their familiar folders, add descriptions and tags, find images with words, and open them for editing. Process photos with a local model on your computer or through a configured cloud service.",
+  "tour.about.step1.title": "Open your folder.",
+  "tour.about.step1.body": "Browse photos as cards, a list, or a table. Mark favorites and organize pictures into collections.",
+  "tour.about.step1.alt": "Start with a familiar photo folder",
+  "tour.about.step2.title": "Add descriptions and tags.",
+  "tour.about.step2.body": "Choose your photos, model, and desired output. Process them immediately or build a queue first.",
+  "tour.about.step2.alt": "Create searchable descriptions and tags",
+  "tour.about.step3.title": "Find a picture with words.",
+  "tour.about.step3.body": "Search saved descriptions, tags, filenames, and paths in the current folder or the whole library. Searching does not run recognition on unprocessed photos.",
+  "tour.about.step3.alt": "Search the saved contents with words",
+  "tour.about.step4.title": "View and edit your photo.",
+  "tour.about.step4.body": "Open the viewer to zoom in or start a slideshow. The editor offers cropping, resizing, and supported AI edits.",
+  "tour.about.step4.alt": "View, compare and edit",
+  "tour.about.more": "More useful tools. Photo comparison, batch tag editing, smart renaming, file operations, XMP, data backups, and editor projects.",
+  "tour.about.requirements": "Viewing does not require an AI key. Local recognition requires an installed model; cloud operations require your own key and may incur charges. Review model-generated descriptions, tags, and images.",
+  "tour.about.examples": "Illustrations show example workflows.",
+  "tour.about.license-pending": "This project is licensed under Apache 2.0.",
+  "main.settings.overview": {
+    "title": "Settings by group",
+    "paragraphs": [
+      "Five tabs group the settings: general, recognition, queue, storage and projects. Choose a tab in the top row.",
+      "Changes apply through each field. There is no global Save button. Switching tabs does not start processing or install a model."
+    ]
+  },
+  "main.settings.general": {
+    "title": "Appearance and language",
+    "paragraphs": [
+      "Choose the language, theme, hover hints and photo-only viewer here. Below are subfolder browsing and the image filter.",
+      "Subfolder browsing here applies to the explorer. Including subfolders in recognition is a separate option on the Recognition tab."
+    ]
+  },
+  "main.settings.recognition": {
+    "title": "Service and model",
+    "paragraphs": [
+      "Choose local processing or an available cloud service, then a model. Local models have installation and checking controls; cloud services have fields to enter and check your own key.",
+      "Below are processing subfolders, smart names, copies, skipping existing results and cloud consent. Changing the service does not send photos. Unavailable choices remain disabled."
+    ]
+  },
+  "main.settings.queue": {
+    "title": "Queue and limits",
+    "paragraphs": [
+      "Set request delay, retries, passes, parallel cloud requests, response limits and image size here. These values control photo recognition.",
+      "Queue behavior after restart is configured separately below. Check the limits before a large new batch; changing tabs does not start waiting jobs."
+    ]
+  },
+  "main.settings.storage": {
+    "title": "Where files are saved",
+    "paragraphs": [
+      "Recognition copies and editor image exports have separate destinations. For each group, choose beside the source, a separate folder or another available option.",
+      "The editor’s internal storage and cache are shown below. These differ from the folder for exported photos. Cancelling folder selection keeps the previous destination."
+    ]
+  },
+  "main.settings.projects": {
+    "title": "Saving projects",
+    "paragraphs": [
+      "Autosave saves a changed project at the selected interval. “Always save on close” is a separate setting. Both settings are shared with the editor.",
+      "A project stores frames and history; the photo file is saved separately. The management button opens shared project storage, where you can review the list and size before cleanup."
+    ]
+  },
+  "main.library.projects": {
+    "title": "Project storage",
+    "paragraphs": [
+      "This section shows the number of editor projects and their disk usage. Open management to prepare cleanup for selected photos, all projects or projects before a date.",
+      "The app first lists the exact projects and estimated space. Deletion needs separate confirmation; open projects and unfinished jobs are protected. Source and exported photos remain, but cleaned project history becomes unavailable."
+    ]
+  },
+  "tour.group.main.settings.title": "Settings",
+  "editor.project.preferences": {
+    "title": "Saving projects",
+    "paragraphs": [
+      "Autosave saves a changed project at the selected interval. “Always save on close” is a separate setting. Both settings are shared with the editor.",
+      "A project stores frames and history; the photo file is saved separately. The management button opens shared project storage, where you can review the list and size before cleanup."
+    ]
+  },
+  "tour.about.license-text": "Apache 2.0 license"
+}

@@ -1,0 +1,78 @@
+{
+  "mode": "built-in imagegen",
+  "transparentBackground": true,
+  "downscaleOnly": true,
+  "icons": [
+    {
+      "name": "editorSelect",
+      "sourceSha256": "85c09729faaecbe9bb678ef9a1c2aba9e3a25d97a13f9f263a7780c0b6f2d501",
+      "sourceFile": ".test-artifacts\\photo-editor-implementation\\icons\\editorSelect-original.png",
+      "bounds": [
+        316,
+        206,
+        916,
+        1102
+      ],
+      "output": "src\\assets\\icons\\editorSelect.png",
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "editorPan",
+      "sourceSha256": "103c633ec13c2ba256914e8f1c1c9b59bc663a826ea527f0488547ae44b4d2be",
+      "sourceFile": ".test-artifacts\\photo-editor-implementation\\icons\\editorPan-original.png",
+      "bounds": [
+        152,
+        146,
+        1103,
+        1161
+      ],
+      "output": "src\\assets\\icons\\editorPan.png",
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "editorBrush",
+      "sourceSha256": "d7983210350c737b84f05e73111cdfcd3a0eb678b3da4ac508fb3d88ae105305",
+      "sourceFile": ".test-artifacts\\photo-editor-implementation\\icons\\editorBrush-original.png",
+      "bounds": [
+        116,
+        131,
+        1139,
+        1128
+      ],
+      "output": "src\\assets\\icons\\editorBrush.png",
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "editorEraser",
+      "sourceSha256": "f51c21450724f17a23111d103641704fa03510050dff916c84f3e9d69fd8ea0e",
+      "sourceFile": ".test-artifacts\\photo-editor-implementation\\icons\\editorEraser-original.png",
+      "bounds": [
+        234,
+        256,
+        1079,
+        1039
+      ],
+      "output": "src\\assets\\icons\\editorEraser.png",
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "promptTemplate": "Use case: logo-brand. Asset type: one small desktop photo editor toolbar icon. Primary request: {subject}. Style: clean thin dark navy outline, consistent modern Windows application toolbar, smooth antialiased line art, readable when scaled to 18 pixels. Composition: exactly ONE icon centered, large simple silhouette filling 70% of a square image. Scene/backdrop: fully transparent alpha background. Constraints: no square button, no frame, no letters, no text, no shadows, no gradient, no decoration, no extra icons, no white background. Monochrome dark ink only with genuine transparent background.",
+  "subjects": [
+    "single standard arrow mouse cursor pointing upper left",
+    "single open hand with five fingers, recognisable pan tool",
+    "single diagonal paintbrush with rounded brush tip",
+    "single diagonal rectangular eraser"
+  ]
+}

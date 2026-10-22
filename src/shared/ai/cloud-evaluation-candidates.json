@@ -1,0 +1,7 @@
+[
+  { "id": "inclusionai/ling-3.0-flash-vl", "inputUsdPerMillion": 0.075, "outputUsdPerMillion": 0.22, "requiresReasoning": true },
+  { "id": "qwen/qwen3.7-flash", "inputUsdPerMillion": 0.03, "outputUsdPerMillion": 0.13, "requiresReasoning": true },
+  { "id": "google/gemma-3-12b-it", "inputUsdPerMillion": 0.05, "outputUsdPerMillion": 0.15, "requiresReasoning": false },
+  { "id": "mistralai/ministral-3b-2512", "inputUsdPerMillion": 0.1, "outputUsdPerMillion": 0.1, "requiresReasoning": false },
+  { "id": "google/gemma-3-27b-it", "inputUsdPerMillion": 0.08, "outputUsdPerMillion": 0.45, "requiresReasoning": false }
+]

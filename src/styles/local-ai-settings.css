@@ -1,0 +1,100 @@
+.settings-local-model-row,
+.settings-openrouter-model-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.settings-local-model-row {
+  grid-template-columns: minmax(0, 1fr) auto auto;
+}
+
+.settings-local-model-row select,
+.settings-openrouter-model-row select {
+  width: 100%;
+}
+
+.settings-local-model-delete {
+  width: 34px;
+  height: 34px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--theme-border,#fecaca);
+  border-radius: 999px;
+  background: var(--theme-surface,#fff);
+  color: #b91c1c;
+  font-size: 18px;
+  font-weight: 850;
+  line-height: 1;
+}
+
+.settings-local-model-delete:hover:not(:disabled) {
+  background: var(--theme-surface-soft,#fef2f2);
+}
+
+.settings-local-model-delete:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.local-setup-capsule,
+.openrouter-check-capsule {
+  min-width: 148px;
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  border: 1px solid var(--theme-border,#d8e2ef);
+  border-radius: 999px;
+  background: var(--theme-surface,#fff);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 850;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.main-toolbar__model-select .local-setup-capsule,
+.main-toolbar__model-select .openrouter-check-capsule {
+  min-width: 142px;
+  min-height: 30px;
+  padding: 0 12px;
+  font-size: 11px;
+}
+
+.main-toolbar__model-select:has(.local-setup-capsule),
+.main-toolbar__model-select:has(.openrouter-check-capsule) {
+  gap: 8px;
+}
+
+.local-setup-capsule--idle,
+.openrouter-check-capsule--idle {
+  border-color: var(--theme-border,#bfdbfe);
+  background: var(--theme-surface-soft,#eff6ff);
+  color: #1d4ed8;
+}
+
+.local-setup-capsule--busy,
+.openrouter-check-capsule--busy {
+  border-color: var(--theme-border,#c7d2fe);
+  background: var(--theme-surface-soft,#eef2ff);
+  color: #3730a3;
+}
+
+.local-setup-capsule--ready,
+.openrouter-check-capsule--ready {
+  border-color: var(--theme-border,#bbf7d0);
+  background: var(--theme-selection,#dcfce7);
+  color: var(--theme-text,#166534);
+}
+
+.local-setup-capsule--error,
+.openrouter-check-capsule--error {
+  border-color: var(--theme-border,#fecaca);
+  background: var(--theme-surface-soft,#fef2f2);
+  color: #b91c1c;
+}
+
+.photo-storage-settings{min-width:0}.photo-storage-settings>details{margin-top:7px;border-top:1px solid var(--line);padding-top:7px}.storage-path-row{display:flex;align-items:center;gap:7px;margin-top:7px;min-width:0}.storage-path-row>label,.storage-path-row>.storage-path{flex:1;min-width:0;font-size:13px}.storage-path{display:block;max-width:100%;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;user-select:text;color:var(--muted)}.storage-path-row>button{flex:none;font-size:12px}.storage-error{display:block;color:var(--red);overflow-wrap:anywhere;margin-top:5px}

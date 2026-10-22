@@ -1,0 +1,287 @@
+{
+  "helpArticles.folders": {
+    "title": "Premiers pas et dossiers",
+    "aliases": [
+      "ouvrir",
+      "navigation",
+      "sous-dossiers",
+      "chemin"
+    ],
+    "paragraphs": [
+      "« Choisir un dossier » ouvre un dossier de photos, et non un projet de l’éditeur. Les boutons Précédent, Suivant, Dossier parent et le fil d’Ariane permettent de changer de dossier. « Sous-dossiers » détermine si les fichiers des dossiers imbriqués sont inclus.",
+      "« Dossiers récents » conserve des liens vers les dossiers déjà ouverts. Si un dossier est inaccessible, vérifiez que son disque est connecté : cela ne signifie pas que ses photos ont été supprimées. Les dossiers connectés se gèrent dans l’onglet « Bibliothèque » du panneau droit."
+    ]
+  },
+  "helpArticles.refresh": {
+    "title": "Actualiser les dossiers et l’index",
+    "aliases": [
+      "actualiser",
+      "catalogue",
+      "ordre"
+    ],
+    "paragraphs": [
+      "Le menu à côté du bouton d’actualisation permet de choisir son action. « Actualiser le dossier » relit le contenu du dossier ; « Actualiser l’index du dossier » met à jour les informations conservées localement. L’icône et l’infobulle du bouton reflètent ce choix. Ces actions ne lancent pas de traitement par IA.",
+      "L’index est un catalogue local des fichiers, métadonnées, descriptions et tags utilisé pour la recherche. « Actualiser l’ordre » trie à nouveau les éléments affichés selon le critère choisi. La reconnaissance en arrière-plan ne déplace pas les cartes déjà affichées."
+    ]
+  },
+  "helpArticles.library": {
+    "title": "Bibliothèque et affichage",
+    "aliases": [
+      "tableau",
+      "colonnes",
+      "tri",
+      "favoris",
+      "terminées",
+      "collections"
+    ],
+    "paragraphs": [
+      "L’Explorateur affiche le dossier actuel. Les Favoris regroupent les photos marquées d’une étoile ; Terminées contient les photos avec un résultat de traitement ; les Collections sont vos propres sélections. Les Dossiers récents conservent des liens vers les dossiers. La présence d’un fichier dans l’index ne signifie pas qu’il possède déjà une description.",
+      "« Affichage » et le réglage de taille en bas proposent quatre tailles de cartes, une liste et un tableau. Les dossiers apparaissent toujours avant les fichiers ; le tri choisi s’applique dans chaque groupe. Les résultats de recherche suivent l’ordre de la recherche.",
+      "Dans le tableau, cliquez sur un en-tête pour trier ou faites glisser une séparation pour modifier la largeur d’une colonne. Les touches fléchées fonctionnent aussi sur une séparation sélectionnée (Shift augmente le pas). Escape annule l’ajustement en cours ; un double-clic rétablit la largeur par défaut. Le bouton plus à droite permet de choisir les colonnes visibles. Confirmez avec « Appliquer »."
+    ]
+  },
+  "helpArticles.search": {
+    "title": "Rechercher et sélectionner",
+    "aliases": [
+      "filtres",
+      "requête",
+      "tags",
+      "description",
+      "Ctrl",
+      "Shift",
+      "export"
+    ],
+    "paragraphs": [
+      "Choisissez où chercher : dans le dossier actuel ou sélectionné avec ses sous-dossiers, ou dans toute la bibliothèque indexée. Saisissez des mots, choisissez les filtres et cliquez sur « Rechercher ». Dépliez les filtres supplémentaires si nécessaire. Les résultats précédents restent affichés tant que vous ne lancez pas la nouvelle recherche.",
+      "La recherche utilise les descriptions, les tags et la méthode de correspondance choisie. Les photos sans description sont plus difficiles à retrouver par leur contenu. Ctrl permet de modifier une sélection individuelle ; Shift sélectionne une plage. Sélectionner tous les résultats inclut aussi les pages qui ne sont pas encore chargées.",
+      "L’onglet « Enregistrées » conserve les critères de recherche, et non des copies de fichiers. Choisissez une recherche enregistrée, puis lancez-la. Les résultats suivants se chargent au défilement. Les actions sur les résultats permettent de copier les chemins, d’ouvrir les dossiers et d’exporter des fichiers CSV/JSON contenant des métadonnées et des liens. Les originaux ne sont pas déplacés. L’export tient compte de la recherche appliquée et de la sélection."
+    ]
+  },
+  "helpArticles.recognition": {
+    "title": "Reconnaissance d’images",
+    "aliases": [
+      "modèle",
+      "OpenRouter",
+      "Fal",
+      "Ollama",
+      "localement",
+      "rapidement"
+    ],
+    "paragraphs": [
+      "La reconnaissance crée du texte et des tags pour la recherche et est différente de l'édition d'images. Sélectionnez le service, le modèle disponible et le résultat : description, tags ou les deux. Les modèles locaux nécessitent un service installé et un modèle téléchargé ; ceux du cloud ont besoin d’une clé.",
+      "Les modes rapides réduisent le temps mais peuvent manquer des détails. Une description détaillée répertorie les principaux objets, l'arrière-plan, les environs et les détails mineurs. Des passages répétés vérifient le résultat, augmentant ainsi le temps et les coûts éventuels ; la coïncidence des réponses ne garantit pas la vérité.",
+      "Cliquez sur \"Traiter\" pour les photos sélectionnées. Par défaut, les tâches démarrent immédiatement ; la configuration d'une file d'attente manuelle les laisse en attente d'être explicitement exécutées. La limite de photos par lancement et le nombre de demandes simultanées sont des paramètres différents.",
+      "Si le modèle local choisi n’est pas installé, le bouton affiche « Installer le modèle ». Le service et le modèle ne sont téléchargés que lorsque vous lancez leur installation ; les composants déjà présents sont réutilisés. Un bouton « Traiter » désactivé indique qu’aucune photo adaptée n’est sélectionnée ou que la préparation est encore en cours."
+    ]
+  },
+  "helpArticles.privacy": {
+    "title": "Clés, consentement et coûts",
+    "aliases": [
+      "consentement",
+      "paiement",
+      "budget",
+      "cryptage",
+      "secret"
+    ],
+    "paragraphs": [
+      "Les clés Fal AI et OpenRouter sont enregistrées séparément dans les paramètres de chaque service. Enregistrer une clé et vérifier l’accès sont deux actions distinctes. Windows protège la clé pour l’utilisateur actuel. Ne l’insérez pas dans une description de photo ni dans le journal d’activité.",
+      "Le traitement cloud envoie les images et instructions sélectionnées à un service tiers. Sans autorisation adaptée déjà enregistrée, une demande de consentement apparaît. Refuser empêche l’envoi de la requête. La reconnaissance locale ne nécessite pas ce consentement.",
+      "Le prix avant le lancement est une estimation fondée sur le catalogue et les paramètres actuels, pas la confirmation d’un débit. Les masques, variantes, résolution et modèle influencent le coût. Vérifiez les débits réels auprès du service. Si le résultat d’un envoi est inconnu, vérifiez-le avant de réessayer pour éviter de payer deux fois."
+    ]
+  },
+  "helpArticles.queue": {
+    "title": "Tâches de reconnaissance",
+    "aliases": [
+      "pause",
+      "continuer",
+      "arrêter",
+      "tâches",
+      "répéter",
+      "en parallèle"
+    ],
+    "paragraphs": [
+      "Dans la fenêtre principale, l'onglet Tâches fait référence à la reconnaissance des descriptions et des tags. « Éléments de la file d'attente » affiche des photos de l'exécution sélectionnée, « Résumé de l'exécution » affiche son état et ses compteurs, « Paramètres de la tâche » affiche les paramètres enregistrés. Les groupes sont élargis indépendamment. L'historique vous permet d'ouvrir une exécution précédente sans retraitement. Les tâches de retouche photo sont situées séparément - dans l'éditeur et dans le groupe « Retouche photo ».",
+      "La mise en pause arrête l'émission de nouveaux travaux, mais la demande soumise peut se terminer. Continuer reprend la file d'attente. L'arrêt ne garantit pas l'annulation et le remboursement côté service.",
+      "Le nombre de photos traitées simultanément est défini séparément du nombre de passages d'une photo. Dans un travail en cours dans le cloud, la limite de simultanéité peut être modifiée ; Une photo à la fois est traitée localement. «Masquer les éléments terminés» dans l'en-tête de la liste masque uniquement les lignes terminées avec succès, laissant des erreurs. Les résultats et l'historique sont enregistrés."
+    ]
+  },
+  "helpArticles.inspector": {
+    "title": "Le panneau droit",
+    "aliases": [
+      "détails",
+      "tags",
+      "traitement par lots",
+      "doublons",
+      "XMP",
+      "journal d’activité",
+      "sauvegarde"
+    ],
+    "paragraphs": [
+      "« Détails » affiche la photo sélectionnée et ses informations. « Description » et « Tags » permettent de modifier les résultats textuels. Réinitialiser annule les modifications non enregistrées du champ ; Enregistrer conserve le résultat dans l’index. Modifier une description ou des tags ne change pas l’image.",
+      "Les tags par lots permettent d’ajouter ou de retirer des tags sur plusieurs photos sélectionnées. Dépliez ce groupe lorsque vous en avez besoin. L’export XMP crée des fichiers séparés à côté des photos ; les fichiers existants sont protégés contre un remplacement accidentel.",
+      "« Bibliothèque » regroupe les dossiers connectés, les problèmes d’écriture, les doublons exacts et les sauvegardes. Une sauvegarde de l’index conserve les informations locales sans les originaux externes ni les clés API ; une sauvegarde complète inclut aussi les données de l’éditeur. Le contenu est vérifié avant de préparer une restauration, appliquée après redémarrage. Dans le « Journal d’activité », dépliez une entrée pour lire les changements sans relancer l’action."
+    ]
+  },
+  "helpArticles.viewer": {
+    "title": "Visionner les photos",
+    "aliases": [
+      "zoom",
+      "ajuster",
+      "diaporama",
+      "imprimer",
+      "corbeille",
+      "partager"
+    ],
+    "paragraphs": [
+      "La photo s’adapte à l’espace disponible sans recadrage. Les flèches latérales permettent de parcourir les images ; la molette règle le zoom. « 1:1 » affiche un pixel de l’image par pixel d’affichage ; « Ajuster » rend l’image entière visible. La rotation ne modifie que l’affichage. Dans une fenêtre étroite, certains libellés sont masqués, mais restent disponibles dans les infobulles.",
+      "Un double-clic masque ou réaffiche les commandes. Le diaporama utilise un affichage plein écran avec des boutons discrets. « Modifier » ouvre l’éditeur intégré ; « Modifier l’image » ouvre une application externe.",
+      "Le menu permet d’enregistrer une copie, de redimensionner l’image et d’afficher le fichier dans l’Explorateur. Supprimer envoie le fichier dans la Corbeille après confirmation. L’impression, le partage, la modification externe et le fond d’écran dépendent de Windows et des applications installées. La présence d’une commande ne garantit pas que l’action externe aboutira.",
+      "« Redimensionner l’image… » se trouve dans le menu à trois points. Choisissez les dimensions, le maintien des proportions et le format de sortie. La qualité JPEG se règle séparément. L’enregistrement crée un nouveau fichier. Pour les TIFF, l’application peut afficher un aperçu réduit de la première page ; les dimensions de l’original sont indiquées séparément et diffèrent de la résolution de cet aperçu."
+    ]
+  },
+  "helpArticles.editor": {
+    "title": "Éditeur : repères et outils",
+    "aliases": [
+      "masque",
+      "pinceau",
+      "gomme",
+      "recadrage",
+      "point",
+      "région",
+      "tourner",
+      "symétrie"
+    ],
+    "paragraphs": [
+      "Le panneau de gauche sélectionne l'action sur l'image actuelle. Le recadrage et le redimensionnement s'effectuent sans réseau neuronal ; les outils restants utilisent le modèle compatible sélectionné. Les paramètres disponibles varient selon l’outil.",
+      "Les icônes du haut regroupent la sélection et le déplacement, le point et la zone, le masque et la gomme, l’annulation et le rétablissement, ainsi que les symétries. Le zoom et « Ajuster » se trouvent à droite. Le nom de chaque icône apparaît au survol.",
+      "Un point définit un point de repère, une zone définit une zone rectangulaire et un masque définit une forme remplie. Pour supprimer un objet, vous avez généralement besoin d’un masque ; un modèle prenant en charge le texte accepte aussi des instructions. Le diamètre du pinceau est mesuré en pixels de l'image de travail. Escape annule un geste incomplet.",
+      "À droite se trouvent les repères, les instructions et le choix du modèle. « Emplacement » change les instructions en cours de modification. Au lancement, tous les repères activés dont les instructions sont renseignées pour cet outil sont pris en compte. L’œil contrôle la visibilité et la case à cocher la participation à la requête. Pour en savoir plus, consultez « Éditeur : tâches et images supplémentaires ».",
+      "Les rotations et les symétries modifient l'orientation de travail ainsi que les marquages, sans créer de nouvell’image dans la bande. Le recadrage et le redimensionnement créent une image indépendante après application. Le résultat du modèle doit être comparé à la source : le coût et le niveau de qualité ne garantissent pas l'exactitude."
+    ]
+  },
+  "helpArticles.results": {
+    "title": "Historique et enregistrement",
+    "aliases": [
+      "comparer",
+      "projet",
+      "brouillon",
+      "importer",
+      "exporter",
+      "sauvegarde automatique",
+      "branches"
+    ],
+    "paragraphs": [
+      "La bande du bas contient l’original et des images de résultat indépendantes. Cliquez sur une image pour l’ouvrir avec ses repères enregistrés. Chaque nouveau résultat commence sans repères ; revenir à une image précédente restaure ses repères et instructions.",
+      "Tirez le bord supérieur de la bande pour agrandir les miniatures. Leur largeur et leur hauteur augmentent ensemble, ce qui réduit le nombre d’images visibles. La bande défile horizontalement. Sa hauteur est commune à toutes les images et ne change pas avec la sélection.",
+      "Maintenez Ctrl et sélectionnez deux images pour les comparer, puis déplacez la séparation sur l’image. La comparaison n’applique aucune modification. Pour utiliser une image comme pièce jointe supplémentaire, faites-la glisser vers le repère voulu à droite.",
+      "La corbeille d’une miniature retire cette image de la bande après confirmation. Shift + clic sélectionne plusieurs images ; Shift + corbeille retire la sélection. L’original est protégé. Retirer une image précédente ne supprime pas les résultats suivants, qui sont indépendants. Les images masquées restent accessibles dans l’historique des modifications.",
+      "« Projet » enregistre l’historique et les repères pour reprendre le travail. « Image » enregistre l’image sélectionnée dans un fichier séparé. L’enregistrement automatique s’active dans le menu. S’il est désactivé, vous pouvez enregistrer, rester dans l’éditeur ou quitter en abandonnant les dernières modifications. En cas d’erreur d’enregistrement, l’éditeur reste ouvert et n’annonce pas un faux succès.",
+      "« Retour » revient à la fenêtre depuis laquelle l’éditeur a été ouvert. « Recommencer » crée un projet distinct et vierge à partir de l’original ; le projet précédent et ses résultats sont conservés. Consulter l’historique ne renvoie ni les clés ni les tâches cloud."
+    ]
+  },
+  "helpArticles.appearance": {
+    "title": "Aide, sujets et problèmes",
+    "aliases": [
+      "nuit",
+      "jour",
+      "sombre",
+      "lumière",
+      "aperçu",
+      "erreur"
+    ],
+    "paragraphs": [
+      "Le bouton Lune ou Soleil sur le côté droit du panneau supérieur de la fenêtre principale change le thème clair et sombre des fenêtres ouvertes. Les photos, les marquages ​​et les paramètres des tâches ne changent pas. La vue photo conserve l'environnement sombre de l'image et ses boîtes de dialogue suivent le thème sélectionné.",
+      "«Découvrir dans l’application» navigue à travers les groupes de fonctions et ouvre les onglets nécessaires. Le «Guide de référence» contient des articles consultables. Les boutons avec un point d'interrogation à côté des titres fournissent une aide courte : passez la souris sur la souris, cliquez pour l'épingler ou accédez au bouton à l'aide de la touche Tab. Escape ferme l'info-bulle. La formation ne déclenche ni traitement, ni suppression, ni paiement.",
+      "S'il y a une erreur de vignette, un nouveau téléchargement ciblé est disponible ; le fichier original n'est pas écrasé. Si la photo s'ouvre mais qu'il n'y a pas d'aperçu, vérifiez le message d'erreur et le cache des vignettes. Les journaux sont utiles pour les diagnostics, mais les clés ne doivent pas y être incluses. Un statut de demande cloud inconnu est d'abord vérifié plutôt que soumis à nouveau."
+    ]
+  },
+  "helpArticles.editor-instruction-guide": {
+    "title": "Editeur : tâches et images supplémentaires",
+    "aliases": [
+      "endroit",
+      "tâche",
+      "fond",
+      "objet",
+      "automatiquement",
+      "faire glisser",
+      "photos supplémentaires",
+      "références",
+      "plusieurs marques"
+    ],
+    "paragraphs": [
+      "Choisissez d’abord un outil à gauche. Pour remplacer l’arrière-plan, décrivez le décor souhaité dans le champ principal, par exemple : « Studio lumineux, lumière du jour douce, laisser la personne inchangée. » Les instructions d’un autre outil ne sont pas ajoutées à cette requête.",
+      "Pour une retouche locale, placez un point ou dessinez une zone. Dans « Emplacement », choisissez le repère et décrivez ce qu’il faut ajouter ou modifier. Changer d’emplacement change seulement les instructions en cours de modification. Un lancement regroupe les instructions renseignées de tous les repères activés, ainsi que les instructions générales si elles existent.",
+      "Chaque repère possède ses instructions et ses images supplémentaires. L’œil le masque uniquement sur le canevas. La case à cocher détermine sa participation à la requête. Les instructions d’un repère masqué mais activé restent incluses. Vérifiez tous les repères participants avant le lancement.",
+      "Un point accepte une image supplémentaire ; toute nouvell’image remplace la précédente. Une zone peut en accepter plusieurs. Le bouton plus à côté du compteur permet de choisir un fichier et déplie le groupe si nécessaire. Vous pouvez aussi faire glisser une image de la bande du bas vers un point ou une zone dans la liste des repères. Sur un point, elle remplace la pièce jointe ; sur une zone, elle s’ajoute. Les rotations et symétries de travail sont prises en compte.",
+      "Dans le groupe ouvert, vous pouvez consulter, réorganiser, exclure temporairement ou retirer les images supplémentaires. Leur ordre et leur association au repère sont transmis avec les instructions. La limite totale près du modèle inclut l’original. Une même image utilisée à plusieurs endroits n’occupe pas forcément plusieurs entrées. Retirer une pièce jointe ne supprime pas le fichier original.",
+      "Pour supprimer un objet, peignez l’endroit souhaité avec un masque. La gomme permet d’en corriger les bords. Si le modèle n’accepte pas de texte ou d’images supplémentaires, ces données ne sont pas envoyées. Elles restent dans le projet pour un outil compatible. L’infobulle du modèle et l’aperçu « Ce qui sera envoyé » indiquent les entrées utilisables.",
+      "La poignée sous les repères règle la hauteur de la liste ; un double-clic l’adapte de nouveau au contenu. L’agrandir repousse les champs suivants vers le bas. Une longue liste peut défiler. Toutes les images supplémentaires enregistrées sont disponibles dans les paramètres avancés. Leur nombre peut différer du nombre d’entrées de la retouche actuelle.",
+      "Choisissez le modèle, la résolution et la qualité disponible, vérifiez l’estimation du coût et cliquez sur « Lancer la retouche ». Toutes les instructions de ce lancement sont envoyées ensemble. L’image obtenue est sélectionnée automatiquement si vous n’avez pas changé de projet. Elle commence sans repères ; l’original conserve ses repères et instructions."
+    ]
+  },
+  "helpArticles.editor-safe-workflow": {
+    "title": "Editeur : de la source au résultat",
+    "aliases": [
+      "recadrer",
+      "tourner",
+      "modèle",
+      "paramètres",
+      "comparer",
+      "enregistrer",
+      "1K",
+      "2K",
+      "4K",
+      "filtre modèle",
+      "résolution",
+      "qualité"
+    ],
+    "paragraphs": [
+      "Choisir une image dans la bande du bas en fait le point de départ de la prochaine retouche. Chaque image conserve ses propres repères et instructions. Elle peut être retirée indépendamment des résultats suivants. La hauteur de la bande est commune à toutes les images.",
+      "Sélectionnez un outil, spécifiez des instructions ou un masque et joignez des images supplémentaires si nécessaire. Toutes les tâches non vides activées de l'outil actuel participent à l'édition locale. Différents lieux et images supplémentaires sont combinés en une seule demande. La précision de la localisation dépend du modèle et de la scène sélectionnés.",
+      "Les niveaux «Économie», «Équilibré» et «Qualité» vous aident à choisir une option de modèle ; la liste déroulante contient les options disponibles pour cet outil. Le point d'interrogation après «Modèle» explique le but, les limites, le nombre d'images supplémentaires et les observations sur la précision du placement.",
+      "L’icône de filtre dans l’en-tête du modèle affiche les filtres à la place des niveaux. Filtrez selon le coût estimé du lancement complet, la résolution, le nombre d’images supplémentaires sans compter l’original, ou la prise en charge des dimensions d’origine. Les filtres réduisent la liste ; vous choisissez ensuite le modèle. La croix les réinitialise. Assouplissez-les si aucun modèle ne convient.",
+      "La résolution et la qualité du résultat sont des paramètres différents sous la liste des modèles. La taille précise le nombre de pixels, la qualité précise le mode du modèle sélectionné, si disponible. « Comme la source » nécessite la prise en charge des dimensions d'origine ; En cas d'incompatibilité, veuillez sélectionner une autre taille ou un autre modèle. La sélection explicite de 1K, 2K ou d'un autre mode disponible définit la nouvelle taille. Les dimensions finales sont également indiquées dans la tâche.",
+      "L’estimation du coût s'applique à l'ensemble de l'exécution en cours et change en fonction des paramètres et de la composition des entrées. Il ne s’agit pas d’un débit confirmé. Les paramètres supplémentaires incluent le budget, le parallélisme et la composition détaillée des requêtes. Sans l'autorisation d'envoi cloud requise, une fenêtre de consentement apparaîtra.",
+      "Cliquer sur «Lancer la retouche» crée une nouvelle tâche. Les anciennes soumissions interrompues ou inconnues ne continuent pas elles-mêmes et ne bloquent pas une nouvelle modification distincte. Surveiller les progrès sur l'onglet «Tâches» ; la simple ouverture de la carte ne renvoie pas de photos.",
+      "Pendant une retouche, la modification de ses instructions initiales et un nouveau lancement de ce projet sont bloqués. Vous pouvez toujours consulter et déplacer le canevas, annuler ou fermer la fenêtre. Le résultat apparaît comme une image distincte. L’enregistrement du projet et celui d’une image utilisent des boutons différents."
+    ]
+  },
+  "helpArticles.rename": {
+    "title": "Renommer intelligemment",
+    "aliases": [
+      "numérotation",
+      "préfixe",
+      "suffixe",
+      "produit",
+      "nom",
+      "fichiers",
+      "ordre"
+    ],
+    "paragraphs": [
+      "Sélectionnez les fichiers ou le dossier souhaités et cliquez sur l'icône de balise Renommer intelligemment dans la barre supérieure. Sans sélection, le dossier actuel est utilisé. Une fenêtre séparée s'ouvrira avec les noms proposés. Le réseau neuronal et les requêtes payantes ne sont pas utilisés.",
+      "Vous pouvez conserver le même nom ou en définir un général, ajouter un préfixe et un suffixe. Par exemple, le nom général « Produit » et la numérotation à trois chiffres donneront « Produit_001 », « Produit_002 » et ainsi de suite. L'extension est ajoutée automatiquement et ne change pas.",
+      "Le commutateur « Numérotation » active ou désactive le numéro. Précisez le début, le nombre de chiffres et la position du numéro. « Ordre » détermine quel fichier recevra le premier numéro ; Avant de confirmer, vérifiez la séquence à l'aide des vignettes et des noms dans l'aperçu.",
+      "Vous pouvez inclure des sous-dossiers pour un dossier ; Les noms des dossiers eux-mêmes ne changent pas. Les paramètres supplémentaires incluent le pas du compteur et, pour plusieurs dossiers, un démarrage de compteur distinct dans chaque dossier. Utilisez uniquement les termes dont vous avez besoin et vérifiez la liste finale.",
+      "Renommer applique le plan affiché uniquement après avoir vérifié les conflits et les modifications de fichiers. Le contenu des photos et les métadonnées sont préservés et les chemins de la bibliothèque sont mis à jour. Si le nom est pris ou si le fichier a changé, corrigez les conditions et mettez à jour l'aperçu.",
+      "Dans l'onglet « Journal et annulation », vous pouvez vérifier le résultat, poursuivre l'opération interrompue ou l'annuler. La continuation se produit uniquement sur votre commande ; S'il y a un conflit avec un fichier modifié, l'application ne l'écrase pas. Pour un autre ensemble, fermez la fenêtre et sélectionnez à nouveau les fichiers."
+    ]
+  },
+  "helpArticles.editor-tasks": {
+    "title": "Éditeur : tâches et résultats",
+    "aliases": [
+      "archiver",
+      "date",
+      "durée",
+      "coût",
+      "annuler",
+      "taille du résultat"
+    ],
+    "paragraphs": [
+      "L'onglet Tâches sur le côté droit de l'éditeur affiche les tâches du projet en cours. Cliquez sur le titre de la fiche souhaitée : les détails s'ouvriront à l'intérieur, à côté de ses résultats. La liste défile jusqu'à toute la hauteur disponible du panneau.",
+      "La fiche indique la date de création et de réalisation, le temps jusqu’au résultat et depuis le début de l’exécution, le modèle, les dimensions originales, demandées et reçues, la qualité et le nombre d’images. La durée jusqu'au résultat comprend l'attente ; elle peut donc différer du temps écoulé depuis le début de l’exécution.",
+      "L'estimation de lancement et les coûts confirmés sont des valeurs différentes. Si le service n'a pas confirmé le débit, le montant est marqué comme estimé. Le total général au-dessus de la liste s'applique aux tâches affichées ; Il ne s'agit pas du solde du compte de service.",
+      "« Ouvrir » sélectionne une image prête spécifique sans nouvelle génération. Annuler et continuer sont des actions de carte distinctes. Les anciennes tâches inconnues ou interrompues ne démarrent pas à l'ouverture d'une liste ou au lancement d'une autre modification.",
+      "Le dossier archivé du projet transféré est disponible pour lecture ; il ne poursuit pas l'ancienne demande de cloud et n'ajoute pas l'ancienne dépense au nouveau budget. Si le résultat est inconnu, vérifiez exactement la demande précédente avant de la soumettre à nouveau délibérément."
+    ]
+  }
+}

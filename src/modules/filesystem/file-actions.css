@@ -1,0 +1,16 @@
+.file-conflict-dialog{width:min(580px,calc(100vw - 24px));gap:10px}
+.file-conflict-file{display:flex;flex-direction:column;gap:3px;min-width:0;border:1px solid var(--theme-border);border-radius:8px;padding:9px 11px;background:var(--theme-surface-soft)}
+.file-conflict-file>strong{overflow-wrap:anywhere}
+.file-conflict-file>small,.file-conflict-note{color:var(--theme-muted)}
+.file-conflict-file>.editor-copyable{font-size:12px}
+.file-conflict-dialog .file-conflict-all{display:flex;align-items:center;gap:6px;font-size:13px}
+.file-conflict-dialog>footer{gap:6px}
+.file-conflict-dialog>footer>button:first-child{margin-right:auto}
+.explorer-context-menu .file-menu-key{margin-left:auto;padding-left:22px;font-size:11px;opacity:.65}
+:root .explorer-context-menu{background:var(--theme-surface);color:var(--theme-text);border-color:var(--theme-border)}
+:root .explorer-context-menu button{display:flex;align-items:center;text-align:left;color:var(--theme-text)}
+:root .explorer-context-menu__header span,:root .explorer-context-menu__note{color:var(--theme-muted)}
+:root .explorer-context-menu button:disabled{color:var(--theme-muted);opacity:.5}
+.file-move-badge{position:fixed;z-index:1200;max-width:min(320px,calc(100vw - 24px));overflow:hidden;text-overflow:ellipsis;white-space:nowrap;pointer-events:none;padding:7px 11px;border:1px solid var(--theme-border);border-radius:8px;background:var(--theme-surface);color:var(--theme-text);box-shadow:0 4px 16px #0003;font:13px/1.4 Segoe UI,sans-serif}
+.file-move-badge[data-valid=true]{border-color:var(--blue);background:var(--blue-soft)}
+.file-card.file-move-target{outline:2px solid var(--blue);outline-offset:-2px;background:var(--blue-soft)}

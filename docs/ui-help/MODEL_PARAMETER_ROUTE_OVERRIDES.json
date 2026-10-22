@@ -1,0 +1,10 @@
+{
+  "note": "Specific route meaning takes precedence over the shared schema-key text. No UI changes are performed by this document.",
+  "entries": [
+    {"routeId":"fal-ai/object-removal/mask","schemaKey":"model","helpId":"parameter.model-object-removal"},
+    {"routeId":"fal-ai/birefnet/v2","schemaKey":"model","helpId":"parameter.model-background"},
+    {"routeId":"topaz/upscale/image/precision","schemaKey":"model","helpId":"parameter.model-precision"},
+    {"routeId":"topaz/upscale/image/generative","schemaKey":"model","helpId":"parameter.model-generative"},
+    {"routeId":"topaz/restore/image","schemaKey":"model","helpId":"parameter.model-restore"}
+  ]
+}

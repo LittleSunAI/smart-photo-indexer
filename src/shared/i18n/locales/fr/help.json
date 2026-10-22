@@ -1,0 +1,2220 @@
+{
+  "common.help": [
+    "Explique cette section et ses paramètres. Laissez le pointeur un instant ou appuyez sur « ? » pour garder l’explication ouverte pendant la lecture. Appuyez de nouveau sur le bouton ou sur `Escape` pour la fermer."
+  ],
+  "common.close-dialog": [
+    "Ferme cette fenêtre de paramètres ou d’informations. Pour appliquer les modifications, utilisez un bouton d'enregistrement séparé, s'il est disponible dans la fenêtre."
+  ],
+  "common.dismiss-message": [
+    "Supprime le message de l'écran. S'il décrit une erreur, sa cause demeure : vérifiez l'état de l'opération dans la section appropriée."
+  ],
+  "common.cancel-draft": [
+    "Annule la préparation des modifications de ce formulaire et revient à l'écran précédent. Les résultats déjà enregistrés restent."
+  ],
+  "common.reset-draft": [
+    "Renvoie les dernières valeurs enregistrées dans les champs. Utilisez-le si vous souhaitez ignorer les modifications que vous n'avez pas encore enregistrées."
+  ],
+  "common.expand": [
+    "Affiche le contenu de « {раздел} ». Appuyez de nouveau pour le replier. Ouvrir cette section ne lance aucune opération."
+  ],
+  "common.page-prev": [
+    "Affiche la page de liste précédente \"{список}\". Il s'agit d'une navigation à travers les entrées de la liste, pas d'un retour à la photo précédente."
+  ],
+  "common.page-next": [
+    "Affiche la page de liste suivante \"{список}\". Utilisez pour afficher les entrées qui ne tiennent pas sur la page actuelle."
+  ],
+  "common.load-more": [
+    "Charge la partie suivante de la liste \"{список}\", en conservant les entrées déjà affichées."
+  ],
+  "common.retry-read": [
+    "Essaie de recharger « {раздел} » après une erreur de lecture. Cela ne répète pas une requête de génération payante."
+  ],
+  "common.acknowledge": [
+    "Ferme ce message et retourne au travail."
+  ],
+  "common.copy-path": [
+    "Copie le chemin complet de ce fichier dans le presse-papiers. Il peut être collé dans l'Explorateur Windows ou dans un message pour indiquer l'emplacement du fichier."
+  ],
+  "common.reveal-file": [
+    "Ouvre l'emplacement du fichier dans l'Explorateur Windows. De cette façon, vous pouvez trouver l'original sur le disque et travailler avec lui en dehors du programme."
+  ],
+  "common.favorite-add": [
+    "Marque une photo avec une étoile et l'ajoute à la section «Favoris» afin que vous puissiez la retrouver rapidement plus tard. Le fichier reste au même endroit."
+  ],
+  "common.favorite-remove": [
+    "Supprime l'étoile et supprime la photo de la section «Favoris». La photo et sa description restent dans la bibliothèque."
+  ],
+  "common.minimize": [
+    "Réduit cette fenêtre dans la barre des tâches Windows. Cliquez sur son icône pour y revenir. La fenêtre reste ouverte."
+  ],
+  "common.maximize": [
+    "Agrandit la fenêtre pour afficher une zone plus grande. En cliquant à nouveau, la fenêtre reprend sa taille normale."
+  ],
+  "common.restore": [
+    "Ramène la fenêtre agrandie à sa taille normale. Il peut être déplacé et redimensionné par les bords."
+  ],
+  "common.theme-dark": [
+    "Bascule l'interface vers des couleurs sombres. Le paramètre affecte la conception du programme et non les couleurs des photos."
+  ],
+  "common.theme-light": [
+    "Bascule l'interface vers des couleurs claires. Le paramètre affecte la conception du programme et non les couleurs des photos."
+  ],
+  "common.wait": [
+    "Actuellement en cours d'exécution \"{действие}\". Attendez le résultat de cette opération."
+  ],
+  "common.no-selection": [
+    "Tout d’abord, cliquez sur la photo que vous souhaitez sélectionner. Pour sélectionner plusieurs images, maintenez `Ctrl` et cliquez sur leurs cartes."
+  ],
+  "common.splitter": [
+    "Faites glisser la bordure pour redimensionner les zones adjacentes. Cela vous aide à allouer plus d'espace à vos photos ou paramètres sans modifier le contenu."
+  ],
+  "common.window-menu": [
+    "Ouvre les commandes de cette fenêtre. Sélectionnez l'action souhaitée dans la liste ; L'ouverture du menu lui-même ne change rien."
+  ],
+  "text.bold": [
+    "Met les mots sélectionnés en gras afin qu'ils ressortent dans la description. Tout d’abord, sélectionnez un morceau de texte, puis cliquez sur ce bouton. Pour enregistrer la mise en forme avec le texte, cliquez sur « Enregistrer la description »."
+  ],
+  "text.italic": [
+    "Rend le texte sélectionné en italique. À utiliser pour les petits accents sémantiques dans la description."
+  ],
+  "text.underline": [
+    "Souligne le fragment sélectionné de la description. La modification de mise en forme doit être enregistrée avec le texte."
+  ],
+  "text.bullets": [
+    "Formate les lignes sélectionnées sous forme de liste avec des puces. Il est pratique d’énumérer plusieurs caractéristiques individuelles d’une photographie."
+  ],
+  "text.numbered": [
+    "Formate les lignes sélectionnées sous forme de liste numérotée. À utiliser lorsque l’ordre des éléments est important."
+  ],
+  "text.undo": [
+    "Annule la dernière action dans l'éditeur de texte actuel. Cela n'annule pas la reconnaissance ni les modifications apportées à la photo."
+  ],
+  "text.redo": [
+    "Renvoie l'action annulée dans l'éditeur de texte actuel."
+  ],
+  "text.link": [
+    "Tout d’abord, mettez en surbrillance les mots qui deviendront le lien, puis saisissez l’adresse HTTP ou HTTPS. Le lien fera partie de la description enregistrée."
+  ],
+  "text.link-address": [
+    "Insérez l'adresse complète de la page, commençant par http:// ou https://.. Elle sera liée au fragment en surbrillance de la description."
+  ],
+  "text.link-apply": [
+    "Applique l'adresse spécifiée aux mots sélectionnés. Pour enregistrer la description modifiée dans la bibliothèque, cliquez ensuite sur Enregistrer la description."
+  ],
+  "text.expand": [
+    "Donne plus d'espace pour lire et modifier la description. En appuyant à nouveau dessus, vous revenez à la vue compacte ; le texte ne change pas."
+  ],
+  "text.collapse": [
+    "Renvoie une vue compacte du champ de description. Le texte saisi reste dans l'éditeur."
+  ],
+  "main.choose-folder": [
+    "Ouvre un dossier de photos et affiche son contenu dans l’Explorateur de l’application. Vous pouvez y consulter les images, les sélectionner pour analyser leur contenu et les ouvrir dans l’éditeur."
+  ],
+  "main.refresh-folder": [
+    "Relis le contenu d'un dossier ouvert pour afficher les fichiers ajoutés, supprimés ou modifiés. À utiliser si vous avez modifié des fichiers en dehors du programme et que la liste n'a pas encore été mise à jour."
+  ],
+  "main.refresh-index": [
+    "Vérifie les informations sur les fichiers dans l'index de la bibliothèque et met à jour leur statut. L'index stocke des informations pour la recherche ; cette action elle-même ne déclenche pas une nouvelle reconnaissance de l’IA."
+  ],
+  "main.refresh-mode": [
+    "Permet de sélectionner l'action du bouton principal : relire le dossier ouvert ou vérifier l'index. L'option sélectionnée est enregistrée pour les prochains clics."
+  ],
+  "main.provider": [
+    "Choisissez où reconnaître le contenu des photos : localement via Ollama ou dans le cloud via Fal AI/OpenRouter. Pour le mode local, vous avez besoin d'un modèle installé ; pour le mode cloud, vous avez besoin de la clé du service correspondant."
+  ],
+  "main.model": [
+    "Sélectionnez un modèle pour reconnaître les photos dans les nouvelles tâches. La qualité des descriptions et des tags, la rapidité de travail et le coût en dépendent. Les modèles disponibles dépendent du service sélectionné."
+  ],
+  "main.output": [
+    "Choisissez les informations à recevoir lors de la reconnaissance d'une photo.",
+    "**Description** - texte cohérent sur le contenu de l'image. **Tags** - mots courts à rechercher, par exemple « chat », « canapé », « fenêtre ». L'option Description et tags enregistre les deux résultats."
+  ],
+  "main.output-description": [
+    "Enregistre un texte cohérent sur ce qui est montré sur la photo. Les tags déjà existants ne sont pas remplacés par le résultat de ce mode."
+  ],
+  "main.output-tags": [
+    "Enregistre les mots et expressions recherchés sur une photo. Par exemple : « chien », « herbe », « promenade ». La description complète n'est pas remplacée par ce mode."
+  ],
+  "main.output-both": [
+    "Enregistre à la fois le texte sur le contenu de la photo et les tags de recherche courts. Ces informations vous aident à trouver l'instantané à l'aide de différentes requêtes."
+  ],
+  "main.recursive-process": [
+    "Inclut les photos des sous-dossiers à tous les niveaux. Sélectionnez par exemple un dossier de voyage pour traiter aussi les photos classées par journée. Ce réglage ne modifie pas l’affichage de la liste actuelle."
+  ],
+  "main.smart-name": [
+    "Renomme le fichier à l’aide d’une date et d’un code unique. La date de prise de vue est lue dans les métadonnées ; à défaut, la date de modification du fichier est utilisée. Le nom ne provient pas de la description générée par l’IA.",
+    "Activez Créer une copie pour conserver le fichier d’origine sous son nom actuel."
+  ],
+  "main.analysis-copy": [
+    "Conserve le fichier d’origine et crée une copie distincte avec un nom intelligent. Cette option nécessite Nom intelligent ; choisissez l’emplacement des copies dans les paramètres."
+  ],
+  "main.copy-disabled": [
+    "Tout d’abord, activez «Nom intelligent» : ce paramètre crée exactement une copie avec un nouveau nom intelligent."
+  ],
+  "main.only-missing": [
+    "Ignore les photos dont tous les résultats demandés sont déjà prêts. Si vous demandez une description et des tags, mais que seuls les tags sont disponibles, la description manquante est ajoutée. Une erreur ou un arrêt du traitement ne compte pas comme un résultat terminé."
+  ],
+  "main.process-direct": [
+    "Ajoute les photos sélectionnées à la file d'attente générale et démarre le traitement. Les photos déjà en attente ou en cours de traitement ne seront plus ajoutées.",
+    "Avec « Non traitées uniquement », les descriptions ou tags déjà prêts sont ignorés selon le résultat demandé."
+  ],
+  "main.process-manual": [
+    "Ajoute les photos sélectionnées à une file d'attente manuelle **sans exécuter**. Si l'option «Ajouter ici» est activée dans la file d'attente, les photos y iront ; sinon un nouveau sera créé.",
+    "De cette façon, vous pouvez préparer plusieurs collections, puis ouvrir «Tâches» et lancer la file d'attente souhaitée."
+  ],
+  "main.process-mode": [
+    "Choisissez si vous souhaitez lancer les photos sélectionnées immédiatement ou les ajouter uniquement à une file d'attente manuelle. L'étiquette du bouton principal change ; La sélection du mode lui-même ne lance rien."
+  ],
+  "main.mode-direct": [
+    "Le bouton principal s’appellera «Traiter». Les photos sélectionnées vont dans la file d'attente générale et le traitement démarre."
+  ],
+  "main.mode-manual": [
+    "Le bouton principal s'appellera « Ajouter à la file d'attente ». Préparez vos photos, puis ouvrez Tâches et exécutez séparément la file d'attente manuelle souhaitée."
+  ],
+  "main.add-key": [
+    "Ouvre l'entrée de clé pour le service cloud sélectionné. La clé associe les demandes à votre compte de service ; Après avoir enregistré et vérifié, vous pouvez lancer la reconnaissance."
+  ],
+  "main.check-key": [
+    "Vérifie si le service accepte la clé enregistrée et si le modèle sélectionné est disponible. Si le test échoue, le programme affichera la raison afin que vous puissiez corriger le paramètre."
+  ],
+  "main.install-local": [
+    "Prépare la reconnaissance locale : le programme installera le composant requis Ollama et téléchargera le modèle sélectionné. La fenêtre de confirmation affiche le volume de téléchargement et les actions requises."
+  ],
+  "main.readiness-check": [
+    "La disponibilité du service ou du modèle local sélectionné est vérifiée. Attendez le résultat du test : après celui-ci, le bouton proposera le traitement ou le réglage nécessaire."
+  ],
+  "main.preparing": [
+    "Le programme collecte les photos sélectionnées et vérifie lesquelles d'entre elles doivent être traitées. N'appuyez plus : le résultat de la préparation apparaîtra dans la file d'attente."
+  ],
+  "main.service-unavailable": [
+    "Le traitement est actuellement indisponible : {причина}. Vérifiez le service, le modèle et la clé sélectionnés ; Après avoir éliminé la cause, répétez le test."
+  ],
+  "main.edit-photo": [
+    "Ouvre une photo sélectionnée dans l'éditeur : vous pouvez recadrer la photo, la redimensionner ou effectuer une retouche IA. Pour ce bouton, sélectionnez exactement une photo."
+  ],
+  "main.editor-projects": [
+    "Ouvre une liste de projets d'éditeur enregistrés. Ici, vous pouvez trouver des photos précédemment modifiées et continuer à travailler avec leur historique."
+  ],
+  "main.rename": [
+    "Ouvre le renommage des fichiers sélectionnés ou des fichiers du dossier actuel sans accéder au réseau neuronal. Configurez d’abord les noms et vérifiez l’aperçu, puis appliquez les modifications."
+  ],
+  "main.settings": [
+    "Ouvre une sélection de services et de modèles, de clés, d'options de stockage et de traitement de fichiers. Les paramètres des nouvelles tâches n'écrasent pas automatiquement les files d'attente déjà préparées."
+  ],
+  "main.logs": [
+    "Affiche les messages techniques de l'application. Ils sont utiles pour dépanner les erreurs et les blocages ; Il s'agit d'une liste distincte du journal des modifications des photos."
+  ],
+  "main.back": [
+    "Revient au dossier précédent de l’historique de navigation. Il s'agit de naviguer dans les dossiers ouverts et non d'annuler les actions avec une photo."
+  ],
+  "main.forward": [
+    "Passe au dossier historique suivant après être revenu avec le bouton Retour."
+  ],
+  "main.up": [
+    "Ouvre le dossier parent. Vous pouvez par exemple passer du dossier d’une journée de voyage à celui du voyage entier."
+  ],
+  "main.breadcrumb": [
+    "Ouvre le dossier \"{папка}\" dans le chemin actuel. De cette façon, vous pouvez rapidement monter de plusieurs niveaux sans cliquer à plusieurs reprises sur « Un niveau au-dessus »."
+  ],
+  "main.computer": [
+    "Affiche les disques informatiques. Sélectionnez le lecteur pour ouvrir son dossier racine ; vous pouvez alors naviguer dans les sous-dossiers."
+  ],
+  "main.tab-explorer": [
+    "Affiche le contenu d'un dossier ouvert. Sélectionnez les fichiers à afficher, reconnaître ou modifier."
+  ],
+  "main.tab-search": [
+    "Ouvre une recherche avec une requête distincte et des conditions détaillées : champs, tags, dates et autres filtres. Il a ses propres termes, distincts de la recherche rapide supérieure."
+  ],
+  "main.tab-favorites": [
+    "Affiche les photos marquées d'une étoile. Il s'agit d'une liste pratique de vos photos préférées sans déplacer les fichiers vers un autre dossier."
+  ],
+  "main.tab-ready": [
+    "Affiche les photos avec les résultats de traitement enregistrés. Vous pouvez vérifier les descriptions et les tags sans rechercher les fichiers dans leurs dossiers d'origine."
+  ],
+  "main.tab-collections": [
+    "Ouvre vos collections de photos. Une photo peut appartenir à plusieurs collections sans être déplacée ni copiée sur le disque."
+  ],
+  "main.tab-recent": [
+    "Affiche les dossiers que vous avez déjà ouverts. Cliquez sur l'entrée souhaitée pour revenir rapidement à son contenu."
+  ],
+  "main.open-recent": [
+    "Ouvre le dossier « {папка} » que vous consultiez précédemment. Le programme affichera son contenu actuel ; il ne s'agit pas d'une copie enregistrée de la liste des fichiers."
+  ],
+  "main.refresh-results": [
+    "Réexécute la requête actuelle avec les mêmes conditions et le même tri. Utilisez pour voir les modifications de la bibliothèque ; L'ordre de la liste de recherche affichée est conservé jusqu'à la mise à jour."
+  ],
+  "main.refresh-results-dirty": [
+    "Les données de la bibliothèque ont changé depuis la réception de cette liste. Cliquez pour mettre à jour les résultats et leur ordre. La file d'attente préparée précédemment conserve sa composition sélectionnée."
+  ],
+  "main.compare": [
+    "Affiche deux photos sélectionnées à des fins de comparaison.",
+    "Maintenez `Ctrl` et cliquez sur deux photos, puis cliquez sur Comparer. Vous pouvez les visualiser côte à côte ou les superposer et déplacer la ligne de séparation pour révéler différentes parties de chaque photo."
+  ],
+  "main.folders": [
+    "Choisissez où afficher les dossiers : avant les fichiers, après eux ou ensemble. Dans l'ordre sélectionné, le tri actuel s'applique."
+  ],
+  "main.fit-thumb": [
+    "Choisissez comment afficher votre photo sur la carte.",
+    "**Remplir** occupe la totalité de la carte, mais une partie de la photo près des bords peut être masquée. **Ajuster** affiche l'image entière ; Il peut y avoir des marges libres sur les bords. Cela n'affecte que l'apparence des cartes, le fichier lui-même ne change pas."
+  ],
+  "main.view": [
+    "Sélectionnez la taille de la carte, la liste ou le tableau. Les grandes cartes sont pratiques à visualiser, un tableau permet de comparer les propriétés des fichiers."
+  ],
+  "main.files": [
+    "« Photos et dossiers » masque les autres types de fichiers. \"Tous les fichiers\" affiche également les éléments restants dans le dossier ouvert. Il s'agit d'un paramètre d'affichage et non d'un paramètre de suppression."
+  ],
+  "main.panel": [
+    "Ouvre des informations sur la photo sélectionnée, sa description et ses tags, les tâches et la maintenance de la bibliothèque. Sur une fenêtre étroite, le panneau peut être fermé pour laisser place aux photos."
+  ],
+  "main.close-panel": [
+    "Supprime le panneau des détails et des tâches de la zone d'affichage. Vous pouvez l'ouvrir à nouveau à l'aide du bouton du panneau ; La fermeture du panneau n'arrête pas les tâches en arrière-plan."
+  ],
+  "main.filename-filter": [
+    "Affiche les fichiers de la liste actuelle dont les noms contiennent le texte saisi. Pour effectuer une recherche par descriptions et tags, utilisez la recherche supérieure ou l'onglet Recherche."
+  ],
+  "main.filename-clear": [
+    "Supprime la restriction de nom imposée et affiche à nouveau les fichiers correspondants dans la liste actuelle. Les termes de recherche individuels ne sont pas effacés par cette action."
+  ],
+  "main.thumbnail-size": [
+    "Modifie la taille des cartes photo dans la liste. Faites glisser le curseur : les cartes plus petites affichent plus de fichiers, les cartes plus grandes vous permettent de mieux visualiser le contenu."
+  ],
+  "main.card-select": [
+    "Cliquez sur une photo pour la sélectionner et voir les détails à droite. Un double-clic ouvre l'aperçu.",
+    "Pour sélectionner plusieurs photos, maintenez la touche `Ctrl` enfoncée et cliquez sur les photos souhaitées. Vous pouvez également sélectionner un groupe avec un cadre en faisant glisser le pointeur tout en maintenant enfoncé le bouton gauche de la souris.",
+    "Pour déplacer une photo dans un dossier, maintenez la touche `Alt` enfoncée et faites-la glisser vers le dossier. Si la photo fait partie du groupe sélectionné, tout le groupe se déplacera.",
+    "Le bouton droit de la souris ouvre un menu avec les actions disponibles."
+  ],
+  "main.folder-open": [
+    "Double-cliquez sur un dossier pour voir son contenu. Un clic sélectionne un dossier ; Pour sélectionner plusieurs dossiers, maintenez `Ctrl` et cliquez dessus.",
+    "Pour déplacer une photo vers ce dossier, maintenez la touche `Alt` enfoncée et faites-y glisser la photo. Si la photo fait partie du groupe sélectionné, tout le groupe se déplacera. Relâchez le bouton gauche de la souris sur le dossier en surbrillance pour terminer le transfert."
+  ],
+  "main.folder-menu": [
+    "Affiche les actions pour ce dossier et la sélection actuelle. Avant le traitement, vérifiez si l'exploration des sous-dossiers est activée."
+  ],
+  "main.open-file": [
+    "Ouvre le fichier sélectionné de la manière standard. La photo est affichée dans la visionneuse, le dossier est affiché dans l'Explorateur du programme."
+  ],
+  "main.select-all": [
+    "Sélectionne les éléments de la liste actuelle pour l'action suivante. Dans les résultats de recherche, la mise en évidence complète peut inclure des photos en dehors de la page déjà chargée."
+  ],
+  "main.clear-selection": [
+    "Supprime la sélection d'éléments. Les fichiers, les informations et les files d'attente déjà créées restent en place."
+  ],
+  "main.columns": [
+    "Vous permet de sélectionner les propriétés de fichier à afficher dans le tableau. Vérifiez les colonnes requises et appliquez la sélection."
+  ],
+  "main.column-visible": [
+    "Inclut la colonne « {название} » dans le tableau. Décocher la case masque la colonne, préservant les informations du fichier lui-même."
+  ],
+  "main.columns-default": [
+    "Renvoie l'ensemble de colonnes par défaut dans une configuration de table. Vérifiez la sélection avant utilisation."
+  ],
+  "main.columns-apply": [
+    "Applique l'ensemble de colonnes sélectionné à la table. Le contenu des photos et leurs métadonnées ne changent pas."
+  ],
+  "main.column-sort": [
+    "Cliquez pour trier le tableau selon « {название} ». Un nouveau clic inverse le sens ; la flèche indique l’ordre actuel. Pour les tags, le tri compare leur nombre."
+  ],
+  "main.column-width": [
+    "Faites glisser la bordure pour modifier la largeur de la colonne et lire plus de texte. Cela ne modifie pas l'ordre ou les données des fichiers."
+  ],
+  "sort.control": [
+    "Détermine l’ordre des photos. La prise de vue, la modification du fichier et le traitement sont des événements différents. Choisissez le critère et le sens du tri. Les photos sans la date nécessaire restent à la fin."
+  ],
+  "sort.taken-new": [
+    "Affiche d'abord les images avec une date de création ultérieure à partir des métadonnées de l'appareil photo. Il s'agit de la date à laquelle l'instantané a été pris, et non de la date à laquelle le fichier a été créé lors de sa copie sur un ordinateur. Sans cette date, des images apparaissent à la fin."
+  ],
+  "sort.taken-old": [
+    "Affiche d’abord les photos dont la date de prise de vue dans les métadonnées est la plus ancienne. Il ne s’agit pas de la date d’ajout à la bibliothèque. Les photos sans cette date restent à la fin."
+  ],
+  "sort.modified-new": [
+    "Affiche en premier les fichiers qui ont été modifiés ultérieurement. Se concentre sur le moment de la modification du fichier lui-même, et non sur l'ajout d'une description à la bibliothèque."
+  ],
+  "sort.modified-old": [
+    "Affiche en premier les fichiers avec des heures de modification antérieures. Pour une photo récemment retouchée, cette heure peut différer de la date à laquelle elle a été prise."
+  ],
+  "sort.analyzed-new": [
+    "Tout d'abord, il affiche les photos qui ont été reconnues avec succès plus tard que les autres. La date du dernier résultat AI enregistré est prise en compte ; la correction manuelle du texte ne modifie pas cette date."
+  ],
+  "sort.analyzed-old": [
+    "Affiche en premier les photos qui ont été reconnues plus tôt. Les images dont la date de reconnaissance réussie est inconnue sont laissées à la fin."
+  ],
+  "sort.name-asc": [
+    "Classement par nom de fichier dans l'ordre direct, en tenant compte des numéros : par exemple, photo2 vient avant photo10."
+  ],
+  "sort.name-desc": [
+    "Trie par nom de fichier dans l'ordre inverse. Cela change la liste, pas les noms eux-mêmes."
+  ],
+  "sort.status-ready": [
+    "Regroupe par statut : traité, en file d'attente, non traité, déplacé, indisponible, avec erreurs. Il s'agit d'un ordre d'états, pas de dates."
+  ],
+  "sort.status-error": [
+    "Affiche d'abord les erreurs et les fichiers indisponibles, puis déplacés, non traités, en attente et prêts. Il est pratique de commencer par les éléments problématiques."
+  ],
+  "sort.ready-first": [
+    "Place les photos traitées devant les autres. Dans les deux groupes, les fichiers sont répertoriés par nom. Les dossiers restent toujours en haut de la liste."
+  ],
+  "sort.ready-last": [
+    "Place les photos traitées après le reste. Les tâches annulées et en attente ne sont pas considérées comme prêtes. Au sein des groupes, les fichiers sont répertoriés par nom."
+  ],
+  "sort.errors-first": [
+    "Place les photos présentant une erreur de traitement avant les autres fichiers. Les erreurs de chargement des miniatures ne comptent pas ici. Les fichiers sont triés par nom dans chaque groupe."
+  ],
+  "sort.errors-last": [
+    "Place les photos présentant des erreurs de traitement après les autres fichiers. Au sein des groupes, les fichiers sont répertoriés par nom ; les dossiers restent au début de la liste."
+  ],
+  "sort.other": [
+    "Organise les photos par propriété « {свойство} » : {направление}. \"Taille\" compare le volume des fichiers sur le disque, \"Résolution\" - le nombre de pixels, \"Tags\" - leur nombre, \"Chemin\" - l'emplacement des fichiers."
+  ],
+  "search.quick": [
+    "Entrez les mots que vous souhaitez rechercher pour la photo. Les résultats apparaissent après une courte pause de frappe ; `Enter` démarre immédiatement la recherche. Le champ supérieur fonctionne séparément des conditions de l'onglet «Recherche»."
+  ],
+  "search.quick-submit": [
+    "Recherche le texte saisi dans les champs et la zone sélectionnés. Vous pouvez appuyer sur `Enter` au lieu du bouton. Réessayer après des modifications de données met à jour la requête précédente."
+  ],
+  "search.quick-clear": [
+    "Supprime la requête rapide et renvoie la liste précédente. Les conditions personnalisées de l'onglet Recherche sont conservées."
+  ],
+  "search.scope": [
+    "Limite la recherche à l'ensemble de la bibliothèque ou à un dossier sélectionné. La bibliothèque contient des informations déjà indexées ; une recherche n'est pas la même chose que d'explorer tous les lecteurs de l'ordinateur."
+  ],
+  "search.fields": [
+    "Choisissez où chercher les mots saisis : dans la description, les tags, le nom du fichier ou le chemin. Par exemple, pour un mot provenant d'un nom de fichier, incluez «Nom du fichier». Vous devez sélectionner au moins un champ."
+  ],
+  "search.field-description": [
+    "Recherche les mots saisis dans les descriptions de photos enregistrées. Par exemple, une description mentionnant un vélo permet de retrouver une telle photo. S'il n'y a pas de description, il n'y a encore rien à rechercher dans ce champ."
+  ],
+  "search.field-tags": [
+    "Recherche les mots saisis parmi les tags enregistrés. Par exemple, en utilisant le mot « vélo », vous pouvez trouver des photos avec ce tag."
+  ],
+  "search.field-name": [
+    "Recherche du texte dans le nom du fichier, tel que IMG_0421 ou « vacances ». Le contenu de la photo n'est plus reconnu."
+  ],
+  "search.field-path": [
+    "Recherche des mots dans un emplacement de fichier, y compris les noms de dossiers. Par exemple, vous pouvez rechercher des images du dossier Trip."
+  ],
+  "search.advanced-query": [
+    "Saisissez des mots et définissez des conditions, puis cliquez sur Rechercher. Vous pouvez également rechercher sans texte : par exemple, uniquement les photos sans tags ou prises pendant la période sélectionnée. Cette requête est indépendante de la recherche rapide supérieure."
+  ],
+  "search.advanced-submit": [
+    "Exécute une requête avec les conditions de ce panneau et affiche les photos correspondantes. Il s'agit d'un résultat de recherche distinct de la recherche rapide supérieure."
+  ],
+  "search.reset": [
+    "Efface la requête et les termes de recherche personnalisés. Utilisez pour lancer une nouvelle recherche sans les limitations de la précédente."
+  ],
+  "search.filters-tab": [
+    "Revient à la configuration de la requête, des champs et des conditions de recherche. Ici, vous pouvez spécifier quelles photos doivent être incluses dans le résultat."
+  ],
+  "search.saved-tab": [
+    "Affiche les ensembles de termes de recherche précédemment enregistrés. Il est pratique de répéter la même sélection sans saisir manuellement tous les filtres."
+  ],
+  "search.save": [
+    "Enregistre les conditions actuelles sous le nom sélectionné. Il s'agit d'un modèle de demande et non d'une copie distincte des photos trouvées."
+  ],
+  "search.saved-filter": [
+    "Filtre les noms des recherches enregistrées. Il s'agit d'une recherche dans vos modèles, pas d'une nouvelle recherche de photos dans la bibliothèque."
+  ],
+  "search.saved-open": [
+    "Applique les conditions « {название} » pour obtenir la sélection de photos correspondante. La composition peut changer après la mise à jour de la bibliothèque."
+  ],
+  "search.saved-star": [
+    "Met en étoile ou décoche cet ensemble de conditions. Cela facilite la recherche des recherches fréquemment utilisées dans la liste."
+  ],
+  "search.saved-rename": [
+    "Modifie le nom d'un ensemble de conditions enregistré. Les photos elles-mêmes ne sont pas renommées."
+  ],
+  "search.saved-remove": [
+    "Supprime cet ensemble de conditions enregistré de la liste. Les photos, descriptions et tags restent dans la bibliothèque."
+  ],
+  "search.recent": [
+    "Remplace une requête que vous avez déjà utilisée. Veuillez vérifier si votre portée et vos filtres actuels sont adaptés avant de lancer."
+  ],
+  "search.extra": [
+    "Ouvre les conditions par favoris, collection, dossier et dates. Combinez-les avec une requête textuelle pour affiner vos résultats."
+  ],
+  "search.status": [
+    "Affiche les photos selon l’état choisi : traitées, en attente ou en erreur, par exemple. Vous pouvez aussi retrouver les fichiers inaccessibles. « Tous les états » retire cette restriction."
+  ],
+  "search.tags": [
+    "Saisissez les tags souhaités, séparés par des virgules. Choisissez à côté si un seul de ces tags suffit ou s’ils doivent tous être présents."
+  ],
+  "search.tags-any": [
+    "Au moins un des tags indiqués doit être présent. Par exemple, « chat, chien » trouve les photos avec le tag « chat », le tag « chien » ou les deux."
+  ],
+  "search.tags-all": [
+    "Tous les tags indiqués doivent être présents. Par exemple, « chat, fenêtre » trouve les photos contenant ces deux tags."
+  ],
+  "search.favorite": [
+    "Limite le résultat aux photos marquées d’une étoile. D'autres termes de recherche continuent de s'appliquer."
+  ],
+  "search.word-forms": [
+    "Développe une requête de texte avec des formes de mots et des mots associés du dictionnaire intégré. Par exemple, cela vous aide à trouver une photo même si la description utilise une forme différente du mot. Le dictionnaire est limité : le programme ne reconnaît le sens d'aucune expression. Les photos et les tags enregistrés ne changent pas."
+  ],
+  "search.collection": [
+    "Recherche uniquement parmi les photos de la collection sélectionnée. « Toutes les photos » supprime cette limitation."
+  ],
+  "search.root": [
+    "Limite la recherche au dossier spécifié et à ses sous-dossiers. Saisissez le chemin complet, par exemple `D:\\Фото\\Отпуск`. La recherche utilise les informations de la bibliothèque, donc les fichiers qui n'y ont pas encore été ajoutés ne seront pas inclus dans le résultat."
+  ],
+  "search.date-kind": [
+    "Choisissez quel événement limiter aux dates : prise de vue avec un appareil photo, modification d'un fichier, ajout à l'index ou reconnaissance réussie. Ces dates peuvent varier d'une photographie à l'autre."
+  ],
+  "search.date-from": [
+    "Recherche à partir de ce jour inclus. Choisissez à côté la date à utiliser : prise de vue, modification du fichier ou autre événement. Laissez « Jusqu’au » vide pour inclure toutes les dates suivantes."
+  ],
+  "search.date-to": [
+    "Recherche des photos jusqu'à la fin de la journée spécifiée incluse. Avec le champ « De date », définit la période. Si le début de la période n’est pas précisé, toutes les dates antérieures feront l’affaire."
+  ],
+  "search.quick-condition": [
+    "Applique le préréglage « {название} » au formulaire de recherche. Vérifiez les critères choisis avant de lancer une nouvelle recherche."
+  ],
+  "search.condition-today": [
+    "Sélectionne la condition de reconnaissance réussie pour la journée en cours. Il ne s'agit pas de la date de prise de vue ni du jour où le fichier a été copié sur le disque."
+  ],
+  "search.condition-missing": [
+    "Laisse les entrées pour lesquelles le fichier source n'est pas disponible via le chemin enregistré. Vous pouvez vérifier si le fichier a été déplacé, supprimé ou se trouve sur un lecteur déconnecté."
+  ],
+  "search.condition-errors": [
+    "Limite la sortie aux photos en état d’erreur. La raison et les options de répétition doivent être examinées dans les tâches ou les détails de l'enregistrement."
+  ],
+  "search.condition-untagged": [
+    "Laisse les photos sans tags enregistrés. Cette condition ne signifie pas qu’il n’y a pas de description textuelle."
+  ],
+  "search.condition-favorites": [
+    "Ne laisse que des photos avec une étoile. Les autres termes de recherche sélectionnés restent également en vigueur."
+  ],
+  "search.conditions-done": [
+    "Ferme les conditions supplémentaires. Les valeurs sélectionnées restent dans le formulaire de recherche ; la demande s'effectue à l'aide du bouton «Rechercher»."
+  ],
+  "search.actions": [
+    "Ouvre les actions sur les résultats déjà trouvés : exporter les informations, copier les chemins ou ouvrir les dossiers. Choisissez d’abord si l’action concerne la sélection ou tous les résultats."
+  ],
+  "search.action-scope": [
+    "« Sélectionné » applique l'action uniquement aux photos sélectionnées. « Tous les résultats » couvre tous les enregistrements trouvés, y compris les pages non encore affichées."
+  ],
+  "search.csv": [
+    "Enregistre les informations sur les photos sélectionnées ou l'intégralité de la recherche dans un tableau CSV. Il peut être ouvert dans un éditeur de feuille de calcul. Les images elles-mêmes ne sont pas incluses dans le fichier."
+  ],
+  "search.json": [
+    "Enregistre les informations sur les photos sélectionnées ou la totalité de la sortie dans un fichier texte JSON. Dans celui-ci, les données sont organisées pour être lues par d'autres programmes et traitées ultérieurement ; Les images elles-mêmes ne sont pas incluses dans le fichier."
+  ],
+  "search.paths": [
+    "Copie les chemins complets vers les photos sélectionnées ou vers toutes les photos trouvées, en fonction de la portée sélectionnée. Ils peuvent être insérés dans un document ou utilisés pour rechercher des fichiers sur le disque."
+  ],
+  "search.folders": [
+    "Ouvre les emplacements des photos trouvées dans l'Explorateur Windows. Pas plus de 10 dossiers différents sont ouverts par action."
+  ],
+  "search.sort-relevance": [
+    "Affiche les photos ci-dessus qui correspondent mieux à la requête textuelle. Il s'agit de l'ordre de recherche, et non de l'heure à laquelle les fichiers ont été créés ou traités."
+  ],
+  "search.sort-size": [
+    "Trie par taille de fichier sur le disque : du plus petit au plus grand ou vice versa. Ce n'est pas la largeur et la hauteur de l'image."
+  ],
+  "search.sort-dimensions": [
+    "Classement par nombre total de pixels : largeur × hauteur. Dans le sens ↑, les images les plus petites viennent en premier, dans le sens ↓, les plus grandes. Ceci est différent de la taille du fichier sur le disque."
+  ],
+  "search.sort-type": [
+    "Regroupe par type de fichier, tel que JPEG ou PNG. Dans le sens inverse, l’ordre des types est inversé."
+  ],
+  "search.sort-camera": [
+    "Organise par appareil photo les informations stockées dans les métadonnées de la photo. Si le fichier ne contient pas de telles informations, le programme n'identifie pas la caméra à partir de l'image."
+  ],
+  "search.sort-path": [
+    "Trie par emplacement complet du fichier. Il est utile de rassembler côte à côte des photos de dossiers associés."
+  ],
+  "search.sort-tags": [
+    "Trie par nombre de tags enregistrés. Cela vous aide à trouver des photos avec un petit ou un grand nombre de fonctionnalités de recherche."
+  ],
+  "search.sort-favorite": [
+    "Regroupe les photos selon leur étoile. Dans le sens ↑, les photos sans étoile apparaissent d’abord ; dans le sens ↓, celles avec une étoile passent en premier."
+  ],
+  "collection.create": [
+    "Crée une collection avec le nom spécifié. Plus tard, vous pourrez y ajouter des photos de différents dossiers, en conservant leur emplacement d'origine."
+  ],
+  "collection.name": [
+    "Saisissez un nom significatif pour la collection, tel que « Voyage » ou « Imprimable ». Il s'agit du nom de la collection dans le programme, pas du dossier sur le disque."
+  ],
+  "collection.open": [
+    "Affiche les photos de la sélection \"{название}\". L'ouverture d'une collection ne transfère pas de fichiers et ne déclenche pas de traitement."
+  ],
+  "collection.choose": [
+    "Change la sélection actuelle. À côté du nom, le nombre de photos qu'il contient est indiqué."
+  ],
+  "collection.target": [
+    "Sélectionnez la collection à laquelle vous souhaitez ajouter les photos en surbrillance, puis cliquez sur Ajouter. Le programme se souviendra de la collection sélectionnée. Créer une nouvelle collection n’y ajoute pas en soi des photos."
+  ],
+  "collection.all": [
+    "Retourne à la liste des collections pour en sélectionner une autre ou en créer une nouvelle."
+  ],
+  "collection.refresh": [
+    "Met à jour la liste des collections et le nombre de photos dans chacune. A utiliser après avoir modifié la composition des collections, si la liste n'a pas encore été mise à jour."
+  ],
+  "collection.add": [
+    "Inclut les photos sélectionnées dans la collection spécifiée. Une photo peut être incluse dans plusieurs collections."
+  ],
+  "collection.remove": [
+    "Supprime la connexion des photos sélectionnées avec la collection « {название} ». Les fichiers, descriptions et tags restent en place."
+  ],
+  "details.tab-info": [
+    "Affiche les propriétés de la photo sélectionnée : chemin, taille, résolution et métadonnées disponibles. Ces informations vous aident à comprendre quel fichier est actuellement sélectionné."
+  ],
+  "details.tab-description": [
+    "Affiche le texte enregistré sur le contenu de la photo. Il peut être corrigé manuellement et enregistré sans réutiliser le réseau neuronal."
+  ],
+  "details.tab-tags": [
+    "Affiche des mots de recherche courts pour la photo sélectionnée. Ajoutez ou supprimez des tags pour vous aider à trouver votre photo avec plus de précision."
+  ],
+  "details.tab-tasks": [
+    "Affiche les files d'attente de reconnaissance, leurs photos, leur statut et leurs résultats. Ici, vous pouvez démarrer, mettre en pause et analyser les tâches préparées."
+  ],
+  "details.tab-library": [
+    "Ouvre l'index des photos et les informations sur la source, les sauvegardes et la maintenance. La bibliothèque stocke les données pour la recherche, plutôt que de remplacer les dossiers par les originaux."
+  ],
+  "details.tab-journal": [
+    "Affiche les événements de changements de photos et les actions du programme. Développez l'événement pour plus de détails ; la visualisation du journal ne répète pas l'action."
+  ],
+  "details.photo-open": [
+    "Ouvre la photo sélectionnée dans la visionneuse. Là, vous pouvez l'agrandir et voir les détails sans changer l'original."
+  ],
+  "details.edit-metadata": [
+    "Procède à la modification manuelle des informations sur les photos enregistrées. Pour modifier l'image elle-même, utilisez le bouton \"Modifier\"."
+  ],
+  "details.description": [
+    "C'est ici que le texte sur ce qui est montré sur la photo est stocké. Corrigez toute inexactitude ou ajoutez des détails consultables, puis cliquez sur Enregistrer la description."
+  ],
+  "details.save-description": [
+    "Écrit la description modifiée et sa mise en forme dans la bibliothèque. Il s'agit d'une sauvegarde manuelle sans requête AI ; l'image originale n'est pas redessinée."
+  ],
+  "details.tag-remove": [
+    "Supprime le tag « {тег} » du jeu de modifications. Pour écrire la modification dans la bibliothèque, cliquez ensuite sur Enregistrer les tags."
+  ],
+  "details.tags": [
+    "Saisissez des mots courts et des expressions sur le contenu de la photo, séparés par des virgules. Par exemple : « chat, canapé blanc, fenêtre ». Enregistrez ensuite les tags."
+  ],
+  "details.save-tags": [
+    "Écrit l'ensemble de tags préparé dans la bibliothèque. La description déjà enregistrée n'est pas remplacée."
+  ],
+  "details.batch": [
+    "Ajoute ou supprime simultanément des tags identiques des images sélectionnées. Vous pouvez modifier jusqu'à 256 photos différentes en une seule opération.",
+    "Les copies exactes que la bibliothèque considère comme une seule photo utilisent des tags communs : le changement sera visible dans toutes ces copies."
+  ],
+  "details.batch-add": [
+    "Répertoriez les tags que vous souhaitez ajouter à toutes les photos sélectionnées, séparées par des virgules. Les tags existants sont conservées, sauf si vous spécifiez spécifiquement leur suppression."
+  ],
+  "details.batch-remove": [
+    "Cliquez sur la croix d’un tag pour marquer son retrait des photos sélectionnées. Un nouveau clic annule cette marque. Les changements sont appliqués avec « Enregistrer »."
+  ],
+  "details.batch-preview": [
+    "Calcule la façon dont les tags des photos sélectionnées changeront et montre un exemple de « avant → après ». Pour l'instant, vous testez simplement les modifications ; l'enregistrement est effectué à l'aide d'un bouton séparé."
+  ],
+  "details.batch-apply": [
+    "Ajoute les tags saisis et retire les tags marqués des photos sélectionnées. Les descriptions restent inchangées. Si des tags ont été modifiés ailleurs entre-temps, l’application signale le conflit et conserve votre brouillon."
+  ],
+  "details.batch-cancel": [
+    "Supprime la version préparée des tags par lots sans enregistrer. Vous pouvez modifier la saisie et calculer un nouvel aperçu."
+  ],
+  "details.batch-undo": [
+    "Ramène les tags de la dernière opération par lots disponible à l'état précédent. Cela s'applique à l'opération spécifiée, et non à l'ensemble de l'historique des modifications manuelles."
+  ],
+  "details.xmp": [
+    "Vous aide à transférer des descriptions et des tags ainsi que des photos vers un autre ordinateur. L'exportation crée un XMP distinct à côté de l'image ; transférez les deux fichiers et sélectionnez importer dans une autre bibliothèque Smart Photo. Vous pouvez sélectionner jusqu'à 256 fichiers photo à la fois."
+  ],
+  "details.xmp-export": [
+    "Crée un fichier avec sa description et ses tags à côté de chaque photo sélectionnée. Les photos originales et les XMP existantes sont conservées sans modifications. Transférez XMP avec la photo."
+  ],
+  "details.xmp-import": [
+    "Lit le XMP voisin créé par le Smart Photo. La description vide est remplie, les tags sont complétés. Si la photo a déjà une description différente ou si ses copies proposent des textes différents, le programme enregistre l'état existant et affiche le conflit."
+  ],
+  "compare.side-by-side": [
+    "Affiche deux photos côte à côte, les amenant à une hauteur commune tout en conservant les proportions. Si la fenêtre n'est pas assez large, les deux images sont réduites pour s'adapter. Chaque côté peut ensuite être mis à l'échelle séparément."
+  ],
+  "compare.wipe": [
+    "Superpose deux photographies l'une sur l'autre. Déplacez la bordure pour révéler un côté ou l'autre et comparez les différences."
+  ],
+  "compare.divider": [
+    "Tirez la poignée vers la gauche ou la droite : cela modifie la partie visible des deux photos superposées. Les images ne sont pas éditées."
+  ],
+  "compare.zoom": [
+    "Agrandit les photos pour voir les détails. En mode Côte à côte, les curseurs contrôlent les côtés séparément ; avec le rideau, une échelle commune est appliquée."
+  ],
+  "compare.choose-side": [
+    "Choisissez la photo à afficher de ce côté. Le même fichier ne peut pas être affiché des deux côtés à la fois."
+  ],
+  "compare.pair-prev": [
+    "Change la paire de comparaison dans l’ensemble actuel de photos. Veuillez vérifier les marquages ​​des copies enregistrées avant de confirmer la suppression."
+  ],
+  "compare.pair-next": [
+    "Affiche la paire suivante de l'ensemble actuel pour comparer d'autres photos."
+  ],
+  "queue.section": [
+    "Les photos de reconnaissance et l'état de leur traitement sont rassemblées ici.",
+    "**Traiter** ajoute des images à la file d'attente générale et la démarre. **Ajouter à la file** permet de préparer des collections individuelles sans lancer. Chaque sélection est affichée avec une carte déroulante avec ses propres photos et un bouton de lancement."
+  ],
+  "queue.start": [
+    "Traite les files d'attente disponibles dans l'ordre : après en avoir terminé une, le programme passe à la suivante. Les files d'attente vides sont ignorées. Le bouton de lancement sur la carte elle-même ne lance que celle-ci."
+  ],
+  "queue.pause": [
+    "Met en pause l'exécution globale des files d'attente, en enregistrant les photos restantes. Les demandes déjà soumises peuvent prendre fin ; leurs résultats seront enregistrés. Pour continuer, cliquez sur «Démarrer»."
+  ],
+  "queue.resume": [
+    "Continue le travail inachevé de la file d'attente sélectionnée, en enregistrant les résultats finis. Si l'on ne sait pas encore ce qui est arrivé à la demande cloud précédente, vous devrez d'abord la vérifier auprès du service."
+  ],
+  "queue.stop": [
+    "Arrête l'exécution des files d'attente ou annule la préparation en cours. Les résultats enregistrés restent, les photos restantes sont marquées comme annulées. Le service peut avoir le temps de répondre à une demande déjà envoyée."
+  ],
+  "queue.retry-failed": [
+    "Renvoie les photos de cette file d'attente dont le traitement a échoué avec une erreur. Si le résultat de la demande cloud est inconnu, une vérification auprès du service est d'abord requise : le renvoi peut être facturé séparément."
+  ],
+  "queue.progress": [
+    "Affiche le pourcentage de photos dans la file d'attente sélectionnée dont le traitement a déjà été terminé. **100 % ne signifie pas que toutes les photos ont été traitées avec succès** : il peut y avoir des erreurs et des tâches annulées parmi celles terminées. Voir le récapitulatif et la liste des photographies pour leur nombre et leurs motifs."
+  ],
+  "queue.new": [
+    "Crée immédiatement une carte vide et la sélectionne pour les ajouts ultérieurs. Sélectionnez des photos et cliquez sur «Ajouter à la file» pour la remplir. Une file d'attente vide est stockée mais ne déclenche pas de traitement."
+  ],
+  "queue.target": [
+    "Définit cette file comme destination des prochains ajouts avec Ajouter à la file. Vous pouvez déplier et consulter les autres cartes sans changer cette destination."
+  ],
+  "queue.target-active": [
+    "Les nouvelles photos sélectionnées ajoutées par le bouton «Ajouter à la file» seront envoyées ici. Pour une nouvelle sélection distincte, cliquez sur le plus « Nouvelle file d’attente »."
+  ],
+  "queue.capsule-open": [
+    "Montre des photographies de cette file d'attente et de leur état. L'expansion elle-même ne déclenche pas le traitement et n'attribue pas de file d'attente à ajouter."
+  ],
+  "queue.capsule-view": [
+    "Affiche un résumé et les paramètres de cette file d'attente. Il s'agit de la sélection de la tâche à visualiser ; l'exécution commence avec le bouton de démarrage."
+  ],
+  "queue.capsule-start": [
+    "Démarre une file d'attente préparée ou continue son opération inachevée. L'action s'applique spécifiquement à cette carte ; la composition et les paramètres des autres files d'attente sont conservés."
+  ],
+  "queue.hide-ready": [
+    "Supprime les éléments terminés avec succès de la liste de travail. Les erreurs et annulations restent visibles afin de pouvoir être corrigées. Appuyez à nouveau pour afficher les fichiers terminés."
+  ],
+  "queue.show-ready": [
+    "Affiche à nouveau les photos dans la liste dont le traitement s'est terminé avec succès. Il ne s'agit que d'un changement de visibilité : la re-reconnaissance n'est pas déclenchée."
+  ],
+  "queue.remove-photo": [
+    "Retire la photo de la file et arrête la suite de son traitement dans l’application. Le fichier et les résultats enregistrés sont conservés. Une requête cloud déjà envoyée peut encore être exécutée et facturée par le service."
+  ],
+  "queue.remove-job": [
+    "Supprime toute cette file d'attente de la liste de travail et annule son travail en attente. Les photos sur le disque, les résultats enregistrés et l'historique des dépenses restent."
+  ],
+  "queue.remove-all": [
+    "Efface toutes les files d'attente de travail de reconnaissance et annule leur travail en attente. Les originaux et les résultats enregistrés ne sont pas supprimés ; l’historique des dépenses est enregistré."
+  ],
+  "queue.task-photo": [
+    "Cliquez pour sélectionner cette photo et voir ses détails, sa description ou ses tags sur la droite. Un double-clic ouvre la photo dans l'éditeur."
+  ],
+  "queue.settings": [
+    "Affiche les paramètres avec lesquels la tâche sélectionnée a été préparée. Ceux-ci peuvent différer des paramètres actuels pour les nouveaux lancements."
+  ],
+  "queue.concurrency": [
+    "Limite les requêtes simultanées de cette file, pas le nombre total de ses photos. Dans le cloud, la limite va de 1 à 100 ; en local, une seule requête s’exécute à la fois. Confirmez avec « Appliquer »."
+  ],
+  "queue.concurrency-apply": [
+    "Applique la nouvelle limite de demandes simultanées à cette file d’attente uniquement. Les demandes déjà soumises sont complétées ; la pause enregistrée n'est pas effacée. Les files d'attente restantes et les paramètres des nouvelles tâches ne sont pas modifiés."
+  ],
+  "queue.new-settings": [
+    "Ouvre des options générales pour un traitement futur. Les tâches déjà préparées conservent leurs propres paramètres, sauf si elles disposent d'une action de modification distincte."
+  ],
+  "queue.costs": [
+    "Collecte les coûts de reconnaissance et d'édition de photos en fonction de l'historique enregistré du programme. Les montants confirmés sont présentés séparément des estimations et des demandes dont la valeur n'est pas encore connue.",
+    "Il s'agit d'une comptabilité du travail dans le programme et non du solde du compte de service. La reconnaissance locale ne nécessite pas de frais cloud."
+  ],
+  "queue.history": [
+    "Affiche les tâches enregistrées avec leur état, leurs photos et leurs coûts. L’historique permet de comprendre le travail précédent. Consulter une entrée ne la relance pas."
+  ],
+  "queue.history-open": [
+    "Sélectionne cette exécution enregistrée pour une visualisation détaillée dans les tâches. Pour continuer le travail disponible, utilisez un bouton séparé."
+  ],
+  "queue.job-key": [
+    "Sélectionnez la clé ajoutée pour cette tâche cloud et appliquez le remplacement séparément. La clé actuelle pour les nouveaux démarrages et la clé pour une tâche déjà enregistrée peuvent différer."
+  ],
+  "queue.job-key-apply": [
+    "Lie la clé sélectionnée à cette tâche enregistrée. Cela ne crée pas une nouvelle demande de reconnaissance ; la suite est effectuée séparément."
+  ],
+  "queue.unknown": [
+    "Le résultat ou le coût de ces requêtes cloud n’est pas encore confirmé. Vérifiez d’abord la requête précédente auprès du service. Un nouveau lancement peut entraîner une nouvelle facturation."
+  ],
+  "queue.unknown-choice": [
+    "Sélectionnez la tentative d'envoi qui a été vérifiée dans le compte de service. Le programme n'a pas reçu son identifiant et ne peut pas déterminer lui-même le résultat ; votre décision ne s'appliquera qu'à la tentative que vous sélectionnez."
+  ],
+  "queue.unknown-cost": [
+    "Indiquez le coût réel de la tentative sélectionnée selon la prestation en dollars. Si vous laissez le champ vide, le coût reste inconnu et la réserve budgétaire est maintenue. Il ne s’agit pas d’un modèle de changement tarifaire."
+  ],
+  "queue.unknown-note": [
+    "Notez ici ce que vous avez vérifié dans le compte du service : si la requête est terminée et d’où vient le montant indiqué. Cette note explique votre décision manuelle."
+  ],
+  "queue.unknown-confirm": [
+    "Confirme que vous avez vérifié le résultat de la tentative dans votre compte et autorise une nouvelle demande en poursuivant. Cela peut être payé. L’absence de résultat à l’écran ne prouve pas en soi que le service n’a pas fait le travail."
+  ],
+  "queue.unknown-apply": [
+    "Enregistre le résultat de votre contrôle et vous permet de continuer à travailler avec cette photo. Le clic lui-même ne l'envoie pas en reconnaissance ; Si vous continuez, une nouvelle demande payante est possible. Le paiement antérieur ne sera pas remboursé."
+  ],
+  "publication.section": [
+    "Montre l'enregistrement des images terminées de l'éditeur dans des fichiers externes. Il s'agit d'une étape distincte de la génération de l'image et de l'enregistrement du projet lui-même."
+  ],
+  "publication.other-projects": [
+    "Affiche les modifications en arrière-plan d'autres projets et les opérations d'enregistrement d'images. Ici vous pouvez trouver une tâche qui n'est pas liée au projet en cours ; l'ouverture de la partition ne la redémarre pas."
+  ],
+  "publication.open-project": [
+    "Ouvre le projet auquel appartient cette sauvegarde pour afficher le cadre et son historique."
+  ],
+  "publication.resume": [
+    "Poursuit la sauvegarde incomplète d'une trame déjà reçue. La nouvelle génération d'IA n'est pas lancée pour cela."
+  ],
+  "publication.cancel": [
+    "Annule la sauvegarde en attente de cette copie. Le cadre déjà reçu reste dans le projet ; Vous pouvez vérifier les fichiers finis en fonction de l'état de l'opération."
+  ],
+  "library.index": [
+    "L'index stocke des informations sur les photos : chemins, descriptions, tags et liens vers des collections. Il vous aide à rechercher des images sans ouvrir chaque fichier. Les originaux restent dans vos dossiers."
+  ],
+  "library.refresh-info": [
+    "Relis le nombre de photos, les chemins et les dernières données numérisées. Il s'agit d'une mise à jour récapitulative et non d'une nouvelle reconnaissance d'instantané."
+  ],
+  "library.connect": [
+    "Ajoute un dossier comme source de bibliothèque permanente. Le programme sera capable d'indexer les fichiers nouveaux et modifiés ; la mise à jour automatique est configurée séparément pour cette source."
+  ],
+  "library.root-open": [
+    "Révèle l'état du dossier, ses paramètres de mise à jour et ses exclusions. La divulgation elle-même ne déclenche pas le traitement des photos."
+  ],
+  "library.root-auto": [
+    "Permet à l'application de surveiller les modifications apportées à ce dossier monté et de mettre à jour les informations de la bibliothèque. Il ne s'agit pas d'un lancement automatique de reconnaissance payante pour chaque nouvelle photo."
+  ],
+  "library.exclusions": [
+    "Fournissez les chemins complets vers les fichiers ou dossiers de cette source qui n'ont pas besoin d'être vérifiés. Chaque chemin est inscrit sur une nouvelle ligne ; le dossier exclu est ignoré avec son contenu. Cliquez ensuite sur \"Enregistrer la source\". Les fichiers restent sur le disque."
+  ],
+  "library.root-save": [
+    "Enregistre les paramètres de mise à jour automatique et d'exclusion pour ce dossier. Les paramètres des autres sources connectées restent les mêmes."
+  ],
+  "library.root-refresh": [
+    "Vérifie les fichiers nouveaux et modifiés dans ce dossier connecté et met à jour l'index. Les descriptions déjà enregistrées ne sont pas remplacées par une nouvelle reconnaissance issue d'une seule mise à jour."
+  ],
+  "library.disconnect": [
+    "Supprime le dossier de la liste des sources connectées et arrête sa mise à jour automatique. Les photos sur le disque et les informations déjà collectées sur la bibliothèque, y compris les descriptions, sont conservées."
+  ],
+  "library.state-filter": [
+    "Sélectionnez l'état des entrées de bibliothèque que vous souhaitez vérifier, telles que les fichiers indisponibles ou les erreurs. Il s'agit d'une liste de services, distincte du dossier actuel de l'Explorateur."
+  ],
+  "library.records-refresh": [
+    "Recharge les entrées correspondant à l’état choisi. Utilisez ce bouton après une vérification des fichiers pour voir leur état actuel."
+  ],
+  "library.check-files": [
+    "Vérifie la disponibilité des fichiers le long des chemins enregistrés et met à jour leur statut dans la bibliothèque. Cela permet de distinguer les photos existantes de celles qui ont été déplacées ou qui ne sont plus disponibles."
+  ],
+  "library.clean-data": [
+    "Ouvre la confirmation de suppression des tags inutilisés et de l’ancien historique interne. Vérifiez d’abord ce qui sera supprimé. Cette action est distincte du nettoyage du cache des miniatures et de la suppression des photos."
+  ],
+  "library.select-page": [
+    "Marque toutes les entrées sur la page actuelle de la liste de services. Les enregistrements sur d'autres pages ne sont pas sélectionnés par cette action."
+  ],
+  "library.record-check": [
+    "Marque cette entrée pour une action sur les photos sélectionnées. Vérifiez le chemin d'accès au fichier : la même image peut être stockée dans différents dossiers."
+  ],
+  "library.remove-index": [
+    "Retire les entrées sélectionnées de la bibliothèque. Cela supprime les informations de l’index, pas les fichiers photo originaux. Vérifiez les éléments indiqués avant de confirmer."
+  ],
+  "library.confirm-clean": [
+    "Effectue exactement le type de nettoyage spécifié dans la confirmation ouverte. Vérifiez la liste et le nombre d'entrées; appuyer sur commence à modifier les données."
+  ],
+  "library.last-folder": [
+    "Ouvre le dernier emplacement enregistré d'un fichier inaccessible. La photo a peut-être été déplacée ou supprimée et il n'est pas garanti qu'elle se trouve dans ce dossier."
+  ],
+  "library.duplicates": [
+    "Regroupe les fichiers dont le contenu correspond parfaitement, même s'ils ont des noms ou des dossiers différents. Les images similaires avec des contenus différents ne font pas partie du même groupe. Vous pouvez d'abord vérifier les copies ; la suppression nécessite une confirmation séparée."
+  ],
+  "library.duplicate-group": [
+    "Affiche les chemins des fichiers identiques. Marquez les copies que vous souhaitez conserver ; le reste peut être envoyé à la corbeille du système après vérification."
+  ],
+  "library.keep-copy": [
+    "Marquez la copie que vous souhaitez conserver. Lorsque vous confirmez le nettoyage, les copies non marquées de ce groupe seront envoyées à la corbeille ; les fichiers marqués seront enregistrés."
+  ],
+  "library.compare-copies": [
+    "Ouvre les photos de groupe pour examen avant le nettoyage. Les marques de la comparaison indiquent les copies conservées plutôt que celles supprimées."
+  ],
+  "library.keep-all": [
+    "Conserve toutes les copies et retire ce groupe des résultats de vérification. La décision est mémorisée pour cet ensemble de fichiers ; une nouvelle copie peut faire réapparaître le groupe."
+  ],
+  "library.reset-duplicate-decisions": [
+    "Renvoie les groupes pour lesquels vous avez cliqué sur «Tout conserver» pour analyser. Les photos, descriptions et tags sont enregistrés. Après la réinitialisation, le programme recherche à nouveau des copies exactes."
+  ],
+  "library.keep-selected": [
+    "Prépare le nettoyage de ce groupe : les fichiers marqués resteront, les copies restantes seront envoyées à la corbeille du système. Avant l'exécution, le programme affichera une liste pour confirmation."
+  ],
+  "library.confirm-duplicates": [
+    "Laisse les fichiers marqués répertoriés et envoie les copies vérifiées restantes du groupe à la corbeille du système. Avant l'action, le programme revérifie la composition du groupe."
+  ],
+  "library.backup-index": [
+    "Enregistre les descriptions, les tags, les collections et l'historique de la bibliothèque dans un fichier de sauvegarde. Les photos originales et les clés de service ne sont pas incluses dans cette copie."
+  ],
+  "library.restore-pick": [
+    "Ouvre une sauvegarde pour vérifier le contenu et la compatibilité. La sélection d'un fichier ne remplace pas encore la bibliothèque actuelle."
+  ],
+  "library.restore-stage": [
+    "Prépare le remplacement de l'index par la copie sélectionnée au prochain démarrage du programme. La base de données précédente sera enregistrée séparément ; Les photos originales ne changent pas, les clés doivent être rajoutées."
+  ],
+  "library.restore-cancel-pick": [
+    "Supprime le fichier de sauvegarde sélectionné du formulaire. La bibliothèque actuelle reste inchangée."
+  ],
+  "library.restore-cancel": [
+    "Annule la restauration préparée avant le prochain démarrage. La sauvegarde choisie ne sera pas appliquée au redémarrage."
+  ],
+  "library.backup-full": [
+    "Vous permet d'enregistrer et de restaurer des descriptions, des tags, des collections, des projets d'historique et d'éditeur avec leurs images et masques de travail. Exporter crée un dossier : transférez-le entièrement.",
+    "Les photos originales externes et les clés de service sont enregistrées séparément. L'importation remplace les données après le redémarrage ; Avant cela, le programme indique quelle copie est sélectionnée."
+  ],
+  "library.backup-full-save": [
+    "Sélectionnez un emplacement pour la copie complète. Le programme y créera un dossier séparé avec les données de la bibliothèque et de l'éditeur. Attendez le message de fin et transférez l'intégralité du dossier créé, y compris le fichier backup.smartphoto.json."
+  ],
+  "library.backup-full-pick": [
+    "Sélectionnez backup.smartphoto.json dans le dossier de copie complète ou SQLite dans l'ancienne copie de la bibliothèque. Le programme vérifiera le contenu et montrera ce qui sera restauré. Le remplacement des données est préparé avec un bouton séparé et appliqué après un redémarrage."
+  ],
+  "library.backup-full-stage": [
+    "Prépare la restauration des projets d'archive et d'éditeur au prochain lancement. Les anciennes installations de stockage sont conservées ; Les tâches payantes de la copie ne s'exécutent pas automatiquement. Les clés de service devront être ajoutées à nouveau."
+  ],
+  "library.cache": [
+    "Stocke des images miniatures pour afficher rapidement des listes. Cela vous évite d’avoir à ouvrir l’original complet à chaque fois que vous faites défiler."
+  ],
+  "library.cache-clear": [
+    "Supprime les vignettes enregistrées pour libérer de l'espace. Les originaux et les descriptions demeurent ; la prochaine fois que vous le visualiserez, les vignettes requises seront recréées."
+  ],
+  "journal.scope": [
+    "\"Cette photo\" affiche les événements de la photo sélectionnée. « Tous les événements » vous permet de visualiser l'historique de l'ensemble de la bibliothèque."
+  ],
+  "journal.refresh": [
+    "Recharge les événements du périmètre choisi pour afficher l’activité récente. Consulter le journal ne répète aucune action."
+  ],
+  "journal.event": [
+    "Indique quand et quelles informations ont été modifiées. Les détails techniques peuvent aider à déterminer la cause d’un résultat inattendu."
+  ],
+  "logs.level": [
+    "Limite les messages techniques par importance. Par exemple, les erreurs vous aident à détecter les échecs et les messages détaillés vous aident à suivre les progrès."
+  ],
+  "logs.category": [
+    "Affiche les messages de la partie sélectionnée de l'application. Utilisez pour séparer l’opération souhaitée des autres événements."
+  ],
+  "logs.interval": [
+    "Définit la fréquence de mise à jour de la liste publique des messages techniques. Ce n’est pas la vitesse du traitement des photos."
+  ],
+  "logs.search": [
+    "Recherche du texte parmi les messages techniques. Saisissez la partie de l'erreur ou le nom de l'opération que vous analysez."
+  ],
+  "logs.copy": [
+    "Copie les messages techniques affichés pour une analyse plus approfondie. Avant d'envoyer à une autre personne, vérifiez quels chemins et informations sont présents dans le texte."
+  ],
+  "logs.clear": [
+    "Efface la liste des messages techniques de l'application. Les photos et leurs résultats ne sont pas supprimés ; Cela ne corrige pas la cause de l'erreur précédente."
+  ],
+  "errors.expand": [
+    "Développe les messages d'erreur accumulés pour lire la cause et les détails techniques. Toutes les erreurs n’entraînent pas une perte du résultat final."
+  ],
+  "errors.dismiss": [
+    "Supprime ce message de la liste des erreurs visibles. Si l'opération n'est pas terminée, son statut doit être vérifié dans la section appropriée."
+  ],
+  "errors.dismiss-all": [
+    "Supprime les messages d'erreur accumulés de l'écran. Il ne s’agit pas d’une répétition d’opérations ni d’une correction de leurs causes."
+  ],
+  "drop.open-folder": [
+    "Ouvre le premier dossier de l'ensemble déplacé dans l'Explorateur du programme. Les autres éléments de l'ensemble ne sont pas traités par cette action."
+  ],
+  "drop.select-images": [
+    "Sélectionne les images trouvées dans l’ensemble déplacé pour un travail ultérieur. Le traitement commence par une commande distincte."
+  ],
+  "drop.process": [
+    "Transfère les photos trouvées de l’ensemble déplacé vers la préparation au traitement. Vérifiez le service, le résultat et le mode de file d'attente actuel avant de commencer."
+  ],
+  "drop.collection": [
+    "Sélectionnez la collection dans laquelle vous souhaitez inclure les photos trouvées, puis cliquez sur Ajouter. Les fichiers ne sont pas physiquement déplacés."
+  ],
+  "drop.add": [
+    "Inclut les photos de l'ensemble déplacé dans la collection sélectionnée. Il s'agit d'un lien dans la bibliothèque qui ne copie pas les fichiers dans un nouveau dossier."
+  ],
+  "viewer.open": [
+    "Ouvre cette photo dans une vue séparée. Ici, vous pouvez agrandir l'image et la visualiser sans lancer l'éditeur."
+  ],
+  "viewer.edit": [
+    "Ouvre la photo actuelle dans l'éditeur SMART PHOTO. Le recadrage, le dimensionnement, le marquage et l'édition IA y sont disponibles ; la visualisation normale elle-même ne change pas l’original."
+  ],
+  "viewer.rotate-left": [
+    "Fait pivoter l’affichage photo de 90° dans le sens inverse des aiguilles d’une montre. Il s'agit d'une rotation de vue, pas d'une commande pour écraser le fichier d'origine."
+  ],
+  "viewer.rotate-right": [
+    "Fait pivoter l’affichage des photos de 90° dans le sens des aiguilles d’une montre. Utilisez un éditeur pour enregistrer l'image convertie."
+  ],
+  "viewer.trash": [
+    "Envoie le fichier actuel à la corbeille du système Windows. Il s'agit d'une action avec la photo elle-même sur le disque ; vérifiez le nom de l'instantané avant de le supprimer."
+  ],
+  "viewer.print": [
+    "Ouvre l'impression système de la photo actuelle. Le format du papier, l'imprimante et d'autres paramètres sont sélectionnés dans la fenêtre d'impression."
+  ],
+  "viewer.share": [
+    "Ouvre la fenêtre de partage Windows pour partager la photo actuelle. Dans celui-ci, vous pouvez choisir l'une des méthodes disponibles ; leur liste dépend des applications installées."
+  ],
+  "viewer.more": [
+    "Ouvre des commandes supplémentaires : enregistrez une copie, redimensionnez, recherchez un fichier sur le disque ou utilisez une image dans Windows."
+  ],
+  "viewer.external-edit": [
+    "Transmet le fichier à l'application d'édition configurée dans Windows. Il s'agit d'un programme distinct, pas d'un éditeur SMART PHOTO."
+  ],
+  "viewer.save-original": [
+    "Enregistre une copie de l’image originale à l’emplacement choisi. Le zoom et la rotation de l’affichage ne sont pas appliqués à cette copie."
+  ],
+  "viewer.resize": [
+    "Vous permet d'enregistrer une copie d'une photo avec une largeur et une hauteur différentes. Définissez les dimensions et le format, puis choisissez un emplacement de sauvegarde. Il s'agit d'un changement normal de résolution sans dessin supplémentaire par le réseau neuronal."
+  ],
+  "viewer.wallpaper": [
+    "Utilise la photo actuelle comme arrière-plan du bureau Windows. Il s'agit d'une modification du paramètre Windows, et non du contenu de l'image."
+  ],
+  "viewer.lock-screen-unavailable": [
+    "La définition d'une image sur l'écran de verrouillage n'est pas disponible dans cette version. Vous pouvez enregistrer la photo et la sélectionner via les options de personnalisation Windows."
+  ],
+  "viewer.prev": [
+    "Affiche la photo précédente de l'ensemble actuel. Vous pouvez également appuyer sur la flèche `←` de votre clavier si vous ne travaillez pas dans un champ de saisie."
+  ],
+  "viewer.next": [
+    "Affiche la photo suivante de l'ensemble actuel. Vous pouvez également appuyer sur la flèche `→` de votre clavier si vous ne travaillez pas dans un champ de saisie."
+  ],
+  "viewer.details": [
+    "Affiche des informations sur le fichier actuel à côté de l'image. Le panneau peut être fermé pour libérer plus d'espace photo."
+  ],
+  "viewer.details-close": [
+    "Supprime la barre latérale des détails dans cette visionneuse et libère de l'espace photo. La fenêtre de visualisation et la photo elle-même restent ouvertes."
+  ],
+  "viewer.actual": [
+    "Affiche la photo à l'échelle 100 %. Pour une grande photo, seule une partie sera visible dans la fenêtre ; Vous pouvez faire glisser l'image agrandie pour afficher différentes zones."
+  ],
+  "viewer.zoom": [
+    "La molette agrandit ou réduit la photo autour du pointeur : placez-le sur le détail à examiner. La résolution du fichier reste inchangée."
+  ],
+  "viewer.zoom-in": [
+    "Rapproche l'image d'un pas pour voir les détails les plus fins. La molette de la souris sur la photo modifie également le zoom."
+  ],
+  "viewer.zoom-out": [
+    "Effectue un zoom arrière sur l'image pour voir une plus grande partie du cadre. Pour afficher la photo entière, cliquez sur «Ajuster»."
+  ],
+  "viewer.fit": [
+    "Affiche la photo entière, en sélectionnant l'échelle tout en conservant les proportions. Si la forme de la photo diffère de celle de la fenêtre, il y aura des marges libres sur les bords. L'image n'est ni étirée ni recadrée."
+  ],
+  "viewer.pan": [
+    "Agrandissez l'image, maintenez le bouton gauche de la souris enfoncé sur l'image et faites glisser dans la direction souhaitée. Cela déplace la zone de visualisation sans modifier la photo elle-même."
+  ],
+  "viewer.only-photo": [
+    "Ouvre les photos sans les barres supérieure et inférieure par défaut. Un double-clic les rétablit pour la consultation actuelle. Votre préférence reste valable lors de la prochaine ouverture."
+  ],
+  "viewer.chrome-toggle": [
+    "Masque les panneaux ou les ramène pour basculer rapidement entre la photo et les commandes. En mode diaporama, un double-clic a un autre effet : quitter le diaporama."
+  ],
+  "viewer.restore-panels": [
+    "Renvoie les panneaux de contrôle à une photo. La préférence enregistrée pour l'ouverture de nouvelles fenêtres n'est pas modifiée par un retour temporaire."
+  ],
+  "viewer.slideshow": [
+    "Affiche les photos de l'ensemble actuel une par une en plein écran. L'intervalle entre les prises de vue est sélectionné à proximité.",
+    "Appuyez sur `Espace` pour suspendre ou reprendre le défilement automatique. Un double-clic sur la photo ou `Escape` quitte le diaporama."
+  ],
+  "viewer.slideshow-interval": [
+    "Choisissez combien de secondes afficher une photo avant de passer automatiquement à la suivante. Il s'agit du temps d'affichage et non de la vitesse de traitement de l'image."
+  ],
+  "viewer.interval-choice": [
+    "Affiche chaque photo pendant {секунды} s, puis passe à la suivante. Ce choix modifie l’intervalle entre les changements automatiques."
+  ],
+  "viewer.slideshow-pause": [
+    "Suspend le défilement automatique sur la photo actuelle sans quitter le diaporama. Pour reprendre, appuyez de nouveau sur ce bouton ou sur `Espace`."
+  ],
+  "viewer.slideshow-resume": [
+    "Reprend l’affichage automatique à l’intervalle sélectionné. Vous pouvez appuyer sur ce bouton ou sur `Espace`. Un double-clic sur une photo termine le diaporama."
+  ],
+  "viewer.slideshow-exit": [
+    "Termine le diaporama et revient à l’affichage normal. La photo reste ouverte et les commandes habituelles sont de nouveau disponibles."
+  ],
+  "viewer.close": [
+    "Ferme cette fenêtre. Le fichier photo reste sur le disque ; Si la fenêtre du programme d'origine est ouverte, vous pouvez continuer à y travailler."
+  ],
+  "viewer.retry-session": [
+    "Recharge les données de cette vue après une erreur d'ouverture. Aucune génération ni reconnaissance n'est déclenchée par cette action."
+  ],
+  "resize.pixels": [
+    "Définit la taille de la copie finale en pixels. Tout en conservant les proportions, changer un côté recalcule automatiquement l’autre."
+  ],
+  "resize.percent": [
+    "Définit la taille par rapport à la photo originale : 100 % - dimensions originales, 50 % - la moitié de la largeur et de la hauteur. Les proportions sont maintenues."
+  ],
+  "resize.width": [
+    "Spécifiez la largeur de la nouvelle copie de l'image. La hauteur est recalculée tout en conservant les proportions d'origine ; Il ne s’agit pas de couper les bords."
+  ],
+  "resize.height": [
+    "Spécifiez la hauteur de la nouvelle copie. La largeur est recalculée afin que la photo ne soit pas compressée ou étirée d'un côté."
+  ],
+  "resize.percent-value": [
+    "Change les deux côtés dans des proportions égales. Par exemple, 200 % double la largeur et la hauteur. Il s'agit d'une augmentation normale de taille sans ajouter de nouveaux détails au réseau neuronal."
+  ],
+  "resize.format": [
+    "Sélectionnez le format de la copie enregistrée. PNG convient à la transparence ; JPEG - pour des photos ordinaires avec compression réglable. Les formats disponibles sont affichés dans la liste."
+  ],
+  "resize.quality": [
+    "Définit la qualité de la copie enregistrée JPEG : une valeur plus élevée réduit généralement les pertes de compression et augmente la taille du fichier. La largeur et la hauteur sont définies séparément."
+  ],
+  "resize.save": [
+    "Enregistre une copie distincte avec les dimensions et le format sélectionnés. Veuillez vérifier les dimensions du résultat affichées avant de confirmer le chemin."
+  ],
+  "resize.unavailable": [
+    "Le programme n'a pas pu déterminer la taille du fichier source. Tant qu'ils sont inconnus, il est impossible de calculer correctement une nouvelle copie."
+  ],
+  "editor.tools": [
+    "Ouvre une liste d'actions avec une photo. Choisissez une transformation conventionnelle, comme un recadrage, ou une opération IA par description. Les paramètres de l'action sélectionnée apparaîtront à droite."
+  ],
+  "editor.more-tools": [
+    "Affiche les instruments qui ne rentrent pas dans la bande principale. Leurs actions coïncident avec les boutons correspondants sur le panneau complet."
+  ],
+  "editor.select": [
+    "Vous permet de sélectionner un balisage existant et de travailler avec ses paramètres. Pour dessiner une nouvelle zone, un nouveau point ou un nouveau masque, sélectionnez l'outil approprié."
+  ],
+  "editor.pan": [
+    "Déplace la zone de visualisation autour de l'image. Maintenez le bouton gauche et tirez la toile ; la position des objets dans la photographie elle-même ne change pas."
+  ],
+  "editor.point": [
+    "Place un repère pour une instruction locale. Décrivez l’ajout ou la modification ; l’application complète la requête par une indication de lieu.",
+    "La précision dépend du modèle. Avec les modèles économiques, précisez aussi le lieu en mots, par exemple « à côté du panier ». Un point ne garantit pas un placement exact."
+  ],
+  "editor.rect": [
+    "Marque une zone rectangulaire à retoucher. Tracez le cadre et décrivez la modification ; l’application ajoute une indication de lieu à la fin.",
+    "Avec un point de terminaison GPT Image compatible, une seule zone est aussi transmise comme masque s’il n’y a pas d’autre repère inclus ni de masque manuel. Les autres modèles l’utilisent comme indication, avec une précision variable. Pour les modèles économiques, précisez aussi le lieu en mots."
+  ],
+  "editor.mask": [
+    "Peint la zone de la photo avec laquelle le modèle doit travailler. Faites glisser votre pinceau sur l'objet ou la forme souhaitée, puis appliquez un masque. Le masque définit la forme avec plus de précision qu'une zone rectangulaire ordinaire."
+  ],
+  "editor.eraser": [
+    "Efface les parties peintes du masque, pas les pixels de la photo. Utiliser pour clarifier ses limites. Un masque complètement vide est retiré lors de son utilisation."
+  ],
+  "editor.brush-size": [
+    "Définit l'épaisseur du pinceau ou de la gomme du masque. Un gros pinceau est utile pour les zones larges, un petit pour les bords et les petits détails."
+  ],
+  "editor.rotate-left": [
+    "Fait pivoter l’image actuelle de 90° dans le sens inverse des aiguilles d’une montre. Pour obtenir un fichier séparé avec cette rotation, utilisez \"Enregistrer l’image\"."
+  ],
+  "editor.rotate-right": [
+    "Fait pivoter la photo de travail de 90° dans le sens des aiguilles d'une montre. Vérifiez l'orientation avant la prochaine opération et l'exportation."
+  ],
+  "editor.flip-horizontal": [
+    "Inverse les côtés gauche et droit d'une photographie de travail, comme dans un miroir. Le texte et les détails directionnels seront également reflétés."
+  ],
+  "editor.flip-vertical": [
+    "Échange le haut et le bas de la photo de travail. Il s'agit d'une réflexion, pas d'une rotation à 180°."
+  ],
+  "editor.zoom": [
+    "Effectue un zoom avant ou arrière sur la toile pour travailler avec les détails. L'échelle de visualisation ne détermine pas la résolution de l'image finale."
+  ],
+  "editor.zoom-actual": [
+    "Montre la photographie de travail à 100 % à l’échelle réelle. Pour le voir dans son intégralité, utilisez «Ajuster»."
+  ],
+  "editor.fit": [
+    "Règle le zoom pour afficher toute la photo sur le canevas en conservant ses proportions. Seul l’affichage change."
+  ],
+  "editor.tab-edit": [
+    "Affiche les instructions, les marquages et les paramètres de l'outil sélectionné. Veuillez vérifier le modèle et les images qui seront envoyées avant de lancer."
+  ],
+  "editor.tab-tasks": [
+    "Affiche la progression des modifications IA, leurs résultats et leur coût. Le passage à un onglet n’annule pas en soi la tâche en arrière-plan."
+  ],
+  "editor.tab-sources": [
+    "Affiche les images du projet qui peuvent être utilisées dans votre travail et jointes comme images supplémentaires. Sélectionner une source et l'inclure dans une requête sont des actions différentes."
+  ],
+  "operation.universal": [
+    "Décrivez ce qui doit être modifié sur la photo. Par exemple : « Rendre les murs vert clair tout en gardant les meubles. » Pour l'emplacement exact, utilisez les marquages ​​disponibles pour le modèle et les photos supplémentaires."
+  ],
+  "operation.replace-object": [
+    "Ajoute un nouvel élément ou remplace un existant selon votre description. Précisez ce qui doit apparaître et où ; Si nécessaire, joignez une photo de l'objet à la photo ou au tag."
+  ],
+  "operation.remove-object": [
+    "Supprime un élément inutile et restaure l'image à sa place. Si le modèle sélectionné a besoin d'un masque, peignez sur l'objet à supprimer et appliquez le masque avant de commencer."
+  ],
+  "operation.remove-background": [
+    "Sépare l'objet principal de l'environnement. De nombreux modèles disposent de suffisamment de photographies sources : ils définissent eux-mêmes l'objet, sans dessiner de masque ni de texte.",
+    "Les capacités du modèle sélectionné sont indiquées dans son explication. Pour conserver la transparence, utilisez un format approprié, tel que PNG."
+  ],
+  "operation.replace-background": [
+    "Crée un nouvel environnement selon la description, en préservant l'objet principal dans la mesure où le modèle le permet. Décrivez exactement l'arrière-plan souhaité, par exemple « une pièce lumineuse avec une fenêtre à gauche »."
+  ],
+  "operation.outpaint": [
+    "Ajoute de l'espace au-delà des bords de la photo originale et complète la suite de la scène. Changez le cadre sur la toile ou définissez les dimensions à droite. Si le modèle prend en charge les instructions textuelles, décrivez ce qui doit apparaître dans les nouvelles zones."
+  ],
+  "operation.upscale": [
+    "Augmente la résolution avec la restauration des détails AI. Ceci est différent du redimensionnement classique : le modèle peut ajouter des fonctionnalités qui ne peuvent pas être restaurées de manière fiable à partir de la source."
+  ],
+  "operation.relight": [
+    "Modifie la lumière et les ombres d'une photo selon la description. Par exemple : « Lumière douce du jour à gauche ». Pour une zone distincte, utilisez les marquages ​​pris en charge par le modèle."
+  ],
+  "operation.recolor": [
+    "Modifie la couleur d'un objet ou d'un jeu de couleurs selon les instructions. Précisez l'article et la couleur souhaitée; Les marquages ​​permettent d'identifier la zone souhaitée."
+  ],
+  "operation.compose": [
+    "Assemble une scène générale en utilisant la source et des images supplémentaires. Joignez les images requises dans le bloc «Image entière» et décrivez leurs rôles et leur emplacement. Le nombre de photos est limité par le modèle sélectionné."
+  ],
+  "operation.restore": [
+    "Améliore une photo ancienne ou endommagée : les modèles disponibles peuvent réduire les défauts et restaurer la couleur et les détails. Les détails inconnus peuvent être approximativement recréés ; Le résultat doit être comparé à la source."
+  ],
+  "instruction.text": [
+    "Décrivez le changement souhaité et ce qui doit rester intact. Par exemple : « Ajoutez une petite balle rouge près du pied droit ; laissez le reste de l’image inchangé. »"
+  ],
+  "instruction.background": [
+    "Décrivez l'environnement qui doit apparaître derrière l'objet principal. Indiquez le décor et l'éclairage si cela est important ; ne répertoriez pas les actions qui doivent être effectuées sur l'objet lui-même."
+  ],
+  "instruction.remove-bg": [
+    "Si le modèle prend en charge le texte, vous pouvez spécifier quel objet conserver. Par exemple : « seulement une chaise ». Il ne s’agit pas ici d’une description d’un nouveau contexte ; La possibilité et le tarif des instructions textuelles dépendent du modèle."
+  ],
+  "instruction.target": [
+    "Change l'instruction modifiable : pour l'image entière ou pour un point, une zone ou un masque sélectionné.",
+    "Au lancement, toutes les tâches non vides activées de l'outil actuel sont prises en compte, pas seulement celle actuellement ouverte."
+  ],
+  "instruction.whole": [
+    "Ici, vous pouvez décrire la modification de la photo entière sans créer de point ou de zone. Si le modèle accepte des photos supplémentaires, merci de les joindre à cette notice générale."
+  ],
+  "instruction.mark": [
+    "Indiquez ce qui doit changer à ce point, dans cette zone ou dans ce masque. Sélectionner un autre repère change les instructions en cours de modification ; les autres instructions activées restent incluses."
+  ],
+  "instruction.popover": [
+    "Modifiez les instructions du repère sélectionné à côté de la photo. L’onglet des images affiche les images supplémentaires jointes à ce repère."
+  ],
+  "instruction.popover-done": [
+    "Ferme l'édition du travail sur le canevas. Il ne s’agit pas d’exécuter un réseau neuronal ; Pour exécuter, utilisez «Lancer la retouche»."
+  ],
+  "markup.section": [
+    "Un point indique un emplacement, une zone définit un rectangle et un masque une forme peinte. Chaque repère activé peut avoir ses propres instructions. L’œil contrôle la visibilité ; la case à cocher détermine la participation à la requête."
+  ],
+  "markup.undo": [
+    "Annule la dernière modification des repères ou du masque. Cela concerne l’historique des repères et n’annule pas une retouche IA payante."
+  ],
+  "markup.redo": [
+    "Rétablit la dernière modification annulée des repères, si elle est encore disponible dans l’historique."
+  ],
+  "markup.visibility-all": [
+    "Affiche ou masque les repères sur le canevas pour examiner la photo. Les masquer avec l’œil n’exclut pas leurs instructions de la requête."
+  ],
+  "markup.visibility": [
+    "Affiche ou masque ce repère sur le canevas. Pour exclure ses instructions de la requête IA, décochez la case de participation voisine."
+  ],
+  "markup.include": [
+    "Détermine si les instructions de ce repère participent à la prochaine retouche. Un repère désactivé reste dans le projet, mais n’est pas envoyé dans la requête."
+  ],
+  "markup.remove": [
+    "Retire ce repère et ses instructions des repères actuels du projet. Le fichier photo reste sur le disque."
+  ],
+  "markup.open": [
+    "Affiche les instructions et les images supplémentaires de ce repère. Déplier ce bloc ne lance pas de retouche."
+  ],
+  "mask.apply": [
+    "Enregistre la zone peinte comme masque pour le travail. Si vous effacez complètement la coloration avec la gomme, le masque vide est supprimé."
+  ],
+  "mask.cancel": [
+    "Annule la modification du masque actuellement non appliquée. Une photo déjà enregistrée n'est pas modifiée."
+  ],
+  "reference.whole": [
+    "Ces images complètent les instructions générales pour la photo entière. Ajoutez un fichier ou faites glisser une image depuis la bande du bas. Sélectionner un repère masque le bloc général, mais conserve ses pièces jointes."
+  ],
+  "reference.add-whole": [
+    "Joint des images aux instructions générales. Ils peuvent montrer un sujet, un style ou un exemple à utiliser. La limite de modèle inclut la source et toutes les images supplémentaires participantes."
+  ],
+  "reference.add-mark": [
+    "Joint des images aux instructions du repère sélectionné. Choisissez un fichier ou faites glisser une image depuis la bande du bas vers le repère. Un point accepte une image supplémentaire ; la limite totale dépend du modèle."
+  ],
+  "reference.replace-point": [
+    "Remplace l’image supplémentaire d’un point. Un point n’accepte qu’une pièce jointe de ce type. Les images des autres repères et des instructions générales sont conservées."
+  ],
+  "reference.include": [
+    "Inclut cette image dans la prochaine demande. Décocher la case l'exclut temporairement de la soumission, le gardant attaché au projet."
+  ],
+  "reference.order": [
+    "Modifie l'ordre des images supplémentaires dans ce groupe. L’ordre permet d'aligner les images avec vos instructions ; le contenu des fichiers eux-mêmes ne change pas."
+  ],
+  "reference.detach": [
+    "Supprime cette image des pièces jointes aux tâches. Le fichier d'origine n'est pas supprimé ; l'image peut rester parmi les sources du projet."
+  ],
+  "reference.limit": [
+    "Le modèle choisi accepte jusqu’à {лимит} images **original compris**. Retirez ou désactivez les pièces jointes inutiles, ou choisissez un modèle compatible avec une limite plus élevée."
+  ],
+  "reference.wait-model": [
+    "Tout d’abord, sélectionnez un modèle compatible. Après avoir vérifié ses capacités, le programme affichera combien d'images supplémentaires vous pouvez utiliser."
+  ],
+  "reference.all": [
+    "Affiche les pièces jointes pour la photo entière et pour les repères individuels. Ouvrez un groupe pour vérifier à quelles instructions ses images se rapportent."
+  ],
+  "reference.gallery": [
+    "Sélectionne ce cadre enregistré comme image supplémentaire. Vérifiez la marque de sélection et la limite totale du modèle ; L'expansion d'un projet à elle seule ne change pas la photo en cours de modification."
+  ],
+  "geometry.crop": [
+    "Laisse une zone rectangulaire sélectionnée de la photo. Faites glisser le cadre ou définissez les dimensions à droite, puis appliquez le découpage. Le résultat apparaîtra comme un cadre distinct du projet."
+  ],
+  "geometry.resize": [
+    "Modifie la largeur et la hauteur d'une photo en utilisant la conversion habituelle, sans finition AI. Lors du maintien des proportions, les côtés sont recalculés ensemble."
+  ],
+  "geometry.x": [
+    "Définit la position du bord gauche du recadrage en pixels par rapport à l'image d'origine. Il s'agit de la position du cadre et non de l'ajout d'une marge."
+  ],
+  "geometry.y": [
+    "Définit la position du bord supérieur du recadrage en pixels. Assurez-vous que le cadre reste à l'intérieur de l'image originale."
+  ],
+  "geometry.width": [
+    "Définit la largeur du recadrage sélectionné ou la nouvelle taille en pixels. Lorsque la préservation des proportions est activée, elle est liée à la hauteur."
+  ],
+  "geometry.height": [
+    "Définit la hauteur du recadrage ou la nouvelle taille en pixels. Il s'agit de la taille de l'image finale et non de l'échelle de visualisation."
+  ],
+  "geometry.lock": [
+    "Lie la largeur et la hauteur : modifier un côté recalcule l’autre. Le recadrage conserve la forme du cadre choisi ; le redimensionnement conserve les proportions d’origine de la photo."
+  ],
+  "geometry.preset": [
+    "Sélectionnez un rapport hauteur/largeur, tel que 16:9 ou 1:1.",
+    "En **recadrage**, il définit la forme du cadre. En **redimensionnement** avec préservation des proportions activée, la photo s'adapte au format sélectionné et ne peut pas occuper toute sa largeur ou sa hauteur. Si vous ne préservez pas les proportions, les côtés peuvent être modifiés indépendamment, mais l'image est déformée."
+  ],
+  "geometry.percent": [
+    "Modifie la résolution par rapport à l'image d'origine. 100 % conserve les dimensions, 50 % réduit la largeur et la hauteur de moitié. Une valeur acceptable est supérieure à 0 et ne dépasse pas 1 000 %."
+  ],
+  "geometry.apply": [
+    "Crée un nouveau cadre de projet avec un recadrage ou une taille préparés. Pour un fichier externe, utilisez alors \"Enregistrer l’image\"."
+  ],
+  "geometry.cancel": [
+    "Supprime le recadrage ou les ajustements de taille non appliqués. Vous pouvez immédiatement sélectionner un autre outil ; la tâche AI ​​en arrière-plan démarrée n'est pas annulée."
+  ],
+  "outpaint.side": [
+    "Spécifiez le nombre de pixels à ajouter de ce côté de la source. La nouvelle zone sera complétée par le modèle. Pour une taille globale précise, vous pouvez utiliser les champs de largeur et de hauteur totales."
+  ],
+  "outpaint.width": [
+    "Définit la largeur totale souhaitée de la toile. S'il est plus petit que la source, il faudra d'abord préparer le recadrage ; si plus, une zone pour un dessin supplémentaire sera ajoutée."
+  ],
+  "outpaint.height": [
+    "Définit la hauteur totale souhaitée de la toile. La hauteur peut être modifiée quelle que soit l’expansion de l’autre côté ; la nécessité de couper est indiquée dans les paramètres."
+  ],
+  "outpaint.handle": [
+    "Faites glisser une poignée latérale pour déplacer le côté correspondant du cadre. Une poignée d’angle modifie deux côtés à la fois. Les dimensions à droite sont mises à jour avec le cadre."
+  ],
+  "outpaint.move": [
+    "Maintenez le bouton gauche à l'intérieur du cadre et déplacez-le pour modifier l'emplacement du futur canevas par rapport à la source. La position acceptable dépend si vous agrandissez le cadre ou si vous vous préparez à le couper."
+  ],
+  "outpaint.crop-prepare": [
+    "Recadre la partie de la photo originale qui s'étend au-delà du cadre sélectionné, préparant ainsi le cadre à l'agrandissement. Par exemple, vous pouvez réduire la hauteur puis ajouter de la largeur à l’espace. Le cadre d'origine reste dans l’historique."
+  ],
+  "outpaint.crop-cancel": [
+    "Annule la préparation de la zone originale plus petite et rétablit les paramètres du cadre. Les cadres de projets déjà existants sont conservés."
+  ],
+  "outpaint.autocrop": [
+    "Si le modèle renvoie une image plus large ou plus haute que demandé, cette option retire l’excédent de façon symétrique sur les bords opposés. La largeur et la hauteur sont vérifiées séparément : une largeur excessive est recadrée même si la hauteur est inférieure à celle demandée.",
+    "Les dimensions inférieures à celles demandées ne sont pas étirées. Le résultat complet du modèle est également conservé dans le projet."
+  ],
+  "project.back": [
+    "Renvoie à la vue ou à la liste de photos à partir de laquelle l'éditeur a été ouvert. Lorsque la sauvegarde automatique est activée, le projet est enregistré avant de quitter. Si des modifications doivent être enregistrées manuellement, le programme vous demandera quoi en faire."
+  ],
+  "project.restart": [
+    "Crée un nouveau projet à partir de l'image d'origine. Le projet précédent est enregistré afin que vous puissiez y revenir."
+  ],
+  "project.save": [
+    "Enregistre l’image de travail, les paramètres, les repères et l’historique pour reprendre le travail. Le fichier photo externe n’est pas remplacé. Vous pouvez aussi appuyer sur `Ctrl+S`."
+  ],
+  "project.export-image": [
+    "Écrit le cadre affiché dans un fichier photo ordinaire. Choisissez une copie séparée ou un remplacement explicite de l'original ; Enregistrer un projet et exporter une image sont des actions différentes."
+  ],
+  "project.replace-original": [
+    "Prépare l'enregistrement de l'image actuelle à la place du fichier original. Avant le remplacement, le programme affichera le nom, le chemin et les dimensions pour confirmation. Si vous souhaitez conserver l'ancien fichier, sélectionnez une copie."
+  ],
+  "project.replace-confirm": [
+    "Remplace le fichier au chemin spécifié par l'image actuelle avec rotation et réflexion de travail. Le cadre et l’historique d'origine restent dans le projet, mais le fichier externe sera modifié."
+  ],
+  "project.export-copy": [
+    "Crée un fichier séparé du cadre actuel avec le format et l'orientation de travail sélectionnés. L'image originale reste au même endroit."
+  ],
+  "project.export-format": [
+    "Sélectionnez le type de fichier fini. PNG maintient la transparence, JPEG convient aux photographies et utilise la qualité de compression ; TIFF et BMP sont disponibles en options distinctes."
+  ],
+  "project.jpeg-quality": [
+    "Ajuste la compression de la copie JPEG terminée. Une valeur plus élevée entraîne généralement moins de pertes et un fichier plus volumineux ; cela ne change pas la largeur et la hauteur."
+  ],
+  "project.storage-default": [
+    "Dirige une copie vers l’emplacement de stockage sélectionné dans les paramètres de stockage. Si vous avez besoin d'un chemin différent, décochez la case et sélectionnez l'emplacement manuellement."
+  ],
+  "project.publish-archive": [
+    "Inclut la copie enregistrée dans la bibliothèque afin qu'elle puisse être trouvée et sélectionnée dans le programme. Il s'agit du fichier terminé et non de l'historique complet du projet."
+  ],
+  "project.choose-save": [
+    "Ouvre la sélection de l'emplacement pour la copie terminée et enregistre le cadre affiché. Veuillez vérifier le format et les paramètres d'exportation avant de confirmer."
+  ],
+  "project.parameters": [
+    "Ouvre les paramètres de l'éditeur actuel, y compris la sauvegarde automatique du projet. Ils diffèrent des paramètres d’un modèle d’IA spécifique."
+  ],
+  "project.autosave": [
+    "Enregistre un projet modifié à l’intervalle choisi sans changer le fichier photo. L’intervalle et l’enregistrement à la fermeture se règlent dans les paramètres des projets.",
+    "« Enregistrer le projet » et `Ctrl+S` enregistrent immédiatement, indépendamment de l’enregistrement automatique."
+  ],
+  "project.exit-stay": [
+    "Vous renvoie à l'éditeur afin que vous puissiez vérifier votre travail ou enregistrer vos dernières modifications."
+  ],
+  "project.exit-discard": [
+    "Ferme l'éditeur sans enregistrer les dernières modifications non enregistrées du projet. Les résultats déjà enregistrés et les tâches en arrière-plan restent dans le projet."
+  ],
+  "project.exit-save": [
+    "Enregistre d’abord les dernières modifications apportées au projet, puis quitte. Il ne s’agit pas d’exporter une photo vers un fichier externe."
+  ],
+  "project.save-retry": [
+    "Réessaie d’enregistrer le projet après une erreur. L’image n’est pas générée de nouveau."
+  ],
+  "project.exit-options": [
+    "Ouvre le choix d'une action supplémentaire après un problème de sauvegarde : rester, sauvegarder à nouveau ou quitter sans les dernières modifications."
+  ],
+  "project.close-progress": [
+    "Supprime la boîte de message d'état de sauvegarde. Avant de quitter, vérifiez si la sauvegarde du projet est terminée."
+  ],
+  "project.manage": [
+    "Affiche les projets d'éditeur enregistrés. Vous pouvez trouver la photo dont vous avez besoin, révéler la composition du projet et l'ouvrir séparément pour le travail."
+  ],
+  "project.search": [
+    "Recherche des projets par nom de projet ou par photo. Il s'agit d'une recherche parmi les projets de l'éditeur, plutôt que d'une recherche générale dans l'ensemble de la bibliothèque."
+  ],
+  "project.period": [
+    "Limite la liste des projets à une période sélectionnée, comme la semaine dernière. Il s'agit d'un filtre de liste qui ne modifie pas les dates des photos."
+  ],
+  "project.card": [
+    "Révèle des informations et des photographies de ce projet. L’expansion ne modifie pas en soi le travail en cours ; pour naviguer, utilisez « Ouvrir »."
+  ],
+  "project.open": [
+    "Charge le projet sélectionné avec ses images et son historique pour continuer l'édition. Ce n’est pas le lancement d’une nouvelle édition AI."
+  ],
+  "project.title": [
+    "Définit le nom convivial du projet dans l'éditeur. Cela ne change pas le nom du fichier photo d'origine."
+  ],
+  "project.rename": [
+    "Enregistre le nom du projet saisi. Cela vous aide à trouver du travail parmi d’autres projets."
+  ],
+  "project.duplicate": [
+    "Crée un projet distinct pour d'autres options de travail. Il s'agit d'une copie du projet, pas d'une commande permettant d'enregistrer un fichier photo ordinaire."
+  ],
+  "project.clear-filmstrip": [
+    "Retire les images de résultat du projet actuel de la bande du bas et conserve l’original. Les étapes et leurs liens restent dans l’historique des modifications. Une confirmation apparaît avant de vider la bande. Les autres projets ne sont pas concernés."
+  ],
+  "project.delete": [
+    "Prépare la suppression du projet sélectionné de l'éditeur. Les photos dans les archives et les images enregistrées séparément resteront ; Veuillez vérifier le nom du projet avant de confirmer."
+  ],
+  "project.cleanup-assets": [
+    "Libère de l'espace en supprimant les fichiers internes de l'éditeur qui ne sont plus nécessaires aux projets et aux tâches inachevées. Une confirmation apparaîtra avant le nettoyage. Les photos originales de vos dossiers ne sont pas supprimées."
+  ],
+  "project.cleanup-confirm": [
+    "Effectue l'opération sélectionnée pour gérer le projet ou ses fichiers. La portée et les conséquences sont indiquées dans cette confirmation - vérifiez-les avant de cliquer."
+  ],
+  "project.portable-export": [
+    "Crée un fichier de projet portable pour continuer à travailler dans une autre installation du programme. Ceci est différent de l’exportation d’une seule image finie."
+  ],
+  "project.portable-import": [
+    "Ouvre un projet portable à partir du fichier sélectionné. Utilisez-le pour continuer un travail précédemment exporté plutôt que d'ajouter une photo ordinaire."
+  ],
+  "history.open": [
+    "Ouvre une image enregistrée du projet pour la consulter et poursuivre le travail. Maintenez `Ctrl` et cliquez sur les images pour les comparer. Pour en joindre une comme image supplémentaire, faites-la glisser vers le repère voulu."
+  ],
+  "history.select-many": [
+    "Maintenez `Shift` et cliquez sur les images de la bande du bas pour les marquer à retirer. Puis, en maintenant toujours `Shift`, cliquez sur la corbeille de l’une des images marquées. Une confirmation apparaît avant le retrait. L’original ne peut pas être sélectionné pour cette action."
+  ],
+  "history.remove": [
+    "Retire l’image de la bande du bas après confirmation. Pour un groupe marqué, maintenez `Shift` en cliquant sur la corbeille. Les images restent accessibles dans l’historique des modifications. Les fichiers photo originaux ne sont pas supprimés."
+  ],
+  "history.confirm-remove": [
+    "Retire les images indiquées de la bande du bas. Vous pouvez les rétablir depuis l’historique des modifications. Si l’image actuelle est concernée, l’original s’ouvre. L’historique des tâches et des coûts est conservé."
+  ],
+  "history.branches": [
+    "Affiche les étapes enregistrées et les connexions entre les images. Ici, vous pouvez revenir au résultat précédent et comprendre à partir de quelle étape il a été obtenu."
+  ],
+  "history.step-open": [
+    "Rend cette image enregistrée actuelle : elle peut être visualisée ou utilisée pour la prochaine édition. Le reste des étapes reste de l’historique ancienne ; la visualisation d'une image déjà terminée ne déclenche pas la génération."
+  ],
+  "history.hide": [
+    "Masque l’image dans la bande du bas tout en la conservant dans l’historique des modifications. Vous pouvez l’y rétablir. Ce bouton ne permet pas de masquer l’original ni l’image actuelle."
+  ],
+  "history.restore": [
+    "Réaffiche l’image masquée dans la bande du bas. L’image enregistrée est utilisée, sans nouvelle génération."
+  ],
+  "history.scroll": [
+    "Affiche les images de l’historique du projet. La molette au-dessus de la bande fait défiler les images à gauche et à droite. Au-dessus du canevas, elle règle le zoom."
+  ],
+  "editor.compare": [
+    "Maintenez `Ctrl` et sélectionnez deux images dans le flux inférieur, puis ouvrez la comparaison. Faites glisser la ligne de séparation pour voir les différences entre les images sélectionnées. Vous pouvez comparer la source avec le résultat ou avec deux modifications différentes."
+  ],
+  "editor.compare-swap": [
+    "Inverse les deux côtés de la comparaison. Les images et leur historique restent inchangés."
+  ],
+  "source.add-file": [
+    "Ajoute une image du disque aux sources du projet. Pour l'utiliser dans une requête AI, joignez-le à l'instruction souhaitée ou incluez la source appropriée."
+  ],
+  "source.add-archive": [
+    "Ouvre la sélection d'une photo de la bibliothèque du programme à ajouter au projet. C'est utile lorsque la photo est déjà indexée et qu'il est plus facile de la retrouver par description ou par tags."
+  ],
+  "source.archive-search": [
+    "Recherche une image dans la bibliothèque par nom, description ou tags. Cliquez sur le résultat souhaité pour l'ajouter au projet."
+  ],
+  "source.archive-pick": [
+    "Ajoute cette photo trouvée aux sources du projet. Pour l'utiliser dans votre retouche comme image supplémentaire, joignez-la ensuite aux instructions souhaitées."
+  ],
+  "source.add-url": [
+    "Permet d'ajouter une image via un lien HTTPS direct vers le fichier. Un lien vers une page du site peut ne pas fonctionner s'il ne renvoie pas d'image."
+  ],
+  "source.url": [
+    "Insérez un lien commençant par `https://` et menant à l'image elle-même. Le lien vers la page avec l'image peut ne pas fonctionner. Une fois ajouté, le fichier apparaîtra dans les sources du projet."
+  ],
+  "source.url-apply": [
+    "Télécharge une image à partir du lien saisi et l'ajoute au projet. Ce n’est pas encore le lancement de l’édition IA avec."
+  ],
+  "source.role": [
+    "Indiquez à quoi doit servir l'image : transférer un objet, répéter un style, prendre un arrière-plan ou l'utiliser comme exemple général. La précision d'exécution dépend du modèle ; expliquez également l’utilisation souhaitée dans le texte du devoir."
+  ],
+  "source.order": [
+    "Modifie l'ordre des sources secondaires de la requête actuelle. L’ordre permet de les coordonner avec les instructions."
+  ],
+  "source.remove": [
+    "Exclut cette source de la requête préparée. L'image originale sur le disque n'est pas supprimée."
+  ],
+  "source.open": [
+    "Affiche cette image enregistrée ou cette source de projet. Pour participer à une demande, utilisez une action d'ajout distincte."
+  ],
+  "source.include": [
+    "Attache cette image à la modification préparée si la limite totale du modèle sélectionné est suffisante. Le simple fait de consulter une source ne l'inclut pas automatiquement dans la soumission."
+  ],
+  "job.details": [
+    "Affiche la progression de l'édition, sa durée, son modèle, ses dimensions, son coût et les cadres finis.",
+    "«Dans la file d’attente du service» signifie que la demande a été transférée au service et que le programme attend qu'elle soit terminée. Ceci est différent de mettre le programme en pause. Le développement d'une carte affiche uniquement les détails et ne déclenche pas de nouvelle modification."
+  ],
+  "job.cancel": [
+    "Annule le programme d’effectuer cette modification. Une requête déjà envoyée peut avoir le temps d'être exécutée sur le service ; L'annulation ne garantit pas un remboursement."
+  ],
+  "job.open-project": [
+    "Ouvre le projet de cette retouche pour retrouver ses images et son historique."
+  ],
+  "job.open-result": [
+    "Sélectionne dans le projet une image déjà reçue pour cette tâche. La consulter ne nécessite ni nouvelle génération ni nouveau paiement."
+  ],
+  "job.resume": [
+    "Poursuit l'édition inachevée à l'aide des données enregistrées : par exemple, vérifie une demande déjà envoyée ou télécharge le résultat final. Si la soumission précédente est connue du programme, il l'utilise, sans nouvelle demande de génération payante."
+  ],
+  "job.reconcile": [
+    "Vérifie auprès du service le résultat d'une demande préalablement envoyée. À utiliser si la connexion est interrompue et que le résultat est inconnu, avant de recommencer la modification payante."
+  ],
+  "job.request-id": [
+    "Saisissez le numéro de la demande précédente du compte Fal AI pour l'associer à cette tâche. Vous avez besoin d'un ID de demande, pas d'une clé d'accès ou d'un nom de modèle."
+  ],
+  "job.request-confirm": [
+    "Confirmez que vous avez pris l'ID de la demande exacte qui a été envoyée pour cette modification. Le programme recherchera le résultat en l'utilisant, il est donc important de ne pas le confondre avec une autre requête."
+  ],
+  "job.reconcile-apply": [
+    "Vérifie la tâche enregistrée à partir de la requête indiquée du service afin d’en retrouver le résultat. Aucune nouvelle génération n’est lancée."
+  ],
+  "review.schemas": [
+    "Compare les informations stockées sur les paramètres du modèle avec les schémas officiels Fal AI - descriptions des champs, options et valeurs acceptables. Cela permet de remarquer les changements dans le service. Le contrôle ne déclenche pas la génération d'image."
+  ],
+  "review.proposal": [
+    "Insérez les modifications des recommandations préparées au format JSON. Tout d'abord, cliquez sur « Afficher les modifications » pour les comparer aux recommandations actuelles ; l'application est effectuée séparément. Cette section est destinée à paramétrer la sélection des modèles."
+  ],
+  "review.diff": [
+    "Affiche les différences entre les recommandations proposées et les recommandations actuelles. Il s’agit d’abord d’un aperçu ; leur application est une action distincte."
+  ],
+  "review.apply": [
+    "Applique la version révisée des recommandations de sélection de modèle. Il s'agit d'un paramètre de programme et non d'une répétition de modifications déjà effectuées."
+  ],
+  "review.rollback": [
+    "Rétablit la version enregistrée des recommandations que vous avez choisie. Avant de l’appliquer, vérifiez quelle version doit servir aux prochains choix de modèles."
+  ],
+  "review.score": [
+    "Évaluez le résultat de 1 à 5 en fonction de la façon dont le modèle a exécuté votre tâche. L'évaluation est utile, accompagnée d'une brève note sur les problèmes visibles."
+  ],
+  "review.note": [
+    "Décrivez ce qui s’est bien passé et ce qui a été perdu ou modifié de manière incorrecte. Par exemple : « le fond est correct, mais la main a disparu ». Il s'agit d'une note de résultat et non d'une nouvelle instruction de modèle."
+  ],
+  "review.save": [
+    "Enregistre votre note et votre note de modèle pour ce travail. Une nouvelle modification ou un nouvel appel de service n'est pas lancé."
+  ],
+  "project.close-error": [
+    "Ferme une fenêtre d'éditeur qui n'a pas pu être ouverte. Cela n’annule pas le travail déjà enregistré ; lisez d'abord le message d'erreur si vous avez besoin de savoir pourquoi."
+  ],
+  "model.select": [
+    "Choisissez le modèle pour l’action actuelle. Les modèles diffèrent par leur prix, leur qualité, leur vitesse et leur prise en charge des repères et des images d’entrée. L’explication du modèle choisi précise ses possibilités et ses limites."
+  ],
+  "model.help": [
+    "Explique les capacités du modèle sélectionné : quelles images et balises il utilise, avec quelle précision il place les objets et ce qu'il est important de prendre en compte lors du démarrage. Il s’agit d’une description du modèle et non d’une promesse d’un résultat idéal."
+  ],
+  "model.tier-economy": [
+    "Affiche les options à faible coût pour l'opération sélectionnée. Ils conviennent aux premiers tests et aux modifications simples ; Avant de commencer, lisez les caractéristiques du modèle et les estimations de coûts."
+  ],
+  "model.tier-balanced": [
+    "Présente des modèles de milieu de gamme pour une combinaison de coût et de qualité. Le prix de lancement réel dépend du modèle et des options sélectionnés."
+  ],
+  "model.tier-quality": [
+    "Affiche les options en fonction de la qualité de l'opération sélectionnée. Le traitement peut être plus coûteux et prendre plus de temps ; l’estimation complète est affichée à proximité."
+  ],
+  "model.filters": [
+    "Ils vous permettent de sélectionner des modèles par prix, résolution et nombre d'images supplémentaires. Cela filtre la sélection du modèle et ne démarre pas la modification vous-même."
+  ],
+  "model.filters-reset": [
+    "Supprime les restrictions sur la sélection de modèle et renvoie la sélection normale par niveau. Les résultats déjà obtenus ne changent pas."
+  ],
+  "model.filter-tier": [
+    "Limite la liste des modèles au niveau économique, équilibré ou qualitatif. \"Tous les niveaux\" supprime cette limitation."
+  ],
+  "model.filter-price": [
+    "Affiche les modèles dont le coût estimé du lancement complet ne dépasse pas le montant indiqué. Ce critère de filtrage est distinct du débit réel et du budget d’exécution."
+  ],
+  "model.filter-resolution": [
+    "Laisse les modèles avec une taille de résultat appropriée : un niveau fini ou votre propre taille en pixels. La disponibilité dépend des capacités du modèle."
+  ],
+  "model.filter-references": [
+    "Laisse les modèles capables d’accepter le nombre requis d’images supplémentaires. La limite totale de requêtes inclut également la source."
+  ],
+  "model.filter-width": [
+    "Spécifiez la largeur du résultat souhaité pour sélectionner les modèles compatibles. Il s'agit d'une condition de recherche de modèle et non d'une modification de photo déjà effectuée."
+  ],
+  "model.filter-height": [
+    "Précisez la hauteur de résultat souhaitée pour sélectionner les modèles compatibles. Vérifiez les tailles et les limites du modèle sélectionné."
+  ],
+  "model.filter-source-size": [
+    "Laisse les modèles qui peuvent demander la taille de l’image source actuelle. La réponse réelle du réseau neuronal doit encore être vérifiée."
+  ],
+  "model.launch-apply-choice": [
+    "Applique le modèle choisi avec les filtres et ses paramètres. La requête n’est pas encore envoyée. Vérifiez ensuite les instructions et cliquez sur « Lancer la retouche »."
+  ],
+  "model.launch": [
+    "Envoie les instructions préparées, l’image originale et les images supplémentaires activées au modèle choisi. Vérifiez le contenu de la requête et l’estimation du coût avant le lancement.",
+    "La progression de l'édition est visible dans l'onglet «Tâches». Vous pouvez changer d'onglet ou fermer l'éditeur : la tâche continuera à fonctionner et enregistrera le résultat pendant que le programme principal est ouvert."
+  ],
+  "model.launch-busy": [
+    "Une retouche est déjà en cours dans ce projet. Sa progression apparaît dans « Tâches ». Vous pouvez changer d’outil ou d’onglet ; le travail continue. Un nouveau lancement doit attendre sa fin."
+  ],
+  "model.estimate": [
+    "Coût préliminaire de l'ensemble du lancement préparé. Il prend en compte les paramètres sélectionnés, mais ne confirme pas le débit réel par le service. Le compteur d'images inclut la source."
+  ],
+  "model.inputs": [
+    "Affiche les images et les masques qui seront inclus dans la prochaine requête. Avant de commencer, assurez-vous que les images nécessaires sont sélectionnées, qu'elles sont dans le bon ordre et se rapportent aux tâches souhaitées."
+  ],
+  "model.advanced": [
+    "Ouvre les paramètres du modèle sélectionné. Ici, vous pouvez affiner le résultat ; l'ensemble des champs dépend du modèle. Commencez par des valeurs standard et gardez à l'esprit que les modifications peuvent affecter le temps et le coût de la révision."
+  ],
+  "model.tariff": [
+    "Affiche le tarif utilisé et les limites du modèle choisi. Le coût réel est confirmé après exécution à partir des données du service."
+  ],
+  "model.features": [
+    "Explique comment le modèle sélectionné utilise le balisage et les images supplémentaires, ainsi que ses limites. Il est utile de le lire avant le premier lancement."
+  ],
+  "model.raw-json": [
+    "Vous permet de spécifier des champs de demande exacts supplémentaires dans JSON. Il s'agit d'un paramètre technique : utilisez uniquement les paramètres supportés par le schéma sélectionné, sans remplacer les champs de service du programme."
+  ],
+  "model.period-enable": [
+    "Inclut la limite de coût total pour les modifications de l'éditeur à partir de la date spécifiée. Il prend en compte plusieurs exécutions ensemble ; la limite d'une modification est définie séparément."
+  ],
+  "model.period-value": [
+    "Définit le montant en dollars pour le budget total de la période inclus. Vérifiez la date de début et la dépense déjà comptabilisée."
+  ],
+  "model.run-budget": [
+    "Limite le coût estimé autorisé pour une retouche avant son envoi. Cette vérification ne fixe pas le prix final et ne garantit pas de remboursement."
+  ],
+  "model.concurrency": [
+    "Définit la limite de requêtes parallèles de l’éditeur AI. Des restrictions supplémentaires du service et du projet en cours demeurent ; un grand nombre ne garantit pas l'accélération."
+  ],
+  "model.preserve-color": [
+    "Il est utile de laisser une photo noir et blanc en noir et blanc : après restauration, le programme supprime la couleur ajoutée par le modèle s'il a déterminé la source comme noir et blanc. La source de couleur n’est pas désaturée de force."
+  ],
+  "model.consent": [
+    "Vous permet de transférer l'image et les pièces jointes préparées vers un service cloud pour les modifier. La sélection est enregistrée et utilisée lors des exécutions futures ; il peut être modifié dans les paramètres."
+  ],
+  "model.consent-launch": [
+    "Enregistre votre autorisation d'envoi cloud et exécute la requête affichée. Veuillez vérifier le nombre d'images, les dimensions et la note avant de confirmer."
+  ],
+  "model.key": [
+    "Ouvre la configuration de la clé Fal AI, via laquelle les modifications de l'éditeur AI sont effectuées. La clé associe les demandes à votre compte de service."
+  ],
+  "model.review": [
+    "Affiche des informations sur les recommandations du modèle et des notes sur la qualité des résultats. L'évaluation du résultat ne déclenche pas de retraitement."
+  ],
+  "parameter.default": [
+    "Laisse le choix de ce paramètre au service. Le programme n'envoie pas de valeur distincte et le modèle utilise son propre standard.",
+    "Ceci est différent d'une valeur nulle explicite, d'un interrupteur d'arrêt ou de l'option Aucune valeur · null."
+  ],
+  "parameter.null": [
+    "Envoie au service la valeur spéciale `null`, c’est-à-dire « aucune valeur ». Utilisez-la seulement si le modèle la prend en charge. Contrairement au choix par défaut du modèle, le champ reste explicitement présent dans la requête avec une valeur nulle."
+  ],
+  "parameter.quality": [
+    "Sélectionne le niveau de qualité pris en charge par le modèle. Un niveau plus élevé peut augmenter les détails, le temps et les dépenses. \"Auto\" permet au service de sélectionner un niveau."
+  ],
+  "parameter.image-size": [
+    "Définit la largeur et la hauteur souhaitées ou la taille finale du résultat. L'option « Identique à la source » utilise les dimensions de la photo actuelle ; il s'agit d'une demande du modèle, et non d'une garantie de la taille exacte de sa réponse."
+  ],
+  "parameter.width": [
+    "Demande la largeur de l'image finie en pixels. Utiliser la gamme du modèle sélectionné ; La taille du résultat n'est pas égale à l'échelle de visualisation."
+  ],
+  "parameter.height": [
+    "Demande la hauteur de l'image finie en pixels. La largeur et les proportions acceptables doivent être prises en compte avec ce côté."
+  ],
+  "parameter.resolution": [
+    "Sélectionne un niveau de taille prédéfini, tel que 1K, 2K ou 4K. Les dimensions exactes et les proportions acceptables sont déterminées par le modèle."
+  ],
+  "parameter.aspect-ratio": [
+    "Définit la forme du résultat : par exemple, 1:1 est un carré, 16:9 est un cadre large. Il s'agit d'un paramètre distinct du niveau de détail et de qualité."
+  ],
+  "parameter.output-format": [
+    "Définit le format de l'image que le modèle renverra. Si la transparence est requise, choisissez un modèle et un format compatibles ; JPEG ne préserve pas la transparence."
+  ],
+  "parameter.output-compression": [
+    "Contrôle la compression de la sortie JPEG ou WebP dans le schéma du modèle. Il s'agit d'un paramètre d'encodage de fichier, distinct de la qualité et de la résolution de la génération."
+  ],
+  "parameter.background": [
+    "Sélectionne le comportement de l'arrière-plan, tel que automatique, transparent ou opaque. Les options disponibles sont pour ce modèle ; la transparence doit également être soutenue par le format."
+  ],
+  "parameter.num-images": [
+    "Définit le nombre d'images à récupérer par requête. Plusieurs options peuvent augmenter le coût ; vérifiez l’estimation complète."
+  ],
+  "parameter.seed": [
+    "Définit le numéro à partir duquel le modèle démarre la génération. Avec la même source, le même numéro et d’autres paramètres, vous pouvez réessayer d’obtenir une option similaire. Le service ne garantit pas une image totalement identique."
+  ],
+  "parameter.guidance": [
+    "Ajuste l'influence de la tâche de texte sur la génération. Une valeur plus élevée ne donne pas toujours un meilleur résultat ; Utilisez la plage acceptable et les recommandations du modèle sélectionné."
+  ],
+  "parameter.prompt-expansion": [
+    "Permet au service de développer ou de clarifier votre texte avant la génération. Cela peut aider le modèle, mais l'ajout d'un langage peut modifier l'interprétation du problème."
+  ],
+  "parameter.prompt-mode": [
+    "Sélectionne la manière dont le service améliore le texte de la tâche avant la génération. **Standard** se concentre sur la qualité de l'image, **Fast** réduit le temps de génération. Le paramètre est disponible pour les modèles qui prennent en charge ce raffinement."
+  ],
+  "parameter.rendering-speed": [
+    "Sélectionne le mode d'exécution pris en charge par le modèle. L'option accélérée peut différer en termes de détails et de tarifs ; le score fait référence au choix actuel."
+  ],
+  "parameter.thinking": [
+    "Règle le niveau de réflexion supplémentaire des modèles compatibles. Cela peut modifier le temps de traitement et le coût, sans garantir une meilleure qualité."
+  ],
+  "parameter.web-search": [
+    "Permet au modèle de support de faire référence à une recherche Internet lors de la préparation d'un résultat. Cette fonctionnalité peut coûter plus cher ; allumez-le uniquement lorsque cela est nécessaire."
+  ],
+  "parameter.system": [
+    "Spécifie une instruction de contrôle supplémentaire pour le modèle où le service la prend en charge. Il s'agit d'un paramètre technique, distinct de la description habituelle de la modification souhaitée."
+  ],
+  "parameter.safety": [
+    "Sélectionne le niveau de filtrage de contenu disponible dans le schéma. Les règles de service continuent de s'appliquer ; le paramètre ne garantit pas l’acceptation d’une quelconque demande."
+  ],
+  "parameter.limit-generations": [
+    "Demande au modèle de créer une image à chaque étape du travail et d'ignorer les demandes de plusieurs images dans le texte de la mission. Il s'agit d'un mode expérimental ; cela peut affecter la qualité.",
+    "Elle ne remplace pas le choix du nombre de résultats ni le budget monétaire de l'éditeur."
+  ],
+  "parameter.style": [
+    "Choisissez le style visuel dans lequel vous souhaitez que le modèle crée le résultat. Par exemple, les options disponibles avec ce modèle peuvent être conçues pour une photographie ou un design réaliste. La liste est déterminée par le modèle sélectionné."
+  ],
+  "parameter.style-preset": [
+    "Applique un style prédéfini à partir des options de modèle. Vérifiez s'il est adapté à la tâche s'il est important de préserver l'aspect photographique de la source."
+  ],
+  "parameter.style-codes": [
+    "Définit le style avec des codes spéciaux pris en charge par ce modèle. Chaque code se compose de huit caractères hexadécimaux : les chiffres 0 à 9 et les lettres A à F. Utilisez soit des codes, soit une sélection de style régulière ; le partage de ces paramètres ensemble n’est pas pris en charge."
+  ],
+  "parameter.palette": [
+    "Définit les couleurs souhaitées pour les modèles prenant en charge `color_palette`. Dans les « Paramètres JSON », vous pouvez spécifier une palette prête à l'emploi, par exemple `{\"color_palette\":{\"name\":\"PASTEL\"}}`, ou une liste de couleurs au format de schéma du modèle. Une palette prête à l'emploi et une liste personnalisée ne sont pas spécifiées en même temps."
+  ],
+  "parameter.negative": [
+    "Répertorie les caractéristiques de résultats indésirables des modèles qui prennent en charge une instruction négative. Il s'agit d'un souhait de génération, et non d'une interdiction absolue de l'apparition d'un objet."
+  ],
+  "parameter.prompt": [
+    "Vous permet de spécifier le résultat souhaité avec du texte si le mode modèle sélectionné accepte les instructions. Décrivez ce qui doit être modifié ou conservé. La disponibilité de cette option peut varier selon le modèle."
+  ],
+  "parameter.preserve-alpha": [
+    "Demande au modèle de conserver les zones transparentes de l'image originale. Vérifiez le résultat et utilisez un format transparent lors de l'enregistrement."
+  ],
+  "parameter.refine-foreground": [
+    "Améliore la séparation de l'objet avant du masque calculé. Utile pour les limites des objets lors de la suppression de l'arrière-plan ; le résultat dépend du modèle et de la source."
+  ],
+  "parameter.mask-only": [
+    "Renvoie uniquement un masque de séparation d'objets en noir et blanc au lieu d'une photo ordinaire dont l'arrière-plan est supprimé. Le raffinement des bords des objets est ignoré dans ce mode. Utilisez-le lorsque vous avez besoin du masque lui-même."
+  ],
+  "parameter.output-mask": [
+    "Demande au service de renvoyer en plus un masque qui sépare l'objet de l'arrière-plan. Pour remplacer le résultat habituel par un masque, un autre paramètre est proposé - \"Masque uniquement\"."
+  ],
+  "parameter.mask-expansion": [
+    "Étend la limite du masque traité du nombre de pixels spécifié. Une petite marge peut coincer les bords de l'objet ; trop grand modifiera l'environnement."
+  ],
+  "parameter.model-remove": [
+    "Sélectionne l’algorithme de suppression d’objet ou d’arrière-plan au sein de ce service. Les options générales, portrait et autres sont destinées à différentes sources ; Il ne s’agit pas d’un changement de fournisseur principal."
+  ],
+  "parameter.model-object-removal": [
+    "Sélectionne le niveau de traitement de la zone supprimée : de `low_quality` - basse qualité - à `best_quality` - le meilleur de ce service. Les changements de niveaux peuvent affecter le prix et le temps ; le service de l'éditeur principal reste le même."
+  ],
+  "parameter.model-background": [
+    "Sélectionne l'option BiRefNet : universelle, portrait ou conçue pour une séparation précise des bords. Commencez par une option universelle ; vérifiez les limites de l'objet sur le résultat."
+  ],
+  "parameter.model-precision": [
+    "Sélectionne l’option Topaz Precision pour la source : photo ordinaire, basse résolution, graphiques, texte ou visages. L'option Text Affiner se concentre sur la clarté du texte et des formes."
+  ],
+  "parameter.model-generative": [
+    "Choisit la variante Topaz pour la restauration générative des détails. Chaque variante équilibre différemment la préservation de l’original et la recréation des détails manquants. Comparez le résultat à l’original."
+  ],
+  "parameter.model-restore": [
+    "Sélectionne la méthode de récupération Topaz. Recover 3 recrée les détails, Dust-Scratch V2 est conçu pour éliminer la poussière et les rayures. Ce sont différentes tâches de traitement d’une vieille photographie."
+  ],
+  "parameter.operating-resolution": [
+    "Définit la taille à laquelle le modèle calcule la séparation des objets. L’option la plus grande peut gérer avec plus de précision la haute résolution, mais n’est pas disponible pour tous les algorithmes."
+  ],
+  "parameter.mode-outpaint": [
+    "Sélectionne le mode d'ajout de nouveaux champs. **Élevé** se concentre sur des résultats plus précis, **Rapide** est plus rapide, mais peut être moins efficace pour continuer à traiter des détails complexes. La taille du futur canevas est précisée par les champs cadre et taille."
+  ],
+  "parameter.upscale-mode": [
+    "Sélectionnez le grossissement par rapport ou par résolution cible. Dans le premier cas, le multiplicateur des côtés est défini, dans le second, le niveau de résultat requis."
+  ],
+  "parameter.upscale-factor": [
+    "Spécifie combien de fois augmenter la largeur et la hauteur. Par exemple, **2×** transforme 1 000 × 600 en 2 000 × 1 200 pixels : les deux côtés sont doublés et le nombre total de pixels quadruple."
+  ],
+  "parameter.target-resolution": [
+    "Sélectionne le niveau de taille final en mode de résolution cible. Les options disponibles et le maintien des proportions sont déterminés par le modèle."
+  ],
+  "parameter.steps": [
+    "Définit le nombre d'étapes de traitement du modèle. Plus d'étapes peuvent augmenter le temps et n'améliorent pas nécessairement le résultat au-delà d'un certain niveau."
+  ],
+  "parameter.creativity": [
+    "Régule la liberté du modèle lors de la restauration de nouvelles pièces. Une valeur élevée peut donner plus d'expressivité, mais modifiera davantage les caractéristiques originales."
+  ],
+  "parameter.resemblance": [
+    "Contrôle dans quelle mesure le résultat doit préserver les caractéristiques de l'image d'origine. Combinez-le avec des détails de finition s'il est important d'éviter des changements inutiles."
+  ],
+  "parameter.denoise": [
+    "Contrôle la réduction du bruit visuel. Un traitement solide peut lisser la texture fine utile."
+  ],
+  "parameter.sharpen": [
+    "Contrôle l’accentuation des bords et des détails fins. Une netteté excessive peut créer des images fantômes et ne restaure pas de manière fiable les détails manquants."
+  ],
+  "parameter.fix-compression": [
+    "Essaie de réduire les blocages et les distorsions résultant d'une forte compression de fichiers. Cette fonctionnalité n'est pas disponible pour tous les modes du modèle sélectionné."
+  ],
+  "parameter.strength-text": [
+    "Ajuste la force de l'amélioration dans le mode Affiner le texte du modèle Topaz Precision. Cette option ne définit pas le poids de votre instruction textuelle et n'est pas utilisée dans tous les modes de zoom."
+  ],
+  "parameter.face": [
+    "Comprend un traitement facial spécial pour améliorer la visibilité des détails. Les caractéristiques reconstruites peuvent différer de la personne réelle, alors comparez le résultat avec l'original."
+  ],
+  "parameter.face-strength": [
+    "Règle l’intensité du traitement du visage. Plus il est fort, plus il faut vérifier que les traits d’origine sont conservés."
+  ],
+  "parameter.face-creativity": [
+    "Ajuste la liberté du modèle lors de la recréation des détails du visage. Fonctionne lorsque la restauration du visage est activée ; une grande liberté peut changer d'apparence."
+  ],
+  "parameter.enhancement": [
+    "Ajuste le degré de récupération générative en mode d'augmentation pris en charge. Si le paramètre n'est pas spécifié, le modèle peut choisir la valeur automatiquement."
+  ],
+  "parameter.subject": [
+    "Sélectionne une partie de l'image pour détecter automatiquement l'objet lors de l'amélioration : **Tout** - l'image entière, **Premier plan** - le premier plan, **Arrière-plan** - l'arrière-plan. Il n’est pris en compte que par les algorithmes modèles qui supportent ce choix."
+  ],
+  "parameter.noise-scale": [
+    "Le modèle utilise ce facteur de bruit lors de la génération de l'image. Commencez par la valeur standard. Le service n'explique pas l'effet visuel exact du paramètre dans le diagramme, donc le modifier ne promet pas un certain degré de détail ou de similitude."
+  ],
+  "parameter.light-direction": [
+    "Choisissez d'où vous voulez que la lumière vienne : gauche, droite, haut ou bas. L'option sans direction donnée laisse ce choix au modèle."
+  ],
+  "parameter.cfg-light": [
+    "Contrôle l'effet de conditions d'éclairage données lorsqu'elles sont traitées par ce modèle. Une valeur plus élevée peut modifier davantage la scène."
+  ],
+  "parameter.lowres-denoise": [
+    "Règle l’intensité des changements lors de la première passe sur une image réduite. Il ne s’agit pas du nombre de passes de reconnaissance des descriptions dans la fenêtre principale."
+  ],
+  "parameter.hr-fix": [
+    "Comprend une passe de traitement haute résolution supplémentaire. Ses paramètres sont mis à disposition séparément et peuvent augmenter le temps d'exécution."
+  ],
+  "parameter.hr-downscale": [
+    "Laissez la valeur par défaut à 0,5, sauf si vous personnalisez le processus IC-Light. Le service autorise des valeurs de 0,01 à 1, mais n'explique pas l'effet du paramètre dans le schéma publié ; l'effet visuel attendu n'est pas promis à l'avance."
+  ],
+  "parameter.highres-denoise": [
+    "Ajuste la force des changements dans la passe haute résolution supplémentaire. Utilisé uniquement lorsque le deuxième passage est activé."
+  ],
+  "parameter.enhance-resolution": [
+    "Permet l'amélioration de la résolution de ce modèle pendant la récupération. Les dimensions finales doivent être vérifiées après réception du résultat."
+  ],
+  "parameter.fix-colors": [
+    "Permet le traitement des couleurs fanées ou déformées dans une vieille photo. Si vous souhaitez conserver le caractère noir et blanc, vérifiez également le paramètre de préservation des couleurs d'origine."
+  ],
+  "parameter.remove-scratches": [
+    "Comprend le traitement des rayures et des dommages aux vieilles photographies. Le modèle peut restaurer approximativement le contenu qu'ils cachent."
+  ],
+  "settings.hover-hints": [
+    "Affiche des explications lorsque vous survolez ou accédez à un élément à l'aide de la touche `Tab`. Éteignez-les lorsque vous n'en avez plus besoin. Les boutons `?` continuent d'ouvrir les explications lorsqu'ils sont enfoncés. La sélection est enregistrée après la fermeture du programme."
+  ],
+  "settings.recursive-view": [
+    "Affiche aussi les photos des sous-dossiers dans l’Explorateur. Ce réglage concerne la liste. Le traitement des sous-dossiers s’active séparément avec « Sous-dossiers » dans le panneau de traitement."
+  ],
+  "settings.images-only": [
+    "Masque les autres fichiers dans les listes afin qu'ils n'interfèrent pas avec la sélection des photos. Les fichiers masqués par ce filtre ne sont pas supprimés."
+  ],
+  "settings.cloud-consent": [
+    "Conserve l’autorisation d’envoyer des images au service cloud et au fournisseur de modèles sélectionnés. Il est utilisé aussi bien en reconnaissance que dans l'éditeur ; Il n'est pas nécessaire de reconfirmer chaque lancement tant que l'autorisation est enregistrée."
+  ],
+  "settings.request-delay": [
+    "Ajoute une pause en millisecondes entre les requêtes de reconnaissance. Cela peut aider à respecter les limites du service, mais allonge le temps total de traitement."
+  ],
+  "settings.job-budget": [
+    "Définit le budget maximal de la nouvelle tâche en dollars. **0 signifie sans limite**. L’application tient compte du coût estimé des requêtes et des dépenses déjà connues. Le service indique le montant réellement facturé."
+  ],
+  "settings.retries": [
+    "Définit le nombre de fois où la demande sera répétée en cas d'échecs temporaires. Cela vous aide à continuer à travailler après un problème de connexion ou de service à court terme.",
+    "Une clé incorrecte doit être corrigée manuellement. Si le résultat d'une demande cloud précédente est inconnu, une vérification du statut est requise en premier pour éviter de soumettre à nouveau le même travail."
+  ],
+  "settings.passes": [
+    "En un seul passage, le modèle produit immédiatement une description ou des tags. S'il y en a plusieurs, le programme reçoit des options et, lors du dernier passage, il les revérifie à l'aide d'une photographie.",
+    "Plus de passes nécessitent plus de temps et de requêtes cloud ; le nombre de passes ne s'applique pas à l'édition de l'image elle-même."
+  ],
+  "settings.concurrency": [
+    "Limite le nombre de demandes de reconnaissance simultanées. Ce n'est pas le nombre de photos dans toute la file d'attente ; le modèle local traite une photo à la fois."
+  ],
+  "settings.pause-ai-error": [
+    "Met la file d'attente en pause après une erreur de reconnaissance finale afin que vous puissiez en rechercher la cause. Lorsqu'elle est désactivée, les photos disponibles restantes continuent d'être traitées."
+  ],
+  "settings.pause-rename-error": [
+    "Suspend le travail associé après une erreur de renommage. Utile s'il est important de vérifier les noms des fichiers et leur disponibilité avant de continuer."
+  ],
+  "settings.tokens": [
+    "Limite la longueur de la réponse complète du modèle. Le jeton est un petit fragment de texte ; ce n’est pas égal à un mot ou une phrase. La limite est consacrée à la description, aux tags et à la structure du service de la réponse.",
+    "Une valeur trop faible peut couper la réponse. Le détail souhaité de la description est également précisé par les instructions du modèle."
+  ],
+  "settings.image-side": [
+    "Limite la taille de l'image préparée pour la reconnaissance. Une image plus petite peut être traitée plus rapidement, mais perdre des détails fins ; le fichier original n'est pas réduit."
+  ],
+  "settings.copy-destination": [
+    "Choisissez de créer des copies à côté de la source ou dans un dossier séparé. Il s'agit d'un emplacement pour les copies de reconnaissance, distinct du stockage des projets de l'éditeur."
+  ],
+  "settings.copy-choose": [
+    "Spécifie un dossier pour les fichiers nommés intelligemment lorsque la copie vers l'emplacement sélectionné est activée. Les photos originales restent dans leurs dossiers."
+  ],
+  "settings.photo-storage": [
+    "Choisissez où enregistrer les résultats de l'éditeur : sous forme de nouveau fichier à côté de la source ou dans un dossier séparé. Vous pouvez également définir l'emplacement à sélectionner à chaque fois que vous enregistrez."
+  ],
+  "settings.photo-folder": [
+    "Spécifie le dossier pour les images terminées de l'éditeur. Il s'agit d'une configuration pour les sauvegardes futures, et non d'un transfert de tous les fichiers exportés précédemment."
+  ],
+  "settings.project-storage": [
+    "Les projets stockent les images de travail et l'historique de l'éditeur, tandis que le cache stocke les données de visualisation temporaires. Ces coffres-forts sont transportés séparément des photos originales et des modèles généraux Ollama."
+  ],
+  "settings.move-projects": [
+    "Déplace le stockage du projet de l'éditeur vers l'emplacement sélectionné et vérifie la copie. Avant de transférer, fermez l'éditeur ; L'ancien dossier est conservé pour les tests."
+  ],
+  "settings.move-cache": [
+    "Déplace le stockage du cache vers le dossier sélectionné. Cela permet de placer des données temporaires sur un autre disque sans déplacer de photos ni de projets."
+  ],
+  "key.input": [
+    "Insérez la clé API du compte personnel du service sélectionné. À l'aide de cette clé, le service identifie votre compte et autorise les demandes du programme. La clé Fal AI convient au Fal AI, la clé OpenRouter convient au OpenRouter."
+  ],
+  "key.paste": [
+    "Colle le texte du presse-papiers dans le champ de clé. Vérifiez qu’il s’agit de la clé du service souhaité, puis enregistrez-la."
+  ],
+  "key.show": [
+    "Affiche temporairement les caractères saisis pour vérifier l'insertion. S'il y a d'autres personnes à proximité ou si votre écran est enregistré, utilisez la saisie masquée."
+  ],
+  "key.hide": [
+    "Masque la clé saisie dans le champ. Le masquage de caractères ne supprime pas la clé et n’empêche pas son enregistrement."
+  ],
+  "key.save": [
+    "Mémorise la clé saisie pour le service sélectionné. La vérification de la connexion et le démarrage de la reconnaissance sont effectués séparément ; cette pression enregistre uniquement la clé."
+  ],
+  "key.save-check": [
+    "Enregistre la clé saisie et vérifie l'état de préparation du service. Après une vérification réussie, vous pouvez revenir au traitement sans entrer à nouveau."
+  ],
+  "key.check-saved": [
+    "Vérifie la clé déjà ajoutée et l'accès au modèle sélectionné. Il n'est pas nécessaire de saisir une nouvelle clé si celle enregistrée reste valide."
+  ],
+  "key.check-service": [
+    "Vérifie la connexion et l'accès au service sélectionné avec la clé actuelle. Il s'agit d'un contrôle de préparation, pas d'une retouche photo."
+  ],
+  "local.endpoint": [
+    "Indique où le programme doit contacter Ollama. Pour travailler sur le même ordinateur, `http://127.0.0.1:11434` est généralement utilisé. Si Ollama est configuré avec une adresse différente, saisissez-la ici ; Ceci n'est pas un lien pour télécharger le modèle."
+  ],
+  "local.check": [
+    "Vérifie si Ollama est disponible et si le modèle sélectionné est installé. S'il manque quelque chose, utilisez la configuration du modèle."
+  ],
+  "local.setup": [
+    "Prépare automatiquement Ollama et le modèle local sélectionné. Avant de commencer, le plan de chargement et le volume sont affichés ; Le premier lancement nécessite du temps, Internet et de l'espace libre."
+  ],
+  "local.confirm-install": [
+    "Lance le plan affiché : le programme lui-même installera les composants nécessaires Ollama et téléchargera le modèle sélectionné. Attendez qu'il soit prêt et revenez au traitement. Il n'est pas nécessaire de saisir des commandes dans le terminal."
+  ],
+  "local.installing": [
+    "Le programme charge et prépare les composants locaux. Suivez l'étape et les progrès indiqués ; répéter la commande n’accélère pas le chargement."
+  ],
+  "local.cancel-install": [
+    "Interrompt la préparation ou le chargement en cours d'un modèle. Les photos et informations de bibliothèque déjà existantes ne sont pas affectées. Vous pourrez relancer la préparation plus tard."
+  ],
+  "local.ready": [
+    "Le modèle local sélectionné est prêt à l'emploi. La reconnaissance est effectuée sur cet ordinateur ; Le temps dépend du modèle, de la taille de l'image et des ressources informatiques."
+  ],
+  "local.setup-capsule": [
+    "Affiche l'état de préparation du modèle sélectionné et l'action de préparation disponible. Si le modèle n'est pas encore installé, cliquez pour configurer et lire le plan de téléchargement."
+  ],
+  "cloud.check-capsule": [
+    "Affiche la clé et l'état de disponibilité du modèle cloud sélectionné. Appuyer sur effectue une vérification et ne reconnaît pas l'image sélectionnée."
+  ],
+  "recovery.section": [
+    "Permet de remplacer la clé d'une tâche enregistrée et de vérifier le résultat des demandes précédentes. Les réponses connues déjà payantes sont restaurées séparément du nouveau lancement."
+  ],
+  "recovery.fal": [
+    "Vérifie les états des demandes Fal enregistrées auprès du service. Il s'agit d'une vérification des travaux précédemment soumis, sans créer de demandes de nouvelle génération."
+  ],
+  "consent.continue": [
+    "Enregistre votre autorisation d’envoi dans le cloud et poursuit l’action à l’origine de cette fenêtre. Vérifiez d’abord quelles images seront transmises."
+  ],
+  "rename.about": [
+    "Explique comment les nouveaux noms sont construits et comment les tester avant de les écrire. Renommer modifie le nom du fichier, pas le contenu de la photo, et ne nécessite pas de requête AI."
+  ],
+  "rename.names": [
+    "Ouvre les règles et les aperçus des nouveaux noms. Configurez la base, les extensions et la numérotation, puis vérifiez le résultat."
+  ],
+  "rename.history": [
+    "Affiche les opérations de changement de nom précédentes et les actions disponibles pour continuer ou annuler les noms. C’est une autre histoire que l’édition d’images."
+  ],
+  "rename.operation": [
+    "Affiche l'opération de renommage enregistrée : statut, heure et nombre de fichiers. Sélectionnez-le pour vérifier le résultat et les actions disponibles."
+  ],
+  "rename.prefix": [
+    "Ajoute du texte avant la partie principale du nom. Par exemple, le préfixe « Vacances » permet de fédérer des fichiers ayant un thème commun. Vérifiez le nom complet dans l'aperçu."
+  ],
+  "rename.base": [
+    "Choisissez de conserver le même nom ou d'avoir une base commune pour tous les fichiers sélectionnés. La numérotation permet de distinguer les fichiers ayant une base commune."
+  ],
+  "rename.common": [
+    "Saisissez la partie principale du nouveau nom, par exemple « Produit ». S'il y a plusieurs fichiers, vérifiez la numérotation et les correspondances possibles dans l'aperçu."
+  ],
+  "rename.suffix": [
+    "Ajoute du texte après la partie principale du nom. Il peut indiquer une option ou un groupe de prises de vue ; L'extension de fichier est traitée séparément par le programme."
+  ],
+  "rename.numbering": [
+    "Ajoute un numéro séquentiel aux noms. Cela vous permet de distinguer plusieurs fichiers ayant une base commune. La position, le départ et le pas sont réglables côte à côte."
+  ],
+  "rename.number-position": [
+    "Sélectionne si le numéro apparaîtra avant ou après la partie principale du nom. Vérifiez l’ordre résultante dans l'aperçu."
+  ],
+  "rename.start": [
+    "Spécifie le numéro du premier fichier de la séquence. Par exemple, commencer par 101 permet de poursuivre la numérotation existante."
+  ],
+  "rename.digits": [
+    "Ajoute des zéros non significatifs à la longueur souhaitée : par exemple, 001 au lieu de 1. Sans zéros non significatifs, le nombre est écrit de la manière habituelle."
+  ],
+  "rename.order": [
+    "Détermine l'ordre dans lequel les fichiers sont numérotés : selon la liste, par nom ou par date de modification. Ceci est important avant d’appliquer la numérotation."
+  ],
+  "rename.separator": [
+    "Sélectionne un caractère entre les parties du nouveau nom : trait de soulignement, trait d'union, espace ou aucun séparateur. Le résultat complet est visible dans l'aperçu."
+  ],
+  "rename.recursive": [
+    "Ajoute des fichiers de sous-dossier à cette opération de renommage. Il s'agit d'un paramètre personnalisé pour cette fenêtre, distinct de l'affichage et du traitement IA des sous-dossiers."
+  ],
+  "rename.step": [
+    "Définit de combien augmenter le numéro de fichier suivant. Par exemple, commencer par 1 et l’étape 2 donnera les nombres 1, 3, 5."
+  ],
+  "rename.per-folder": [
+    "Redémarre la numérotation dans chaque dossier. Sans ce réglage, le compteur suit l'ordre général de l'opération."
+  ],
+  "rename.apply": [
+    "Donne de nouveaux noms aux fichiers prêts à être renommés en aperçu. Veuillez vérifier les noms affichés, les correspondances et les erreurs avant de lancer. Le contenu des photos reste le même."
+  ],
+  "rename.resume": [
+    "Continue une opération enregistrée inachevée dans son journal. Il ne s’agit pas de créer un nouveau schéma de dénomination à partir de zéro."
+  ],
+  "rename.rollback": [
+    "Rétablit les anciens noms à partir du journal de l’opération inachevée. Le retour complet peut être impossible si les fichiers ont ensuite été déplacés ou renommés hors de l’application."
+  ],
+  "rename.restore-names": [
+    "Utilise le journal de l'opération sélectionnée pour rétablir les noms précédents des fichiers disponibles. Avant d'effectuer, vérifiez quelle opération vous avez choisie."
+  ],
+  "rename.preview-cancel": [
+    "Supprime les variantes de nom préparées sans les utiliser. Vous pouvez modifier les paramètres et vérifier le nouveau résultat."
+  ],
+  "rename.preview-confirm": [
+    "Confirme les noms affichés et continue l'action pour laquelle l'aperçu a été ouvert : traiter ou préparer une file d'attente. Cette confirmation n'est requise que pour l'aperçu public ; Le mode \"Traiter\" ne le demande pas avant chaque lancement."
+  ],
+  "help.open": [
+    "Ouvre la visite guidée pour la fenêtre actuelle et le livre de référence. Vous pouvez rechercher la fonction dont vous avez besoin ou demander au programme d'afficher son emplacement."
+  ],
+  "help.tour-tab": [
+    "Ouvre une introduction étape par étape aux éléments de la fenêtre actuelle. Le programme montre où se trouve la fonction et explique son objectif."
+  ],
+  "help.reference-tab": [
+    "Ouvre des articles expliquant les capacités du programme. Vous pouvez lire le matériel sans passer par toutes les étapes de la visite guidée."
+  ],
+  "help.hints-reveal": [
+    "Tire la bascule de l'info-bulle. La case à cocher active ou désactive les explications lorsque vous survolez les éléments du programme."
+  ],
+  "help.hints-toggle": [
+    "Active ou désactive les explications lors du survol des éléments du programme. Lorsque la case est décochée, les autres info-bulles n'apparaissent pas."
+  ],
+  "help.group": [
+    "Limite la visite guidée au sujet sélectionné. \"Toutes les sections de cette fenêtre\" renvoie l'ensemble complet des fonctions disponibles."
+  ],
+  "help.feature": [
+    "Sélectionne une fonction spécifique à expliquer et à afficher dans la fenêtre actuelle. L'indisponibilité de l'article peut dépendre de la photo sélectionnée ou de l'état de la tâche."
+  ],
+  "help.all": [
+    "Commencez à vous familiariser avec toutes les étapes de formation disponibles dans cette fenêtre. Les actions de traitement ne se déclenchent pas simplement en affichant des info-bulles."
+  ],
+  "help.continue": [
+    "Revient à l'étape disponible suivante pour se familiariser avec l'interface."
+  ],
+  "help.group-start": [
+    "Démarre la visite guidée uniquement sur le sujet sélectionné, tel que la recherche ou la file d'attente."
+  ],
+  "help.groups": [
+    "Retourne à la liste des sujets de la visite guidée pour sélectionner un autre domaine de programme."
+  ],
+  "help.step-prev": [
+    "Affiche l'étape de formation précédente. Cela n’annule pas l’action photo."
+  ],
+  "help.step-next": [
+    "Affiche la prochaine étape de la visite guidée. La dernière étape, «Terminé», complète la visite guidée."
+  ],
+  "help.search": [
+    "Recherche des articles d'aide en fonction des mots saisis. Il s'agit d'une recherche d'explications de fonctions, pas d'une recherche de photographies."
+  ],
+  "help.article": [
+    "Ouvre l'article sélectionné décrivant la fonctionnalité. Pour afficher sa place dans l'interface, utilisez les commandes d'entraînement associées."
+  ],
+  "help.show-feature": [
+    "Affiche l'emplacement de \"{функция}\" dans le programme et son explication. La démonstration n'exécute pas automatiquement cette fonction."
+  ],
+  "help.screenshot": [
+    "Ouvre l'illustration en grand pour voir la disposition des éléments. Il s'agit d'une photo de référence et non d'une image de votre photo actuelle."
+  ],
+  "preview.gestures": [
+    "La molette de la souris effectue un zoom avant ou arrière. Après avoir zoomé, maintenez le bouton gauche enfoncé et faites glisser la photo pour afficher une autre zone. Un double-clic à nouveau affiche l'image entière, en sélectionnant l'échelle appropriée."
+  ],
+  "compare.pan": [
+    "Agrandissez la photo, maintenez le bouton gauche enfoncé et faites-la glisser pour afficher la zone souhaitée. En mode Côte à côte, vous pouvez déplacer les images gauche et droite indépendamment. Les photos elles-mêmes ne changent pas."
+  ],
+  "layout.panel-width": [
+    "Faites glisser la bordure vers la gauche ou la droite pour modifier l'endroit où vous placez vos photos et vos paramètres. Si la poignée est sélectionnée depuis le clavier, elle peut être déplacée à l'aide des flèches ; `Home` et `End` sélectionnent des tailles extrêmes."
+  ],
+  "layout.markup-height": [
+    "Faites glisser la bordure pour donner plus ou moins d'espace à la liste de balises. Un double-clic renvoie la hauteur automatique."
+  ],
+  "layout.editor-split": [
+    "Faites glisser le séparateur pour redimensionner les zones adjacentes de l'éditeur. Il s'agit d'un ajustement de la disposition des panneaux, et non de la taille de l'image."
+  ],
+  "layout.column-width": [
+    "Faites glisser une bordure de colonne pour révéler plus de texte. Un double-clic renvoie la largeur par défaut de cette colonne."
+  ],
+  "geometry.frame": [
+    "Faites glisser le cadre ou ses poignées pour définir la position et les dimensions du recadrage ou de la transformation actuelle. Vérifiez les valeurs à droite et appliquez le résultat avec un bouton séparé."
+  ],
+  "markup.open-on-canvas": [
+    "En mode sélection, double-cliquez sur un repère existant pour ouvrir son affectation à côté du canevas. Ensuite, vous pouvez modifier la description et les images supplémentaires."
+  ],
+  "search.status-all": [
+    "Ne limite pas la recherche à l'état de traitement. Les autres conditions de la demande restent en vigueur."
+  ],
+  "search.status-ready": [
+    "Affiche les photos avec le statut «Traité» : le résultat de la reconnaissance a déjà été enregistré pour elles. Il peut s'agir uniquement des tags, uniquement de la description, ou des deux. Les champs manquants peuvent être récupérés avec le paramètre \"Non traitées uniquement\"."
+  ],
+  "search.status-queued": [
+    "Affiche les photos marquées comme en attente ou en cours de traitement. Consultez la progression d’une tâche spécifique dans l’onglet «Tâches»."
+  ],
+  "search.status-not-ready": [
+    "Limite le résultat aux photos avec le statut «Non traité». Pour exécuter uniquement les résultats manquants, utilisez un paramètre distinct «Non traitées uniquement»."
+  ],
+  "search.status-error": [
+    "Affiche les photos avec un statut d'erreur. Vérifier les raisons et la disponibilité du redémarrage dans les tâches ; le filtre lui-même ne répète pas la demande."
+  ],
+  "search.status-missing": [
+    "Affiche les photos dont le fichier est introuvable dans le chemin enregistré. Vérifiez la connexion du lecteur et le dernier emplacement connu."
+  ],
+  "search.status-relocated": [
+    "Affiche les entrées pour lesquelles la bibliothèque a détecté un changement de chemin. Il s'agit de l'état d'emplacement du fichier, distinct de la date à laquelle il a été pris ou du contenu de l'image."
+  ],
+  "main.folders-first": [
+    "Place les dossiers avant les fichiers, en conservant le tri sélectionné au sein des groupes. Cela facilite la sélection préalable des sous-dossiers."
+  ],
+  "main.folders-last": [
+    "Place les fichiers avant les dossiers, en conservant le tri sélectionné au sein des groupes."
+  ],
+  "main.folders-mixed": [
+    "Supprime un groupe distinct de dossiers. Les dossiers et fichiers participent à l'ordre général de la liste selon le tri sélectionné."
+  ],
+  "main.fit-fill": [
+    "Remplit toute la carte avec la photo. Une partie de l'image sur les bords peut être masquée uniquement dans l'aperçu ; le fichier original n'est pas recadré."
+  ],
+  "main.fit-contain": [
+    "Affiche la photo entière de la carte tout en conservant ses proportions. Si la forme de la carte et la photo ne correspondent pas, il y aura des champs vides."
+  ],
+  "main.view-table": [
+    "Affiche les fichiers en lignes avec des propriétés : taille, dates, statut et autres colonnes sélectionnées. Vous pouvez modifier la largeur et la composition des colonnes."
+  ],
+  "main.view-list": [
+    "Affiche les photos en lignes compactes avec des aperçus et des détails. Pratique pour visualiser les noms et un grand nombre de fichiers."
+  ],
+  "main.view-size": [
+    "Sélectionne la taille des vignettes de petite à très grande. Plus la carte est grande, plus les détails sont visibles et moins il y a de photos pouvant contenir simultanément."
+  ],
+  "main.no-folder-refresh": [
+    "Ouvrez d’abord le dossier. Le bouton d'actualisation fait référence à son contenu ou à son index ; il n'analyse pas lui-même tous les lecteurs."
+  ],
+  "main.edit-one-required": [
+    "Sélectionnez une photo à retoucher. Pour une comparaison, sélectionnez deux photos en maintenant `Ctrl`, puis cliquez sur « Comparer »."
+  ],
+  "main.process-empty": [
+    "Sélectionnez des photos ou des dossiers à traiter. Vous pouvez aussi sélectionner des résultats de recherche. Avec « Non traitées uniquement », les résultats déjà disponibles sont ignorés."
+  ],
+  "queue.concurrency-disabled": [
+    "Pour un modèle local, une photo est prise à la fois. Pour un travail terminé ou arrêté, la limite n'est plus modifiable ; Pour une autre file d'attente, sélectionnez son résumé."
+  ],
+  "reference.unsupported": [
+    "Aucune image supplémentaire n'est utilisée pour cette opération et ce modèle. Veuillez sélectionner un modèle compatible si vous souhaitez inclure une photo avec les instructions ; les pièces jointes du projet enregistrées n'ont pas besoin d'être supprimées pour être visualisées."
+  ],
+  "reference.point-replace": [
+    "Le point utilise une image supplémentaire. Le nouveau le remplacera ; Pour joindre plusieurs images, utilisez les instructions générales ou la zone prises en charge par le modèle."
+  ],
+  "model.filtered-empty": [
+    "Aucun modèle ne remplit les conditions sélectionnées. Assouplissez les restrictions sur le prix, la taille ou le nombre d’images, ou réinitialisez les filtres. La modification n'a pas encore été soumise."
+  ],
+  "model.filter-loading": [
+    "Le programme vérifie quels modèles conviennent à vos conditions et calcule le coût de l'édition avec les paramètres actuels. Attendez le résultat, puis appliquez la sélection. Le contrôle est effectué sans générer d'image."
+  ],
+  "model.launch-error": [
+    "L'édition ne peut pas encore démarrer : {причина}. Corrigez le paramètre, l'instruction, la composition de clé ou d'image spécifié, puis redémarrez."
+  ],
+  "geometry.pending-crop": [
+    "La photo originale entière ne rentre pas dans le cadre sélectionné. Cliquez sur Appliquer le recadrage pour préparer un cadre plus petit ou modifier la taille et la position du cadre. Ensuite, vous pouvez définir les marges pour un dessin supplémentaire."
+  ],
+  "geometry.invalid-size": [
+    "Spécifiez la largeur et la hauteur finales sous forme d'entiers compris entre 1 et 2 048 pixels. Vous pouvez ajouter jusqu'à 1024 pixels de chaque côté.",
+    "Ce sont les limites de personnalisation du cadre d'extension. Si le modèle renvoie des dimensions différentes, son résultat utilisable est toujours conservé."
+  ],
+  "key.wait": [
+    "La clé sélectionnée est maintenant enregistrée ou vérifiée. Attendez la réponse pour ne pas confondre l'état de la saisie précédente et de la nouvelle."
+  ],
+  "files.copy": [
+    "Stocke les photos sélectionnées pour la copie dans Smart Photo. Ouvrez le dossier souhaité dans le programme et sélectionnez « Coller » ou cliquez sur `Ctrl+V`. Les fichiers originaux resteront en place. Avant la nouvelle commande, vous pouvez réinsérer cet ensemble."
+  ],
+  "files.cut": [
+    "Mémorise les photos sélectionnées pour les déplacer. Ouvrez ensuite le dossier de destination et cliquez sur `Ctrl+V`. Avant l'insertion, les fichiers restent au même endroit ; La commande \"Couper\" elle-même ne supprime rien."
+  ],
+  "files.paste-copy": [
+    "Copie les photos enregistrées dans un dossier ouvert. La sélection actuelle dans la grille ne modifie pas l'ensemble préparé. Si le nom est déjà pris, vous pouvez remplacer le fichier, enregistrer les deux sous des noms différents ou ignorer le conflit."
+  ],
+  "files.paste-move": [
+    "Déplace les photos enregistrées vers un dossier ouvert. Après un transfert réussi, les fichiers sources sortent du dossier précédent. Si certains fichiers n'ont pas pu être transférés, le programme le signalera séparément."
+  ],
+  "files.copy-to": [
+    "Ouvre la sélection de dossiers et y copie les photos sélectionnées. Vous pouvez sélectionner une destination sans quitter votre dossier actuel ou les résultats de recherche. La désélection ne modifie pas les fichiers."
+  ],
+  "files.move-to": [
+    "Ouvre la sélection de dossiers et y transfère les photos sélectionnées. Après un transfert réussi, les descriptions, tags et liens de la bibliothèque sont enregistrés. Si le nom est occupé, le programme proposera des options pour ce conflit."
+  ],
+  "files.trash": [
+    "Envoie les photos sélectionnées vers la corbeille Windows. Ils peuvent être récupérés depuis la corbeille de la manière habituelle. Si l'envoi à la corbeille n'est pas disponible, le programme signalera une erreur et ne la remplacera pas par une suppression définitive."
+  ],
+  "files.drag-move": [
+    "Maintenez `Alt` et faites glisser une photo vers le dossier de destination. Si elle appartient à un groupe sélectionné, toutes les photos sélectionnées sont déplacées ensemble. Sans `Alt`, le glissement dessine toujours un rectangle de sélection. `Esc` annule le glissement avant de relâcher le bouton de la souris."
+  ],
+  "files.replace": [
+    "Remplace un fichier dans le dossier de destination par la photo sélectionnée. Le contenu précédent du fichier cible sera remplacé, comparez donc les chemins spécifiés. Cette sélection ne déclenche pas la reconnaissance et ne modifie pas d'autres fichiers portant des noms similaires."
+  ],
+  "files.replace-source-disabled": [
+    "Ce fichier est également inclus dans l'ensemble source sélectionné. Il ne peut pas être remplacé lors de cette opération. Choisissez « Enregistrer les deux » ou « Passer » pour éviter de perdre la photo sélectionnée."
+  ],
+  "files.keep-both": [
+    "Conserve le fichier existant et enregistre la photo sélectionnée sous un nom disponible, par exemple « Photo (1).jpg ». Le numéro est ajouté avant l’extension ; les autres fichiers ne sont pas renommés."
+  ],
+  "files.skip": [
+    "Ignore ce conflit sans modifier les fichiers, puis poursuit avec les photos restantes. Lors d’un déplacement, l’original ignoré reste dans son dossier actuel."
+  ],
+  "files.apply-all": [
+    "Utilise l'option sélectionnée pour les conflits restants de cette opération. La prochaine fois que vous effectuerez une copie ou un déplacement séparé, le programme vous demandera à nouveau de faire un choix. Un fichier cible modifié après confirmation nécessite une nouvelle solution."
+  ],
+  "files.cancel-remaining": [
+    "Ne démarre pas les fichiers suivants dans cet ensemble. Les actions déjà réalisées sont enregistrées ; Il ne s’agit pas d’une annulation d’une copie ou d’un transfert précédemment effectué. La phase de fichier actuellement démarrée peut d'abord se terminer en toute sécurité."
+  ],
+  "settings.language": [
+    "Choisissez la langue de l’application. Les libellés, les infobulles et les visites guidées sont mis à jour dans la fenêtre principale, l’éditeur et la visionneuse. Votre choix est conservé pour le prochain lancement.",
+    "Changer la langue de l’interface ne traduit pas vos descriptions, vos tags ni les noms de fichiers. La langue utilisée par l’IA pour décrire les photos se choisit séparément."
+  ]
+}

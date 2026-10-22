@@ -1,0 +1,17 @@
+use crate::*;
+use super::{local,store};
+use serde_json::Value;
+use std::net::{IpAddr,ToSocketAddrs};
+fn public(ip:IpAddr)->bool{match ip{IpAddr::V4(v)=>!v.is_private()&&!v.is_loopback()&&!v.is_link_local()&&!v.is_unspecified()&&!v.is_multicast()&&!v.is_broadcast()&&!v.is_documentation()&&v.octets()[0]>=1&&v.octets()[0]<224&&!(v.octets()[0]==100&&(64..=127).contains(&v.octets()[1])),IpAddr::V6(v)=>v.to_ipv4_mapped().map(|v|public(IpAddr::V4(v))).unwrap_or(!v.is_loopback()&&!v.is_unspecified()&&!v.is_multicast()&&(v.segments()[0]&0xfe00)!=0xfc00&&(v.segments()[0]&0xffc0)!=0xfe80)}}
+pub async fn import(app:tauri::AppHandle,project:String,raw:String)->Result<Value,String>{
+ let url=reqwest::Url::parse(raw.trim()).map_err(|_|"Введите полный HTTPS URL изображения")?;
+ if url.scheme()!="https"||url.username()!=""||url.password().is_some()||url.port_or_known_default()!=Some(443)||url.fragment().is_some(){return Err("Принимаются только публичные HTTPS изображения без учётных данных.".into());}
+ let host=url.host_str().ok_or("Нет имени сервера")?.to_string();let lookup=host.clone();let addresses=tauri::async_runtime::spawn_blocking(move||(lookup.as_str(),443).to_socket_addrs().map(|a|a.collect::<Vec<_>>()).map_err(|_|"Не удалось найти сервер изображения".to_string())).await.map_err(|e|e.to_string())??;
+ if addresses.is_empty()||addresses.iter().any(|a|!public(a.ip())){return Err("Локальные и служебные адреса не используются для импорта изображения.".into());}
+ // Pin the checked addresses to prevent a second DNS lookup/rebinding.
+ let client=reqwest::Client::builder().redirect(reqwest::redirect::Policy::none()).resolve_to_addrs(&host,&addresses).timeout(std::time::Duration::from_secs(40)).build().map_err(|e|e.to_string())?;let mut response=client.get(url).send().await.map_err(|_|"Не удалось скачать изображение")?;
+ if !response.status().is_success(){return Err("Ссылка недоступна или требует перенаправления. Укажите прямой URL изображения.".into());}
+ let memory=super::jobs::memory().acquire_many_owned(32).await.map_err(|e|e.to_string())?;let mut bytes=Vec::with_capacity(32*1024*1024);while let Some(chunk)=response.chunk().await.map_err(|_|"Загрузка изображения прервана")?{if bytes.len()+chunk.len()>32*1024*1024{return Err("Изображение по ссылке превышает 32 МиБ.".into());}bytes.extend_from_slice(&chunk);}
+ let permit=file_safety::image_worker().acquire_owned().await.map_err(|e|e.to_string())?;tauri::async_runtime::spawn_blocking(move||{let _permit=permit;let _memory=memory;let hash=format!("{:x}",Sha256::digest(&bytes));let temporary=store::owned_path(&app,&format!("assets/source-url-{hash}-{}.png",SystemTime::now().duration_since(UNIX_EPOCH).map_err(|e|e.to_string())?.as_nanos()))?;if !temporary.exists(){file_safety::atomic_save(&temporary,|out,_|std::io::Write::write_all(out,&bytes).map_err(|e|e.to_string()))?;}drop(bytes);let image=file_safety::decode_bounded(&temporary);let _=fs::remove_file(&temporary);let image=image?;let asset=local::save_image(&app,&image,"image")?;store::connection(&app)?.execute("INSERT OR IGNORE INTO editor_project_assets(project_id,asset_id,role) VALUES(?1,?2,'reference')",params![project,asset["id"].as_str()]).map_err(|e|e.to_string())?;store::project_snapshot(&app,&project)}).await.map_err(|e|e.to_string())?
+}
+#[cfg(test)]mod tests{use super::*;#[test]fn rejects_private_and_mapped_ips(){for ip in ["127.0.0.1","10.0.0.1","169.254.169.254","::1","::ffff:127.0.0.1","fc00::1"]{assert!(!public(ip.parse().unwrap()));}assert!(public("8.8.8.8".parse().unwrap()));}}

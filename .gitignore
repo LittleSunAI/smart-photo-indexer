@@ -1,0 +1,23 @@
+node_modules
+/dist
+/src-tauri/target
+/src-tauri/gen
+*.log
+.DS_Store
+.vscode/.vite
+test-results/
+playwright-report/
+.test-artifacts/
+/releases/
+/Установка Smart Photo*/
+/ДЛЯ УДАЛЕНИЯ/
+/Восстановленные результаты*/
+
+/ДЛЯ ГИТА/
+/ДЛЯ УСТАНОВКИ/
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key

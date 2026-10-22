@@ -1,0 +1,102 @@
+{
+  "version": "2026-10-16",
+  "localQualityAccepted": false,
+  "localSelectionPolicy": "two-detailed-fallbacks-and-one-tested-fast-local",
+  "openrouter": [
+    {
+      "id": "openai/gpt-6-luna",
+      "level": "cheap",
+      "label": "Экономичный · GPT-6 Luna",
+      "inputUsdPerMillion": 0.1,
+      "outputUsdPerMillion": 0.5,
+      "requiresReasoning": false
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "level": "balanced",
+      "label": "Баланс · Gemini 3.8 Flash",
+      "inputUsdPerMillion": 0.75,
+      "outputUsdPerMillion": 3.75,
+      "requiresReasoning": true
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "level": "premium",
+      "label": "Подробный · GPT-6.1 Sol",
+      "inputUsdPerMillion": 2,
+      "outputUsdPerMillion": 10,
+      "requiresReasoning": true
+    }
+  ],
+  "fal": [
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "level": "ultraCheap",
+      "label": "Сверхэкономичный · Gemini 2.5 Flash-Lite",
+      "inputUsdPerMillion": 0.1,
+      "outputUsdPerMillion": 0.4,
+      "requiresReasoning": false
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "level": "cheap",
+      "label": "Экономичный · GPT-6 Luna",
+      "inputUsdPerMillion": 0.1,
+      "outputUsdPerMillion": 0.5,
+      "requiresReasoning": false
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "level": "balanced",
+      "label": "Баланс · Gemini 3.8 Flash",
+      "inputUsdPerMillion": 0.75,
+      "outputUsdPerMillion": 3.75,
+      "requiresReasoning": true
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "level": "premium",
+      "label": "Подробный · GPT-6.1 Sol",
+      "inputUsdPerMillion": 2,
+      "outputUsdPerMillion": 10,
+      "requiresReasoning": true
+    }
+  ],
+  "local": [
+    {
+      "id": "qwen3.5:2b",
+      "level": "cheap",
+      "label": "Лёгкая · Qwen3.5 2B · 2,68 ГБ",
+      "downloadBytes": 2683396812,
+      "digest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a",
+      "localReasoning": true
+    },
+    {
+      "id": "qwen3.5:4b",
+      "level": "premium",
+      "label": "Более тяжёлая · Qwen3.5 4B · 3,32 ГБ",
+      "downloadBytes": 3324173934,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "localReasoning": true
+    },
+    {
+      "id": "qwen3-vl:2b-instruct-q4_K_M",
+      "level": "fast",
+      "label": "Быстрая · Qwen3-VL 2B · 1,93 ГБ",
+      "downloadBytes": 1930568531,
+      "digest": "afc393e3572c07db0bc84aa460d928a16c75f3fbb9ca9e0dccc4fbd2dafb573e",
+      "localReasoning": false,
+      "fastLocal": true
+    }
+  ],
+  "legacyCloud": [
+    {
+      "id": "nex-agi/nex-n2.5-mini",
+      "level": "ultraCheap",
+      "label": "Сверхэкономичный · Nex-N2.5-Mini",
+      "inputUsdPerMillion": 0.025,
+      "outputUsdPerMillion": 0.1,
+      "requiresReasoning": false
+    }
+  ]
+}

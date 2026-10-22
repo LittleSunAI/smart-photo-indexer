@@ -1,0 +1,28 @@
+{
+  "appVersion": "See per-image versions",
+  "captureDate": "2026-10-19",
+  "scope": "Actual native WebView captures with generated demo photos and manually entered metadata. Library view updated for the 1.0.0 OpenRouter gate; unchanged editor/viewer views retain their 0.38.7 capture versions. No paid recognition or edit requests from the application.",
+  "files": [
+    {
+      "file": "screenshot-library.png",
+      "sha256": "fca83f1f2e2a6872be03307946d24795b0e2a57455995f7896628a10377b2134",
+      "bytes": 331638,
+      "appVersion": "1.0.0",
+      "captureExecutableSha256": "d95932d9032a0a401f56b51088764f69974aa45faf700cd6b4805afc4c5242f0"
+    },
+    {
+      "file": "screenshot-editor.png",
+      "sha256": "b90b0a52077fe35d6372060aa7a8f0b4f500136f93511eeab55f14037ae62b84",
+      "bytes": 1478736,
+      "appVersion": "0.38.7",
+      "captureExecutableSha256": "5d23a84ae53c59341dc7596df3fc7788907bdad829cf8d36bcbe5626ab9e4970"
+    },
+    {
+      "file": "screenshot-viewer.png",
+      "sha256": "3ee96081934b7f8f9fc70be90ab98fb84bbcc693725012b2ab0dcdd3dd19bfd0",
+      "bytes": 2213225,
+      "appVersion": "0.38.7",
+      "captureExecutableSha256": "5d23a84ae53c59341dc7596df3fc7788907bdad829cf8d36bcbe5626ab9e4970"
+    }
+  ]
+}

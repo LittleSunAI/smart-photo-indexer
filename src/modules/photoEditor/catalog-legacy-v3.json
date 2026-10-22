@@ -1,0 +1,3629 @@
+{
+  "version": 1,
+  "id": "editor-catalog-2026-10-11-v3",
+  "routes": [
+    {
+      "id": "fal-ai/flux-2/flash/edit",
+      "name": "FLUX.2 Flash",
+      "provider": "fal",
+      "operations": [
+        "universal-edit",
+        "replace-object",
+        "replace-background",
+        "outpaint",
+        "relight",
+        "recolor",
+        "compose",
+        "restore"
+      ],
+      "maxInputs": 4,
+      "inputField": "image_urls",
+      "maskField": null,
+      "outputField": "images",
+      "priceUnit": "mp",
+      "priceMicros": 5000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Fflux-2%2Fflash%2Fedit",
+      "schemaSha256": "26dd422f7118984e5b356e3d9eb3863df33ab289cc610166707a00a8ac4e9431",
+      "inputSchema": {
+        "x-fal-order-properties": [
+          "prompt",
+          "guidance_scale",
+          "seed",
+          "image_size",
+          "num_images",
+          "enable_prompt_expansion",
+          "sync_mode",
+          "enable_safety_checker",
+          "output_format",
+          "image_urls"
+        ],
+        "properties": {
+          "prompt": {
+            "description": "The prompt to edit the image.",
+            "type": "string",
+            "examples": [
+              "Remove the meat from the hamburger"
+            ],
+            "title": "Prompt"
+          },
+          "sync_mode": {
+            "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+            "type": "boolean",
+            "default": false,
+            "title": "Sync Mode"
+          },
+          "enable_safety_checker": {
+            "description": "If set to true, the safety checker will be enabled. Disabling it requires account authorization; unauthorized requests are always checked, and images flagged as unsafe are returned as black images.",
+            "type": "boolean",
+            "default": true,
+            "title": "Enable Safety Checker"
+          },
+          "guidance_scale": {
+            "minimum": 0,
+            "description": "Guidance Scale is a measure of how close you want the model to stick to your prompt when looking for a related image to show you.",
+            "maximum": 20,
+            "type": "number",
+            "default": 2.5,
+            "title": "Guidance Scale"
+          },
+          "num_images": {
+            "minimum": 1,
+            "description": "The number of images to generate.",
+            "maximum": 4,
+            "type": "integer",
+            "default": 1,
+            "title": "Number of Images"
+          },
+          "seed": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The seed to use for the generation. If not provided, a random seed will be used.",
+            "title": "Seed"
+          },
+          "enable_prompt_expansion": {
+            "description": "If set to true, the prompt will be expanded for better results.",
+            "type": "boolean",
+            "default": false,
+            "title": "Enable Prompt Expansion"
+          },
+          "output_format": {
+            "description": "The format of the generated image.",
+            "enum": [
+              "jpeg",
+              "png",
+              "webp"
+            ],
+            "type": "string",
+            "default": "png",
+            "title": "Output Format"
+          },
+          "image_size": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ImageSize"
+              },
+              {
+                "enum": [
+                  "square_hd",
+                  "square",
+                  "portrait_4_3",
+                  "portrait_16_9",
+                  "landscape_4_3",
+                  "landscape_16_9"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The size of the image to generate. The width and height must be between 512 and 2048 pixels.",
+            "default": "square_hd",
+            "title": "Image Size"
+          },
+          "image_urls": {
+            "description": "The URLs of the images for editing. A maximum of 4 images are allowed, if more are provided, only the first 4 will be used.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "title": "Image URLs",
+            "examples": [
+              [
+                "https://storage.googleapis.com/falserverless/example_outputs/flux-2-flash-edit-input.png"
+              ]
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "prompt",
+          "image_urls"
+        ],
+        "title": "Flux2FlashEditImageInput"
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "Flux2FlashEditInput": {
+          "x-fal-order-properties": [
+            "prompt",
+            "guidance_scale",
+            "seed",
+            "image_size",
+            "num_images",
+            "enable_prompt_expansion",
+            "sync_mode",
+            "enable_safety_checker",
+            "output_format",
+            "image_urls"
+          ],
+          "properties": {
+            "prompt": {
+              "description": "The prompt to edit the image.",
+              "type": "string",
+              "examples": [
+                "Remove the meat from the hamburger"
+              ],
+              "title": "Prompt"
+            },
+            "sync_mode": {
+              "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+              "type": "boolean",
+              "default": false,
+              "title": "Sync Mode"
+            },
+            "enable_safety_checker": {
+              "description": "If set to true, the safety checker will be enabled. Disabling it requires account authorization; unauthorized requests are always checked, and images flagged as unsafe are returned as black images.",
+              "type": "boolean",
+              "default": true,
+              "title": "Enable Safety Checker"
+            },
+            "guidance_scale": {
+              "minimum": 0,
+              "description": "Guidance Scale is a measure of how close you want the model to stick to your prompt when looking for a related image to show you.",
+              "maximum": 20,
+              "type": "number",
+              "default": 2.5,
+              "title": "Guidance Scale"
+            },
+            "num_images": {
+              "minimum": 1,
+              "description": "The number of images to generate.",
+              "maximum": 4,
+              "type": "integer",
+              "default": 1,
+              "title": "Number of Images"
+            },
+            "seed": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "The seed to use for the generation. If not provided, a random seed will be used.",
+              "title": "Seed"
+            },
+            "enable_prompt_expansion": {
+              "description": "If set to true, the prompt will be expanded for better results.",
+              "type": "boolean",
+              "default": false,
+              "title": "Enable Prompt Expansion"
+            },
+            "output_format": {
+              "description": "The format of the generated image.",
+              "enum": [
+                "jpeg",
+                "png",
+                "webp"
+              ],
+              "type": "string",
+              "default": "png",
+              "title": "Output Format"
+            },
+            "image_size": {
+              "anyOf": [
+                {
+                  "$ref": "#/components/schemas/ImageSize"
+                },
+                {
+                  "enum": [
+                    "square_hd",
+                    "square",
+                    "portrait_4_3",
+                    "portrait_16_9",
+                    "landscape_4_3",
+                    "landscape_16_9"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "The size of the image to generate. The width and height must be between 512 and 2048 pixels.",
+              "default": "square_hd",
+              "title": "Image Size"
+            },
+            "image_urls": {
+              "description": "The URLs of the images for editing. A maximum of 4 images are allowed, if more are provided, only the first 4 will be used.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "title": "Image URLs",
+              "examples": [
+                [
+                  "https://storage.googleapis.com/falserverless/example_outputs/flux-2-flash-edit-input.png"
+                ]
+              ]
+            }
+          },
+          "type": "object",
+          "required": [
+            "prompt",
+            "image_urls"
+          ],
+          "title": "Flux2FlashEditImageInput"
+        },
+        "Flux2FlashEditOutput": {
+          "required": [
+            "images",
+            "timings",
+            "seed",
+            "has_nsfw_concepts",
+            "prompt"
+          ],
+          "title": "Flux2FlashEditImageOutput",
+          "x-fal-order-properties": [
+            "images",
+            "timings",
+            "seed",
+            "has_nsfw_concepts",
+            "prompt"
+          ],
+          "type": "object",
+          "properties": {
+            "seed": {
+              "title": "Seed",
+              "type": "integer",
+              "description": "\n            Seed of the generated Image. It will be the same value of the one passed in the\n            input or the randomly generated that was used in case none was passed.\n        "
+            },
+            "images": {
+              "title": "Images",
+              "items": {
+                "$ref": "#/components/schemas/ImageFile"
+              },
+              "examples": [
+                [
+                  {
+                    "url": "https://storage.googleapis.com/falserverless/example_outputs/flux-2-flash-edit.png"
+                  }
+                ]
+              ],
+              "type": "array",
+              "description": "The edited images"
+            },
+            "prompt": {
+              "title": "Prompt",
+              "type": "string",
+              "description": "The prompt used for generating the image."
+            },
+            "timings": {
+              "title": "Timings",
+              "type": "object",
+              "additionalProperties": {
+                "type": "number"
+              }
+            },
+            "has_nsfw_concepts": {
+              "title": "Has Nsfw Concepts",
+              "items": {
+                "type": "boolean"
+              },
+              "type": "array",
+              "description": "Whether the generated images contain NSFW concepts."
+            }
+          }
+        },
+        "ImageSize": {
+          "properties": {
+            "width": {
+              "title": "Width",
+              "default": 512,
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 14142,
+              "description": "The width of the generated image."
+            },
+            "height": {
+              "title": "Height",
+              "default": 512,
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 14142,
+              "description": "The height of the generated image."
+            }
+          },
+          "title": "ImageSize",
+          "x-fal-order-properties": [
+            "width",
+            "height"
+          ],
+          "type": "object"
+        },
+        "ImageFile": {
+          "required": [
+            "url"
+          ],
+          "title": "ImageFile",
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ],
+          "type": "object",
+          "properties": {
+            "width": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Width",
+              "description": "The width of the image"
+            },
+            "file_size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Size",
+              "examples": [
+                4404019
+              ],
+              "description": "The size of the file in bytes."
+            },
+            "url": {
+              "title": "Url",
+              "type": "string",
+              "description": "The URL where the file can be downloaded from."
+            },
+            "content_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Content Type",
+              "examples": [
+                "image/png"
+              ],
+              "description": "The mime type of the file."
+            },
+            "file_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Name",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ],
+              "description": "The name of the file. It will be auto-generated if not provided."
+            },
+            "height": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Height",
+              "description": "The height of the image"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "fal-ai/nano-banana-2/edit",
+      "name": "Nano Banana 2",
+      "provider": "fal",
+      "operations": [
+        "universal-edit",
+        "replace-object",
+        "replace-background",
+        "relight",
+        "recolor",
+        "compose",
+        "restore",
+        "outpaint"
+      ],
+      "maxInputs": 14,
+      "inputField": "image_urls",
+      "maskField": null,
+      "outputField": "images",
+      "priceUnit": "nb2",
+      "priceMicros": 80000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Fnano-banana-2%2Fedit",
+      "schemaSha256": "3d96179512b690f6e46cc9f4775e1e004a6e9bcb1911b56a65f31474f84265cc",
+      "inputSchema": {
+        "required": [
+          "prompt"
+        ],
+        "type": "object",
+        "title": "NanoBanana2ImageToImageInput",
+        "x-fal-order-properties": [
+          "prompt",
+          "num_images",
+          "seed",
+          "aspect_ratio",
+          "output_format",
+          "safety_tolerance",
+          "sync_mode",
+          "image_urls",
+          "system_prompt",
+          "resolution",
+          "video_url",
+          "audio_url",
+          "pdf_url",
+          "limit_generations",
+          "enable_web_search",
+          "thinking_level"
+        ],
+        "properties": {
+          "video_url": {
+            "description": "Optional video to use as input context. Accepts an http(s)/data URL to a video file (downloaded and sent inline, max 15MB) or a YouTube URL (passed through to the model without downloading).",
+            "title": "Video URL",
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "num_images": {
+            "maximum": 4,
+            "type": "integer",
+            "default": 1,
+            "minimum": 1,
+            "title": "Number of Images",
+            "description": "The number of images to generate."
+          },
+          "sync_mode": {
+            "default": false,
+            "type": "boolean",
+            "title": "Sync Mode",
+            "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history."
+          },
+          "system_prompt": {
+            "default": "",
+            "type": "string",
+            "title": "System Prompt",
+            "maxLength": 50000,
+            "description": "Optional system instruction that steers the model's persona and output style across the request. Leave blank to omit; when provided, it is sent as the system instruction to Gemini (or as a system message on OpenAI-compatible providers)."
+          },
+          "seed": {
+            "description": "The seed for the random number generator.",
+            "title": "Seed",
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "enable_web_search": {
+            "default": false,
+            "type": "boolean",
+            "title": "Enable Web Search",
+            "description": "Enable web search for the image generation task. This will allow the model to use the latest information from the web to generate the image."
+          },
+          "image_urls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "examples": [
+              [
+                "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input.png",
+                "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input-2.png"
+              ]
+            ],
+            "title": "Image URLs",
+            "description": "The URLs of the images to use for image-to-image generation or image editing. Optional when at least one of `video_url`, `audio_url`, or `pdf_url` is provided."
+          },
+          "output_format": {
+            "default": "png",
+            "type": "string",
+            "enum": [
+              "jpeg",
+              "png",
+              "webp"
+            ],
+            "title": "Output Format",
+            "description": "The format of the generated image."
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 3,
+            "examples": [
+              "make a photo of the man driving the car down the california coastline"
+            ],
+            "title": "Prompt",
+            "maxLength": 50000,
+            "description": "The prompt for image editing."
+          },
+          "safety_tolerance": {
+            "description": "The safety tolerance level for content moderation. 1 is the most strict (blocks most content), 6 is the least strict.",
+            "type": "string",
+            "title": "Safety Tolerance",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "default": "4"
+          },
+          "pdf_url": {
+            "description": "Optional PDF document to use as input context. Accepts an http(s)/data URL (downloaded and sent inline, max 15MB).",
+            "title": "PDF URL",
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "limit_generations": {
+            "description": "Experimental parameter to limit the number of generations from each round of prompting to 1. Set to `True` to to disregard any instructions in the prompt regarding the number of images to generate and ignore any intermediate images generated by the model. This may affect generation quality.",
+            "type": "boolean",
+            "title": "Limit Generations",
+            "default": true
+          },
+          "thinking_level": {
+            "description": "When set, enables model thinking with the given level ('minimal' or 'high') and includes thoughts in the generation. Omit to disable.",
+            "title": "Thinking Level",
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "minimal",
+                  "high"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "aspect_ratio": {
+            "default": "auto",
+            "description": "The aspect ratio of the generated image. Supports extreme ratios: 4:1, 1:4, 8:1, 1:8.",
+            "title": "Aspect Ratio",
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "auto",
+                  "21:9",
+                  "16:9",
+                  "3:2",
+                  "4:3",
+                  "5:4",
+                  "1:1",
+                  "4:5",
+                  "3:4",
+                  "2:3",
+                  "9:16",
+                  "4:1",
+                  "1:4",
+                  "8:1",
+                  "1:8"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "audio_url": {
+            "description": "Optional audio file to use as input context. Accepts an http(s)/data URL (downloaded and sent inline, max 15MB).",
+            "title": "Audio URL",
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "resolution": {
+            "description": "The resolution of the image to generate.",
+            "type": "string",
+            "title": "Resolution",
+            "enum": [
+              "0.5K",
+              "1K",
+              "2K",
+              "4K"
+            ],
+            "default": "1K"
+          }
+        }
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "NanoBanana2EditInput": {
+          "required": [
+            "prompt"
+          ],
+          "type": "object",
+          "title": "NanoBanana2ImageToImageInput",
+          "x-fal-order-properties": [
+            "prompt",
+            "num_images",
+            "seed",
+            "aspect_ratio",
+            "output_format",
+            "safety_tolerance",
+            "sync_mode",
+            "image_urls",
+            "system_prompt",
+            "resolution",
+            "video_url",
+            "audio_url",
+            "pdf_url",
+            "limit_generations",
+            "enable_web_search",
+            "thinking_level"
+          ],
+          "properties": {
+            "video_url": {
+              "description": "Optional video to use as input context. Accepts an http(s)/data URL to a video file (downloaded and sent inline, max 15MB) or a YouTube URL (passed through to the model without downloading).",
+              "title": "Video URL",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "num_images": {
+              "maximum": 4,
+              "type": "integer",
+              "default": 1,
+              "minimum": 1,
+              "title": "Number of Images",
+              "description": "The number of images to generate."
+            },
+            "sync_mode": {
+              "default": false,
+              "type": "boolean",
+              "title": "Sync Mode",
+              "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history."
+            },
+            "system_prompt": {
+              "default": "",
+              "type": "string",
+              "title": "System Prompt",
+              "maxLength": 50000,
+              "description": "Optional system instruction that steers the model's persona and output style across the request. Leave blank to omit; when provided, it is sent as the system instruction to Gemini (or as a system message on OpenAI-compatible providers)."
+            },
+            "seed": {
+              "description": "The seed for the random number generator.",
+              "title": "Seed",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "enable_web_search": {
+              "default": false,
+              "type": "boolean",
+              "title": "Enable Web Search",
+              "description": "Enable web search for the image generation task. This will allow the model to use the latest information from the web to generate the image."
+            },
+            "image_urls": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array",
+              "examples": [
+                [
+                  "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input.png",
+                  "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input-2.png"
+                ]
+              ],
+              "title": "Image URLs",
+              "description": "The URLs of the images to use for image-to-image generation or image editing. Optional when at least one of `video_url`, `audio_url`, or `pdf_url` is provided."
+            },
+            "output_format": {
+              "default": "png",
+              "type": "string",
+              "enum": [
+                "jpeg",
+                "png",
+                "webp"
+              ],
+              "title": "Output Format",
+              "description": "The format of the generated image."
+            },
+            "prompt": {
+              "type": "string",
+              "minLength": 3,
+              "examples": [
+                "make a photo of the man driving the car down the california coastline"
+              ],
+              "title": "Prompt",
+              "maxLength": 50000,
+              "description": "The prompt for image editing."
+            },
+            "safety_tolerance": {
+              "description": "The safety tolerance level for content moderation. 1 is the most strict (blocks most content), 6 is the least strict.",
+              "type": "string",
+              "title": "Safety Tolerance",
+              "enum": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "default": "4"
+            },
+            "pdf_url": {
+              "description": "Optional PDF document to use as input context. Accepts an http(s)/data URL (downloaded and sent inline, max 15MB).",
+              "title": "PDF URL",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "limit_generations": {
+              "description": "Experimental parameter to limit the number of generations from each round of prompting to 1. Set to `True` to to disregard any instructions in the prompt regarding the number of images to generate and ignore any intermediate images generated by the model. This may affect generation quality.",
+              "type": "boolean",
+              "title": "Limit Generations",
+              "default": true
+            },
+            "thinking_level": {
+              "description": "When set, enables model thinking with the given level ('minimal' or 'high') and includes thoughts in the generation. Omit to disable.",
+              "title": "Thinking Level",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "minimal",
+                    "high"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "aspect_ratio": {
+              "default": "auto",
+              "description": "The aspect ratio of the generated image. Supports extreme ratios: 4:1, 1:4, 8:1, 1:8.",
+              "title": "Aspect Ratio",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "auto",
+                    "21:9",
+                    "16:9",
+                    "3:2",
+                    "4:3",
+                    "5:4",
+                    "1:1",
+                    "4:5",
+                    "3:4",
+                    "2:3",
+                    "9:16",
+                    "4:1",
+                    "1:4",
+                    "8:1",
+                    "1:8"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "audio_url": {
+              "description": "Optional audio file to use as input context. Accepts an http(s)/data URL (downloaded and sent inline, max 15MB).",
+              "title": "Audio URL",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "resolution": {
+              "description": "The resolution of the image to generate.",
+              "type": "string",
+              "title": "Resolution",
+              "enum": [
+                "0.5K",
+                "1K",
+                "2K",
+                "4K"
+              ],
+              "default": "1K"
+            }
+          }
+        },
+        "NanoBanana2EditOutput": {
+          "required": [
+            "images",
+            "description"
+          ],
+          "type": "object",
+          "title": "NanoBanana2ImageToImageOutput",
+          "x-fal-order-properties": [
+            "images",
+            "description"
+          ],
+          "properties": {
+            "images": {
+              "items": {
+                "$ref": "#/components/schemas/ImageFile"
+              },
+              "type": "array",
+              "examples": [
+                [
+                  {
+                    "url": "https://storage.googleapis.com/falserverless/example_outputs/nano-banana-2-edit-output.png",
+                    "content_type": "image/png",
+                    "file_name": "nano-banana-2-edit-output.png"
+                  }
+                ]
+              ],
+              "title": "Images",
+              "description": "The edited images."
+            },
+            "description": {
+              "type": "string",
+              "title": "Description",
+              "description": "The description of the generated images."
+            }
+          }
+        },
+        "ImageFile": {
+          "required": [
+            "url"
+          ],
+          "type": "object",
+          "title": "ImageFile",
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ],
+          "properties": {
+            "width": {
+              "description": "The width of the image",
+              "title": "Width",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "url": {
+              "type": "string",
+              "title": "Url",
+              "description": "The URL where the file can be downloaded from."
+            },
+            "file_size": {
+              "description": "The size of the file in bytes.",
+              "examples": [
+                4404019
+              ],
+              "title": "File Size",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "content_type": {
+              "description": "The mime type of the file.",
+              "examples": [
+                "image/png"
+              ],
+              "title": "Content Type",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "file_name": {
+              "description": "The name of the file. It will be auto-generated if not provided.",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ],
+              "title": "File Name",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "height": {
+              "description": "The height of the image",
+              "title": "Height",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "fal-ai/nano-banana-pro/edit",
+      "name": "Nano Banana Pro",
+      "provider": "fal",
+      "operations": [
+        "universal-edit",
+        "replace-object",
+        "replace-background",
+        "relight",
+        "recolor",
+        "compose",
+        "restore",
+        "outpaint"
+      ],
+      "maxInputs": 14,
+      "inputField": "image_urls",
+      "maskField": null,
+      "outputField": "images",
+      "priceUnit": "nbpro",
+      "priceMicros": 150000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Fnano-banana-pro%2Fedit",
+      "schemaSha256": "0cbc254cfdc5c5f52f3e74e7f0cdb553f6c22dbd12abc1086ea13cf4cfb27521",
+      "inputSchema": {
+        "type": "object",
+        "required": [
+          "prompt",
+          "image_urls"
+        ],
+        "title": "NanoBananaImageToImageInput",
+        "properties": {
+          "output_format": {
+            "type": "string",
+            "enum": [
+              "jpeg",
+              "png",
+              "webp"
+            ],
+            "title": "Output Format",
+            "description": "The format of the generated image.",
+            "default": "png"
+          },
+          "image_urls": {
+            "type": "array",
+            "title": "Image URLs",
+            "items": {
+              "type": "string"
+            },
+            "examples": [
+              [
+                "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input.png",
+                "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input-2.png"
+              ]
+            ],
+            "description": "The URLs of the images to use for image-to-image generation or image editing."
+          },
+          "safety_tolerance": {
+            "type": "string",
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "title": "Safety Tolerance",
+            "description": "The safety tolerance level for content moderation. 1 is the most strict (blocks most content), 6 is the least strict.",
+            "default": "4"
+          },
+          "sync_mode": {
+            "type": "boolean",
+            "title": "Sync Mode",
+            "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+            "default": false
+          },
+          "num_images": {
+            "type": "integer",
+            "description": "The number of images to generate.",
+            "title": "Number of Images",
+            "maximum": 4,
+            "default": 1,
+            "minimum": 1
+          },
+          "seed": {
+            "title": "Seed",
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The seed for the random number generator."
+          },
+          "limit_generations": {
+            "type": "boolean",
+            "title": "Limit Generations",
+            "description": "Experimental parameter to limit the number of generations from each round of prompting to 1. Set to `True` to to disregard any instructions in the prompt regarding the number of images to generate.",
+            "default": true
+          },
+          "aspect_ratio": {
+            "title": "Aspect Ratio",
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "auto",
+                  "21:9",
+                  "16:9",
+                  "3:2",
+                  "4:3",
+                  "5:4",
+                  "1:1",
+                  "4:5",
+                  "3:4",
+                  "2:3",
+                  "9:16"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": "auto",
+            "description": "The aspect ratio of the generated image."
+          },
+          "prompt": {
+            "type": "string",
+            "title": "Prompt",
+            "minLength": 3,
+            "examples": [
+              "make a photo of the man driving the car down the california coastline"
+            ],
+            "description": "The prompt for image editing.",
+            "maxLength": 50000
+          },
+          "enable_web_search": {
+            "type": "boolean",
+            "title": "Enable Web Search",
+            "description": "Enable web search for the image generation task. This will allow the model to use the latest information from the web to generate the image.",
+            "default": false
+          },
+          "system_prompt": {
+            "type": "string",
+            "maxLength": 50000,
+            "title": "System Prompt",
+            "description": "Optional system instruction that steers the model's persona and output style across the request. Leave blank to omit; when provided, it is sent as the system instruction to Gemini (or as a system message on OpenAI-compatible providers).",
+            "default": ""
+          },
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "1K",
+              "2K",
+              "4K"
+            ],
+            "title": "Resolution",
+            "description": "The resolution of the image to generate.",
+            "default": "1K"
+          }
+        },
+        "x-fal-order-properties": [
+          "prompt",
+          "num_images",
+          "seed",
+          "aspect_ratio",
+          "output_format",
+          "safety_tolerance",
+          "sync_mode",
+          "image_urls",
+          "system_prompt",
+          "resolution",
+          "limit_generations",
+          "enable_web_search"
+        ]
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "NanoBananaProEditInput": {
+          "type": "object",
+          "required": [
+            "prompt",
+            "image_urls"
+          ],
+          "title": "NanoBananaImageToImageInput",
+          "properties": {
+            "output_format": {
+              "type": "string",
+              "enum": [
+                "jpeg",
+                "png",
+                "webp"
+              ],
+              "title": "Output Format",
+              "description": "The format of the generated image.",
+              "default": "png"
+            },
+            "image_urls": {
+              "type": "array",
+              "title": "Image URLs",
+              "items": {
+                "type": "string"
+              },
+              "examples": [
+                [
+                  "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input.png",
+                  "https://storage.googleapis.com/falserverless/example_inputs/nano-banana-edit-input-2.png"
+                ]
+              ],
+              "description": "The URLs of the images to use for image-to-image generation or image editing."
+            },
+            "safety_tolerance": {
+              "type": "string",
+              "enum": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "title": "Safety Tolerance",
+              "description": "The safety tolerance level for content moderation. 1 is the most strict (blocks most content), 6 is the least strict.",
+              "default": "4"
+            },
+            "sync_mode": {
+              "type": "boolean",
+              "title": "Sync Mode",
+              "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+              "default": false
+            },
+            "num_images": {
+              "type": "integer",
+              "description": "The number of images to generate.",
+              "title": "Number of Images",
+              "maximum": 4,
+              "default": 1,
+              "minimum": 1
+            },
+            "seed": {
+              "title": "Seed",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "The seed for the random number generator."
+            },
+            "limit_generations": {
+              "type": "boolean",
+              "title": "Limit Generations",
+              "description": "Experimental parameter to limit the number of generations from each round of prompting to 1. Set to `True` to to disregard any instructions in the prompt regarding the number of images to generate.",
+              "default": true
+            },
+            "aspect_ratio": {
+              "title": "Aspect Ratio",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "auto",
+                    "21:9",
+                    "16:9",
+                    "3:2",
+                    "4:3",
+                    "5:4",
+                    "1:1",
+                    "4:5",
+                    "3:4",
+                    "2:3",
+                    "9:16"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": "auto",
+              "description": "The aspect ratio of the generated image."
+            },
+            "prompt": {
+              "type": "string",
+              "title": "Prompt",
+              "minLength": 3,
+              "examples": [
+                "make a photo of the man driving the car down the california coastline"
+              ],
+              "description": "The prompt for image editing.",
+              "maxLength": 50000
+            },
+            "enable_web_search": {
+              "type": "boolean",
+              "title": "Enable Web Search",
+              "description": "Enable web search for the image generation task. This will allow the model to use the latest information from the web to generate the image.",
+              "default": false
+            },
+            "system_prompt": {
+              "type": "string",
+              "maxLength": 50000,
+              "title": "System Prompt",
+              "description": "Optional system instruction that steers the model's persona and output style across the request. Leave blank to omit; when provided, it is sent as the system instruction to Gemini (or as a system message on OpenAI-compatible providers).",
+              "default": ""
+            },
+            "resolution": {
+              "type": "string",
+              "enum": [
+                "1K",
+                "2K",
+                "4K"
+              ],
+              "title": "Resolution",
+              "description": "The resolution of the image to generate.",
+              "default": "1K"
+            }
+          },
+          "x-fal-order-properties": [
+            "prompt",
+            "num_images",
+            "seed",
+            "aspect_ratio",
+            "output_format",
+            "safety_tolerance",
+            "sync_mode",
+            "image_urls",
+            "system_prompt",
+            "resolution",
+            "limit_generations",
+            "enable_web_search"
+          ]
+        },
+        "NanoBananaProEditOutput": {
+          "type": "object",
+          "required": [
+            "images",
+            "description"
+          ],
+          "title": "NanoBananaImageToImageOutput",
+          "properties": {
+            "images": {
+              "type": "array",
+              "title": "Images",
+              "items": {
+                "$ref": "#/components/schemas/ImageFile"
+              },
+              "examples": [
+                [
+                  {
+                    "content_type": "image/png",
+                    "url": "https://storage.googleapis.com/falserverless/example_outputs/nano-banana-pro-edit-output.png",
+                    "file_name": "nano-banana-pro-edit-output.png"
+                  }
+                ]
+              ],
+              "description": "The edited images."
+            },
+            "description": {
+              "type": "string",
+              "title": "Description",
+              "description": "The description of the generated images."
+            }
+          },
+          "x-fal-order-properties": [
+            "images",
+            "description"
+          ]
+        },
+        "ImageFile": {
+          "type": "object",
+          "required": [
+            "url"
+          ],
+          "title": "ImageFile",
+          "properties": {
+            "height": {
+              "title": "Height",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "The height of the image"
+            },
+            "content_type": {
+              "title": "Content Type",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                "image/png"
+              ],
+              "description": "The mime type of the file."
+            },
+            "file_size": {
+              "title": "File Size",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                4404019
+              ],
+              "description": "The size of the file in bytes."
+            },
+            "file_name": {
+              "title": "File Name",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                "z9RV14K95DvU.png"
+              ],
+              "description": "The name of the file. It will be auto-generated if not provided."
+            },
+            "url": {
+              "type": "string",
+              "title": "Url",
+              "description": "The URL where the file can be downloaded from."
+            },
+            "width": {
+              "title": "Width",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "The width of the image"
+            }
+          },
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pixelcut/background-removal",
+      "name": "Pixelcut · удаление фона",
+      "provider": "fal",
+      "operations": [
+        "remove-background"
+      ],
+      "maxInputs": 1,
+      "inputField": "image_url",
+      "maskField": null,
+      "outputField": "image",
+      "priceUnit": "fixed",
+      "priceMicros": 16000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=pixelcut%2Fbackground-removal",
+      "schemaSha256": "7c29f071b90f75a01afe33893360e27e3b587aac8d3120f24a83dc07358827d9",
+      "inputSchema": {
+        "type": "object",
+        "required": [
+          "image_url"
+        ],
+        "title": "BgrmInput",
+        "x-fal-order-properties": [
+          "image_url",
+          "output_format",
+          "sync_mode"
+        ],
+        "properties": {
+          "image_url": {
+            "type": "string",
+            "title": "Image Url",
+            "description": "Input image (JPEG or PNG)",
+            "examples": [
+              "https://cdn3.pixelcut.app/fal/background-remover/jewelry.jpg",
+              "https://cdn3.pixelcut.app/fal/background-remover/portrait.jpg"
+            ]
+          },
+          "output_format": {
+            "type": "string",
+            "enum": [
+              "rgba",
+              "alpha",
+              "zip"
+            ],
+            "title": "Output Format",
+            "description": "Output format",
+            "default": "rgba"
+          },
+          "sync_mode": {
+            "type": "boolean",
+            "default": true,
+            "title": "Sync Mode",
+            "description": "When true, return result as a data URL instead of uploading to storage"
+          }
+        }
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "BackgroundRemovalInput": {
+          "type": "object",
+          "required": [
+            "image_url"
+          ],
+          "title": "BgrmInput",
+          "x-fal-order-properties": [
+            "image_url",
+            "output_format",
+            "sync_mode"
+          ],
+          "properties": {
+            "image_url": {
+              "type": "string",
+              "title": "Image Url",
+              "description": "Input image (JPEG or PNG)",
+              "examples": [
+                "https://cdn3.pixelcut.app/fal/background-remover/jewelry.jpg",
+                "https://cdn3.pixelcut.app/fal/background-remover/portrait.jpg"
+              ]
+            },
+            "output_format": {
+              "type": "string",
+              "enum": [
+                "rgba",
+                "alpha",
+                "zip"
+              ],
+              "title": "Output Format",
+              "description": "Output format",
+              "default": "rgba"
+            },
+            "sync_mode": {
+              "type": "boolean",
+              "default": true,
+              "title": "Sync Mode",
+              "description": "When true, return result as a data URL instead of uploading to storage"
+            }
+          }
+        },
+        "BackgroundRemovalOutput": {
+          "type": "object",
+          "title": "BgrmOutput",
+          "x-fal-order-properties": [
+            "image",
+            "file"
+          ],
+          "properties": {
+            "file": {
+              "anyOf": [
+                {
+                  "$ref": "#/components/schemas/File"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Result file (for zip output format)"
+            },
+            "image": {
+              "anyOf": [
+                {
+                  "$ref": "#/components/schemas/Image"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Result image (for rgba/alpha output formats)",
+              "examples": [
+                {
+                  "url": "https://cdn3.pixelcut.app/fal/background-remover/jewelry_result.png"
+                },
+                {
+                  "url": "https://cdn3.pixelcut.app/fal/background-remover/portrait_result.png"
+                }
+              ]
+            }
+          }
+        },
+        "File": {
+          "type": "object",
+          "required": [
+            "url"
+          ],
+          "title": "File",
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size"
+          ],
+          "properties": {
+            "file_size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Size",
+              "description": "The size of the file in bytes.",
+              "examples": [
+                4404019
+              ]
+            },
+            "url": {
+              "type": "string",
+              "title": "Url",
+              "description": "The URL where the file can be downloaded from."
+            },
+            "file_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Name",
+              "description": "The name of the file. It will be auto-generated if not provided.",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ]
+            },
+            "content_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Content Type",
+              "description": "The mime type of the file.",
+              "examples": [
+                "image/png"
+              ]
+            }
+          }
+        },
+        "Image": {
+          "type": "object",
+          "required": [
+            "url"
+          ],
+          "title": "Image",
+          "description": "Represents an image file.",
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ],
+          "properties": {
+            "file_size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Size",
+              "description": "The size of the file in bytes.",
+              "examples": [
+                4404019
+              ]
+            },
+            "height": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Height",
+              "description": "The height of the image in pixels.",
+              "examples": [
+                1024
+              ]
+            },
+            "url": {
+              "type": "string",
+              "title": "Url",
+              "description": "The URL where the file can be downloaded from."
+            },
+            "width": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Width",
+              "description": "The width of the image in pixels.",
+              "examples": [
+                1024
+              ]
+            },
+            "file_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Name",
+              "description": "The name of the file. It will be auto-generated if not provided.",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ]
+            },
+            "content_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Content Type",
+              "description": "The mime type of the file.",
+              "examples": [
+                "image/png"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "fal-ai/bria/background/remove",
+      "name": "BRIA · удаление фона",
+      "provider": "fal",
+      "operations": [
+        "remove-background"
+      ],
+      "maxInputs": 1,
+      "inputField": "image_url",
+      "maskField": null,
+      "outputField": "image",
+      "priceUnit": "fixed",
+      "priceMicros": 18000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Fbria%2Fbackground%2Fremove",
+      "schemaSha256": "922e8b32bf87cf7296be6a8279781171a2a62db3799b5ee8e3830bd735487cb3",
+      "inputSchema": {
+        "x-fal-order-properties": [
+          "image_url",
+          "prompt",
+          "sync_mode"
+        ],
+        "properties": {
+          "sync_mode": {
+            "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+            "default": false,
+            "title": "Sync Mode",
+            "type": "boolean"
+          },
+          "image_url": {
+            "description": "Input Image to erase from",
+            "title": "Image Url",
+            "examples": [
+              "https://fal.media/files/panda/K5Rndvzmn1j-OI1VZXDVd.jpeg"
+            ],
+            "type": "string"
+          },
+          "prompt": {
+            "description": "Optional. Change what the cutout keeps in plain words: add ('the person with the mat'), drop ('without the lamp') or narrow ('only the chair'). Billed at $0.03 instead of $0.018.",
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Prompt",
+            "examples": [
+              "the person with the mat and the plant"
+            ]
+          }
+        },
+        "required": [
+          "image_url"
+        ],
+        "title": "BGRemoveInput",
+        "type": "object"
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "BriaBackgroundRemoveInput": {
+          "x-fal-order-properties": [
+            "image_url",
+            "prompt",
+            "sync_mode"
+          ],
+          "properties": {
+            "sync_mode": {
+              "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+              "default": false,
+              "title": "Sync Mode",
+              "type": "boolean"
+            },
+            "image_url": {
+              "description": "Input Image to erase from",
+              "title": "Image Url",
+              "examples": [
+                "https://fal.media/files/panda/K5Rndvzmn1j-OI1VZXDVd.jpeg"
+              ],
+              "type": "string"
+            },
+            "prompt": {
+              "description": "Optional. Change what the cutout keeps in plain words: add ('the person with the mat'), drop ('without the lamp') or narrow ('only the chair'). Billed at $0.03 instead of $0.018.",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Prompt",
+              "examples": [
+                "the person with the mat and the plant"
+              ]
+            }
+          },
+          "required": [
+            "image_url"
+          ],
+          "title": "BGRemoveInput",
+          "type": "object"
+        },
+        "BriaBackgroundRemoveOutput": {
+          "x-fal-order-properties": [
+            "image"
+          ],
+          "properties": {
+            "image": {
+              "description": "The generated image",
+              "examples": [
+                {
+                  "width": 1024,
+                  "content_type": "image/png",
+                  "file_size": 1076276,
+                  "url": "https://v3.fal.media/files/tiger/GQEMNjRyxSoza7N8LPPqb_070c731993e949d993c10ef6283d335d.png",
+                  "height": 1024,
+                  "file_name": "070c731993e949d993c10ef6283d335d.png"
+                }
+              ],
+              "$ref": "#/components/schemas/Image"
+            }
+          },
+          "required": [
+            "image"
+          ],
+          "title": "BGRemoveOutput",
+          "type": "object"
+        },
+        "Image": {
+          "description": "Represents an image file.",
+          "type": "object",
+          "required": [
+            "url"
+          ],
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ],
+          "title": "Image",
+          "properties": {
+            "width": {
+              "description": "The width of the image in pixels.",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Width",
+              "examples": [
+                1024
+              ]
+            },
+            "content_type": {
+              "description": "The mime type of the file.",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Content Type",
+              "examples": [
+                "image/png"
+              ]
+            },
+            "file_size": {
+              "description": "The size of the file in bytes.",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Size",
+              "examples": [
+                4404019
+              ]
+            },
+            "url": {
+              "description": "The URL where the file can be downloaded from.",
+              "title": "Url",
+              "type": "string"
+            },
+            "height": {
+              "description": "The height of the image in pixels.",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Height",
+              "examples": [
+                1024
+              ]
+            },
+            "file_name": {
+              "description": "The name of the file. It will be auto-generated if not provided.",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Name",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "fal-ai/recraft/upscale/crisp",
+      "name": "Recraft Crisp",
+      "provider": "fal",
+      "operations": [
+        "upscale"
+      ],
+      "maxInputs": 1,
+      "inputField": "image_url",
+      "maskField": null,
+      "outputField": "image",
+      "priceUnit": "fixed",
+      "priceMicros": 4000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Frecraft%2Fupscale%2Fcrisp",
+      "schemaSha256": "1262460200b383d071c312dadbc714b2bb1f78f30d186f4c19459d819cd77f41",
+      "inputSchema": {
+        "properties": {
+          "sync_mode": {
+            "title": "Sync Mode",
+            "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+            "type": "boolean",
+            "default": false
+          },
+          "image_url": {
+            "description": "The URL of the image to be upscaled. Must be in PNG format.",
+            "title": "Image Url",
+            "examples": [
+              "https://storage.googleapis.com/falserverless/model_tests/recraft/recraft-upscaler-1.jpeg"
+            ],
+            "type": "string",
+            "_fal_ui_field": "image"
+          },
+          "enable_safety_checker": {
+            "title": "Enable Safety Checker",
+            "description": "If set to true, the safety checker will be enabled. Disabling it requires account authorization; unauthorized requests are always checked.",
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "title": "UpscaleInput",
+        "x-fal-order-properties": [
+          "image_url",
+          "sync_mode",
+          "enable_safety_checker"
+        ],
+        "type": "object",
+        "required": [
+          "image_url"
+        ]
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "RecraftUpscaleCrispInput": {
+          "properties": {
+            "sync_mode": {
+              "title": "Sync Mode",
+              "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+              "type": "boolean",
+              "default": false
+            },
+            "image_url": {
+              "description": "The URL of the image to be upscaled. Must be in PNG format.",
+              "title": "Image Url",
+              "examples": [
+                "https://storage.googleapis.com/falserverless/model_tests/recraft/recraft-upscaler-1.jpeg"
+              ],
+              "type": "string",
+              "_fal_ui_field": "image"
+            },
+            "enable_safety_checker": {
+              "title": "Enable Safety Checker",
+              "description": "If set to true, the safety checker will be enabled. Disabling it requires account authorization; unauthorized requests are always checked.",
+              "type": "boolean",
+              "default": false
+            }
+          },
+          "title": "UpscaleInput",
+          "x-fal-order-properties": [
+            "image_url",
+            "sync_mode",
+            "enable_safety_checker"
+          ],
+          "type": "object",
+          "required": [
+            "image_url"
+          ]
+        },
+        "RecraftUpscaleCrispOutput": {
+          "properties": {
+            "image": {
+              "$ref": "#/components/schemas/File",
+              "description": "The upscaled image."
+            }
+          },
+          "title": "UpscaleOutput",
+          "x-fal-order-properties": [
+            "image"
+          ],
+          "type": "object",
+          "required": [
+            "image"
+          ]
+        },
+        "File": {
+          "properties": {
+            "file_size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Size",
+              "examples": [
+                4404019
+              ],
+              "description": "The size of the file in bytes."
+            },
+            "url": {
+              "title": "Url",
+              "description": "The URL where the file can be downloaded from.",
+              "type": "string"
+            },
+            "file_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Name",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ],
+              "description": "The name of the file. It will be auto-generated if not provided."
+            },
+            "content_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Content Type",
+              "examples": [
+                "image/png"
+              ],
+              "description": "The mime type of the file."
+            }
+          },
+          "title": "File",
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size"
+          ],
+          "type": "object",
+          "required": [
+            "url"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fal-ai/seedvr/upscale/image",
+      "name": "SeedVR · детализация",
+      "provider": "fal",
+      "operations": [
+        "upscale"
+      ],
+      "maxInputs": 1,
+      "inputField": "image_url",
+      "maskField": null,
+      "outputField": "image",
+      "priceUnit": "output-mp",
+      "priceMicros": 1000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Fseedvr%2Fupscale%2Fimage",
+      "schemaSha256": "95539c7f12234b6cff62a893964973eb52939f833a1a33ea8906902c3e9f3b66",
+      "inputSchema": {
+        "properties": {
+          "upscale_mode": {
+            "enum": [
+              "target",
+              "factor"
+            ],
+            "title": "Upscale Mode",
+            "description": "The mode to use for the upscale. If 'target', the upscale factor will be calculated based on the target resolution. If 'factor', the upscale factor will be used directly.",
+            "type": "string",
+            "default": "factor"
+          },
+          "sync_mode": {
+            "title": "Sync Mode",
+            "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+            "type": "boolean",
+            "default": false
+          },
+          "seed": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Seed",
+            "description": "The random seed used for the generation process."
+          },
+          "target_resolution": {
+            "enum": [
+              "720p",
+              "1080p",
+              "1440p",
+              "2160p"
+            ],
+            "title": "Target Resolution",
+            "description": "The target resolution to upscale to when `upscale_mode` is `target`.",
+            "type": "string",
+            "default": "1080p"
+          },
+          "output_format": {
+            "enum": [
+              "png",
+              "jpg",
+              "webp"
+            ],
+            "title": "Output Format",
+            "description": "The format of the output image.",
+            "type": "string",
+            "default": "jpg"
+          },
+          "image_url": {
+            "title": "Image Url",
+            "description": "The input image to be processed",
+            "type": "string",
+            "examples": [
+              "https://storage.googleapis.com/falserverless/example_inputs/seedvr2/image_in.png"
+            ]
+          },
+          "noise_scale": {
+            "multipleOf": 0.001,
+            "default": 0.1,
+            "minimum": 0,
+            "title": "Noise Scale",
+            "description": "The noise scale to use for the generation process.",
+            "type": "number",
+            "maximum": 1
+          },
+          "upscale_factor": {
+            "default": 2,
+            "minimum": 1,
+            "title": "Upscale Factor",
+            "description": "Upscaling factor to be used. Will multiply the dimensions with this factor when `upscale_mode` is `factor`.",
+            "type": "number",
+            "maximum": 10
+          }
+        },
+        "title": "SeedVRImageInput",
+        "x-fal-order-properties": [
+          "image_url",
+          "upscale_mode",
+          "upscale_factor",
+          "target_resolution",
+          "seed",
+          "noise_scale",
+          "output_format",
+          "sync_mode"
+        ],
+        "type": "object",
+        "required": [
+          "image_url"
+        ]
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "SeedvrUpscaleImageInput": {
+          "properties": {
+            "upscale_mode": {
+              "enum": [
+                "target",
+                "factor"
+              ],
+              "title": "Upscale Mode",
+              "description": "The mode to use for the upscale. If 'target', the upscale factor will be calculated based on the target resolution. If 'factor', the upscale factor will be used directly.",
+              "type": "string",
+              "default": "factor"
+            },
+            "sync_mode": {
+              "title": "Sync Mode",
+              "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+              "type": "boolean",
+              "default": false
+            },
+            "seed": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Seed",
+              "description": "The random seed used for the generation process."
+            },
+            "target_resolution": {
+              "enum": [
+                "720p",
+                "1080p",
+                "1440p",
+                "2160p"
+              ],
+              "title": "Target Resolution",
+              "description": "The target resolution to upscale to when `upscale_mode` is `target`.",
+              "type": "string",
+              "default": "1080p"
+            },
+            "output_format": {
+              "enum": [
+                "png",
+                "jpg",
+                "webp"
+              ],
+              "title": "Output Format",
+              "description": "The format of the output image.",
+              "type": "string",
+              "default": "jpg"
+            },
+            "image_url": {
+              "title": "Image Url",
+              "description": "The input image to be processed",
+              "type": "string",
+              "examples": [
+                "https://storage.googleapis.com/falserverless/example_inputs/seedvr2/image_in.png"
+              ]
+            },
+            "noise_scale": {
+              "multipleOf": 0.001,
+              "default": 0.1,
+              "minimum": 0,
+              "title": "Noise Scale",
+              "description": "The noise scale to use for the generation process.",
+              "type": "number",
+              "maximum": 1
+            },
+            "upscale_factor": {
+              "default": 2,
+              "minimum": 1,
+              "title": "Upscale Factor",
+              "description": "Upscaling factor to be used. Will multiply the dimensions with this factor when `upscale_mode` is `factor`.",
+              "type": "number",
+              "maximum": 10
+            }
+          },
+          "title": "SeedVRImageInput",
+          "x-fal-order-properties": [
+            "image_url",
+            "upscale_mode",
+            "upscale_factor",
+            "target_resolution",
+            "seed",
+            "noise_scale",
+            "output_format",
+            "sync_mode"
+          ],
+          "type": "object",
+          "required": [
+            "image_url"
+          ]
+        },
+        "SeedvrUpscaleImageOutput": {
+          "properties": {
+            "seed": {
+              "title": "Seed",
+              "description": "The random seed used for the generation process.",
+              "type": "integer"
+            },
+            "image": {
+              "description": "Upscaled image file after processing",
+              "$ref": "#/components/schemas/ImageFile",
+              "examples": [
+                {
+                  "url": "https://storage.googleapis.com/falserverless/example_outputs/seedvr2/image_out.png",
+                  "content_type": "image/png"
+                }
+              ]
+            }
+          },
+          "title": "SeedVRImageOutput",
+          "x-fal-order-properties": [
+            "image",
+            "seed"
+          ],
+          "type": "object",
+          "required": [
+            "image",
+            "seed"
+          ]
+        },
+        "ImageFile": {
+          "properties": {
+            "file_size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Size",
+              "description": "The size of the file in bytes.",
+              "examples": [
+                4404019
+              ]
+            },
+            "url": {
+              "title": "Url",
+              "description": "The URL where the file can be downloaded from.",
+              "type": "string"
+            },
+            "file_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "File Name",
+              "description": "The name of the file. It will be auto-generated if not provided.",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ]
+            },
+            "content_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Content Type",
+              "description": "The mime type of the file.",
+              "examples": [
+                "image/png"
+              ]
+            },
+            "height": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Height",
+              "description": "The height of the image"
+            },
+            "width": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Width",
+              "description": "The width of the image"
+            }
+          },
+          "title": "ImageFile",
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ],
+          "type": "object",
+          "required": [
+            "url"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fal-ai/object-removal/mask",
+      "name": "Удаление по маске",
+      "provider": "fal",
+      "operations": [
+        "remove-object"
+      ],
+      "maxInputs": 1,
+      "inputField": "image_url",
+      "maskField": "mask_url",
+      "outputField": "images",
+      "priceUnit": "mask",
+      "priceMicros": 6000,
+      "verifiedAt": "2026-10-10",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Fobject-removal%2Fmask",
+      "schemaSha256": "726f32b5ab394d41f9930f402acb76f16d176f478eb5024ef31f2b3a565caa71",
+      "inputSchema": {
+        "required": [
+          "image_url",
+          "mask_url"
+        ],
+        "type": "object",
+        "x-fal-order-properties": [
+          "image_url",
+          "mask_url",
+          "model",
+          "mask_expansion"
+        ],
+        "title": "MaskInput",
+        "properties": {
+          "mask_url": {
+            "type": "string",
+            "examples": [
+              "https://v3.fal.media/files/tiger/7nq9-v-lJtBCPnK1332fr.png"
+            ],
+            "title": "Mask Url",
+            "description": "The URL of the mask image. White pixels (255) indicate areas to remove."
+          },
+          "mask_expansion": {
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer",
+            "default": 15,
+            "title": "Mask Expansion",
+            "description": "Amount of pixels to expand the mask by. Range: 0-50"
+          },
+          "image_url": {
+            "type": "string",
+            "examples": [
+              "https://v3.fal.media/files/zebra/o0DORfJawy-T9P_-NsvLY.png"
+            ],
+            "title": "Image Url",
+            "description": "The URL of the image to remove objects from."
+          },
+          "model": {
+            "type": "string",
+            "enum": [
+              "low_quality",
+              "medium_quality",
+              "high_quality",
+              "best_quality"
+            ],
+            "title": "Model",
+            "default": "best_quality"
+          }
+        }
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "ObjectRemovalMaskInput": {
+          "required": [
+            "image_url",
+            "mask_url"
+          ],
+          "type": "object",
+          "x-fal-order-properties": [
+            "image_url",
+            "mask_url",
+            "model",
+            "mask_expansion"
+          ],
+          "title": "MaskInput",
+          "properties": {
+            "mask_url": {
+              "type": "string",
+              "examples": [
+                "https://v3.fal.media/files/tiger/7nq9-v-lJtBCPnK1332fr.png"
+              ],
+              "title": "Mask Url",
+              "description": "The URL of the mask image. White pixels (255) indicate areas to remove."
+            },
+            "mask_expansion": {
+              "maximum": 50,
+              "minimum": 0,
+              "type": "integer",
+              "default": 15,
+              "title": "Mask Expansion",
+              "description": "Amount of pixels to expand the mask by. Range: 0-50"
+            },
+            "image_url": {
+              "type": "string",
+              "examples": [
+                "https://v3.fal.media/files/zebra/o0DORfJawy-T9P_-NsvLY.png"
+              ],
+              "title": "Image Url",
+              "description": "The URL of the image to remove objects from."
+            },
+            "model": {
+              "type": "string",
+              "enum": [
+                "low_quality",
+                "medium_quality",
+                "high_quality",
+                "best_quality"
+              ],
+              "title": "Model",
+              "default": "best_quality"
+            }
+          }
+        },
+        "ObjectRemovalMaskOutput": {
+          "required": [
+            "images"
+          ],
+          "type": "object",
+          "x-fal-order-properties": [
+            "images"
+          ],
+          "title": "Output",
+          "properties": {
+            "images": {
+              "items": {
+                "$ref": "#/components/schemas/Image"
+              },
+              "type": "array",
+              "examples": [
+                [
+                  {
+                    "file_size": 730703,
+                    "url": "https://v3.fal.media/files/lion/arYSoJeqWjhbcA8o4budv_85a2309b2c954c85a75120e664adbe17.png",
+                    "width": 1024,
+                    "content_type": "image/png",
+                    "file_name": "85a2309b2c954c85a75120e664adbe17.png",
+                    "height": 768
+                  }
+                ]
+              ],
+              "title": "Images",
+              "description": "The generated images with objects removed."
+            }
+          }
+        },
+        "Image": {
+          "required": [
+            "url"
+          ],
+          "type": "object",
+          "properties": {
+            "width": {
+              "description": "The width of the image in pixels.",
+              "examples": [
+                1024
+              ],
+              "title": "Width",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "url": {
+              "type": "string",
+              "title": "Url",
+              "description": "The URL where the file can be downloaded from."
+            },
+            "file_size": {
+              "description": "The size of the file in bytes.",
+              "examples": [
+                4404019
+              ],
+              "title": "File Size",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "content_type": {
+              "description": "The mime type of the file.",
+              "examples": [
+                "image/png"
+              ],
+              "title": "Content Type",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "file_name": {
+              "description": "The name of the file. It will be auto-generated if not provided.",
+              "examples": [
+                "z9RV14K95DvU.png"
+              ],
+              "title": "File Name",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "height": {
+              "description": "The height of the image in pixels.",
+              "examples": [
+                1024
+              ],
+              "title": "Height",
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ],
+          "title": "Image",
+          "description": "Represents an image file."
+        }
+      }
+    },
+    {
+      "id": "fal-ai/flux-2-pro/outpaint",
+      "name": "FLUX.2 Pro · расширение кадра",
+      "provider": "fal",
+      "operations": [
+        "outpaint"
+      ],
+      "maxInputs": 1,
+      "inputField": "image_url",
+      "maskField": null,
+      "outputField": "images",
+      "priceUnit": "flux-outpaint",
+      "priceMicros": 30000,
+      "verifiedAt": "2026-10-11",
+      "schemaUrl": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai%2Fflux-2-pro%2Foutpaint",
+      "schemaSha256": "c56f223ae1e5790b8064f0fe28a85dbcae5e39f724e3bc06d7063183f60e6e65",
+      "inputSchema": {
+        "required": [
+          "image_url"
+        ],
+        "type": "object",
+        "properties": {
+          "enable_safety_checker": {
+            "type": "boolean",
+            "description": "Whether to enable the safety checker. Disabling it requires account authorization; unauthorized requests are always checked.",
+            "default": true,
+            "title": "Enable Safety Checker"
+          },
+          "expand_left": {
+            "maximum": 2048,
+            "type": "integer",
+            "examples": [
+              200
+            ],
+            "description": "Pixels to expand on the left of the image.",
+            "default": 0,
+            "minimum": 0,
+            "title": "Expand Left"
+          },
+          "auto_crop": {
+            "type": "boolean",
+            "description": "Whether to automatically crop the reference image when the expanded canvas does not fully contain it.",
+            "default": false,
+            "title": "Auto Crop"
+          },
+          "mode": {
+            "enum": [
+              "high",
+              "fast"
+            ],
+            "type": "string",
+            "examples": [
+              "high"
+            ],
+            "description": "Quality/speed trade-off for outpainting. `high` (default) delivers the highest-fidelity results; `fast` is significantly faster and extends most scenes well but may produce lower fidelity.",
+            "default": "high",
+            "title": "Mode"
+          },
+          "image_url": {
+            "examples": [
+              "https://v3b.fal.media/files/b/0a9a3ba3/s-Z4TGRh9EQwXWTWrvzaB_Nbqhm4Fl.png"
+            ],
+            "type": "string",
+            "description": "The image URL to expand using outpainting.",
+            "title": "Image URL"
+          },
+          "expand_right": {
+            "maximum": 2048,
+            "type": "integer",
+            "examples": [
+              200
+            ],
+            "description": "Pixels to expand on the right of the image.",
+            "default": 0,
+            "minimum": 0,
+            "title": "Expand Right"
+          },
+          "expand_bottom": {
+            "maximum": 2048,
+            "type": "integer",
+            "examples": [
+              200
+            ],
+            "description": "Pixels to expand at the bottom of the image.",
+            "default": 0,
+            "minimum": 0,
+            "title": "Expand Bottom"
+          },
+          "expand_top": {
+            "maximum": 2048,
+            "type": "integer",
+            "examples": [
+              0
+            ],
+            "description": "Pixels to expand at the top of the image.",
+            "default": 0,
+            "minimum": 0,
+            "title": "Expand Top"
+          },
+          "sync_mode": {
+            "type": "boolean",
+            "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+            "default": false,
+            "title": "Sync Mode"
+          },
+          "output_format": {
+            "enum": [
+              "jpeg",
+              "png"
+            ],
+            "type": "string",
+            "description": "The format of the generated image.",
+            "default": "jpeg",
+            "title": "Output Format"
+          }
+        },
+        "x-fal-order-properties": [
+          "image_url",
+          "expand_top",
+          "expand_bottom",
+          "expand_left",
+          "expand_right",
+          "auto_crop",
+          "mode",
+          "enable_safety_checker",
+          "output_format",
+          "sync_mode"
+        ],
+        "title": "Flux2ProOutpaintInput"
+      },
+      "definitions": {
+        "QueueStatus": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "IN_QUEUE",
+                "IN_PROGRESS",
+                "COMPLETED"
+              ]
+            },
+            "request_id": {
+              "type": "string",
+              "description": "The request id."
+            },
+            "response_url": {
+              "type": "string",
+              "description": "The response url."
+            },
+            "status_url": {
+              "type": "string",
+              "description": "The status url."
+            },
+            "cancel_url": {
+              "type": "string",
+              "description": "The cancel url."
+            },
+            "logs": {
+              "type": "object",
+              "description": "The logs.",
+              "additionalProperties": true
+            },
+            "metrics": {
+              "type": "object",
+              "description": "The metrics.",
+              "additionalProperties": true
+            },
+            "queue_position": {
+              "type": "integer",
+              "description": "The queue position."
+            }
+          },
+          "required": [
+            "status",
+            "request_id"
+          ]
+        },
+        "Flux2ProOutpaintInput": {
+          "required": [
+            "image_url"
+          ],
+          "type": "object",
+          "properties": {
+            "enable_safety_checker": {
+              "type": "boolean",
+              "description": "Whether to enable the safety checker. Disabling it requires account authorization; unauthorized requests are always checked.",
+              "default": true,
+              "title": "Enable Safety Checker"
+            },
+            "expand_left": {
+              "maximum": 2048,
+              "type": "integer",
+              "examples": [
+                200
+              ],
+              "description": "Pixels to expand on the left of the image.",
+              "default": 0,
+              "minimum": 0,
+              "title": "Expand Left"
+            },
+            "auto_crop": {
+              "type": "boolean",
+              "description": "Whether to automatically crop the reference image when the expanded canvas does not fully contain it.",
+              "default": false,
+              "title": "Auto Crop"
+            },
+            "mode": {
+              "enum": [
+                "high",
+                "fast"
+              ],
+              "type": "string",
+              "examples": [
+                "high"
+              ],
+              "description": "Quality/speed trade-off for outpainting. `high` (default) delivers the highest-fidelity results; `fast` is significantly faster and extends most scenes well but may produce lower fidelity.",
+              "default": "high",
+              "title": "Mode"
+            },
+            "image_url": {
+              "examples": [
+                "https://v3b.fal.media/files/b/0a9a3ba3/s-Z4TGRh9EQwXWTWrvzaB_Nbqhm4Fl.png"
+              ],
+              "type": "string",
+              "description": "The image URL to expand using outpainting.",
+              "title": "Image URL"
+            },
+            "expand_right": {
+              "maximum": 2048,
+              "type": "integer",
+              "examples": [
+                200
+              ],
+              "description": "Pixels to expand on the right of the image.",
+              "default": 0,
+              "minimum": 0,
+              "title": "Expand Right"
+            },
+            "expand_bottom": {
+              "maximum": 2048,
+              "type": "integer",
+              "examples": [
+                200
+              ],
+              "description": "Pixels to expand at the bottom of the image.",
+              "default": 0,
+              "minimum": 0,
+              "title": "Expand Bottom"
+            },
+            "expand_top": {
+              "maximum": 2048,
+              "type": "integer",
+              "examples": [
+                0
+              ],
+              "description": "Pixels to expand at the top of the image.",
+              "default": 0,
+              "minimum": 0,
+              "title": "Expand Top"
+            },
+            "sync_mode": {
+              "type": "boolean",
+              "description": "If `True`, the media will be returned as a data URI and the output data won't be available in the request history.",
+              "default": false,
+              "title": "Sync Mode"
+            },
+            "output_format": {
+              "enum": [
+                "jpeg",
+                "png"
+              ],
+              "type": "string",
+              "description": "The format of the generated image.",
+              "default": "jpeg",
+              "title": "Output Format"
+            }
+          },
+          "x-fal-order-properties": [
+            "image_url",
+            "expand_top",
+            "expand_bottom",
+            "expand_left",
+            "expand_right",
+            "auto_crop",
+            "mode",
+            "enable_safety_checker",
+            "output_format",
+            "sync_mode"
+          ],
+          "title": "Flux2ProOutpaintInput"
+        },
+        "Flux2ProOutpaintOutput": {
+          "required": [
+            "images"
+          ],
+          "type": "object",
+          "properties": {
+            "images": {
+              "items": {
+                "$ref": "#/components/schemas/ImageFile"
+              },
+              "type": "array",
+              "examples": [
+                [
+                  {
+                    "url": "https://v3b.fal.media/files/b/0a9a3c6d/csgZL8-uzDQz2DIIzKVNZ_HJX1XzZU.jpg"
+                  }
+                ]
+              ],
+              "description": "The outpainted images.",
+              "title": "Images"
+            }
+          },
+          "x-fal-order-properties": [
+            "images"
+          ],
+          "title": "Flux2ProOutpaintOutput"
+        },
+        "ImageFile": {
+          "required": [
+            "url"
+          ],
+          "type": "object",
+          "properties": {
+            "width": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "The width of the image",
+              "title": "Width"
+            },
+            "file_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                "z9RV14K95DvU.png"
+              ],
+              "description": "The name of the file. It will be auto-generated if not provided.",
+              "title": "File Name"
+            },
+            "file_size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                4404019
+              ],
+              "description": "The size of the file in bytes.",
+              "title": "File Size"
+            },
+            "url": {
+              "type": "string",
+              "description": "The URL where the file can be downloaded from.",
+              "title": "Url"
+            },
+            "height": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "The height of the image",
+              "title": "Height"
+            },
+            "content_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "examples": [
+                "image/png"
+              ],
+              "description": "The mime type of the file.",
+              "title": "Content Type"
+            }
+          },
+          "x-fal-order-properties": [
+            "url",
+            "content_type",
+            "file_name",
+            "file_size",
+            "width",
+            "height"
+          ],
+          "title": "ImageFile"
+        }
+      }
+    }
+  ],
+  "recommendations": {
+    "universal-edit": {
+      "economy": "fal-ai/flux-2/flash/edit",
+      "balanced": "fal-ai/nano-banana-2/edit",
+      "quality": "fal-ai/nano-banana-pro/edit"
+    },
+    "replace-object": {
+      "economy": "fal-ai/flux-2/flash/edit",
+      "balanced": "fal-ai/nano-banana-2/edit",
+      "quality": "fal-ai/nano-banana-pro/edit"
+    },
+    "replace-background": {
+      "economy": "fal-ai/flux-2/flash/edit",
+      "balanced": "fal-ai/nano-banana-2/edit",
+      "quality": "fal-ai/nano-banana-pro/edit"
+    },
+    "outpaint": {
+      "economy": "fal-ai/flux-2-pro/outpaint",
+      "balanced": "fal-ai/flux-2-pro/outpaint",
+      "quality": "fal-ai/flux-2-pro/outpaint"
+    },
+    "relight": {
+      "economy": "fal-ai/flux-2/flash/edit",
+      "balanced": "fal-ai/nano-banana-2/edit",
+      "quality": "fal-ai/nano-banana-pro/edit"
+    },
+    "recolor": {
+      "economy": "fal-ai/flux-2/flash/edit",
+      "balanced": "fal-ai/nano-banana-2/edit",
+      "quality": "fal-ai/nano-banana-pro/edit"
+    },
+    "compose": {
+      "economy": "fal-ai/nano-banana-2/edit",
+      "balanced": "fal-ai/nano-banana-2/edit",
+      "quality": "fal-ai/nano-banana-pro/edit"
+    },
+    "restore": {
+      "economy": "fal-ai/flux-2/flash/edit",
+      "balanced": "fal-ai/nano-banana-2/edit",
+      "quality": "fal-ai/nano-banana-pro/edit"
+    },
+    "remove-background": {
+      "economy": "pixelcut/background-removal",
+      "balanced": "pixelcut/background-removal",
+      "quality": "fal-ai/bria/background/remove"
+    },
+    "upscale": {
+      "economy": "fal-ai/recraft/upscale/crisp",
+      "balanced": "fal-ai/recraft/upscale/crisp",
+      "quality": "fal-ai/seedvr/upscale/image"
+    },
+    "remove-object": {
+      "economy": "fal-ai/object-removal/mask",
+      "balanced": "fal-ai/object-removal/mask",
+      "quality": "fal-ai/object-removal/mask"
+    }
+  }
+}

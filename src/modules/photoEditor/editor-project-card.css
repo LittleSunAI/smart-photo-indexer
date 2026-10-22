@@ -1,0 +1,23 @@
+.editor-project-card{min-width:0;border:1px solid var(--theme-border);border-radius:9px;overflow:hidden;background:var(--theme-surface-soft)}
+.editor-project-card>summary{display:flex;align-items:center;gap:8px;padding:6px;list-style:none;cursor:pointer}
+.editor-project-card>summary::-webkit-details-marker{display:none}
+.editor-project-cover{position:relative;width:60px;height:45px;flex:none;display:grid;place-items:center;overflow:hidden;border-radius:5px;background:var(--panel)}
+.editor-project-card__title{display:flex;flex-direction:column;gap:3px;flex:1;min-width:0}
+.editor-project-card__title strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px}
+.editor-project-card__title small{font-size:11px;color:var(--theme-muted)}
+.editor-project-card>summary>.control-icon{width:13px;height:13px;flex:none;margin-right:4px}
+.editor-project-card>summary>button{flex:none;height:28px;padding:0 8px;font-size:12px}
+.editor-project-card>summary>.editor-project-delete{width:28px;min-width:28px;padding:0}
+.editor-project-delete>.control-icon{width:14px;height:14px}
+.editor-project-card__body{padding:3px 6px 6px;display:flex;flex-direction:column;gap:5px;min-width:0}
+.editor-project-mini-strip{display:flex;flex-wrap:nowrap;gap:4px;min-width:0;overflow-x:auto;overflow-y:hidden;scrollbar-color:var(--scroll-thumb) var(--scroll-track);scrollbar-width:thin;padding-bottom:3px}
+.editor-project-mini-strip>figure{position:relative;width:76px;height:66px;flex:0 0 76px;margin:0;border:1px solid var(--theme-border);border-radius:5px;overflow:hidden}
+.editor-project-card .editor-history-image{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.editor-project-mini-strip .editor-history-image{bottom:16px}
+.editor-project-mini-strip figcaption{position:absolute;bottom:0;left:3px;right:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:10px;line-height:16px}
+.editor-project-card__actions,.editor-project-browser__filters{display:flex;align-items:center;gap:5px;min-width:0}
+.editor-project-card__actions>button{min-height:28px;padding:3px 10px;border:1px solid var(--theme-border);border-radius:6px;background:var(--panel);color:var(--text);font:inherit;font-size:12px}
+.editor-project-card__actions>button:hover:not(:disabled){background:var(--blue-soft);border-color:var(--blue)}
+.editor-project-browser__filters>input{flex:1;min-width:0}
+.editor-project-browser__filters>select{flex:none;width:128px}
+.editor-project-browser__filters>input,.editor-project-browser__filters>select{box-sizing:border-box;height:30px;border:1px solid var(--theme-border);border-radius:6px;background:var(--panel);color:var(--text);padding:3px 7px;font:inherit;font-size:12px}

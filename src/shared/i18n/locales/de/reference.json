@@ -1,0 +1,287 @@
+{
+  "helpArticles.folders": {
+    "title": "Einstieg und Ordner",
+    "aliases": [
+      "öffnen",
+      "Navigation",
+      "Unterordner",
+      "Pfad"
+    ],
+    "paragraphs": [
+      "„Ordner auswählen“ öffnet einen Fotoordner, kein Editorprojekt. Mit Zurück, Vorwärts, Eine Ebene höher und den Pfadabschnitten wechseln Sie den aktuellen Ordner. „Unterordner“ legt fest, ob Dateien aus untergeordneten Ordnern einbezogen werden.",
+      "„Zuletzt verwendete Ordner“ enthält Verweise auf zuvor geöffnete Ordner. Ist ein Ordner nicht erreichbar, prüfen Sie die Verbindung zum Laufwerk; die Fotos wurden dadurch nicht gelöscht. Angeschlossene Ordner verwalten Sie rechts auf der Registerkarte „Bibliothek“."
+    ]
+  },
+  "helpArticles.refresh": {
+    "title": "Ordner und Index aktualisieren",
+    "aliases": [
+      "aktualisieren",
+      "Katalog",
+      "Reihenfolge"
+    ],
+    "paragraphs": [
+      "Im Menü neben Aktualisieren wählen Sie die Funktion der Hauptschaltfläche. „Ordner aktualisieren“ liest den Ordnerinhalt erneut ein; „Ordnerindex aktualisieren“ aktualisiert die lokal gespeicherten Informationen. Symbol und Hinweistext passen sich der Auswahl an. Beide Aktionen kommen ohne KI-Verarbeitung aus.",
+      "Der Index ist ein lokaler Katalog mit Dateien, Metadaten, Beschreibungen und Tags für die Suche. „Reihenfolge aktualisieren“ sortiert die sichtbaren Einträge erneut nach dem gewählten Kriterium. Die Erkennung im Hintergrund verschiebt bereits angezeigte Karten nicht."
+    ]
+  },
+  "helpArticles.library": {
+    "title": "Bibliothek und Ansichten",
+    "aliases": [
+      "Tabelle",
+      "Spalten",
+      "Sortierung",
+      "Favoriten",
+      "Fertig",
+      "Sammlungen"
+    ],
+    "paragraphs": [
+      "Der Explorer zeigt den aktuellen Ordner. Unter Favoriten finden Sie mit einem Stern markierte Fotos, unter Fertig die Fotos mit Verarbeitungsergebnis und unter Sammlungen Ihre eigenen Zusammenstellungen. Zuletzt verwendete Ordner enthält Verweise auf Ordnerpfade. Ein Eintrag im Index bedeutet noch nicht, dass ein Foto eine Beschreibung hat.",
+      "Mit „Ansicht“ und dem Größenregler unten wählen Sie zwischen vier Kartengrößen, einer Liste und einer Tabelle. Ordner stehen immer vor Dateien; innerhalb der Gruppen gilt die gewählte Sortierung. Suchergebnisse folgen der Suchreihenfolge.",
+      "Klicken Sie in der Tabelle auf eine Spaltenüberschrift zum Sortieren oder ziehen Sie eine Spaltengrenze zum Ändern der Breite. An einer fokussierten Grenze funktionieren auch die Pfeiltasten (mit Shift in größeren Schritten). Escape bricht die aktuelle Anpassung ab, ein Doppelklick stellt die Standardbreite wieder her. Über das Plus rechts wählen Sie sichtbare Spalten aus. Bestätigen Sie mit „Übernehmen“."
+    ]
+  },
+  "helpArticles.search": {
+    "title": "Suchen und auswählen",
+    "aliases": [
+      "Filter",
+      "Suchanfrage",
+      "Tags",
+      "Beschreibung",
+      "Ctrl",
+      "Shift",
+      "Export"
+    ],
+    "paragraphs": [
+      "Wählen Sie den Suchbereich: den aktuellen oder ausgewählten Ordner mit Unterordnern oder die gesamte indexierte Bibliothek. Geben Sie Suchwörter ein, wählen Sie Filter und klicken Sie auf „Suchen“. Weitere Filter lassen sich bei Bedarf aufklappen. Bis Sie die neue Suche starten, bleiben die bisherigen Ergebnisse sichtbar.",
+      "Die Suche berücksichtigt Beschreibungen, Tags und die gewählte Abgleichmethode. Fotos ohne Beschreibung lassen sich schwerer über ihren Inhalt finden. Mit Ctrl ändern Sie einzelne Auswahlen, mit Shift wählen Sie einen Bereich. Die Auswahl aller Ergebnisse umfasst auch noch nicht geladene Seiten.",
+      "Die Registerkarte „Gespeichert“ speichert Suchbedingungen, keine Dateikopien. Wählen Sie eine gespeicherte Suche und starten Sie sie anschließend. Weitere Ergebnisse werden beim Scrollen geladen. Über die Ergebnisaktionen können Sie Pfade kopieren, Ordner öffnen und CSV/JSON mit Metadaten und Verweisen exportieren. Die Originale werden nicht verschoben. Der Export berücksichtigt die angewendete Suche und Auswahl."
+    ]
+  },
+  "helpArticles.recognition": {
+    "title": "Bilderkennung",
+    "aliases": [
+      "Modell",
+      "OpenRouter",
+      "Fal",
+      "Ollama",
+      "vor Ort",
+      "schnell"
+    ],
+    "paragraphs": [
+      "Die Erkennung erstellt Text und Tags für die Suche und unterscheidet sich von der Bildbearbeitung. Wählen Sie den Dienst, das verfügbare Modell und das Ergebnis aus: Beschreibung, Tags oder beides. Lokale Modelle erfordern einen installierten Dienst und ein heruntergeladenes Modell; Cloud-Geräte benötigen einen Schlüssel.",
+      "Schnelle Modi verkürzen die Zeit, es können jedoch Details fehlen. Eine detaillierte Beschreibung listet die Hauptobjekte, den Hintergrund, die Umgebung und kleinere Details auf. Wiederholte Durchgänge prüfen das Ergebnis, erhöhen den Zeitaufwand und erhöhen möglicherweise die Kosten. Die Übereinstimmung der Antworten ist keine Garantie für die Wahrheit.",
+      "Klicken Sie für die ausgewählten Fotos auf „Verarbeiten“. Standardmäßig werden Jobs sofort gestartet. Durch das Einrichten einer manuellen Warteschlange warten sie darauf, explizit ausgeführt zu werden. Das Fotolimit pro Start und die Anzahl gleichzeitiger Anfragen sind unterschiedliche Einstellungen.",
+      "Ist das ausgewählte lokale Modell nicht installiert, zeigt die Schaltfläche „Modell installieren“. Dienst und Modell werden erst nach Ihrem Installationsauftrag heruntergeladen; vorhandene Komponenten werden weiterverwendet. Eine deaktivierte Schaltfläche „Verarbeiten“ bedeutet, dass keine geeigneten Fotos ausgewählt sind oder die Vorbereitung noch läuft."
+    ]
+  },
+  "helpArticles.privacy": {
+    "title": "Schlüssel, Einwilligung und Kosten",
+    "aliases": [
+      "Zustimmung",
+      "Zahlung",
+      "Budget",
+      "Verschlüsselung",
+      "Geheimnis"
+    ],
+    "paragraphs": [
+      "Schlüssel für Fal AI und OpenRouter werden getrennt in den Einstellungen des jeweiligen Dienstes gespeichert. Speichern und Zugriffsprüfung sind getrennte Aktionen. Windows schützt den Schlüssel für den aktuellen Benutzer. Tragen Sie ihn nicht in Fotobeschreibungen oder das Journal ein.",
+      "Die Cloud-Verarbeitung sendet ausgewählte Bilder und Anweisungen an einen externen Dienst. Liegt keine passende gespeicherte Zustimmung vor, erscheint ein Zustimmungsdialog. Wenn Sie ablehnen, wird die Anfrage nicht gesendet. Die lokale Erkennung benötigt diese Zustimmung nicht.",
+      "Der Preis vor dem Start ist eine Schätzung anhand des aktuellen Katalogs und der Parameter, keine bestätigte Abbuchung. Masken, Varianten, Auflösung und Modell beeinflussen die Kosten. Prüfen Sie tatsächliche Abbuchungen beim Dienst. Ist der Ausgang einer Übermittlung unbekannt, prüfen Sie ihn vor einer erneuten Anfrage, um doppelte Kosten zu vermeiden."
+    ]
+  },
+  "helpArticles.queue": {
+    "title": "Erkennungsaufgaben",
+    "aliases": [
+      "Pause",
+      "weitermachen",
+      "hör auf",
+      "Aufgaben",
+      "wiederholen",
+      "parallel"
+    ],
+    "paragraphs": [
+      "Im Hauptfenster bezieht sich die Registerkarte „Aufgaben“ auf das Erkennen von Beschreibungen und Tags. „Queue Items“ zeigt Fotos des ausgewählten Laufs, „Run Summary“ zeigt seinen Status und Zähler, „Job Parameters“ zeigt gespeicherte Einstellungen. Gruppen werden unabhängig voneinander erweitert. Mit dem Verlauf können Sie einen früheren Lauf ohne erneute Verarbeitung öffnen. Fotobearbeitungsaufgaben befinden sich separat – im Editor und in der Gruppe „Fotobearbeitung“.",
+      "Durch das Anhalten wird verhindert, dass neue Aufträge ausgegeben werden, die übermittelte Anforderung wird jedoch möglicherweise abgeschlossen. „Weiter“ setzt die Warteschlange fort. Das Anhalten garantiert keine Stornierung und Rückerstattung seitens der Dienstleistung.",
+      "Die Anzahl der gleichzeitig verarbeiteten Fotos wird getrennt von der Anzahl der Durchgänge eines Fotos eingestellt. In einem Cloud-Work-in-Progress kann das Parallelitätslimit geändert werden; Es wird jeweils ein Foto lokal verarbeitet. „Fertige ausblenden“ im Listenkopf blendet nur erfolgreich abgeschlossene Zeilen aus und hinterlässt Fehler. Ergebnisse und Verlauf werden gespeichert."
+    ]
+  },
+  "helpArticles.inspector": {
+    "title": "Die rechte Seitenleiste",
+    "aliases": [
+      "Details",
+      "Tags",
+      "Stapelbearbeitung",
+      "Duplikate",
+      "XMP",
+      "Journal",
+      "Sicherung"
+    ],
+    "paragraphs": [
+      "„Details“ zeigt das ausgewählte Foto und seine Informationen. Unter „Beschreibung“ und „Tags“ bearbeiten Sie die Textergebnisse. Zurücksetzen verwirft ungespeicherte Änderungen im Feld; Speichern schreibt das Ergebnis in den Index. Das Bild selbst wird durch Beschreibungen und Tags nicht verändert.",
+      "Mit Stapel-Tags fügen Sie Tags bei mehreren ausgewählten Fotos hinzu oder entfernen sie. Klappen Sie die Gruppe bei Bedarf auf. Der XMP-Export schreibt separate Dateien neben die Fotos; vorhandene Dateien sind vor versehentlichem Ersetzen geschützt.",
+      "Unter „Bibliothek“ finden Sie angeschlossene Ordner, Schreibprobleme, exakte Duplikate und Sicherungen. Eine Indexsicherung enthält lokale Informationen ohne externe Originale und API-Schlüssel; eine vollständige Sicherung enthält zusätzlich den Editorspeicher. Vor der Vorbereitung einer Wiederherstellung wird der Inhalt geprüft. Die Wiederherstellung erfolgt nach einem Neustart. Im „Journal“ können Sie Einträge aufklappen und Änderungen nachlesen, ohne die Aktion erneut auszuführen."
+    ]
+  },
+  "helpArticles.viewer": {
+    "title": "Fotos ansehen",
+    "aliases": [
+      "Zoom",
+      "Einpassen",
+      "Diashow",
+      "Drucken",
+      "Papierkorb",
+      "Teilen"
+    ],
+    "paragraphs": [
+      "Fotos werden ohne Zuschnitt in den verfügbaren Platz eingepasst. Mit den seitlichen Pfeilen blättern Sie, mit dem Mausrad zoomen Sie. „1:1“ zeigt ein Bildpixel pro Anzeigepixel; „Einpassen“ macht das gesamte Bild wieder sichtbar. Drehen verändert nur die Ansicht. In einem schmalen Fenster entfallen manche Schaltflächenbeschriftungen; ihre Namen stehen weiterhin in den Hinweisen.",
+      "Ein Doppelklick blendet die Bedienelemente aus oder wieder ein. Die Diashow nutzt eine Vollbildansicht mit unauffälligen Schaltflächen. „Bearbeiten“ öffnet den integrierten Editor; „Bild bearbeiten“ öffnet ein externes Programm.",
+      "Im Menü können Sie eine Kopie speichern, die Bildgröße ändern oder die Datei im Explorer anzeigen. Löschen verschiebt die Datei nach einer Bestätigung in den Papierkorb. Drucken, Teilen, externe Bearbeitung und Desktop-Hintergrund hängen von Windows und installierten Programmen ab. Ein verfügbarer Befehl garantiert nicht, dass die externe Aktion abgeschlossen wird.",
+      "„Bildgröße ändern…“ finden Sie im Drei-Punkte-Menü. Wählen Sie Abmessungen, das Beibehalten der Proportionen und das Ausgabeformat. Die JPEG-Qualität stellen Sie gesondert ein. Beim Speichern entsteht eine neue Datei. Bei TIFF-Dateien zeigt die Anwendung gegebenenfalls eine verkleinerte Vorschau der ersten Seite. Die Originalabmessungen werden getrennt angegeben und unterscheiden sich von der Vorschauauflösung."
+    ]
+  },
+  "helpArticles.editor": {
+    "title": "Editor: Markierungen und Werkzeuge",
+    "aliases": [
+      "Maske",
+      "Pinsel",
+      "Radiergummi",
+      "Beschneiden",
+      "Punkt",
+      "Region",
+      "drehen",
+      "Reflexion"
+    ],
+    "paragraphs": [
+      "Links wählen Sie die Aktion für das aktuelle Bild. Zuschneiden und Größenänderungen laufen ohne KI; die übrigen Werkzeuge nutzen ein kompatibles Modell Ihrer Wahl. Die verfügbaren Einstellungen hängen vom Werkzeug ab.",
+      "Die oberen Symbole sind nach Zweck unterteilt: Auswählen und Verschieben, Punkt und Bereich, Maske und Radierer, Rückgängig machen und Wiederherstellen, Spiegelungen. Zoom und Einpassen befinden sich auf der rechten Seite. Der Name jedes Symbols wird beim Hover angezeigt.",
+      "Ein Punkt definiert einen Orientierungspunkt, eine Fläche definiert eine rechteckige Fläche und eine Maske definiert eine gefüllte Form. Um ein Objekt zu entfernen, benötigen Sie normalerweise eine Maske. Modelle mit Textunterstützung nehmen auch Anweisungen an. Der Pinseldurchmesser wird in Pixeln des Arbeitsbildes gemessen. Escape bricht eine unvollständige Geste ab.",
+      "Rechts sind die Markierungen, Anweisungen und Modellauswahl. Durch Auswahl von „Position“ wird die zu bearbeitende Anweisung geändert und bei der Ausführung werden alle aktivierten Markierungen mit ausgefüllter Anweisung für dieses Werkzeug berücksichtigt. Das Auge steuert die Sichtbarkeit, die Checkbox steuert die Teilnahme an der Anfrage. Weitere Informationen zu zusätzlichen Bildern und Aufgaben finden Sie im Artikel „Editor: Aufgaben und zusätzliche Bilder“.",
+      "Drehungen und Spiegelungen verändern die Arbeitsausrichtung zusammen mit den Markierungen, ohne ein neues Bild in der Bildleiste zu erstellen. Durch Zuschneiden und Ändern der Größe wird nach dem Anwenden ein eigenständiges Bild erstellt. Das Ergebnis des Modells muss mit der Quelle verglichen werden: Kosten und Qualitätsniveau garantieren keine Genauigkeit."
+    ]
+  },
+  "helpArticles.results": {
+    "title": "Verlauf und Speichern",
+    "aliases": [
+      "vergleichen",
+      "Projekt",
+      "Entwurf",
+      "importieren",
+      "exportieren",
+      "Automatisches Speichern",
+      "Zweige"
+    ],
+    "paragraphs": [
+      "Die untere Bildleiste enthält das Original und eigenständige Ergebnisbilder. Klicken Sie auf ein Bild, um es mit seinen gespeicherten Markierungen zu öffnen. Neue Ergebnisse beginnen ohne Markierungen. Bei der Rückkehr zu einem früheren Bild werden dessen Markierungen und Anweisungen wiederhergestellt.",
+      "Ziehen Sie den oberen Rand der Bildleiste, um die Miniaturen zu vergrößern. Sie wachsen in Höhe und Breite, sodass weniger Bilder gleichzeitig sichtbar sind. Die Leiste lässt sich horizontal scrollen. Ihre Höhe gilt für alle Bilder und ändert sich nicht mit der Auswahl.",
+      "Halten Sie Ctrl gedrückt und wählen Sie zwei Bilder zum Vergleichen aus. Bewegen Sie anschließend die Trennlinie auf dem Bild. Der Vergleich wendet keine Änderungen an. Um ein Bild als zusätzliches Material zu verwenden, ziehen Sie es auf die gewünschte Markierung rechts.",
+      "Der Papierkorb an einer Miniatur entfernt dieses Bild nach einer Bestätigung aus der Leiste. Mit Shift + Klick wählen Sie mehrere Bilder; Shift + Papierkorb entfernt die Auswahl. Das Original ist geschützt. Spätere Ergebnisse bleiben auch dann erhalten, wenn ein vorheriges Bild entfernt wird. Ausgeblendete Bilder finden Sie im Änderungsverlauf.",
+      "„Projekt“ speichert Verlauf und Markierungen zum Weiterarbeiten. „Bild“ speichert das ausgewählte Bild in eine separate Datei. Das automatische Speichern lässt sich im Menü aktivieren. Ist es ausgeschaltet, können Sie vor dem Beenden speichern, im Editor bleiben oder die letzten Änderungen verwerfen. Bei einem Speicherfehler bleibt der Editor geöffnet und meldet keinen falschen Erfolg.",
+      "„Zurück“ führt zum Fenster, aus dem der Editor geöffnet wurde. „Neu beginnen“ erstellt ein separates, leeres Projekt aus dem Original; das bisherige Projekt und seine Ergebnisse bleiben erhalten. Beim Ansehen des Verlaufs werden weder Schlüssel noch Cloud-Aufträge erneut gesendet."
+    ]
+  },
+  "helpArticles.appearance": {
+    "title": "Hilfe, Themen und Probleme",
+    "aliases": [
+      "Nacht",
+      "tagsüber",
+      "dunkel",
+      "Licht",
+      "Vorschau",
+      "Fehler"
+    ],
+    "paragraphs": [
+      "Die Schaltfläche „Mond“ oder „Sonne“ auf der rechten Seite des oberen Bereichs des Hauptfensters schaltet das helle und dunkle Farbschema geöffneter Fenster um. Fotos, Markierungen und Aufgabenparameter ändern sich nicht. Die Fotoansicht behält die dunkle Umgebung des Bildes bei und die Dialoge folgt dem ausgewählten Farbschema.",
+      "„In der Anwendung zeigen“ navigiert durch Funktionsgruppen und öffnet die notwendigen Registerkarten. Das „Nachschlagewerk“ enthält durchsuchbare Artikel. Schaltflächen mit einem Fragezeichen neben den Überschriften bieten eine kurze Hilfe: Bewegen Sie die Maus, klicken Sie zum Anheften oder navigieren Sie mit der Tab-Taste zur Schaltfläche. Escape schließt den Tooltip. Die Einführung löst keine Verarbeitung, Löschung oder Zahlung aus.",
+      "Wenn ein Miniaturbildfehler auftritt, ist ein gezieltes erneutes Laden möglich; die Originaldatei wird nicht überschrieben. Wenn das Foto geöffnet wird, aber keine Vorschau vorhanden ist, überprüfen Sie die Fehlermeldung und den Miniaturbild-Cache. Protokolle sind für die Diagnose nützlich, Schlüssel sollten jedoch nicht darin enthalten sein. Ein unbekannter Cloud-Anfragestatus wird zunächst überprüft und nicht erneut übermittelt."
+    ]
+  },
+  "helpArticles.editor-instruction-guide": {
+    "title": "Editor: Aufgaben und zusätzliche Bilder",
+    "aliases": [
+      "Ort",
+      "Aufgabe",
+      "Hintergrund",
+      "Objekt",
+      "automatisch",
+      "ziehen",
+      "weitere Bilder",
+      "Referenzen",
+      "mehrere Markierungen"
+    ],
+    "paragraphs": [
+      "Wählen Sie zuerst links ein Werkzeug. Für einen neuen Hintergrund beschreiben Sie im Hauptfeld, wie er aussehen soll, etwa: „Helles Studio, weiches Tageslicht, die Person unverändert lassen.“ Anweisungen anderer Werkzeuge werden nicht in diese Anfrage übernommen.",
+      "Setzen Sie für eine lokale Bearbeitung einen Punkt oder zeichnen Sie einen Bereich. Wählen Sie unter „Position“ die gewünschte Markierung und beschreiben Sie die Änderung. Ein Positionswechsel wechselt nur die bearbeitete Anweisung. Beim Start werden alle aktivierten Markierungen mit ausgefüllter Anweisung und die allgemeine Anweisung gemeinsam berücksichtigt.",
+      "Jede Markierung hat ihre eigene Anweisung und eigene zusätzliche Bilder. Das Auge blendet sie nur auf der Leinwand aus. Das Kontrollkästchen legt fest, ob sie an der Anfrage teilnimmt. Die Anweisung einer ausgeblendeten, aber aktivierten Markierung bleibt enthalten. Prüfen Sie vor dem Start alle einbezogenen Markierungen.",
+      "Ein Punkt nimmt ein zusätzliches Bild auf; ein neues ersetzt das bisherige. Für Bereiche sind mehrere Bilder möglich. Mit dem Plus neben dem Bildzähler wählen Sie eine Datei; die Gruppe öffnet sich bei Bedarf automatisch. Sie können auch ein Bild aus der unteren Bildleiste direkt auf einen Punkt oder Bereich in der Markierungsliste ziehen. Bei Punkten ersetzt es den Anhang, bei Bereichen kommt es hinzu. Arbeitsdrehungen und Spiegelungen des Bildes werden berücksichtigt.",
+      "In der geöffneten Gruppe können Sie zusätzliche Bilder ansehen, umsortieren, vorübergehend ausschließen oder entfernen. Ihre Reihenfolge und Zuordnung zur Markierung werden mit der Anweisung übermittelt. Das Gesamtlimit neben dem Modell umfasst das Original. Dasselbe Bild an mehreren Stellen belegt nicht unbedingt mehrere Eingaben. Das Entfernen eines Anhangs löscht die Originaldatei nicht.",
+      "Übermalen Sie zum Entfernen eines Objekts die gewünschte Stelle mit einer Maske. Mit dem Radiergummi korrigieren Sie deren Ränder. Nimmt das Modell keinen Text oder keine zusätzlichen Bilder an, werden diese Daten nicht gesendet. Sie bleiben für kompatible Werkzeuge im Projekt. Der Modellhinweis und die Vorschau „Was wird gesendet“ zeigen die verwendbaren Eingaben.",
+      "Mit dem Griff unter der Markierungsliste ändern Sie deren Höhe; ein Doppelklick passt sie wieder an den Inhalt an. Beim Vergrößern rücken die nachfolgenden Felder nach unten. Lange Listen lassen sich scrollen. Alle gespeicherten zusätzlichen Bilder finden Sie in den erweiterten Einstellungen. Ihre Anzahl kann von der Zahl der Eingaben der aktuellen Bearbeitung abweichen.",
+      "Wählen Sie Modell, Auflösung und verfügbare Qualität, prüfen Sie die Kostenschätzung und klicken Sie auf „Bearbeitung starten“. Alle Anweisungen dieses Starts werden gemeinsam gesendet. Das fertige Bild wird automatisch ausgewählt, sofern Sie nicht in ein anderes Projekt gewechselt sind. Es beginnt ohne Markierungen; das Original behält seine bisherigen Markierungen und Anweisungen."
+    ]
+  },
+  "helpArticles.editor-safe-workflow": {
+    "title": "Editor: von der Quelle bis zum Ergebnis",
+    "aliases": [
+      "zuschneiden",
+      "drehen",
+      "Modell",
+      "Parameter",
+      "vergleichen",
+      "speichern",
+      "1K",
+      "2K",
+      "4K",
+      "Modellfilter",
+      "Auflösung",
+      "Qualität"
+    ],
+    "paragraphs": [
+      "Mit der Auswahl eines Bildes in der unteren Bildleiste legen Sie das Ausgangsbild der nächsten Bearbeitung fest. Jedes Bild behält seine eigenen Markierungen und Anweisungen. Es lässt sich unabhängig von späteren Ergebnissen entfernen. Die Höhe der Bildleiste gilt für alle Bilder.",
+      "Wählen Sie ein Werkzeug aus, geben Sie Anweisungen oder eine Maske an und fügen Sie bei Bedarf zusätzliche Bilder hinzu. Alle aktivierten nicht leeren Jobs des aktuellen Tools nehmen an der lokalen Bearbeitung teil. Verschiedene Orte und zusätzliche Bilder werden in einer Anfrage zusammengefasst. Die Genauigkeit des Standorts hängt vom ausgewählten Modell und der ausgewählten Szene ab.",
+      "Die Stufen „Economy“, „Balance“ und „Quality“ helfen Ihnen bei der Auswahl einer Modellvariante; Die Dropdown-Liste enthält die verfügbaren Optionen für dieses Tool. Das Fragezeichen nach „Modell“ erläutert den Zweck, die Einschränkungen, die Anzahl der zusätzlichen Bilder und Anmerkungen zur Genauigkeit der Platzierung.",
+      "Das Filtersymbol im Modellbereich zeigt Filter statt der Stufen. Sie können nach geschätzten Gesamtkosten des Starts, Auflösung, Anzahl zusätzlicher Bilder ohne das Original und Unterstützung der Originalabmessungen filtern. Die Filter grenzen nur die Liste ein; das Modell wählen Sie weiterhin selbst. Das Kreuz setzt die Filter zurück. Lockern Sie die Bedingungen, wenn kein Modell passt.",
+      "Auflösung und Qualität des Ergebnisses sind unterschiedliche Einstellungen unter der Modellliste. Die Größe gibt die Anzahl der Pixel an, die Qualität gibt den Modus des ausgewählten Modells an, sofern verfügbar. „Wie Quelle“ erfordert die Unterstützung der Originalabmessungen; Wenn dies nicht kompatibel ist, wählen Sie bitte eine andere Größe oder ein anderes Modell. Durch die explizite Auswahl von 1K, 2K oder einem anderen verfügbaren Modus wird die neue Größe festgelegt. Die endgültigen Abmessungen werden auch in der Aufgabe angezeigt.",
+      "Die Kostenschätzung gilt für den gesamten aktuellen Lauf und ändert sich mit den Parametern und der Zusammensetzung der Eingaben. Es handelt sich nicht um eine bestätigte Abbuchung. Zu den weiteren Einstellungen gehören Budget, Parallelität und detaillierte Abfragezusammensetzung. Ohne die erforderliche Cloud-Sendeberechtigung wird ein Zustimmungsfenster angezeigt.",
+      "Durch Klicken auf „Bearbeitung starten“ wird eine neue Aufgabe erstellt. Alte unterbrochene oder unbekannte Übermittlungen werden selbst nicht fortgesetzt und blockieren keine separate neue Bearbeitung. Überwachen Sie den Fortschritt auf der Registerkarte „Aufgaben“. Durch einfaches Öffnen der Karte werden die Fotos nicht erneut gesendet.",
+      "Während eine Bearbeitung läuft, sind Änderungen an ihrem ursprünglichen Auftrag und ein weiterer Start dieses Projekts gesperrt. Sie können das Bild weiterhin ansehen, die Ansicht verschieben, abbrechen oder das Fenster schließen. Das Ergebnis erscheint als eigenständiges Bild. Projekt und Bild werden mit unterschiedlichen Schaltflächen gespeichert."
+    ]
+  },
+  "helpArticles.rename": {
+    "title": "Intelligente Umbenennung",
+    "aliases": [
+      "Nummerierung",
+      "Präfix",
+      "Suffix",
+      "Produkt",
+      "Namen",
+      "Dateien",
+      "Reihenfolge"
+    ],
+    "paragraphs": [
+      "Wählen Sie die gewünschten Dateien oder Ordner aus und klicken Sie in der oberen Leiste auf das Tag-Symbol „Intelligent umbenennen“. Ohne Auswahl wird der aktuelle Ordner verwendet. Es öffnet sich ein separates Fenster mit vorgeschlagenen Namen. Das neuronale Netz und kostenpflichtige Anfragen werden nicht genutzt.",
+      "Sie können den gleichen Namen beibehalten oder einen allgemeinen Namen festlegen und ein Präfix und Suffix hinzufügen. Beispielsweise ergibt der allgemeine Name „Produkt“ und die Nummerierung mit drei Ziffern „Produkt_001“, „Produkt_002“ usw. Die Erweiterung wird automatisch hinzugefügt und ändert sich nicht.",
+      "Der Schalter „Nummerierung“ schaltet die Nummer ein oder aus. Geben Sie den Anfang, die Anzahl der Ziffern und die Position der Nummer an. „Reihenfolge“ bestimmt, welche Datei die erste Nummer erhält; Überprüfen Sie vor der Bestätigung die Reihenfolge anhand der Miniaturansichten und Namen in der Vorschau.",
+      "Sie können Unterordner für einen Ordner hinzufügen; Die Namen der Ordner selbst ändern sich nicht. Weitere Parameter sind der Zählerschritt und bei mehreren Ordnern ein eigener Zählerstart in jedem Ordner. Verwenden Sie nur die Bedingungen, die Sie benötigen, und prüfen Sie die endgültige Liste.",
+      "Umbenennen wendet den angezeigten Plan erst an, nachdem auf Konflikte und Dateiänderungen geprüft wurde. Fotoinhalte und Metadaten bleiben erhalten und Bibliothekspfade werden aktualisiert. Wenn der Name vergeben ist oder sich die Datei geändert hat, korrigieren Sie die Bedingungen und aktualisieren Sie die Vorschau.",
+      "Auf der Registerkarte „Protokoll und Rücknahme“ können Sie das Ergebnis überprüfen, den unterbrochenen Vorgang fortsetzen oder abbrechen. Die Fortsetzung erfolgt nur auf Ihren Befehl; Wenn ein Konflikt mit einer geänderten Datei besteht, wird diese von der Anwendung nicht überschrieben. Für einen weiteren Satz schließen Sie das Fenster und wählen Sie die Dateien erneut aus."
+    ]
+  },
+  "helpArticles.editor-tasks": {
+    "title": "Editor: Aufgaben und Ergebnisse",
+    "aliases": [
+      "Archiv",
+      "Datum",
+      "Dauer",
+      "Kosten",
+      "abbrechen",
+      "Ergebnisgröße"
+    ],
+    "paragraphs": [
+      "Auf der Registerkarte „Aufgaben“ auf der rechten Seite des Editors werden die Aufgaben des aktuellen Projekts angezeigt. Klicken Sie auf den Titel der gewünschten Karte: Daraufhin werden Details neben den Ergebnissen geöffnet. Die Liste scrollt bis zur vollen verfügbaren Höhe des Panels.",
+      "Auf der Karte sind das Erstellungs- und Fertigstellungsdatum, die Zeit vor dem Ergebnis und nach Beginn der Ausführung, das Modell, das Original, die angeforderten und erhaltenen Abmessungen, die Qualität und die Anzahl der Bilder angegeben. Die Dauer bis zum Ergebnis beinhaltet das Warten; daher kann es von der Zeit nach dem Start abweichen.",
+      "Bei der Kostenschätzung vor dem Start und den bestätigten Kosten handelt es sich um unterschiedliche Werte. Wenn der Dienst die Abbuchung nicht bestätigt hat, wird der Betrag als geschätzt markiert. Für die angezeigten Aufgaben gilt die Gesamtsumme oberhalb der Liste; Dabei handelt es sich nicht um den Kontostand des Dienstkontos.",
+      "„Öffnen“ wählt einen bestimmten fertigen Bild ohne neue Generierung aus. Abbrechen und Fortfahren sind separate Kartenaktionen. Alte unbekannte oder unterbrochene Jobs werden nicht durch das Öffnen einer Liste oder das Starten einer anderen Bearbeitung gestartet.",
+      "Der archivierte Datensatz des übertragenen Projekts steht zum Lesen zur Verfügung; Die alte Cloud-Anfrage wird nicht fortgesetzt und die alten Ausgaben werden nicht zum neuen Budget hinzugefügt. Wenn das Ergebnis unbekannt ist, überprüfen Sie genau die vorherige Anfrage, bevor Sie sie bewusst erneut stellen."
+    ]
+  }
+}

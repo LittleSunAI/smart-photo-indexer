@@ -1,0 +1,3740 @@
+{
+  "status": "final Russian tutorial copy ready_for_translation; no product checks",
+  "date": "2026-10-19",
+  "baselineId": "ru-tour-v1",
+  "sourceDigest": "66605f09779e72aae64a6930bb6658d3bbe05724c4b0556dcbeb997003cfcab2",
+  "authoritativeCopy": "seven numbered Markdown files; no duplicate body text in this inventory",
+  "scope": "tutorial copy only; translations and full UI/reference rewrite separate",
+  "cardsByContext": {
+    "main": 101,
+    "editor": 66,
+    "viewer": 26
+  },
+  "cardsByMode": {
+    "reuse": 14,
+    "adapt": 127,
+    "new": 52
+  },
+  "serviceStrings": 34,
+  "unavailableStrings": 43,
+  "groupTitles": 34,
+  "metrics": {
+    "words": {
+      "min": 19,
+      "median": 42,
+      "max": 74,
+      "p10": 31,
+      "p90": 52
+    },
+    "overviewWords": {
+      "min": 23,
+      "median": 45.0,
+      "max": 55
+    },
+    "paragraphs": {
+      "1": 12,
+      "2": 180,
+      "3": 1
+    }
+  },
+  "cards": [
+    {
+      "id": "main.folder.choose",
+      "title": "Выбрать папку",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 7,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "main.choose-folder"
+      ],
+      "bindingNote": "Привязка: `choose-folder`; reuse `main.choose-folder`; недоступность `busy-folder`.",
+      "unavailableIds": [
+        "busy-folder"
+      ],
+      "bodyParagraphs": 1,
+      "bodyWords": 23,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.folder.refresh",
+      "title": "Обновление папки",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 13,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.refresh-folder",
+        "main.refresh-index"
+      ],
+      "bindingNote": "Привязка: основная кнопка внутри `refresh`; adapt `main.refresh-folder`, `main.refresh-index`; недоступность `no-folder` / `busy-folder`.",
+      "unavailableIds": [
+        "no-folder",
+        "busy-folder"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.folder.refresh-options",
+      "title": "Варианты обновления",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 21,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.refresh-mode"
+      ],
+      "bindingNote": "Привязка: стрелка FolderRefreshMenu; adapt `main.refresh-mode`; недоступность `no-folder` / `busy-folder`.",
+      "unavailableIds": [
+        "no-folder",
+        "busy-folder"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.recognition.overview",
+      "title": "Сервис, модель и результат",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 29,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: общий блок выбора сервиса/модели и результата; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.recognition.provider",
+      "title": "Где распознавать фотографии",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 37,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "main.provider"
+      ],
+      "bindingNote": "Привязка: select сервиса; reuse `main.provider`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 26,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.recognition.model",
+      "title": "Модель распознавания",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 43,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "main.model"
+      ],
+      "bindingNote": "Привязка: select модели; reuse `main.model`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 25,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.recognition.output",
+      "title": "Что получить",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 49,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.output"
+      ],
+      "bindingNote": "Привязка: AnalysisOutputSelect; adapt `main.output`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 63,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.processing.overview",
+      "title": "Условия и запуск обработки",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 57,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `.main-toolbar__launch-group`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 55,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.processing.recursive",
+      "title": "Учитывать подпапки",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 65,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.recursive-process"
+      ],
+      "bindingNote": "Привязка: checkbox «Подпапки»; adapt `main.recursive-process`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.processing.smart-name",
+      "title": "Умное имя",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 73,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "main.smart-name"
+      ],
+      "bindingNote": "Привязка: checkbox «Умное имя»; reuse `main.smart-name`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 39,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.processing.copy",
+      "title": "Создать копию",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 79,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "main.analysis-copy"
+      ],
+      "bindingNote": "Привязка: checkbox «Создать копию»; reuse `main.analysis-copy`; причина из `main.copy-disabled`; недоступность `copy-needs-smart-name`.",
+      "unavailableIds": [
+        "copy-needs-smart-name"
+      ],
+      "bodyParagraphs": 1,
+      "bodyWords": 21,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.processing.only-missing",
+      "title": "Только необработанные",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 85,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "main.only-missing"
+      ],
+      "bindingNote": "Привязка: checkbox «Только необработанные»; reuse `main.only-missing`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 28,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.processing.action",
+      "title": "Обработать или добавить в очередь",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 91,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.process-direct",
+        "main.process-manual"
+      ],
+      "bindingNote": "Привязка: основная кнопка ProcessButton; adapt `main.process-direct`, `main.process-manual`; недоступность `process-selection`, `provider-not-ready`, `busy-action`.",
+      "unavailableIds": [
+        "process-selection",
+        "provider-not-ready",
+        "busy-action"
+      ],
+      "bodyParagraphs": 3,
+      "bodyWords": 68,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.processing.mode",
+      "title": "Режим основной кнопки",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 101,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.process-mode"
+      ],
+      "bindingNote": "Привязка: стрелка ProcessButton; adapt `main.process-mode`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 49,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.commands.overview",
+      "title": "Другие команды программы",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 109,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: команды после обработки до помощи; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.commands.edit",
+      "title": "Изменить фотографию",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 117,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.edit-photo"
+      ],
+      "bindingNote": "Привязка: EditSelectedButton; adapt `main.edit-photo`; недоступность `one-photo`.",
+      "unavailableIds": [
+        "one-photo"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.commands.rename",
+      "title": "Умное переименование",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 125,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.rename"
+      ],
+      "bindingNote": "Привязка: `smart-rename`; adapt `main.rename`; недоступность `rename-source`.",
+      "unavailableIds": [
+        "rename-source"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.commands.settings",
+      "title": "Настройки программы",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 133,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.settings"
+      ],
+      "bindingNote": "Привязка: `settings`; adapt `main.settings`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 38,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.commands.logs",
+      "title": "Логи приложения",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 141,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.logs"
+      ],
+      "bindingNote": "Привязка: кнопка «Логи»; adapt `main.logs`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 31,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.commands.theme",
+      "title": "Светлая и тёмная тема",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 149,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: ThemeButton; новый текст по текущему control.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 24,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.help.overview",
+      "title": "Обучение и справочник",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 157,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "help.open"
+      ],
+      "bindingNote": "Привязка: кнопка вопроса; adapt `help.open`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.help.hover",
+      "title": "Подсказки при наведении",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 165,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "help.hints-reveal",
+        "help.hints-toggle"
+      ],
+      "bindingNote": "Привязка: `help-hints-control`, раскрытие до `hover-hints-toggle`; adapt `help.hints-reveal`, `help.hints-toggle`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.navigation.overview",
+      "title": "Переходы между папками",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 173,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: общий блок navigation и breadcrumbs; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.navigation.back",
+      "title": "Назад",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 181,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.back"
+      ],
+      "bindingNote": "Привязка: первая кнопка `navigation`; adapt `main.back`; недоступность `history-back` / `busy-folder`.",
+      "unavailableIds": [
+        "history-back",
+        "busy-folder"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 32,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.navigation.forward",
+      "title": "Вперёд",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 189,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.forward"
+      ],
+      "bindingNote": "Привязка: вторая кнопка `navigation`; adapt `main.forward`; недоступность `history-forward` / `busy-folder`.",
+      "unavailableIds": [
+        "history-forward",
+        "busy-folder"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 30,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.navigation.up",
+      "title": "На уровень выше",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 197,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.up"
+      ],
+      "bindingNote": "Привязка: третья кнопка `navigation`; adapt `main.up`; недоступность `no-folder` / `no-parent` / `busy-folder`.",
+      "unavailableIds": [
+        "no-folder",
+        "no-parent",
+        "busy-folder"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 31,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.navigation.computer",
+      "title": "Компьютер и диски",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 205,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: DrivePicker; новый текст по текущему control; недоступность `busy-folder`.",
+      "unavailableIds": [
+        "busy-folder"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.navigation.breadcrumbs",
+      "title": "Текущий путь",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 213,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.breadcrumb"
+      ],
+      "bindingNote": "Привязка: `.main-toolbar__breadcrumbs`; adapt `main.breadcrumb`; недоступность `no-folder` / `busy-folder`.",
+      "unavailableIds": [
+        "no-folder",
+        "busy-folder"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.quick.overview",
+      "title": "Быстрый поиск",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 221,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: верхняя форма поиска; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.quick.scope",
+      "title": "Где искать",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 229,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.scope"
+      ],
+      "bindingNote": "Привязка: только верхний select области; adapt `search.scope`; недоступность `folder-scope`.",
+      "unavailableIds": [
+        "folder-scope"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 54,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.quick.fields",
+      "title": "По каким сведениям искать",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 237,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.fields"
+      ],
+      "bindingNote": "Привязка: только верхний SearchFields; adapt `search.fields`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.quick.query",
+      "title": "Строка быстрого поиска",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 245,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.quick"
+      ],
+      "bindingNote": "Привязка: input «Быстрый поиск фотографий»; adapt `search.quick`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 48,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.quick.actions",
+      "title": "Найти и очистить",
+      "context": "main",
+      "file": "01-main-top.md",
+      "line": 253,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.quick-submit",
+        "search.quick-clear"
+      ],
+      "bindingNote": "Привязка: submit/clear верхнего поиска; adapt `search.quick-submit`, `search.quick-clear`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 38,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.workspace.overview",
+      "title": "Способы работать с фотографиями",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 5,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `workspace-tabs`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.workspace.explorer",
+      "title": "Проводник",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 13,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.tab-explorer"
+      ],
+      "bindingNote": "Привязка: вкладка «Проводник» и её содержимое; adapt `main.tab-explorer`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.overview",
+      "title": "Подробный поиск",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 21,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: вкладка «Поиск» и SearchControls; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 55,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.sections",
+      "title": "Фильтры и сохранённые поиски",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 29,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.filters-tab",
+        "search.saved-tab",
+        "search.save"
+      ],
+      "bindingNote": "Привязка: heading SearchControls; adapt `search.filters-tab`, `search.saved-tab`, `search.save`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.query",
+      "title": "Запрос и область подробного поиска",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 37,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.advanced-query",
+        "search.advanced-submit",
+        "search.reset"
+      ],
+      "bindingNote": "Привязка: форма SearchControls, не верхняя форма; adapt `search.advanced-query`, `search.advanced-submit`, `search.reset`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.primary-filters",
+      "title": "Состояние фотографии и теги",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 45,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.status",
+        "search.tags",
+        "search.tags-all",
+        "search.tags-any"
+      ],
+      "bindingNote": "Привязка: `.search-controls__primary`; adapt `search.status`, `search.tags`, `search.tags-all`, `search.tags-any`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.additional",
+      "title": "Дополнительные условия",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 53,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.extra",
+        "search.favorite",
+        "search.word-forms",
+        "search.collection",
+        "search.root"
+      ],
+      "bindingNote": "Привязка: кнопка дополнительных фильтров; adapt `search.extra`, `search.favorite`, `search.word-forms`, `search.collection`, `search.root`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.dates",
+      "title": "Поиск по датам",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 61,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.date-kind",
+        "search.date-from",
+        "search.date-to"
+      ],
+      "bindingNote": "Привязка: кнопка дополнительных фильтров; условный подшаг к дате, если соответствующий блок уже доступен; adapt `search.date-kind`, `search.date-from`, `search.date-to`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.saved",
+      "title": "Сохранённые условия",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 69,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.saved-open",
+        "search.saved-filter",
+        "search.saved-star"
+      ],
+      "bindingNote": "Привязка: `search-saved`; adapt `search.saved-open`, `search.saved-filter`, `search.saved-star`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.result-actions",
+      "title": "Действия с найденным",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 77,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "search.actions",
+        "search.action-scope"
+      ],
+      "bindingNote": "Привязка: `search-actions`; adapt `search.actions`, `search.action-scope`; недоступность `no-search-results`.",
+      "unavailableIds": [
+        "no-search-results"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.search.results",
+      "title": "Результаты поиска",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 85,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: область результатов; новый текст по SearchControls и WorkspaceLayout.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.workspace.favorites",
+      "title": "Избранное",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 93,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.tab-favorites"
+      ],
+      "bindingNote": "Привязка: `favorites-workspace`; adapt `main.tab-favorites`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 31,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.workspace.ready",
+      "title": "Готовые фотографии",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 101,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.tab-ready"
+      ],
+      "bindingNote": "Привязка: `processed-workspace`; adapt `main.tab-ready`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 49,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.workspace.collections",
+      "title": "Коллекции",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 109,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.tab-collections"
+      ],
+      "bindingNote": "Привязка: `collections-workspace`; adapt `main.tab-collections`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 49,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.workspace.recent",
+      "title": "Недавние папки",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 117,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.tab-recent"
+      ],
+      "bindingNote": "Привязка: `recent-workspace`; adapt `main.tab-recent`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.display.overview",
+      "title": "Как показывать фотографии",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 125,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `.workspace-layout__view-controls`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.display.fit",
+      "title": "Заполнить или вписать",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 133,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.fit-fill",
+        "main.fit-contain"
+      ],
+      "bindingNote": "Привязка: select «Кадрирование»; adapt `main.fit-fill`, `main.fit-contain`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 35,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.display.view",
+      "title": "Вид списка",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 141,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.view-table",
+        "main.view-list",
+        "main.view-size"
+      ],
+      "bindingNote": "Привязка: `view`; adapt `main.view-table`, `main.view-list`, `main.view-size`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 35,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.display.columns",
+      "title": "Столбцы таблицы",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 149,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.columns",
+        "main.columns-apply",
+        "main.columns-default"
+      ],
+      "bindingNote": "Привязка: `table-columns`; adapt `main.columns`, `main.columns-apply`, `main.columns-default`; недоступность `table-only`.",
+      "unavailableIds": [
+        "table-only"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.display.sort",
+      "title": "Сортировка",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 157,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "sort.control"
+      ],
+      "bindingNote": "Привязка: `sort`; adapt `sort.control` и конкретные sort helpers.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 73,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.display.files",
+      "title": "Какие файлы показывать",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 165,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.files"
+      ],
+      "bindingNote": "Привязка: select «Файлы»; adapt `main.files`; недоступность `explorer-only`.",
+      "unavailableIds": [
+        "explorer-only"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 43,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.display.filename",
+      "title": "Фильтр имени файла",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 173,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: FilenameFilter; новый текст по текущему control; недоступность `explorer-only`.",
+      "unavailableIds": [
+        "explorer-only"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 39,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.canvas.overview",
+      "title": "Фотографии и файлы",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 181,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: полотно проводника; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.canvas.selection",
+      "title": "Выбор нескольких фотографий",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 189,
+      "mode": "adapt",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: полотно; adapt существующей помощи выделению.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.canvas.open",
+      "title": "Открыть фотографию или папку",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 197,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: полотно; новый текст по handlers открытия; недоступность `empty-content`.",
+      "unavailableIds": [
+        "empty-content"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.canvas.context",
+      "title": "Меню выбранных элементов",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 205,
+      "mode": "adapt",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: полотно; adapt помощи файловому меню.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 35,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.canvas.drag",
+      "title": "Переместить фотографии в папку",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 213,
+      "mode": "adapt",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: полотно и карточка папки; adapt file-actions help; недоступность `empty-content`.",
+      "unavailableIds": [
+        "empty-content"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.canvas.compare",
+      "title": "Сравнить две фотографии",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 221,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.compare"
+      ],
+      "bindingNote": "Привязка: `.workspace-compare`; adapt `main.compare`; недоступность `two-photos`.",
+      "unavailableIds": [
+        "two-photos"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.footer.status",
+      "title": "Состояние и выделение",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 229,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: AppStatusBar; новый текст по счётчикам и useSelectionStatistics.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 61,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.footer.view",
+      "title": "Размер миниатюр",
+      "context": "main",
+      "file": "02-main-workspace.md",
+      "line": 237,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "main.thumbnail-size"
+      ],
+      "bindingNote": "Привязка: ползунок «Вид» в AppStatusBar; adapt `main.thumbnail-size`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.inspector.overview",
+      "title": "Сведения, результаты и задачи",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 5,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: правая панель; новый обзор; недоступность `right-panel-hidden`.",
+      "unavailableIds": [
+        "right-panel-hidden"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 48,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.inspector.tabs",
+      "title": "Вкладки правой панели",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 13,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `inspector-tabs`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 52,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.details.overview",
+      "title": "Детали выбранного",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 21,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: содержимое вкладки «Детали»; новый обзор; недоступность `selection-needed`.",
+      "unavailableIds": [
+        "selection-needed"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.details.preview",
+      "title": "Просмотр и действия с фотографией",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 29,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "details.photo-open",
+        "main.edit-photo"
+      ],
+      "bindingNote": "Привязка: превью и действия выбранной фотографии; adapt `details.photo-open`, `main.edit-photo`; недоступность `one-photo`.",
+      "unavailableIds": [
+        "one-photo"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.details.file-info",
+      "title": "Сведения о файле",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 37,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: список свойств; новый текст; недоступность `selection-needed`.",
+      "unavailableIds": [
+        "selection-needed"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.details.collections",
+      "title": "Коллекции выделения",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 45,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `selection-collections`; новый обзор; недоступность `photo-selection`.",
+      "unavailableIds": [
+        "photo-selection"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.details.collection-add",
+      "title": "Добавить в существующую коллекцию",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 53,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "collection.target",
+        "collection.add"
+      ],
+      "bindingNote": "Привязка: select и «Добавить» в PhotoCollections; adapt `collection.target`, `collection.add`; недоступность `collection-target`.",
+      "unavailableIds": [
+        "collection-target"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.details.collection-create",
+      "title": "Новая коллекция",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 61,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "collection.name",
+        "collection.create"
+      ],
+      "bindingNote": "Привязка: имя и плюс в PhotoCollections; adapt `collection.name`, `collection.create`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 39,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.description.overview",
+      "title": "Описание фотографии",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 69,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `description-panel`; новый обзор; недоступность `one-photo`.",
+      "unavailableIds": [
+        "one-photo"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.description.edit",
+      "title": "Текст и оформление",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 77,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "text.bold",
+        "text.bullets",
+        "text.link"
+      ],
+      "bindingNote": "Привязка: поле и панель DescriptionEditor; adapt `text.bold`, `text.bullets`, `text.link`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 43,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.description.save",
+      "title": "Сохранить описание",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 85,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "details.save-description",
+        "common.reset-draft"
+      ],
+      "bindingNote": "Привязка: Сбросить / Сохранить описание; adapt `details.save-description`, `common.reset-draft`; недоступность `metadata-save`.",
+      "unavailableIds": [
+        "metadata-save"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.tags.overview",
+      "title": "Теги фотографии",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 93,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `tags-panel`; новый обзор; недоступность `photo-selection`.",
+      "unavailableIds": [
+        "photo-selection"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 43,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.tags.single",
+      "title": "Изменить теги одного снимка",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 101,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "details.save-tags",
+        "details.tag-remove"
+      ],
+      "bindingNote": "Привязка: одиночное поле тегов и Save/Reset; adapt `details.save-tags`, `details.tag-remove`; недоступность `one-photo` / `metadata-save`.",
+      "unavailableIds": [
+        "one-photo",
+        "metadata-save"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 28,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.tags.batch-overview",
+      "title": "Теги для нескольких фотографий",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 109,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "details.batch"
+      ],
+      "bindingNote": "Привязка: summary пакетных тегов; adapt `details.batch`; недоступность `photo-selection`.",
+      "unavailableIds": [
+        "photo-selection"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.tags.batch-add",
+      "title": "Добавить общие теги",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 117,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: textarea пакетных тегов; новый текст по BatchTagsPanel.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.tags.batch-remove",
+      "title": "Отметить теги для удаления",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 125,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: чипы `.batch-tags-union`; новый текст по BatchTagsPanel.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.tags.batch-save",
+      "title": "Сохранение пакетных изменений",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 133,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "details.batch-apply",
+        "details.batch-undo"
+      ],
+      "bindingNote": "Привязка: Save/Undo в BatchTagsPanel; adapt `details.batch-apply`, `details.batch-undo`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 38,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.tags.xmp",
+      "title": "Перенос описаний и тегов через XMP",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 141,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "details.xmp",
+        "details.xmp-export",
+        "details.xmp-import"
+      ],
+      "bindingNote": "Привязка: `xmp-metadata`; adapt `details.xmp`, `details.xmp-export`, `details.xmp-import`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 64,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.overview",
+      "title": "Очереди распознавания",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 149,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `queue`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.controls",
+      "title": "Запуск, пауза и остановка",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 157,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "queue.start",
+        "queue.pause",
+        "queue.resume",
+        "queue.stop",
+        "queue.retry-failed"
+      ],
+      "bindingNote": "Привязка: `.queue-primary-controls`; adapt `queue.start`, `queue.pause`, `queue.resume`, `queue.stop`, `queue.retry-failed`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 55,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.cost",
+      "title": "Оценка и расход",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 165,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: QueueSelectionCost / QueueCostSummary; новый текст по сводке.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.progress",
+      "title": "Ход обработки",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 173,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "queue.progress"
+      ],
+      "bindingNote": "Привязка: `queue-progress`; adapt `queue.progress`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 50,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.list",
+      "title": "Карточки очередей",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 181,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `queue-items` / `queue-capsules`; новый обзор по QueueCapsules и QueueListControls.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 52,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.new",
+      "title": "Новая пустая очередь",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 189,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "queue.new"
+      ],
+      "bindingNote": "Привязка: плюс QueueListControls; reuse `queue.new`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 26,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.target",
+      "title": "Куда добавлять фотографии",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 195,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "queue.target"
+      ],
+      "bindingNote": "Привязка: radio «Добавлять сюда» на ручной карточке; reuse `queue.target`; недоступность `manual-queue`.",
+      "unavailableIds": [
+        "manual-queue"
+      ],
+      "bodyParagraphs": 1,
+      "bodyWords": 23,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.card-actions",
+      "title": "Управление отдельной очередью",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 201,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "queue.capsule-start",
+        "queue.remove-all"
+      ],
+      "bindingNote": "Привязка: play/trash карточки и общая корзина; adapt `queue.capsule-start`, `queue.remove-all`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.photo",
+      "title": "Фотография в очереди",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 209,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "queue.task-photo"
+      ],
+      "bindingNote": "Привязка: строка QueueTaskList; adapt `queue.task-photo`; недоступность `no-queue-items`.",
+      "unavailableIds": [
+        "no-queue-items"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.summary",
+      "title": "Сводка запуска",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 217,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `queue-details`; новый текст по DetailsPanel.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.parameters",
+      "title": "Параметры выбранного задания",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 225,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "queue.settings",
+        "queue.concurrency",
+        "queue.new-settings"
+      ],
+      "bindingNote": "Привязка: `queue-settings`; adapt `queue.settings`, `queue.concurrency`, `queue.new-settings`; недоступность `queue-selected`.",
+      "unavailableIds": [
+        "queue-selected"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 49,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.queue.history",
+      "title": "История заданий",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 233,
+      "mode": "adapt",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `queue-history` и связанные сведения; adapt существующей помощи истории.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.library.overview",
+      "title": "Библиотека программы",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 241,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `index-library`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 54,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.library.roots",
+      "title": "Подключённые папки",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 249,
+      "mode": "adapt",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `library-roots`; adapt соответствующей помощи библиотеки.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 52,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.library.maintenance",
+      "title": "Проблемные записи",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 257,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `index-maintenance`; новый текст по IndexMaintenancePanel.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 48,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.library.duplicates",
+      "title": "Точные копии",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 265,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "library.duplicates",
+        "library.keep-copy",
+        "library.reset-duplicate-decisions"
+      ],
+      "bindingNote": "Привязка: `index-duplicates`; adapt `library.duplicates`, `library.keep-copy`, `library.reset-duplicate-decisions`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 70,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.library.backup",
+      "title": "Данные программы",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 273,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "library.backup-full-save",
+        "library.backup-full-pick"
+      ],
+      "bindingNote": "Привязка: `program-data-backup`; adapt `library.backup-full-save`, `library.backup-full-pick`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 74,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.library.cache",
+      "title": "Кэш миниатюр",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 281,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `index-cache`; новый текст по ThumbnailCachePanel.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.library.technical",
+      "title": "Технические сведения библиотеки",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 289,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `index-technical`; новый текст по текущему блоку.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "main.journal.overview",
+      "title": "Журнал действий",
+      "context": "main",
+      "file": "03-main-right.md",
+      "line": 297,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `journal-panel`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.overview",
+      "title": "Изменение фотографии",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 5,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: окно редактора; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 50,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.back",
+      "title": "Вернуться из редактора",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 13,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "project.back"
+      ],
+      "bindingNote": "Привязка: `editor-return`; adapt `project.back`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.operations-panel",
+      "title": "Список операций",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 21,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.tools"
+      ],
+      "bindingNote": "Привязка: кнопка «Инструменты обработки»; adapt `editor.tools`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 38,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.restart",
+      "title": "Начать заново",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 29,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "project.restart"
+      ],
+      "bindingNote": "Привязка: команда нового проекта; adapt `project.restart`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 39,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.overview",
+      "title": "Как указать место правки",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 37,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-tools`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.select",
+      "title": "Выбор разметки",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 45,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.select"
+      ],
+      "bindingNote": "Привязка: кнопка «Выбор»; adapt `editor.select`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.pan",
+      "title": "Перемещение изображения",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 53,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.pan"
+      ],
+      "bindingNote": "Привязка: кнопка «Перемещение»; adapt `editor.pan`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 32,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.point",
+      "title": "Точка",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 61,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.point"
+      ],
+      "bindingNote": "Привязка: кнопка «Точка»; adapt `editor.point`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.region",
+      "title": "Прямоугольная область",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 69,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.rect"
+      ],
+      "bindingNote": "Привязка: кнопка «Область»; adapt `editor.rect`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 34,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.mask",
+      "title": "Маска",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 77,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "editor.mask"
+      ],
+      "bindingNote": "Привязка: кнопка «Маска»; reuse `editor.mask`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 25,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.eraser",
+      "title": "Уточнение маски",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 83,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "editor.eraser"
+      ],
+      "bindingNote": "Привязка: кнопка «Ластик»; reuse `editor.eraser`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 19,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.more-tools",
+      "title": "Дополнительные инструменты",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 89,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.more-tools"
+      ],
+      "bindingNote": "Привязка: кнопка «Дополнительные инструменты»; adapt `editor.more-tools`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.orientation",
+      "title": "Поворот и отражение",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 97,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.rotate-left",
+        "editor.rotate-right",
+        "editor.flip-horizontal",
+        "editor.flip-vertical"
+      ],
+      "bindingNote": "Привязка: кнопки поворота и соответствующие команды меню; adapt `editor.rotate-left`, `editor.rotate-right`, `editor.flip-horizontal`, `editor.flip-vertical`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.tools.brush",
+      "title": "Размер кисти",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 105,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.brush-size"
+      ],
+      "bindingNote": "Привязка: `editor-brush`; adapt `editor.brush-size`; недоступность `brush-mode`.",
+      "unavailableIds": [
+        "brush-mode"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.compare",
+      "title": "Сравнение кадров",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 113,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.compare"
+      ],
+      "bindingNote": "Привязка: верхняя кнопка сравнения; adapt `editor.compare`; недоступность `two-history-frames`.",
+      "unavailableIds": [
+        "two-history-frames"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 39,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.zoom",
+      "title": "Масштаб редактора",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 121,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.zoom",
+        "editor.zoom-actual",
+        "editor.fit"
+      ],
+      "bindingNote": "Привязка: верхние minus/100%/plus/fit; adapt `editor.zoom`, `editor.zoom-actual`, `editor.fit`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 34,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.project-save",
+      "title": "Сохранить проект",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 129,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "project.save"
+      ],
+      "bindingNote": "Привязка: `editor-save`; adapt `project.save`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 34,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.image-save",
+      "title": "Сохранить изображение",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 137,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "project.export-image",
+        "project.replace-original",
+        "project.export-copy"
+      ],
+      "bindingNote": "Привязка: `editor-export`; adapt `project.export-image`, `project.replace-original`, `project.export-copy`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 34,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.parameters",
+      "title": "Правая панель редактора",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 145,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "project.parameters"
+      ],
+      "bindingNote": "Привязка: кнопка «Параметры редактора»; adapt `project.parameters`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 34,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.menu",
+      "title": "Меню проекта",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 153,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "project.manage",
+        "project.portable-export",
+        "project.portable-import",
+        "project.autosave"
+      ],
+      "bindingNote": "Привязка: меню редактора; adapt `project.manage`, `project.portable-export`, `project.portable-import`, `project.autosave`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 53,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.top.help",
+      "title": "Помощь редактора",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 161,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "help.open",
+        "help.hints-reveal",
+        "help.hints-toggle"
+      ],
+      "bindingNote": "Привязка: HelpButton редактора; adapt `help.open`, `help.hints-reveal`, `help.hints-toggle`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.overview",
+      "title": "Операции над изображением",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 169,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-operations`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 53,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.crop",
+      "title": "Обрезать",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 177,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "geometry.crop",
+        "geometry.frame"
+      ],
+      "bindingNote": "Привязка: кнопка обрезки; adapt `geometry.crop`, `geometry.frame`; недоступность `editor-busy`.",
+      "unavailableIds": [
+        "editor-busy"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 59,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.resize",
+      "title": "Изменить размер",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 185,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "geometry.resize"
+      ],
+      "bindingNote": "Привязка: кнопка изменения размера; adapt `geometry.resize`; недоступность `editor-busy`.",
+      "unavailableIds": [
+        "editor-busy"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.universal",
+      "title": "Правка по описанию",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 193,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.universal"
+      ],
+      "bindingNote": "Привязка: операция `universal-edit`; adapt `operation.universal`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 43,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.replace",
+      "title": "Добавить или заменить объект",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 201,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.replace-object"
+      ],
+      "bindingNote": "Привязка: операция `replace-object`; adapt `operation.replace-object`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.remove",
+      "title": "Удалить объект",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 209,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.remove-object"
+      ],
+      "bindingNote": "Привязка: операция `remove-object`; adapt `operation.remove-object`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 39,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.remove-background",
+      "title": "Удалить фон",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 217,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.remove-background"
+      ],
+      "bindingNote": "Привязка: операция `remove-background`; adapt `operation.remove-background`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.replace-background",
+      "title": "Заменить фон",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 225,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.replace-background"
+      ],
+      "bindingNote": "Привязка: операция `replace-background`; adapt `operation.replace-background`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.outpaint",
+      "title": "Расширить изображение",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 233,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.outpaint"
+      ],
+      "bindingNote": "Привязка: операция `outpaint`; adapt `operation.outpaint`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.upscale",
+      "title": "Увеличить детализацию",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 241,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.upscale"
+      ],
+      "bindingNote": "Привязка: операция `upscale`; adapt `operation.upscale`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.relight",
+      "title": "Изменить освещение",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 249,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.relight"
+      ],
+      "bindingNote": "Привязка: операция `relight`; adapt `operation.relight`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 32,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.recolor",
+      "title": "Изменить цвет",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 257,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.recolor"
+      ],
+      "bindingNote": "Привязка: операция `recolor`; adapt `operation.recolor`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.compose",
+      "title": "Составить композицию",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 265,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.compose"
+      ],
+      "bindingNote": "Привязка: операция `compose`; adapt `operation.compose`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.operations.restore",
+      "title": "Восстановить фотографию",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 273,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "operation.restore"
+      ],
+      "bindingNote": "Привязка: операция `restore`; adapt `operation.restore`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.canvas.overview",
+      "title": "Полотно редактора",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 281,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-canvas`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.canvas.outpaint-frame",
+      "title": "Рамка расширения",
+      "context": "editor",
+      "file": "04a-editor-tools.md",
+      "line": 289,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: EditorOutpaintFrame; новый текст; недоступность `outpaint-mode`.",
+      "unavailableIds": [
+        "outpaint-mode"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.inspector.overview",
+      "title": "Условия правки и результаты",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 5,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: правая панель и её вкладки; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.markup.overview",
+      "title": "Разметка фотографии",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 13,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-markup`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.markup.controls",
+      "title": "Показать, включить или удалить метку",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 21,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "markup.visibility",
+        "markup.include",
+        "markup.remove"
+      ],
+      "bindingNote": "Привязка: строка разметки; adapt `markup.visibility`, `markup.include`, `markup.remove`; недоступность `no-markup`.",
+      "unavailableIds": [
+        "no-markup"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.markup.mask-apply",
+      "title": "Применение маски",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 29,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "mask.apply",
+        "mask.cancel"
+      ],
+      "bindingNote": "Привязка: кнопки неприменённой маски; adapt `mask.apply`, `mask.cancel`; недоступность `no-mask-strokes`.",
+      "unavailableIds": [
+        "no-mask-strokes"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.instruction.overview",
+      "title": "Что нужно изменить",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 37,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-instruction`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 48,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.instruction.target",
+      "title": "Весь снимок или отдельная метка",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 45,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "instruction.target",
+        "instruction.whole"
+      ],
+      "bindingNote": "Привязка: select «Место»; adapt `instruction.target`, `instruction.whole`; недоступность `instruction-targets`.",
+      "unavailableIds": [
+        "instruction-targets"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 43,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.instruction.text",
+      "title": "Понятное задание модели",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 53,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "instruction.text"
+      ],
+      "bindingNote": "Привязка: поле инструкции; adapt `instruction.text`; недоступность `model-without-text`.",
+      "unavailableIds": [
+        "model-without-text"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.references.whole",
+      "title": "Дополнительные картинки для снимка",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 61,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "reference.whole",
+        "reference.add-whole"
+      ],
+      "bindingNote": "Привязка: `.editor-image-reference-capsule`; adapt `reference.whole`, `reference.add-whole`; недоступность `whole-image-references`.",
+      "unavailableIds": [
+        "whole-image-references"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 53,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.references.mark",
+      "title": "Картинки отдельной метки",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 69,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "reference.add-mark",
+        "reference.replace-point"
+      ],
+      "bindingNote": "Привязка: вложения точки/области в разметке; adapt `reference.add-mark`, `reference.replace-point`; недоступность `mark-references`.",
+      "unavailableIds": [
+        "mark-references"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.references.limits",
+      "title": "Какие картинки участвуют",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 77,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "reference.limit",
+        "source.include"
+      ],
+      "bindingNote": "Привязка: счётчик вложений и их включение; adapt `reference.limit`, `source.include`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.overview",
+      "title": "Выбор модели правки",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 85,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-models`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 48,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.profiles",
+      "title": "Экономия, баланс и качество",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 93,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "model.tier-economy",
+        "model.tier-balanced",
+        "model.tier-quality"
+      ],
+      "bindingNote": "Привязка: уровни EditorAiPanel; adapt `model.tier-economy`, `model.tier-balanced`, `model.tier-quality`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 49,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.filters",
+      "title": "Найти подходящую модель",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 101,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "model.filters",
+        "model.filters-reset"
+      ],
+      "bindingNote": "Привязка: `editor-model-filters`; adapt `model.filters`, `model.filters-reset`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 50,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.details",
+      "title": "Возможности и тариф",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 109,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "model.help",
+        "model.tariff",
+        "model.features"
+      ],
+      "bindingNote": "Привязка: помощь выбранной модели и её сведения; adapt `model.help`, `model.tariff`, `model.features`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 49,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.output",
+      "title": "Размер и параметры результата",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 117,
+      "mode": "adapt",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-output`; adapt соответствующих parameter help; недоступность `model-output`.",
+      "unavailableIds": [
+        "model-output"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 38,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.outpaint.size",
+      "title": "Размер расширенного изображения",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 125,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: EditorOutpaintOptions; новый текст; недоступность `outpaint-mode`.",
+      "unavailableIds": [
+        "outpaint-mode"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.outpaint.autocrop",
+      "title": "Автообрезка полученного результата",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 133,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "outpaint.autocrop"
+      ],
+      "bindingNote": "Привязка: checkbox автообрезки; reuse `outpaint.autocrop`; недоступность `outpaint-mode` / `pending-outpaint-crop`.",
+      "unavailableIds": [
+        "outpaint-mode",
+        "pending-outpaint-crop"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.advanced",
+      "title": "Дополнительные параметры",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 141,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "model.advanced",
+        "model.raw-json"
+      ],
+      "bindingNote": "Привязка: дополнительные настройки EditorAiPanel; adapt `model.advanced`, `model.raw-json`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.limits",
+      "title": "Бюджет и одновременные запросы",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 149,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "model.period-enable",
+        "model.run-budget",
+        "model.concurrency"
+      ],
+      "bindingNote": "Привязка: лимиты EditorAiPanel; adapt `model.period-enable`, `model.run-budget`, `model.concurrency`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.model.inputs",
+      "title": "Проверить состав отправки",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 157,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "model.inputs",
+        "model.key"
+      ],
+      "bindingNote": "Привязка: блок «Что отправится»; adapt `model.inputs`, `model.key`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.launch",
+      "title": "Запустить правку",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 165,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-launch`; новый текст по EditorAiPanel; недоступность `editor-launch`.",
+      "unavailableIds": [
+        "editor-launch"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 51,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.jobs.overview",
+      "title": "Задачи правок",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 173,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "job.details"
+      ],
+      "bindingNote": "Привязка: `editor-tasks`; adapt `job.details`; недоступность `no-editor-jobs`.",
+      "unavailableIds": [
+        "no-editor-jobs"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.jobs.recovery",
+      "title": "Продолжить прежнюю задачу",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 181,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: действия EditorJobCard; новый текст по состояниям задач; недоступность `recoverable-editor-job`.",
+      "unavailableIds": [
+        "recoverable-editor-job"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 58,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.jobs.cancel",
+      "title": "Отменить выполняемую правку",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 189,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "job.cancel"
+      ],
+      "bindingNote": "Привязка: крестик EditorJobCard / текущей правки; adapt `job.cancel`; недоступность `running-editor-job`.",
+      "unavailableIds": [
+        "running-editor-job"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.sources.overview",
+      "title": "Источники проекта",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 197,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-sources`; новый обзор по EditorMediaLibrary.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 49,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.sources.roles",
+      "title": "Роль и участие источника",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 205,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "source.role",
+        "source.order",
+        "source.include",
+        "source.remove"
+      ],
+      "bindingNote": "Привязка: карточки EditorMediaLibrary; adapt `source.role`, `source.order`, `source.include`, `source.remove`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.history.overview",
+      "title": "История кадров",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 213,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `editor-history`; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 47,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.history.compare",
+      "title": "Выбрать два кадра для сравнения",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 221,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "editor.compare"
+      ],
+      "bindingNote": "Привязка: нижняя история; adapt `editor.compare`; недоступность `two-history-frames`.",
+      "unavailableIds": [
+        "two-history-frames"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "editor.history.branches",
+      "title": "Варианты и продолжение работы",
+      "context": "editor",
+      "file": "04b-editor-request.md",
+      "line": 229,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "history.branches",
+        "project.manage"
+      ],
+      "bindingNote": "Привязка: история изменений в меню проекта; adapt `history.branches`, `project.manage`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.overview",
+      "title": "Рассмотреть фотографию",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 5,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: окно просмотрщика; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.overview",
+      "title": "Действия с текущей фотографией",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 13,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: верхняя панель; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 44,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.edit",
+      "title": "Открыть редактор",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 21,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.edit"
+      ],
+      "bindingNote": "Привязка: «Изменить» в `viewer-controls`; adapt `viewer.edit`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 42,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.rotate",
+      "title": "Поворот фотографии",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 29,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.rotate-left",
+        "viewer.rotate-right"
+      ],
+      "bindingNote": "Привязка: повороты в `viewer-controls`; adapt `viewer.rotate-left`, `viewer.rotate-right`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.delete",
+      "title": "Удалить файл",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 37,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: удаление в `viewer-controls`; новый текст по текущему действию.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 31,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.print",
+      "title": "Печать",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 45,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.print"
+      ],
+      "bindingNote": "Привязка: печать в `viewer-controls`; adapt `viewer.print`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 29,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.share",
+      "title": "Поделиться",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 53,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.share"
+      ],
+      "bindingNote": "Привязка: команда отправки в `viewer-controls`; adapt `viewer.share`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.more",
+      "title": "Другие действия",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 61,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.more"
+      ],
+      "bindingNote": "Привязка: меню просмотрщика; adapt `viewer.more`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 38,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.menu.only-photo",
+      "title": "Открывать в режиме «Только фото»",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 69,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "viewer.only-photo"
+      ],
+      "bindingNote": "Привязка: пункт меню viewerOnlyPhoto; reuse `viewer.only-photo`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 25,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.menu.resize",
+      "title": "Изменение размера из просмотра",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 75,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.resize"
+      ],
+      "bindingNote": "Привязка: пункт меню изменения размера; adapt `viewer.resize`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.menu.file-actions",
+      "title": "Файл и внешние приложения",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 83,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.external-edit",
+        "viewer.save-original",
+        "common.reveal-file"
+      ],
+      "bindingNote": "Привязка: меню, команды внешнего редактора/сохранения/расположения; adapt `viewer.external-edit`, `viewer.save-original`, `common.reveal-file`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 48,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.help",
+      "title": "Помощь и подсказки",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 91,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "help.open",
+        "help.hints-reveal",
+        "help.hints-toggle"
+      ],
+      "bindingNote": "Привязка: HelpButton просмотрщика; adapt `help.open`, `help.hints-reveal`, `help.hints-toggle`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 38,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.top.window",
+      "title": "Управление окном",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 99,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "common.minimize",
+        "viewer.close"
+      ],
+      "bindingNote": "Привязка: верхние кнопки окна; adapt `common.minimize`, `viewer.close` и текущей команды разворачивания.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.image.overview",
+      "title": "Изображение и детали",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 107,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: `viewer-image` и полотно; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 41,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.image.pan",
+      "title": "Перемещение увеличенного снимка",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 115,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "viewer.pan"
+      ],
+      "bindingNote": "Привязка: полотно; reuse `viewer.pan`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 1,
+      "bodyWords": 21,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.image.neighbors",
+      "title": "Предыдущая и следующая фотография",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 121,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.prev",
+        "viewer.next"
+      ],
+      "bindingNote": "Привязка: большие стрелки по краям; adapt `viewer.prev`, `viewer.next`; недоступность `viewer-neighbors`.",
+      "unavailableIds": [
+        "viewer-neighbors"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 45,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.image.panels",
+      "title": "Скрыть и вернуть панели",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 129,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.chrome-toggle",
+        "viewer.restore-panels"
+      ],
+      "bindingNote": "Привязка: полотно; adapt `viewer.chrome-toggle`, `viewer.restore-panels`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 39,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.overview",
+      "title": "Сведения, показ и масштаб",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 137,
+      "mode": "new",
+      "existingHelpIds": [],
+      "bindingNote": "Привязка: нижняя панель; новый обзор.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.favorite",
+      "title": "Избранная фотография",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 145,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "common.favorite-add",
+        "common.favorite-remove"
+      ],
+      "bindingNote": "Привязка: нижняя звезда; adapt `common.favorite-add`, `common.favorite-remove`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 36,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.details",
+      "title": "Сведения о файле",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 153,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.details"
+      ],
+      "bindingNote": "Привязка: нижняя кнопка сведений и соседние значения; adapt `viewer.details`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.interval",
+      "title": "Интервал слайд-шоу",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 161,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.slideshow-interval"
+      ],
+      "bindingNote": "Привязка: SlideshowInterval; adapt `viewer.slideshow-interval`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 35,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.slideshow",
+      "title": "Слайд-шоу",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 169,
+      "mode": "reuse",
+      "existingHelpIds": [
+        "viewer.slideshow"
+      ],
+      "bindingNote": "Привязка: кнопка показа; reuse `viewer.slideshow`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 27,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.actual-size",
+      "title": "Фактический размер",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 177,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.actual"
+      ],
+      "bindingNote": "Привязка: кнопка 1:1; adapt `viewer.actual`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 35,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.zoom",
+      "title": "Увеличить или уменьшить",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 185,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.zoom",
+        "viewer.zoom-in",
+        "viewer.zoom-out"
+      ],
+      "bindingNote": "Привязка: `viewer-scale`, minus/slider/plus; adapt `viewer.zoom`, `viewer.zoom-in`, `viewer.zoom-out`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 40,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.bottom.fit",
+      "title": "Вписать в область просмотра",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 193,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.fit"
+      ],
+      "bindingNote": "Привязка: кнопка вписывания; adapt `viewer.fit`.",
+      "unavailableIds": [],
+      "bodyParagraphs": 2,
+      "bodyWords": 37,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    },
+    {
+      "id": "viewer.slideshow.controls",
+      "title": "Управление во время показа",
+      "context": "viewer",
+      "file": "05-viewer.md",
+      "line": 201,
+      "mode": "adapt",
+      "existingHelpIds": [
+        "viewer.slideshow-pause",
+        "viewer.slideshow-resume",
+        "viewer.slideshow-exit"
+      ],
+      "bindingNote": "Привязка: элементы активного слайд-шоу; adapt `viewer.slideshow-pause`, `viewer.slideshow-resume`, `viewer.slideshow-exit`; недоступность `slideshow-only`.",
+      "unavailableIds": [
+        "slideshow-only"
+      ],
+      "bodyParagraphs": 2,
+      "bodyWords": 46,
+      "editorialStatus": "two Russian editorial passes complete; ready_for_translation ru-tour-v1",
+      "runtimeStatus": "not implemented"
+    }
+  ],
+  "serviceIds": [
+    "tour.ui.title",
+    "tour.ui.tour-tab",
+    "tour.ui.reference-tab",
+    "tour.ui.intro",
+    "tour.ui.start-all",
+    "tour.ui.continue",
+    "tour.ui.start-group",
+    "tour.ui.all-groups",
+    "tour.ui.group-label",
+    "tour.ui.step-label",
+    "tour.ui.progress",
+    "tour.ui.previous",
+    "tour.ui.next",
+    "tour.ui.finish",
+    "tour.ui.to-groups",
+    "tour.ui.close",
+    "tour.ui.to-reference",
+    "tour.ui.completed",
+    "tour.ui.other-windows",
+    "tour.ui.not-visible",
+    "tour.ui.disabled",
+    "tour.ui.condition-followup",
+    "tour.ui.target-missing",
+    "tour.ui.old-progress",
+    "tour.ui.progress-save-error",
+    "tour.ui.reference-search",
+    "tour.ui.reference-empty-title",
+    "tour.ui.reference-empty",
+    "tour.ui.reference-show",
+    "tour.ui.reference-in-editor",
+    "tour.ui.reference-in-viewer",
+    "tour.ui.reference-in-main",
+    "tour.ui.picture-open",
+    "tour.ui.picture-close"
+  ],
+  "unavailableIds": [
+    "busy-folder",
+    "no-folder",
+    "busy-action",
+    "process-selection",
+    "provider-not-ready",
+    "copy-needs-smart-name",
+    "one-photo",
+    "photo-selection",
+    "selection-needed",
+    "rename-source",
+    "history-back",
+    "history-forward",
+    "no-parent",
+    "folder-scope",
+    "no-search-results",
+    "explorer-only",
+    "table-only",
+    "empty-content",
+    "two-photos",
+    "right-panel-hidden",
+    "collection-target",
+    "metadata-save",
+    "manual-queue",
+    "no-queue-items",
+    "queue-selected",
+    "editor-busy",
+    "brush-mode",
+    "two-history-frames",
+    "outpaint-mode",
+    "no-markup",
+    "no-mask-strokes",
+    "instruction-targets",
+    "model-without-text",
+    "whole-image-references",
+    "mark-references",
+    "model-output",
+    "pending-outpaint-crop",
+    "editor-launch",
+    "no-editor-jobs",
+    "recoverable-editor-job",
+    "running-editor-job",
+    "viewer-neighbors",
+    "slideshow-only"
+  ],
+  "groups": [
+    {
+      "id": "tour.group.main.folder",
+      "title": "Папка",
+      "context": "main",
+      "overviewId": "main.folder.choose",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.recognition",
+      "title": "Сервис и результат",
+      "context": "main",
+      "overviewId": "main.recognition.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.processing",
+      "title": "Обработка",
+      "context": "main",
+      "overviewId": "main.processing.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.commands",
+      "title": "Команды и помощь",
+      "context": "main",
+      "overviewId": "main.commands.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.navigation",
+      "title": "Навигация",
+      "context": "main",
+      "overviewId": "main.navigation.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.quick",
+      "title": "Быстрый поиск",
+      "context": "main",
+      "overviewId": "main.quick.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.workspace",
+      "title": "Рабочие вкладки",
+      "context": "main",
+      "overviewId": "main.workspace.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.search",
+      "title": "Подробный поиск",
+      "context": "main",
+      "overviewId": "main.search.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.display",
+      "title": "Отображение",
+      "context": "main",
+      "overviewId": "main.display.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.canvas",
+      "title": "Фотографии",
+      "context": "main",
+      "overviewId": "main.canvas.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.inspector",
+      "title": "Правая панель",
+      "context": "main",
+      "overviewId": "main.inspector.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.details",
+      "title": "Детали",
+      "context": "main",
+      "overviewId": "main.details.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.description",
+      "title": "Описание",
+      "context": "main",
+      "overviewId": "main.description.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.tags",
+      "title": "Теги",
+      "context": "main",
+      "overviewId": "main.tags.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.queue",
+      "title": "Очереди",
+      "context": "main",
+      "overviewId": "main.queue.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.library",
+      "title": "Библиотека",
+      "context": "main",
+      "overviewId": "main.library.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.main.journal",
+      "title": "Журнал",
+      "context": "main",
+      "overviewId": "main.journal.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.introduction",
+      "title": "Знакомство",
+      "context": "editor",
+      "overviewId": "editor.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.tools",
+      "title": "Разметочные инструменты",
+      "context": "editor",
+      "overviewId": "editor.tools.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.operations",
+      "title": "Операции",
+      "context": "editor",
+      "overviewId": "editor.operations.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.canvas",
+      "title": "Полотно",
+      "context": "editor",
+      "overviewId": "editor.canvas.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.inspector",
+      "title": "Правая панель",
+      "context": "editor",
+      "overviewId": "editor.inspector.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.markup",
+      "title": "Разметка",
+      "context": "editor",
+      "overviewId": "editor.markup.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.instruction",
+      "title": "Инструкция",
+      "context": "editor",
+      "overviewId": "editor.instruction.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.references",
+      "title": "Дополнительные картинки",
+      "context": "editor",
+      "overviewId": "editor.references.whole",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.model",
+      "title": "Модель и запуск",
+      "context": "editor",
+      "overviewId": "editor.model.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.jobs",
+      "title": "Задачи",
+      "context": "editor",
+      "overviewId": "editor.jobs.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.sources",
+      "title": "Источники",
+      "context": "editor",
+      "overviewId": "editor.sources.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.editor.history",
+      "title": "История",
+      "context": "editor",
+      "overviewId": "editor.history.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.viewer.introduction",
+      "title": "Знакомство",
+      "context": "viewer",
+      "overviewId": "viewer.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.viewer.top",
+      "title": "Верхняя панель",
+      "context": "viewer",
+      "overviewId": "viewer.top.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.viewer.image",
+      "title": "Изображение",
+      "context": "viewer",
+      "overviewId": "viewer.image.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.viewer.bottom",
+      "title": "Нижняя панель",
+      "context": "viewer",
+      "overviewId": "viewer.bottom.overview",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    },
+    {
+      "id": "tour.group.viewer.slideshow",
+      "title": "Слайд-шоу",
+      "context": "viewer",
+      "overviewId": "viewer.bottom.slideshow",
+      "descriptionFrom": "first paragraph of overviewId; full text shown in overview step"
+    }
+  ]
+}

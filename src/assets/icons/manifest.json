@@ -1,0 +1,343 @@
+{
+  "sourceSha256": "fcd8d5700f7babbdd1498e7b346cf7d6ce7b78729d9769039a1489dbf50a2767",
+  "sourceWidth": 1254,
+  "sourceHeight": 1254,
+  "transparentPixels": 1311586,
+  "iconSize": 64,
+  "icons": [
+    {
+      "name": "edit",
+      "sourceBounds": {
+        "left": 57,
+        "top": 70,
+        "right": 194,
+        "bottom": 206
+      }
+    },
+    {
+      "name": "rotateLeft",
+      "sourceBounds": {
+        "left": 265,
+        "top": 67,
+        "right": 385,
+        "bottom": 207
+      }
+    },
+    {
+      "name": "rotateRight",
+      "sourceBounds": {
+        "left": 472,
+        "top": 65,
+        "right": 591,
+        "bottom": 207
+      }
+    },
+    {
+      "name": "trash",
+      "sourceBounds": {
+        "left": 672,
+        "top": 65,
+        "right": 791,
+        "bottom": 208
+      }
+    },
+    {
+      "name": "print",
+      "sourceBounds": {
+        "left": 860,
+        "top": 72,
+        "right": 1009,
+        "bottom": 206
+      }
+    },
+    {
+      "name": "share",
+      "sourceBounds": {
+        "left": 1073,
+        "top": 71,
+        "right": 1201,
+        "bottom": 200
+      }
+    },
+    {
+      "name": "more",
+      "sourceBounds": {
+        "left": 54,
+        "top": 323,
+        "right": 178,
+        "bottom": 352
+      }
+    },
+    {
+      "name": "minimize",
+      "sourceBounds": {
+        "left": 268,
+        "top": 331,
+        "right": 384,
+        "bottom": 346
+      }
+    },
+    {
+      "name": "maximize",
+      "sourceBounds": {
+        "left": 474,
+        "top": 281,
+        "right": 584,
+        "bottom": 390
+      }
+    },
+    {
+      "name": "restore",
+      "sourceBounds": {
+        "left": 667,
+        "top": 209,
+        "right": 798,
+        "bottom": 405
+      }
+    },
+    {
+      "name": "close",
+      "sourceBounds": {
+        "left": 884,
+        "top": 289,
+        "right": 986,
+        "bottom": 390
+      }
+    },
+    {
+      "name": "star",
+      "sourceBounds": {
+        "left": 1068,
+        "top": 265,
+        "right": 1205,
+        "bottom": 397
+      }
+    },
+    {
+      "name": "starFilled",
+      "sourceBounds": {
+        "left": 1068,
+        "top": 265,
+        "right": 1205,
+        "bottom": 397
+      }
+    },
+    {
+      "name": "info",
+      "sourceBounds": {
+        "left": 48,
+        "top": 463,
+        "right": 186,
+        "bottom": 601
+      }
+    },
+    {
+      "name": "play",
+      "sourceBounds": {
+        "left": 275,
+        "top": 473,
+        "right": 379,
+        "bottom": 591
+      }
+    },
+    {
+      "name": "pause",
+      "sourceBounds": {
+        "left": 494,
+        "top": 481,
+        "right": 561,
+        "bottom": 584
+      }
+    },
+    {
+      "name": "fit",
+      "sourceBounds": {
+        "left": 664,
+        "top": 464,
+        "right": 800,
+        "bottom": 598
+      }
+    },
+    {
+      "name": "plus",
+      "sourceBounds": {
+        "left": 875,
+        "top": 476,
+        "right": 992,
+        "bottom": 591
+      }
+    },
+    {
+      "name": "minus",
+      "sourceBounds": {
+        "left": 1073,
+        "top": 525,
+        "right": 1201,
+        "bottom": 539
+      }
+    },
+    {
+      "name": "fullscreen",
+      "sourceBounds": {
+        "left": 54,
+        "top": 656,
+        "right": 180,
+        "bottom": 784
+      }
+    },
+    {
+      "name": "left",
+      "sourceBounds": {
+        "left": 289,
+        "top": 669,
+        "right": 352,
+        "bottom": 778
+      }
+    },
+    {
+      "name": "right",
+      "sourceBounds": {
+        "left": 495,
+        "top": 668,
+        "right": 557,
+        "bottom": 778
+      }
+    },
+    {
+      "name": "down",
+      "sourceBounds": {
+        "left": 672,
+        "top": 691,
+        "right": 790,
+        "bottom": 757
+      }
+    },
+    {
+      "name": "up",
+      "sourceBounds": {
+        "left": 873,
+        "top": 688,
+        "right": 995,
+        "bottom": 754
+      }
+    },
+    {
+      "name": "check",
+      "sourceBounds": {
+        "left": 1077,
+        "top": 675,
+        "right": 1203,
+        "bottom": 766
+      }
+    },
+    {
+      "name": "folder",
+      "sourceBounds": {
+        "left": 50,
+        "top": 872,
+        "right": 192,
+        "bottom": 980
+      }
+    },
+    {
+      "name": "copy",
+      "sourceBounds": {
+        "left": 261,
+        "top": 850,
+        "right": 391,
+        "bottom": 995
+      }
+    },
+    {
+      "name": "clipboard",
+      "sourceBounds": {
+        "left": 468,
+        "top": 841,
+        "right": 589,
+        "bottom": 996
+      }
+    },
+    {
+      "name": "eye",
+      "sourceBounds": {
+        "left": 655,
+        "top": 882,
+        "right": 804,
+        "bottom": 971
+      }
+    },
+    {
+      "name": "eyeOff",
+      "sourceBounds": {
+        "left": 858,
+        "top": 868,
+        "right": 1011,
+        "bottom": 981
+      }
+    },
+    {
+      "name": "refresh",
+      "sourceBounds": {
+        "left": 1080,
+        "top": 864,
+        "right": 1199,
+        "bottom": 985
+      }
+    },
+    {
+      "name": "stop",
+      "sourceBounds": {
+        "left": 58,
+        "top": 1065,
+        "right": 173,
+        "bottom": 1182
+      }
+    },
+    {
+      "name": "settings",
+      "sourceBounds": {
+        "left": 253,
+        "top": 1055,
+        "right": 395,
+        "bottom": 1195
+      }
+    },
+    {
+      "name": "image",
+      "sourceBounds": {
+        "left": 453,
+        "top": 1062,
+        "right": 604,
+        "bottom": 1187
+      }
+    },
+    {
+      "name": "collection",
+      "sourceBounds": {
+        "left": 650,
+        "top": 1058,
+        "right": 811,
+        "bottom": 1192
+      }
+    },
+    {
+      "name": "search",
+      "sourceBounds": {
+        "left": 869,
+        "top": 1054,
+        "right": 1006,
+        "bottom": 1190
+      }
+    },
+    {
+      "name": "file",
+      "sourceBounds": {
+        "left": 1081,
+        "top": 1056,
+        "right": 1198,
+        "bottom": 1194
+      }
+    }
+  ],
+  "scope": "Generated imagegen atlas; deterministic extraction and downscaling only, original generated shapes preserved. Runtime renders at 13–20 CSS pixels with currentColor alpha masks."
+}

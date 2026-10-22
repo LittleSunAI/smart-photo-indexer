@@ -1,0 +1,8 @@
+[
+  { "id": "qwen3.5:0.8b", "downloadBytes": 1322069277, "digest": "de63045f29755d4721c09d54c9b45c2dadb644f4fd7d604d4cac90d96049971c", "downloadLimitBytes": 5000000000 },
+  { "id": "qwen3.5:4b", "downloadBytes": 3324173934, "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04", "downloadLimitBytes": 5000000000 },
+  { "id": "qwen3-vl:8b-instruct-q8_0", "downloadBytes": 9830285285, "digest": "eff3eb825b322d4ffb85695e5a15cfe00b4d994d3c336f13dc867d8743b00245", "downloadLimitBytes": 10000000000 },
+  { "id": "gemma4:e2b-it-qat", "downloadBytes": 4336358185, "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c", "downloadLimitBytes": 5000000000 },
+  { "id": "gemma3:4b", "downloadBytes": 3338801804, "digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a", "downloadLimitBytes": 5000000000 },
+  { "id": "qwen3.5:2b", "downloadBytes": 2683396812, "digest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a", "downloadLimitBytes": 5000000000 }
+]

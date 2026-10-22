@@ -1,0 +1,177 @@
+[
+  {
+    "id": "tour.group.main.folder",
+    "context": "main",
+    "overviewId": "main.folder.choose"
+  },
+  {
+    "id": "tour.group.main.recognition",
+    "context": "main",
+    "overviewId": "main.recognition.overview"
+  },
+  {
+    "id": "tour.group.main.processing",
+    "context": "main",
+    "overviewId": "main.processing.overview"
+  },
+  {
+    "id": "tour.group.main.commands",
+    "context": "main",
+    "overviewId": "main.commands.overview"
+  },
+  {
+    "id": "tour.group.main.navigation",
+    "context": "main",
+    "overviewId": "main.navigation.overview"
+  },
+  {
+    "id": "tour.group.main.quick",
+    "context": "main",
+    "overviewId": "main.quick.overview"
+  },
+  {
+    "id": "tour.group.main.workspace",
+    "context": "main",
+    "overviewId": "main.workspace.overview"
+  },
+  {
+    "id": "tour.group.main.search",
+    "context": "main",
+    "overviewId": "main.search.overview"
+  },
+  {
+    "id": "tour.group.main.display",
+    "context": "main",
+    "overviewId": "main.display.overview"
+  },
+  {
+    "id": "tour.group.main.canvas",
+    "context": "main",
+    "overviewId": "main.canvas.overview"
+  },
+  {
+    "id": "tour.group.main.inspector",
+    "context": "main",
+    "overviewId": "main.inspector.overview"
+  },
+  {
+    "id": "tour.group.main.details",
+    "context": "main",
+    "overviewId": "main.details.overview"
+  },
+  {
+    "id": "tour.group.main.description",
+    "context": "main",
+    "overviewId": "main.description.overview"
+  },
+  {
+    "id": "tour.group.main.tags",
+    "context": "main",
+    "overviewId": "main.tags.overview"
+  },
+  {
+    "id": "tour.group.main.queue",
+    "context": "main",
+    "overviewId": "main.queue.overview"
+  },
+  {
+    "id": "tour.group.main.library",
+    "context": "main",
+    "overviewId": "main.library.overview"
+  },
+  {
+    "id": "tour.group.main.journal",
+    "context": "main",
+    "overviewId": "main.journal.overview"
+  },
+  {
+    "id": "tour.group.main.settings",
+    "context": "main",
+    "overviewId": "main.settings.overview"
+  },
+  {
+    "id": "tour.group.editor.introduction",
+    "context": "editor",
+    "overviewId": "editor.overview"
+  },
+  {
+    "id": "tour.group.editor.tools",
+    "context": "editor",
+    "overviewId": "editor.tools.overview"
+  },
+  {
+    "id": "tour.group.editor.operations",
+    "context": "editor",
+    "overviewId": "editor.operations.overview"
+  },
+  {
+    "id": "tour.group.editor.canvas",
+    "context": "editor",
+    "overviewId": "editor.canvas.overview"
+  },
+  {
+    "id": "tour.group.editor.inspector",
+    "context": "editor",
+    "overviewId": "editor.inspector.overview"
+  },
+  {
+    "id": "tour.group.editor.markup",
+    "context": "editor",
+    "overviewId": "editor.markup.overview"
+  },
+  {
+    "id": "tour.group.editor.instruction",
+    "context": "editor",
+    "overviewId": "editor.instruction.overview"
+  },
+  {
+    "id": "tour.group.editor.references",
+    "context": "editor",
+    "overviewId": "editor.references.whole"
+  },
+  {
+    "id": "tour.group.editor.model",
+    "context": "editor",
+    "overviewId": "editor.model.overview"
+  },
+  {
+    "id": "tour.group.editor.jobs",
+    "context": "editor",
+    "overviewId": "editor.jobs.overview"
+  },
+  {
+    "id": "tour.group.editor.sources",
+    "context": "editor",
+    "overviewId": "editor.sources.overview"
+  },
+  {
+    "id": "tour.group.editor.history",
+    "context": "editor",
+    "overviewId": "editor.history.overview"
+  },
+  {
+    "id": "tour.group.viewer.introduction",
+    "context": "viewer",
+    "overviewId": "viewer.overview"
+  },
+  {
+    "id": "tour.group.viewer.top",
+    "context": "viewer",
+    "overviewId": "viewer.top.overview"
+  },
+  {
+    "id": "tour.group.viewer.image",
+    "context": "viewer",
+    "overviewId": "viewer.image.overview"
+  },
+  {
+    "id": "tour.group.viewer.bottom",
+    "context": "viewer",
+    "overviewId": "viewer.bottom.overview"
+  },
+  {
+    "id": "tour.group.viewer.slideshow",
+    "context": "viewer",
+    "overviewId": "viewer.bottom.slideshow"
+  }
+]

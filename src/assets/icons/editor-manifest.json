@@ -1,0 +1,65 @@
+{
+  "sourceSha256": "e3d5fed00b2676640cad1b7478aaaf8bffadcc50791ec2fa8b4d9fa85dcd0762",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "transparentPixels": 1391475,
+  "iconSize": 64,
+  "opaqueAlphaExtraction": 250,
+  "icons": [
+    {
+      "name": "undo",
+      "sourceBounds": {
+        "left": 131,
+        "top": 105,
+        "right": 414,
+        "bottom": 432
+      }
+    },
+    {
+      "name": "redo",
+      "sourceBounds": {
+        "left": 637,
+        "top": 105,
+        "right": 920,
+        "bottom": 432
+      }
+    },
+    {
+      "name": "link",
+      "sourceBounds": {
+        "left": 1107,
+        "top": 99,
+        "right": 1440,
+        "bottom": 433
+      }
+    },
+    {
+      "name": "bulletList",
+      "sourceBounds": {
+        "left": 107,
+        "top": 617,
+        "right": 442,
+        "bottom": 880
+      }
+    },
+    {
+      "name": "numberedList",
+      "sourceBounds": {
+        "left": 613,
+        "top": 603,
+        "right": 951,
+        "bottom": 903
+      }
+    },
+    {
+      "name": "tag",
+      "sourceBounds": {
+        "left": 1109,
+        "top": 580,
+        "right": 1451,
+        "bottom": 921
+      }
+    }
+  ],
+  "scope": "Generated imagegen atlas; deterministic glyph alpha-mask extraction and downscaling. Runtime renders at 13–20 CSS pixels with currentColor. Editor atlas uses only opaque glyph pixels to exclude generated translucent haze."
+}

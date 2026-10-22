@@ -1,0 +1,40 @@
+{
+  "name": "smart-photo-indexer",
+  "private": true,
+  "version": "1.0.6",
+  "type": "module",
+  "description": "Windows photo explorer with AI descriptions, tags, full-text search and an image editor.",
+  "scripts": {
+    "prebuild": "node scripts/compile-help-catalog.mjs --check",
+    "help:compile": "node scripts/compile-help-catalog.mjs",
+    "dev": "vite --host 127.0.0.1 --port 1420",
+    "tauri:dev": "tauri dev",
+    "build": "tsc --noEmit && vite build",
+    "tauri:build": "tauri build",
+    "verify:structure": "node scripts/verify-structure.mjs",
+    "test": "node scripts/public-check.mjs && node scripts/provider-availability-check.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-opener": "^2.0.0",
+    "i18next": "26.5.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "17.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "esbuild": "0.28.1",
+    "typescript": "^5.0.0",
+    "vite": "^7.0.0"
+  },
+  "author": "LittleSunAI",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "Apache-2.0"
+}

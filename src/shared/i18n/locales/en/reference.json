@@ -1,0 +1,287 @@
+{
+  "helpArticles.folders": {
+    "title": "Getting started and folders",
+    "aliases": [
+      "open",
+      "navigation",
+      "subfolders",
+      "path"
+    ],
+    "paragraphs": [
+      "“Choose folder” opens a folder of photos. It does not open an editor project. Use Back, Forward, Up and the breadcrumbs to change the current folder. “Subfolders” controls whether files in nested folders are included.",
+      "“Recent folders” keeps links to folders you have opened before. If a folder is unavailable, check that its drive is connected; its photos have not been deleted. Manage connected folders on the “Library” tab in the right panel."
+    ]
+  },
+  "helpArticles.refresh": {
+    "title": "Refreshing folders and the index",
+    "aliases": [
+      "refresh",
+      "catalog",
+      "order"
+    ],
+    "paragraphs": [
+      "The menu beside Refresh selects what the main button does. “Refresh folder” reads the folder contents again; “Refresh folder index” updates the locally stored information. The button’s icon and tooltip reflect your choice. Neither action starts AI processing.",
+      "The index is a local catalog of files, metadata, descriptions and tags used for searching. “Refresh order” sorts the displayed items again using the selected criterion. Background recognition does not rearrange cards that are already displayed."
+    ]
+  },
+  "helpArticles.library": {
+    "title": "Browsing the library",
+    "aliases": [
+      "table",
+      "columns",
+      "sorting",
+      "favorites",
+      "completed",
+      "collections"
+    ],
+    "paragraphs": [
+      "Explorer shows the current folder. Favorites contains starred photos; Completed contains photos with processing results; Collections contains your own groups; Recent folders keeps links to folder paths. Being in the index does not by itself mean that a photo has a description.",
+      "“View” and the scale control at the bottom offer four card sizes, a list and a table. Folders always appear before files; the selected sort order applies within each group. Search results follow the search ordering.",
+      "In the table, click a column heading to sort, or drag a column boundary to change its width. You can also use the arrow keys on a focused boundary (Shift gives a larger step). Escape cancels the current adjustment; a double-click restores the default width. The plus button on the right lets you choose visible columns. Confirm with “Apply”."
+    ]
+  },
+  "helpArticles.search": {
+    "title": "Searching and selecting",
+    "aliases": [
+      "filters",
+      "query",
+      "tags",
+      "description",
+      "Ctrl",
+      "Shift",
+      "export"
+    ],
+    "paragraphs": [
+      "Choose where to search: the current or selected folder and its subfolders, or the entire indexed library. Enter words, choose filters and click “Search”. Expand the additional filters when you need them. Existing results stay visible until you run the new search.",
+      "Search uses descriptions, tags and the matching method you choose. Photos without descriptions are harder to find by their content. Ctrl toggles individual selections; Shift selects a range. Selecting all results also includes pages that have not loaded yet.",
+      "The “Saved” tab stores search conditions, not copies of files. Choose a saved search, then run it. More results load as you scroll. Result actions let you copy paths, open folders and export CSV/JSON files containing metadata and links. They do not move the originals. Export uses the applied search and selection."
+    ]
+  },
+  "helpArticles.recognition": {
+    "title": "Image recognition",
+    "aliases": [
+      "model",
+      "OpenRouter",
+      "Fal",
+      "Ollama",
+      "locally",
+      "quickly"
+    ],
+    "paragraphs": [
+      "Recognition creates text and tags for search and is different from image editing. Select the service, available model and result: description, tags or both. Local models require an installed service and a downloaded model; cloud ones need a key.",
+      "Fast modes reduce time but may miss details. A detailed description lists the main objects, background, surroundings and minor details. Repeated passes check the result, increasing time and possible costs; the coincidence of answers does not guarantee truth.",
+      "Click \"Process\" for the selected photos. By default, jobs start immediately; setting up a manual queue leaves them waiting to be explicitly run. The photo limit per launch and the number of simultaneous requests are different settings.",
+      "If the selected local model is not installed, the button says “Install model”. The service and model are downloaded only when you choose to install them; existing components are reused. A disabled “Process” button means no suitable photos are selected or preparation is still in progress."
+    ]
+  },
+  "helpArticles.privacy": {
+    "title": "Keys, consent and costs",
+    "aliases": [
+      "consent",
+      "payment",
+      "budget",
+      "encryption",
+      "secret"
+    ],
+    "paragraphs": [
+      "Fal AI and OpenRouter keys are stored separately in each service’s settings. Saving a key and checking access are separate actions. Windows protects the key for the current user. Do not put it in a photo description or an activity log.",
+      "Cloud processing sends the selected images and instructions to a third-party service. If suitable permission has not been saved, a consent dialog appears. Declining prevents the request from being sent. Local recognition does not require this consent.",
+      "The price before a run is an estimate based on the current catalog and parameters. It does not confirm a charge. Masks, variants, resolution and model affect the cost. Check actual charges with the service. If a submission’s outcome is unknown, check it before trying again to avoid paying twice."
+    ]
+  },
+  "helpArticles.queue": {
+    "title": "Recognition tasks",
+    "aliases": [
+      "pause",
+      "continue",
+      "stop",
+      "tasks",
+      "repeat",
+      "in parallel"
+    ],
+    "paragraphs": [
+      "In the main window, the Tasks tab refers to recognizing descriptions and tags. “Queue Items” shows photos of the selected run, “Run Summary” shows its status and counters, “Job Parameters” shows saved settings. Groups are expanded independently. History allows you to open a previous run without reprocessing. Photo editing tasks are located separately - in the editor and in the “Photo Editing” group.",
+      "Pausing stops new jobs from being issued, but the submitted request may complete. Continue resumes the queue. Stopping does not guarantee cancellation and refund on the service side.",
+      "The number of simultaneously processed photos is set separately from the number of passes of one photo. In a cloud work-in-progress, the concurrency limit can be changed; One photo at a time is processed locally. “Hide completed” in the list header hides only successfully completed rows, leaving errors. Results and history are saved."
+    ]
+  },
+  "helpArticles.inspector": {
+    "title": "The right panel",
+    "aliases": [
+      "details",
+      "tags",
+      "batch",
+      "duplicates",
+      "XMP",
+      "activity log",
+      "backup"
+    ],
+    "paragraphs": [
+      "“Details” shows the selected photo and its information. “Description” and “Tags” let you edit the text results. Reset discards unsaved changes in the field; Save stores the result in the index. Editing descriptions or tags does not change the image.",
+      "Batch tags let you add or remove tags across several selected photos. Expand the group when you need it. XMP export writes separate files beside the photos; existing files are protected against accidental replacement.",
+      "“Library” contains connected folders, write problems, exact duplicates and backups. An index backup keeps local information without external originals or API keys; a full backup also includes editor storage. Backup contents are checked before a restore is prepared. The restore takes effect after a restart. In “Activity log”, expand an entry to read what changed without repeating the action."
+    ]
+  },
+  "helpArticles.viewer": {
+    "title": "Viewing photos",
+    "aliases": [
+      "zoom",
+      "fit",
+      "slideshow",
+      "print",
+      "Recycle Bin",
+      "share"
+    ],
+    "paragraphs": [
+      "Photos fit the available space without cropping. Use the side arrows to browse and the mouse wheel to zoom. “1:1” shows one image pixel per viewing pixel; “Fit” brings the entire image back into view. Rotation changes only the view. In a narrow window, some button labels are hidden; their names remain available in tooltips.",
+      "Double-click to hide or restore the controls. The slideshow uses a full-screen view with unobtrusive buttons. “Edit” opens the built-in editor; “Edit image” opens an external application.",
+      "The menu offers saving a copy, resizing and showing the file in Explorer. Delete moves the file to the Recycle Bin after confirmation. Printing, sharing, external editing and setting the desktop background depend on Windows and installed applications. Availability of a command does not guarantee that the external action will finish.",
+      "“Resize image…” is in the three-dot menu. Choose dimensions, whether to keep the aspect ratio and the output format. JPEG quality is set separately. Saving creates a new file. For TIFF files, the app may display a smaller preview of the first page; the original dimensions are shown separately and differ from the preview resolution."
+    ]
+  },
+  "helpArticles.editor": {
+    "title": "Editor: Annotations and tools",
+    "aliases": [
+      "mask",
+      "brush",
+      "eraser",
+      "cropping",
+      "point",
+      "region",
+      "turn",
+      "reflection"
+    ],
+    "paragraphs": [
+      "The panel on the left selects the action on the current image. Cropping and resizing are done without a neural network; the remaining tools use the selected compatible model. Available settings vary by tool.",
+      "The top icons are divided by purpose: select and move, point and area, mask and eraser, undo and redo, reflections. Scale and Fit are on the right. The name of each icon appears on hover.",
+      "A point marks a location, an area defines a rectangle and a mask defines a painted shape. Object removal usually needs a mask; a model with text support can also use instructions. The brush diameter is measured in working-image pixels. Escape cancels an unfinished gesture.",
+      "On the right are annotations, instructions and model selection. Selecting “Location” changes the instruction being edited, and when running, all enabled annotations with a non-empty assignment of this tool are taken into account. The eye controls visibility, the checkbox controls participation in the request. For more information about additional pictures and tasks, see the article “Editor: tasks and additional pictures.”",
+      "Rotations and reflections change the working orientation along with the markings, without creating a frame in the filmstrip. Cropping and resizing create a separate image after you apply them. The result of the model must be compared with the source: cost and quality level do not guarantee accuracy."
+    ]
+  },
+  "helpArticles.results": {
+    "title": "History and saving",
+    "aliases": [
+      "compare",
+      "project",
+      "draft",
+      "import",
+      "export",
+      "autosave",
+      "branches"
+    ],
+    "paragraphs": [
+      "The bottom filmstrip contains the source and independent images of the result. Click an image to open its image and saved markup. The new result starts with clean markup; returning to the previous image restores its marks and assignments.",
+      "Pull the top border of the filmstrip: Thumbnails expand in both height and width, so fewer images fit at once. The filmstrip scrolls horizontally. The height is common for all images and does not change when selecting another.",
+      "For comparison, hold Ctrl and select two images, then move the divider on the image. The comparison does not apply the changes. For an additional picture, drag the image to the desired mark on the right.",
+      "The trash can in the thumbnail removes this particular image from the filmstrip after confirmation. Shift + click selects multiple images; Shift + Trash deletes the selected ones. The source is protected. Deleting the previous image does not delete its subsequent results: they are independent. Hidden images is available in the change history.",
+      "\"Project\" saves history and markup for continuation; “Image” saves the selected image to a separate file. Enable autosave from the menu. If it is turned off, you can save changes, stay, or exit without the latest edits before exiting. If a save error occurs, the editor stays open rather than falsely reporting a successful save.",
+      "“Back” returns you to the window from which the editor is open. “Start over” creates a separate clean project from the source; the previous project and its results are preserved. Keys and cloud jobs are not resent when viewing history."
+    ]
+  },
+  "helpArticles.appearance": {
+    "title": "Help, topics and problems",
+    "aliases": [
+      "night",
+      "daytime",
+      "dark",
+      "light",
+      "preview",
+      "error"
+    ],
+    "paragraphs": [
+      "The moon or sun button on the right side of the top panel of the main window switches the light and dark theme of open windows. Photos, markings and task parameters do not change. The photo view keeps the image's dark surroundings, and its dialogs follows the selected theme.",
+      "“Show me around” navigates through function groups and opens the necessary tabs. The \"Reference\" contains searchable articles. Buttons with a question mark next to the headings provide short help: hover the mouse, click to pin, or navigate to the button using the Tab key. Escape closes the tooltip. Tour does not trigger processing, deletion, or payment.",
+      "If there is a thumbnail error, retrying that thumbnail is available; the original file is not overwritten. If the photo opens but there is no preview, check the error message and thumbnail cache. Logs are useful for diagnostics, but keys should not be included in them. An unknown cloud request status is first checked rather than resubmitted."
+    ]
+  },
+  "helpArticles.editor-instruction-guide": {
+    "title": "Editor: tasks and additional pictures",
+    "aliases": [
+      "place",
+      "task",
+      "background",
+      "object",
+      "automatically",
+      "drag",
+      "additional pictures",
+      "references",
+      "several marks"
+    ],
+    "paragraphs": [
+      "First select the tool on the left. To change the background, describe the desired background in the main field: for example, “Light studio, soft daylight, leave the person unchanged.” Jobs from another tool are not added to this request.",
+      "To edit locally, place a dot or select an area. In the “Location” field, select the desired annotation and write what to add or change. Switching the location allows you to edit its text; it does not turn off other tasks. A single run combines the instructions of all included non-empty annotations and the general instruction, if one is specified.",
+      "Each annotation has its own instructions and additional pictures. The eye only hides it on the canvas; the checkbox determines whether it is included in the request. Instructions for a hidden but enabled annotation still participate. Check every included annotation before starting.",
+      "A point has one additional image with replacement, while areas have several. Click the plus next to the photo counter to select a file: the collapsed group will open itself. You can also take an image from the bottom filmstrip and drag it directly to the desired point or area in the markup list. At a point, dragging replaces an additional image, at an area it adds. Working rotations and reflections of the image are taken into account.",
+      "In an open group, you can view, rearrange, temporarily exclude, or unpin additional pictures. The order of additional pictures and their association with the annotation are transmitted along with the task. The general limit near the model includes the source; the same image used in multiple places does not necessarily take up multiple inputs. Detaching an additional image does not delete the original file.",
+      "To remove an object, paint over the desired area with a mask; The eraser corrects its edges. If the selected model does not accept text or additional pictures, this data is not sent. They remain in the project for the compatible tool. The model tooltip and “What will be sent” preview show applicable inputs.",
+      "The handle under the markup changes the height of the list; double click returns the height to the content. When manually stretching, the following fields are moved down and the long list is scrolled. All saved additional pictures can be found in additional settings; their number may differ from the number of inputs of the current edit.",
+      "Select your model, resolution, and available quality, check the cost estimate, and click “Start edit”. All jobs for this run are submitted together. The finished image is selected automatically if you have not moved on to another project; the new image has clean markings, while the original one retains the previous marks and tasks."
+    ]
+  },
+  "helpArticles.editor-safe-workflow": {
+    "title": "Editor: from source to result",
+    "aliases": [
+      "crop",
+      "turn",
+      "model",
+      "parameters",
+      "compare",
+      "save",
+      "1K",
+      "2K",
+      "4K",
+      "model filter",
+      "resolution",
+      "quality"
+    ],
+    "paragraphs": [
+      "Selecting an image in the bottom filmstrip makes it the starting image for the next edit. Each image keeps its own annotations and instructions. You can remove it independently of later results. The filmstrip height applies to all images.",
+      "Select a tool, specify instructions or a mask, and attach additional pictures if needed. All enabled non-empty jobs of the current tool participate in local editing. Different places and additional images are combined into one request. The accuracy of the location depends on the selected model and scene.",
+      "The “Economy”, “Balanced” and “Quality” levels help you choose a model option; the drop-down list contains the available options for this tool. The question mark after “Model” explains the purpose, limitations, number of additional pictures and observations about the accuracy of placement.",
+      "The filter icon in the model heading shows filters instead of tiers. Filter by estimated cost for the full run, resolution, number of additional pictures excluding the original, or support for original dimensions. Filters narrow the list; you still choose the model separately. The cross resets them. If no model matches, relax the filters.",
+      "Resolution and quality of the result are different settings under the list of models. The size specifies the number of pixels, the quality specifies the mode of the selected model, if available. “Like source” requires support for original dimensions; If incompatible, please select another size or model. Explicitly selecting 1K, 2K, or another available mode sets the new size. The final dimensions are also shown in the task.",
+      "The cost estimate applies to the entire current run and changes with the parameters and composition of the inputs. It is not a confirmed charge. Additional settings include budget, parallelism and detailed query composition. Without the required cloud send permission, a consent window will appear.",
+      "Clicking “Start edit” creates a new task. Old interrupted or unknown submissions do not themselves continue and do not block a separate new edit. Monitor progress on the “Tasks” tab; simply opening the card does not resend photos.",
+      "While an edit is running, changes to its original instructions and another run of this project are blocked. You can still view and move the canvas, cancel or close the window. The result appears as a separate image. Saving the project and saving an image use different buttons."
+    ]
+  },
+  "helpArticles.rename": {
+    "title": "Smart renaming",
+    "aliases": [
+      "numbering",
+      "prefix",
+      "suffix",
+      "product",
+      "name",
+      "files",
+      "order"
+    ],
+    "paragraphs": [
+      "Select the files or folder you want and click the Smart Rename tag icon in the top bar. Without selection, the current folder is used. A separate window will open with proposed names. The neural network and paid requests are not used.",
+      "You can keep the same name or set a general one, add a prefix and suffix. For example, the general name “Product” and numbering with three digits will give “Product_001”, “Product_002” and so on. The extension is added automatically and does not change.",
+      "The \"Numbering\" switch turns the number on or off. Specify the beginning, number of digits and position of the number. \"Order\" determines which file will receive the first number; Before confirming, check the sequence using the thumbnails and names in the preview.",
+      "You can include subfolders for a folder; The names of the folders themselves do not change. Additional parameters include the counter step and, for multiple folders, a separate counter start in each folder. Use only the conditions you need and check the final list.",
+      "Rename applies the shown plan only after checking for conflicts and file changes. Photo content and metadata are preserved and library paths are updated. If the name is taken or the file has changed, correct the conditions and update the preview.",
+      "On the “Log and undo” tab, you can check the result, continue the interrupted operation, or cancel it. Continuation occurs only at your command; If there is a conflict with a modified file, the application does not overwrite it. For another set, close the window and select the files again."
+    ]
+  },
+  "helpArticles.editor-tasks": {
+    "title": "Editor: tasks and results",
+    "aliases": [
+      "archive",
+      "date",
+      "duration",
+      "cost",
+      "cancel",
+      "result size"
+    ],
+    "paragraphs": [
+      "The Tasks tab on the right side of the editor shows the tasks of the current project. Click the title of the desired card: details will open inside it, next to its results. The list scrolls to the full available height of the panel.",
+      "The card indicates the date of creation and completion, time before the result and after the start of execution, model, original, requested and received dimensions, quality and number of images. Duration to result includes waiting; therefore it may differ from the time after launch.",
+      "The launch estimate and the confirmed costs are different values. If the service has not confirmed the charge, the amount is marked as estimated. The grand total above the list applies to the tasks shown; This is not the service account balance.",
+      "“Open” selects a specific completed image without new generation. Cancel and continue are separate card actions. Old unknown or interrupted jobs do not start from opening a list or starting another edit.",
+      "The archived record of the transferred project is available for reading; it does not continue the old cloud request or add the old expense to the new budget. If the outcome is unknown, check exactly the previous request before deliberately resubmitting it."
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+.explorer-grid,
+.explorer-grid .file-card,
+.explorer-grid .file-card *,
+.explorer-grid .cached-image,
+.explorer-grid .cached-image *,
+.explorer-grid img {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.explorer-grid img {
+  -webkit-user-drag: none;
+}
+
+.explorer-grid__selection-rectangle {
+  position: fixed;
+  z-index: 1199;
+  border: 1px solid rgb(37 99 235 / 68%);
+  background: rgb(59 130 246 / 14%);
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 36%);
+}

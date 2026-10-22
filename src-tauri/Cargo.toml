@@ -1,0 +1,80 @@
+[package]
+name = "smart-photo-indexer"
+version = "1.0.6"
+description = "Windows photo explorer with AI descriptions, tags, full-text search and an image editor"
+authors = ["LittleSunAI"]
+license = "Apache-2.0"
+edition = "2021"
+
+[lib]
+name = "smart_photo_indexer_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "~2.11.5", features = ["protocol-asset"] }
+tauri-plugin-opener = "2"
+tauri-plugin-single-instance = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+roxmltree = "=0.21.1"
+tokio = { version = "1", features = ["sync", "time", "macros"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls-native-roots", "rustls-tls-webpki-roots", "system-proxy"] }
+
+# Used by the thumbnail cache command. Keep formats conservative for fast local previews.
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "gif", "bmp", "webp", "tiff"] }
+
+# Used for the local image index database and migration system.
+rusqlite = { version = "0.32", features = ["bundled", "functions"] }
+
+# Used to encode resized images as data URLs for OpenRouter vision requests.
+base64 = "0.22"
+
+# Used for content-safe file identity and post-rename verification.
+sha2 = "0.10"
+zeroize = "1"
+httpdate = "1"
+kamadak-exif = "0.6.1"
+chrono-tz = "0.10"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+rust-stemmers = "1.2.0"
+notify = "8.2"
+moxcms = { version = "0.8.1", features = ["in_place"] }
+
+# Used for native cross-platform folder selection.
+rfd = "0.15"
+
+# Used to move deleted files to the OS recycle bin/trash instead of permanent deletion.
+trash = "5"
+
+# Used to return a correct MIME type for Web Share file payloads.
+mime_guess = "2"
+zip = { version = "9.0.4", default-features = false, features = ["deflate"] }
+
+# Used for Windows print and wallpaper shell/system calls.
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.61", features = ["ApplicationModel_DataTransfer", "Foundation", "Storage", "Storage_Streams", "Win32_Foundation", "Win32_System_WinRT", "Win32_System_Com", "Win32_UI_Shell"] }
+windows-collections = "0.2"
+windows-core = "0.61"
+webview2-com = "=0.38.2"
+windows-sys = { version = "0.59", features = [
+  "Win32_Foundation",
+  "Win32_Globalization",
+  "Win32_Security_Cryptography",
+  "Win32_Storage_FileSystem",
+  "Win32_Graphics_Gdi",
+  "Win32_Graphics_Dwm",
+  "Win32_Storage_Xps",
+  "Win32_UI_Controls_Dialogs",
+  "Win32_System_Com",
+  "Win32_System_DataExchange",
+  "Win32_System_Memory",
+  "Win32_UI_Shell",
+  "Win32_UI_WindowsAndMessaging"
+] }
+
+# Windows final-window shutdown fix, documented in vendor/tao/SMART_PHOTO_PATCH.md.
+[patch.crates-io]
+tao = { path = "vendor/tao" }

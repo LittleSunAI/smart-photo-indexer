@@ -1,0 +1,4 @@
+import type{EditorDraft}from'./EditorContracts';
+const ignored=new Set(['viewport','layout','tool','selectedAnnotationId','__brushDiameter','__pricingCredential','__pricingRevision','__consentScope','__budgetUsd','__overallBudgetUsd','__budgetSince','__concurrency','__lastChoices','__rawJSONError','__invalidFields']);
+function projection(value:unknown):unknown{if(Array.isArray(value))return value.map(v=>projection(v));if(value&&typeof value==='object'){const o=value as Record<string,unknown>,annotation='kind'in o&&'assetId'in o,instruction='texts'in o&&'globalText'in o;return Object.fromEntries(Object.entries(o).filter(([k])=>!ignored.has(k)&&!(annotation&&k==='visible')&&!(instruction&&['target','mode','reviewed'].includes(k))).sort(([a],[b])=>a.localeCompare(b)).map(([k,v])=>[k,projection(v)]));}return value;}
+export function projectContent(draft:EditorDraft):string{return JSON.stringify(projection(draft));}

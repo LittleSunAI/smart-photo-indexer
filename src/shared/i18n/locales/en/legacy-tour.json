@@ -1,0 +1,347 @@
+{
+  "helpGroups.basics": {
+    "title": "Getting started",
+    "description": "Folders, navigation, views and sorting"
+  },
+  "helpGroups.search": {
+    "title": "Search",
+    "description": "Query, scope, filters and saved conditions"
+  },
+  "helpGroups.favorites": {
+    "title": "Favorites",
+    "description": "Tagged photographs and working with the selection"
+  },
+  "helpGroups.processed": {
+    "title": "Completed",
+    "description": "Photos with saved results"
+  },
+  "helpGroups.collections": {
+    "title": "Collections",
+    "description": "Own collections without moving files"
+  },
+  "helpGroups.recent": {
+    "title": "Recent folders",
+    "description": "Returning to previously opened folders"
+  },
+  "helpGroups.rename": {
+    "title": "Renaming",
+    "description": "File names, order, numbers and cancellation"
+  },
+  "helpGroups.recognition": {
+    "title": "Image recognition",
+    "description": "Service, model, result and settings"
+  },
+  "helpGroups.inspector": {
+    "title": "Description, tags and activity log",
+    "description": "Photo details and manual text editing"
+  },
+  "helpGroups.queue": {
+    "title": "Tasks",
+    "description": "Progress, launch photos, parameters and history"
+  },
+  "helpGroups.index": {
+    "title": "Library and index",
+    "description": "Sources, maintenance and safety of information"
+  },
+  "helpGroups.editor-tools": {
+    "title": "Editor · canvas and markup",
+    "description": "Tools, coordinates, brush and local changes"
+  },
+  "helpGroups.editor-request": {
+    "title": "Editor · neural network editing",
+    "description": "Instructions, location, model, parameters and launch"
+  },
+  "helpGroups.editor-results": {
+    "title": "Editor · results",
+    "description": "History, comparison, saving and return"
+  },
+  "helpGroups.viewer": {
+    "title": "View a photo",
+    "description": "Navigation, zoom, slideshows and actions"
+  },
+  "helpFeatures.choose-folder": {
+    "title": "Choose folder",
+    "explanation": "Open the folder with photos on your computer or connected drive. Its contents will appear in Explorer; the source files are not changed. This is selecting a folder to view, not creating an editor project.",
+    "unavailable": "Available in the top panel of the main window."
+  },
+  "helpFeatures.navigation": {
+    "title": "Navigation",
+    "explanation": "Arrows return to the previous folder, move forward or to a higher level. Breadcrumbs allow you to directly open the parent directory. An inaccessible arrow means that there is no such transition now.",
+    "unavailable": "Open the main application panel."
+  },
+  "helpFeatures.refresh": {
+    "title": "Update",
+    "explanation": "The main button performs the selected update; the arrow changes the action. The index does not run the neural network.",
+    "unavailable": "Available next to folder selection."
+  },
+  "helpFeatures.workspace-tabs": {
+    "title": "Library Sections",
+    "explanation": "Switch Explorer, Search, Favorites, Ready Photos, Collections, and Recent Folders. These are different representations of the same library. In the following tour groups, each section is opened separately.",
+    "unavailable": "Available above the photo grid."
+  },
+  "helpFeatures.view": {
+    "title": "View",
+    "explanation": "Choose a card size, compact list, or file information table. The lower scale controls the same view. When the window is reduced, the button labels are hidden, but their functions remain accessible via icons.",
+    "unavailable": "Available above the grid."
+  },
+  "helpFeatures.sort": {
+    "title": "Sort",
+    "explanation": "Choose to order by name, dates, or other available information. Separately, you can place folders before files, after them, or together. Changing the order does not move the files themselves on disk.",
+    "unavailable": "Available above the grid, except for recent folders."
+  },
+  "helpFeatures.table-columns": {
+    "title": "Table Columns",
+    "explanation": "Plus opens a selection of visible columns; Confirm the set with the “Apply” button. Drag the header border to change the width, double-click to reset. Clicking on a column name changes the sorting.",
+    "unavailable": "First, select Table view, then open Help again."
+  },
+  "helpFeatures.search-scope": {
+    "title": "Where to look",
+    "explanation": "The current folder with subfolders or the entire indexed library.",
+    "unavailable": "In Explorer - in the search bar; on the search tab - next to the request."
+  },
+  "helpFeatures.search-filters": {
+    "title": "Search filters",
+    "explanation": "Enter words from descriptions or tags, select a search area and the desired terms. Then click “Search”: changing the fields does not itself replace the current output. If there are no results, try removing some of the restrictions.",
+    "unavailable": "First, open the “Search” tab and its “Filters”."
+  },
+  "helpFeatures.recognition-model": {
+    "title": "Service and model",
+    "explanation": "Select local Ollama or cloud Fal AI or OpenRouter, then the model of the selected service. Local work requires an established model; cloud - saved key and consent to send photos. The selection here is used for new assignments.",
+    "unavailable": "Available in the top panel."
+  },
+  "helpFeatures.recognition-output": {
+    "title": "Output",
+    "explanation": "Choose what to save: only quick markup tags, only detailed descriptions, or both results. The setting is applied to the next startup. A field that is not selected for processing retains its original content.",
+    "unavailable": "Available in the top panel."
+  },
+  "helpFeatures.process": {
+    "title": "Process",
+    "explanation": "Select the photos and click \"Process\". By default, they end up in a background job and immediately begin to be recognized. In manual queue mode, you will need to “Start” in the tasks tab. Gray action is not available; If there is no local model, its installation is suggested.",
+    "unavailable": "Available in the top panel; select photos first."
+  },
+  "helpFeatures.settings": {
+    "title": "Settings",
+    "explanation": "Separate keys Fal AI and OpenRouter, permission to send photos and parameters of new tasks are saved here. Local models are installed according to your choice. Changing the settings does not change an already created launch.",
+    "unavailable": "Available in the top panel."
+  },
+  "helpFeatures.queue": {
+    "title": "Tasks",
+    "explanation": "This is where recognition tasks work. “Process” creates a run from the selected photos. If the manual queue is enabled, the prepared launch starts working only after “Start”. A pause stops the issuance of new requests, but the already sent one may complete.",
+    "unavailable": "Open \"Tasks\" in the right pane."
+  },
+  "helpFeatures.inspector-tabs": {
+    "title": "Right panel",
+    "explanation": "Details show information about the selected photo; description and tags allow you to edit search markup. Tasks control processing, the library controls the index, and the log shows changes. The width of the panel can be changed using a divider.",
+    "unavailable": "Expand the right panel."
+  },
+  "helpFeatures.viewer-controls": {
+    "title": "View Control",
+    "explanation": "The arrows move to adjacent photos, the asterisk changes the favorites mark. The edit button opens the current photo in the editor. The slideshow shows the photos in sequence; end it to return to normal browsing.",
+    "unavailable": "Return control by double-clicking on the photo."
+  },
+  "helpFeatures.viewer-scale": {
+    "title": "Zoom",
+    "explanation": "“Fit” places the photo in the available area, “1:1” (100%) shows it at a scale of one pixel to one. Magnification helps you see details. These actions only change the view and not the size of the original file.",
+    "unavailable": "Regain control of viewing."
+  },
+  "helpFeatures.viewer-image": {
+    "title": "Photography",
+    "explanation": "Double clicking on a photo hides the controls for free viewing; repeated returns it. When zooming in, move the image to view the desired area. Closing the viewer returns to the main program.",
+    "unavailable": "Open the photo in the viewer."
+  },
+  "helpFeatures.editor-tools": {
+    "title": "Markup",
+    "explanation": "Select a point, area, mask, or eraser from the top markup group. A point defines a landmark, an area defines a rectangular area, and a mask defines a shape. Once a point or area is created, selection is enabled and the new group on the right remains collapsed. The brush appears for the mask and eraser. Tag details and additional pictures are on the right; with a narrow window, some of the tools are available through the menu.",
+    "unavailable": "Available in the top line of the editor."
+  },
+  "helpFeatures.editor-brush": {
+    "title": "Brush size",
+    "explanation": "The diameter is set in pixels of the working image: a large brush paints the object faster, a small one helps at the edge. The setting is common for the mask and eraser. The tutorial shows only the controller—the existing markings are not changed.",
+    "unavailable": "First select the mask or eraser, close the comparison."
+  },
+  "helpFeatures.editor-operations": {
+    "title": "Operations",
+    "explanation": "Select an action on the current frame: crop, size, object, background, light, color or other neural network edit. The operation determines the required fields, images, and compatible models. Rotate and flip change orientation along with the markup without a separate history frame.",
+    "unavailable": "Expand the left toolbar."
+  },
+  "helpFeatures.editor-instruction": {
+    "title": "Task and place",
+    "explanation": "“Location” selects whose instructions you are currently editing. The run merges all enabled non-empty point and area jobs of the current tool, not just the selected row. General instructions are also taken into account. For an automatic model, text may not be needed; the explanation remains at this place.",
+    "unavailable": "Open \"Edit\" in the right panel, select an operation with instructions."
+  },
+  "helpFeatures.editor-launch": {
+    "title": "Start edit",
+    "explanation": "Starts one new edit with all jobs of this tool enabled. Before sending, the composition of the images, model, dimensions, key, consent and budget are checked. Progress is visible on the “Tasks” tab. The result is saved as a separate frame with clean markings; Previous jobs are not automatically resumed.",
+    "unavailable": "Expand the right pane and open Edit."
+  },
+  "helpFeatures.editor-history": {
+    "title": "Processing history",
+    "explanation": "Each frame stores its own markup; the new result starts from clean. Pull the border over the ribbon - the cards will grow along with its height, and horizontal scrolling will appear. Ctrl + two frames enables comparison. Drag the frame onto the marker for an additional picture. The trash bin deletes the confirmation frame; subsequent results are saved.",
+    "unavailable": "Available in the bottom filmstrip of the editor."
+  },
+  "helpFeatures.editor-save": {
+    "title": "Save project",
+    "explanation": "Saves the project with history, selected frame and markup for further work. This is not an export of the final photo. If saving fails, stay in the editor, save again, or choose the provided exit without the latest changes.",
+    "unavailable": "On a narrow window, available in the editor menu."
+  },
+  "helpFeatures.editor-return": {
+    "title": "Return",
+    "explanation": "Returns to the window from which the editor is open, and closes the editor after deciding whether to save. If there are unsaved changes, choose to save, continue, or exit without them. The original photo remains on the disk.",
+    "unavailable": "Available on the left in the single top row."
+  },
+  "helpFeatures.appearance": {
+    "title": "Subject",
+    "explanation": "Switches between light and dark appearance; the photos remain the same.",
+    "unavailable": "The moon or sun button is located on the right in the top panel of the main window."
+  },
+  "helpFeatures.search-saved": {
+    "title": "Saved Searches",
+    "explanation": "Words, search area and filters are saved, not photos. Select the saved terms and click “Search” to get the current results. An empty list means that the conditions have not yet been saved.",
+    "unavailable": "Available in the “Saved” tab of the search."
+  },
+  "helpFeatures.search-actions": {
+    "title": "Actions with results",
+    "explanation": "The output menu copies paths, opens folders and exports CSV/JSON. Exports details of the results rather than copies of the photos. Select a photo to act on the selection; Without a search applied, the menu is not available.",
+    "unavailable": "Located to the right of the search tabs."
+  },
+  "helpFeatures.favorites-workspace": {
+    "title": "Favorites",
+    "explanation": "The star adds the photo to your favorites. Here are tagged photos from the indexed library, regardless of folder. Pressing the star again clears the checkmark, but does not delete the file. If the list is empty, mark any photo in the explorer.",
+    "unavailable": "\"Favorites\" section above the grid."
+  },
+  "helpFeatures.processed-workspace": {
+    "title": "Finished photos",
+    "explanation": "Photos with saved processing results are collected here. You can search, open, and change their descriptions and tags. Indexing a file by itself does not make it ready. In the empty section, first edit the photo or save its description.",
+    "unavailable": "The “Completed” section is above the grid."
+  },
+  "helpFeatures.collections-workspace": {
+    "title": "Collections",
+    "explanation": "A collection is a named collection of links to photographs. Create a selection, then add selected photos; the files themselves remain in their folders. Open a collection to see its contents. Deleting a collection does not delete the originals.",
+    "unavailable": "Collections section above the grid."
+  },
+  "helpFeatures.recent-workspace": {
+    "title": "Recent folders",
+    "explanation": "Here are the paths of recently opened folders. Click the path to return. If the drive is disconnected or the folder is renamed, connect the drive or open a new path; photos are not stored inside the recent list.",
+    "unavailable": "The \"Recent folders\" section is above the grid."
+  },
+  "helpFeatures.description-panel": {
+    "title": "Description of the photo",
+    "explanation": "Select a photo and edit the search text. Formatting changes the appearance, and Save Description writes the text into the index. “Reset” returns the saved option. Changing the text does not redraw the photo.",
+    "unavailable": "Select a photo: a description field will appear on the right."
+  },
+  "helpFeatures.tags-panel": {
+    "title": "Photo tags",
+    "explanation": "Short words and expressions help you find photos. Separate them with commas, semicolons, or lines, then save. Batch tags in the drop-down group add or remove common tags from multiple selected photos.",
+    "unavailable": "Select a photo to edit its tags."
+  },
+  "helpFeatures.journal-panel": {
+    "title": "Changelog",
+    "explanation": "Actions with photos and metadata are recorded here. Expand the entry to compare the old and new values. An empty log means there are no recorded actions in this library; it is not a history of cloud payments.",
+    "unavailable": "Right tab “Activity log”."
+  },
+  "helpFeatures.queue-progress": {
+    "title": "Overall progress",
+    "explanation": "Shows the percentage of completed items for the selected run. For three photos, completion of the first gives 33%, the second - 67%, the third - 100%. Erroneous, canceled and missed elements are also completed: 100% does not mean that all photos are recognized successfully.",
+    "unavailable": "On the \"Tasks\" tab."
+  },
+  "helpFeatures.queue-items": {
+    "title": "Queue elements",
+    "explanation": "Shown here are photos of the selected run and the condition of each. The \"Hide completed\" in the header hides only successfully completed rows, without deleting files or results. Errors remain visible. The list scrolls within the available panel space.",
+    "unavailable": "On the \"Tasks\" tab."
+  },
+  "helpFeatures.queue-details": {
+    "title": "Launch Summary",
+    "explanation": "Expand to see the number of pending, completed, failed, canceled photos and the current request. Completion or stop is also shown here. This information applies to the selected run, not the entire library.",
+    "unavailable": "On the \"Tasks\" tab."
+  },
+  "helpFeatures.queue-settings": {
+    "title": "Job Options",
+    "explanation": "These are the saved parameters of the selected run: service, model, passes and restrictions. Changing settings for new tasks does not change old ones. In an unfinished cloud run, you can separately change the concurrent request limit; passes of one photo are performed sequentially.",
+    "unavailable": "On the \"Tasks\" tab."
+  },
+  "helpFeatures.queue-history": {
+    "title": "Launch history",
+    "explanation": "One run combines photos added together. Open it to see the photos and their results in the item list. Viewing a completed run does not reprocess the photo. Old launches are loaded when scrolling through history.",
+    "unavailable": "On the \"Tasks\" tab."
+  },
+  "helpFeatures.index-library": {
+    "title": "Library and index",
+    "explanation": "The index stores paths, descriptions, tags, and information about photos on this computer. It is saved after the program is closed. “Refresh” here rereads the database information; This is not re-recognizing photos or scrubbing descriptions.",
+    "unavailable": "Open \"Library\" in the right pane of the main window."
+  },
+  "helpFeatures.library-roots": {
+    "title": "Connected folders",
+    "explanation": "The connected folder is the source of the library. Its update adds file information and tracks changes without editing the originals or calling the model. Configure exceptions and auto-update separately for each source. Disabling the source preserves the index and descriptions.",
+    "unavailable": "Expand \"Mapped Folders\" in the \"Library\" tab."
+  },
+  "helpFeatures.index-maintenance": {
+    "title": "Problem entries",
+    "explanation": "Path checking detects inaccessible, moved, or erroneous files. First, repair the disk or check the path; Removing an entry from the index is a separate action. The scan does not run recognition and does not automatically delete sources.",
+    "unavailable": "Expand “Problem entries” in the “Library” tab."
+  },
+  "helpFeatures.index-duplicates": {
+    "title": "Exact duplicates",
+    "explanation": "Groups of matching files allow you to check copies of one photo. Check the paths before making a decision: the same name does not mean the same content. This section is not just looking for similar stories.",
+    "unavailable": "Expand Exact Duplicates."
+  },
+  "helpFeatures.index-backup": {
+    "title": "Index backup",
+    "explanation": "The copy preserves local information and descriptions. Please transfer original photos separately. Before restoring, check the date and composition of the copy: restoring changes the current index. Tour does not perform the recovery for you.",
+    "unavailable": "Expand \"Backup\"."
+  },
+  "helpFeatures.index-cache": {
+    "title": "Thumbnail cache",
+    "explanation": "The cache speeds up the display of photos. Cleaning removes only the prepared thumbnails; they are created again the next time you view them. Sources, descriptions and tags are preserved. If a particular preview fails, try uploading that photo again first.",
+    "unavailable": "Expand Thumbnail Cache."
+  },
+  "helpFeatures.index-technical": {
+    "title": "Technical details",
+    "explanation": "The database version and path are needed for diagnostics and backup. This is the index location, not the folder of all photos. The path can be copied; For normal viewing, this section can be left closed.",
+    "unavailable": "Expand \"Technical Information\"."
+  },
+  "helpFeatures.editor-canvas": {
+    "title": "Web and movement",
+    "explanation": "The selected frame and its markings are visible on the canvas. The wheel changes scale; hand or middle button moves the image. A dot indicates a location, a rectangular area defines an area, and a mask paints the exact shape. Escape cancels an incomplete gesture.",
+    "unavailable": "Open the photo in the editor."
+  },
+  "helpFeatures.editor-models": {
+    "title": "Model selection",
+    "explanation": "The “Economy”, “Balanced” and “Quality” levels help you choose a model; Below is a list of compatible options. The question mark after “Model” explains limitations and observations about placement accuracy. Price is an estimate of the entire launch. Entry limit includes source. Resolution and available quality are set separately under the model.",
+    "unavailable": "In the right panel \"Edit\"."
+  },
+  "helpFeatures.editor-export": {
+    "title": "Save image",
+    "explanation": "Exports the selected frame to a file taking into account the working orientation. For an intermediate result, select the desired frame in the history. Saving the project separately saves the markup and history: one project is not enough to get the final JPG/PNG.",
+    "unavailable": "On the top line of the editor."
+  },
+  "helpFeatures.smart-rename": {
+    "title": "Smart renaming",
+    "explanation": "Opens a window of future names for the selected files or folder; without selection, the current folder is used. Specify the common name, prefix, suffix, and numbering. Check the order in the preview before applying. Photos are not redrawn, the neural network is not called. Cancellation is available in the rename log.",
+    "unavailable": "Open the folder or select the files you need. The tag icon is located in the top bar."
+  },
+  "helpFeatures.editor-markup": {
+    "title": "Tags and additional pictures",
+    "explanation": "cards of points and regions are first collapsed. Plus, next to the photo counter, selects a file and expands the desired group. A frame from the bottom filmstrip can be dragged directly onto the label: the only additional image at the point is replaced, and a new one is added at the area. The eye changes visibility, the checkbox changes participation in the request. The handle below changes the height of the list.",
+    "unavailable": "Open the \"Edit\" tab. No new labels are created during tour."
+  },
+  "helpFeatures.editor-model-filters": {
+    "title": "Model filters",
+    "explanation": "The funnel icon opens conditions instead of levels: price of the entire launch, resolution, number of additional images without source, and support for original size. The conditions select the list, but do not send a request or automatically select another model. The cross returns the normal selection.",
+    "unavailable": "Open Edit and close the crop or resize window."
+  },
+  "helpFeatures.editor-output": {
+    "title": "Resolution and quality",
+    "explanation": "Resolution specifies the dimensions in pixels; quality - available mode of the model. These are different settings. “Like source” requires support for the original dimensions. If you select 1K/2K or another mode, a new size is requested. Some tools specify a scale instead of a resolution; unnecessary fields are not shown.",
+    "unavailable": "Fields vary by model. To expand the image, set the margins on the sides; to enlarge, set the available scale. If filters are open, close them first."
+  },
+  "helpFeatures.editor-tasks": {
+    "title": "Editing tasks",
+    "explanation": "Open the title of the desired card: its dates, duration, model, dimensions and results are revealed inside. “Open” selects a finished frame without a new generation. Estimation and confirmed consumption are separated. The list uses all available height; old tasks do not continue automatically.",
+    "unavailable": "Go to the Tasks tab on the right. Before the first edit, the empty state is shown here."
+  },
+  "helpFeatures.editor-sources": {
+    "title": "Project sources",
+    "explanation": "Images added to the project are stored here. Selecting an image opens its working image; This is not an attachment to a tag. To use a frame as an additional picture, drag it from the bottom filmstrip to a point or area in the markup. Import and deletion are performed only at your command.",
+    "unavailable": "Open the \"Sources\" tab in the right pane of the editor."
+  }
+}

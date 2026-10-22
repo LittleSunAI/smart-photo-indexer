@@ -1,0 +1,7 @@
+.editor-context-help{display:inline-flex;position:relative;flex:none;margin-left:4px;vertical-align:middle}
+.editor-context-help>button,.photo-editor-window .editor-context-help>button{display:inline-grid;place-items:center;box-sizing:border-box;width:22px;min-width:22px;height:22px;min-height:22px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--text);font:600 12px/1 "Segoe UI",sans-serif;cursor:pointer}
+.editor-context-help>button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.editor-modal .editor-context-help>button{width:22px;min-width:22px;height:22px;min-height:22px;padding:0;border-radius:50%;font:600 12px/1 "Segoe UI",sans-serif}
+.editor-context-help__text{position:fixed;width:290px;max-width:calc(100vw - 16px);max-height:min(420px,calc(100vh - 16px));overflow:auto;box-sizing:border-box;padding:8px;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:8px;box-shadow:var(--shadow);z-index:1400;font:13px/1.45 "Segoe UI",sans-serif;white-space:normal;overflow-wrap:anywhere;user-select:text}
+.editor-job-list>.editor-section-heading{display:flex;align-items:center;gap:4px}
+.editor-tool-hint{display:contents}.editor-tool-hint__text{pointer-events:none}

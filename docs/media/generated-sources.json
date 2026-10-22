@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19",
+  "authorDesignation": "LittleSunAI",
+  "assets": [
+    {
+      "file": "demo/alpine-lake.png",
+      "tool": "built-in image_gen",
+      "purpose": "Generated demonstration photo; not an actual user photograph",
+      "prompt": "Use case: photorealistic-natural. Create a single premium editorial landscape photograph for a desktop photo-organizer demonstration. Wide 3:2 composition. A clear turquoise alpine lake, layered rugged mountains, dark spruce trees on the shoreline, small pale stones in the foreground, gentle early-morning golden sunlight and faint mist. Natural photographic detail, realistic colors, restrained cinematic light, clean sharp image with interesting details for photo descriptions. No people, no buildings, no text, no logos, no watermarks, no frames, no UI. This is a full photograph, not a collage.",
+      "sha256": "2bd093693f5b1c32675f59d50f1d50e6213866f32bd68a8ea1599884ad5a036f"
+    },
+    {
+      "file": "demo/sunlit-table.png",
+      "tool": "built-in image_gen",
+      "purpose": "Generated demonstration photo; not an actual user photograph",
+      "prompt": "Use case: photorealistic-natural. Single realistic premium editorial still-life photograph for a photo library app demo. Landscape 3:2. Warm sunlit artisan breakfast table: cream ceramic cup with coffee and steam on the left, small glass vase with three yellow wildflowers, a shallow plate with two pears and a bright orange, folded dark blue linen, softly textured pale oak surface and a warm off-white plaster wall behind. Interesting but uncluttered arrangement, soft directional daylight, refined natural colors, realistic texture and shadows, medium depth of field. No people, no hands, no labels or text, no logo, no watermark, no UI, no collage, no frame.",
+      "sha256": "532bd02677eecbb101b4e5269ff5c4260004a261f80e644d05fdc0fa5d980bfc"
+    },
+    {
+      "file": "cover-art.png",
+      "tool": "built-in image_gen",
+      "purpose": "Decorative cover artwork; not a screenshot",
+      "prompt": "Use case: ads-marketing. Create one sophisticated wide 16:9 cover artwork for a Windows photo library application named Smart Photo Indexer by LittleSunAI. Editorial product design aesthetic: deep midnight navy background, subtle warm golden sunlight bloom in upper right, a refined floating arrangement of three real photographic prints on the right half (alpine turquoise lake, elegant still life with pears and coffee, sunlit clean geometric architecture). Photographic prints with subtly rounded corners, fine highlights, restrained depth and elegant spacing. Left half is mostly calm dark negative space for later exact typography, with a small simple warm glowing sun disk near top left. Do NOT draw any application UI, buttons, dashboards, fake screenshots or charts. No letters, no text, no watermark, no extra logos. Rich but quiet, impeccable professional product cover, no glitter, no busy sci-fi effects. Landscape wide composition.",
+      "sha256": "b337e2d9ce14e6fcbcd6deaaeca007785194aa14e50e540bb326c21b79cba26d"
+    }
+  ]
+}

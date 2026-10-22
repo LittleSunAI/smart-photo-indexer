@@ -1,0 +1,46 @@
+.batch-rename-dialog,.batch-rename-error{color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:12px;box-sizing:border-box;padding:14px;box-shadow:0 12px 44px #0005}
+.batch-rename-dialog::backdrop,.batch-rename-error::backdrop{background:#101a3066}
+.batch-rename-dialog[open]{display:flex;flex-direction:column;gap:10px;width:min(900px,calc(100vw - 32px));height:fit-content;max-width:none;max-height:calc(100vh - 32px);overflow:hidden}
+.batch-rename-dialog header,.batch-rename-preview-heading,.batch-rename-dialog footer{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0}
+.batch-rename-dialog header strong{display:flex;align-items:center;gap:6px}
+.batch-rename-dialog nav,.batch-rename-dialog footer>div{display:flex;gap:6px;flex-wrap:wrap}
+.batch-rename-dialog button,.batch-rename-error button{min-height:30px;padding:5px 10px}
+.batch-rename-dialog button,.batch-rename-error button{border:1px solid var(--line);border-radius:6px;background:var(--panel-soft);color:var(--text);font:inherit;font-size:12px;cursor:pointer}
+.batch-rename-dialog button:hover:not(:disabled),.batch-rename-error button:hover:not(:disabled){background:var(--blue-soft);border-color:var(--blue)}
+.batch-rename-dialog button:disabled,.batch-rename-dialog fieldset:disabled{opacity:.6;cursor:default}
+.batch-rename-dialog button:focus-visible,.batch-rename-dialog input:focus-visible,.batch-rename-dialog select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.batch-rename-dialog nav button.active{background:var(--blue-soft);border-color:var(--blue)}
+.batch-rename-dialog button.primary{background:var(--blue);border-color:var(--blue);color:var(--theme-on-accent)}
+.batch-rename-dialog button.primary:hover:not(:disabled){background:var(--blue-strong);color:var(--theme-on-accent)}
+.batch-rename-settings input:not([type=checkbox]),.batch-rename-settings select{background:var(--panel-soft);border:1px solid var(--line);border-radius:6px;color:var(--text);font:inherit;font-size:12px;padding:5px 7px}
+.batch-rename-settings input[type=checkbox]{accent-color:var(--blue)}
+.batch-rename-dialog .batch-rename-switch{display:flex;align-items:center;justify-content:space-between;gap:8px;align-self:end;height:30px;padding:5px 8px;font-size:12px;background:var(--panel);border-radius:6px}
+.batch-rename-dialog .batch-rename-switch[aria-checked=true]{border-color:var(--line);background:var(--panel)}
+.batch-rename-dialog .batch-rename-switch:focus-visible{outline:1px solid var(--blue);outline-offset:1px}
+.batch-rename-switch__track{width:27px;height:15px;border-radius:9px;background:var(--muted);padding:2px;box-sizing:border-box;flex:none}
+.batch-rename-switch__track>span{display:block;width:11px;height:11px;border-radius:50%;background:var(--panel)}
+.batch-rename-switch[aria-checked=true] .batch-rename-switch__track{background:var(--blue)}
+.batch-rename-switch[aria-checked=true] .batch-rename-switch__track>span{margin-left:12px;background:var(--theme-on-accent)}
+.batch-rename-settings{background:var(--panel-soft)}
+.batch-rename-dialog .batch-rename-history-item{background:var(--panel-soft);border-radius:8px;padding:9px 12px}
+.batch-rename-dialog header button{padding:5px;display:grid;place-items:center}
+.batch-rename-source{margin:0;overflow-wrap:anywhere;font-size:12px;flex-shrink:0}
+.batch-rename-source small{display:block;margin-top:3px;color:var(--muted)}
+.batch-rename-settings{border:1px solid var(--line);border-radius:8px;padding:10px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;min-width:0;margin:0;max-height:38vh;overflow:auto;flex-shrink:0}
+.batch-rename-settings label{display:flex;flex-direction:column;gap:4px;min-width:0;font-size:12px}
+.batch-rename-settings input:not([type=checkbox]),.batch-rename-settings select{width:100%;box-sizing:border-box;min-height:30px;min-width:0}
+.batch-rename-settings .batch-rename-check{flex-direction:row;align-items:center;align-self:end;min-height:30px;gap:6px}
+.batch-rename-settings details{grid-column:1/-1;font-size:12px}.batch-rename-settings details>div{display:grid;grid-template-columns:1fr 2fr;gap:12px;margin-top:8px}
+.batch-rename-preview-heading{font-size:12px}
+.batch-rename-preview{height:var(--rename-list-height,360px);flex:0 1 auto;display:flex;flex-direction:column;min-height:80px;overflow:hidden}
+.batch-rename-columns,.batch-rename-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;font-size:12px}
+.batch-rename-columns{padding:6px 9px;border-bottom:1px solid var(--line);font-weight:600}
+.batch-rename-row{padding:9px;border-bottom:1px solid var(--line);overflow-wrap:anywhere;min-height:60px;box-sizing:border-box}
+.batch-rename-row__old{display:flex;gap:9px;align-items:flex-start;min-width:0}.batch-rename-row__old>div{width:40px;height:40px;flex-shrink:0;overflow:hidden}.batch-rename-row__old img{width:40px;height:40px;object-fit:contain}
+.batch-rename-row small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+.batch-rename-row--error,.batch-rename-row--conflict{background:#b83d4514}.batch-rename-row--error>div:last-child small,.batch-rename-row--conflict>div:last-child small{color:var(--red)}
+.batch-rename-dialog footer{font-size:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:9px}
+.batch-rename-dialog footer>span{flex:1;min-width:160px}.batch-rename-history{height:var(--rename-history-height,560px);flex:0 1 auto;min-height:0;display:flex;flex-direction:column;gap:8px}.batch-rename-history p{margin:0;font-size:12px}.batch-rename-history-item{width:100%;display:flex;flex-direction:column;align-items:start;gap:4px}.batch-rename-error{max-width:min(480px,calc(100vw - 32px));overflow-wrap:anywhere}.batch-rename-error p{max-height:50vh;overflow:auto}
+@media(max-width:720px){.batch-rename-settings{grid-template-columns:repeat(2,minmax(0,1fr))}.batch-rename-dialog[open]{padding:10px;gap:8px}.batch-rename-dialog footer>div{width:100%;justify-content:flex-end}}
+
+.batch-rename-help-text{margin:0;padding:8px;background:var(--panel-soft);border:1px solid var(--line);border-radius:6px;font-size:12px;flex-shrink:0}.batch-rename-dialog .batch-rename-help{width:19px;height:19px;min-height:19px;padding:0;border-radius:50%;font-size:11px}

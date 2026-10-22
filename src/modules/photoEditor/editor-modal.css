@@ -1,0 +1,29 @@
+/* Shared by editor windows and the task inspector in the photo library. */
+.editor-modal::backdrop{background:#24364940}
+.editor-modal:not([open]){display:none}
+.editor-modal{position:fixed;inset:0;margin:auto;width:min(480px,calc(100vw - 32px));max-width:calc(100vw - 32px);max-height:calc(100vh - 32px);overflow:auto;overflow-x:hidden;box-sizing:border-box;background:var(--theme-surface,#fff);color:var(--theme-text,#263a54);border:1px solid var(--theme-border,#dbe4ee);border-radius:12px;box-shadow:0 10px 40px #24364930;padding:14px;display:flex;flex-direction:column;gap:12px;font:14px/1.4 Segoe UI,sans-serif}
+.editor-modal>header,.editor-modal>footer{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.editor-modal>header>strong{min-width:0}
+.editor-modal p{margin:0}
+.editor-modal>header>button{flex:none;width:30px;padding:0}
+.editor-modal>footer{justify-content:flex-end;flex-wrap:wrap}
+.editor-modal button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-width:30px;height:30px;padding:0 8px;margin:0;border:1px solid var(--theme-border,#dbe4ee);border-radius:6px;background:var(--theme-surface,#fff);color:var(--theme-text,#263a54);font:inherit;font-size:13px;white-space:nowrap;cursor:pointer}
+.editor-modal button:hover:not(:disabled){background:var(--theme-surface-soft,#edf5ff);color:var(--theme-accent,#0968da)}
+.editor-modal button:disabled{opacity:.42;cursor:default}
+.editor-modal button:focus-visible{outline:2px solid #3982e8;outline-offset:1px}
+.editor-modal .editor-primary{background:var(--theme-button-accent,#3982e8);border-color:#3982e8;color:var(--theme-on-accent,#fff)}
+.editor-modal .editor-inline-field{display:flex;align-items:center;gap:7px;min-width:0;flex-wrap:wrap}
+.editor-modal>label:not(.editor-inline-field){display:flex;flex-direction:column;gap:4px}
+.editor-modal input:not([type=checkbox]):not([type=radio]),.editor-modal textarea,.editor-modal select{box-sizing:border-box;min-width:0;max-width:100%;border:1px solid var(--theme-border,#dbe4ee);border-radius:6px;padding:5px 7px;background:var(--theme-surface,#fff);color:var(--theme-text,#263a54);font:inherit;user-select:text}
+.editor-modal input[type=checkbox],.editor-modal input[type=radio]{flex:none}
+.editor-modal .editor-copyable{user-select:text;overflow-wrap:anywhere}
+.editor-modal .editor-error{color:var(--theme-error,#a12626)}
+.editor-modal--modeless{inset:86px 16px auto auto;margin:0;width:min(286px,calc(100vw - 24px));max-height:calc(100vh - 104px);box-shadow:0 4px 16px #24364930}
+.editor-error-dialog>.editor-copyable{color:var(--theme-error,#a12626);user-select:text;white-space:pre-wrap}
+.editor-modal .editor-error,.editor-error-dialog>.editor-copyable{color:#b42318}:root[data-theme=dark] .editor-modal .editor-error,:root[data-theme=dark] .editor-error-dialog>.editor-copyable{color:#ffaaa0}
+
+.editor-modal .editor-branch-card>button:first-child{height:auto;min-height:30px;white-space:normal;overflow-wrap:anywhere;max-width:100%}
+
+.editor-project-cleanup{border-top:1px solid var(--theme-border,#3d5268);padding-top:8px;margin-top:8px}.editor-project-cleanup>summary{cursor:pointer;font-size:14px;font-weight:600}.project-cleanup-controls{display:grid;gap:8px;padding-top:8px;min-width:0}.project-cleanup-controls label{display:grid;gap:4px}.project-cleanup-controls select,.project-cleanup-controls input{min-width:0;max-width:100%}.project-cleanup-controls p{margin:4px 0;overflow-wrap:anywhere}.project-cleanup-controls>button{justify-self:start;max-width:100%;white-space:normal}.project-cleanup-actions{display:flex;flex-wrap:wrap;gap:6px}.project-cleanup-preview{padding:8px;border:1px solid var(--theme-border,#3d5268);border-radius:8px}.project-cleanup-preview strong{display:block;overflow-wrap:anywhere}.project-cleanup-actions button{white-space:normal}.project-cleanup-names{max-height:100px;overflow:auto}
+
+.editor-modal .project-cleanup-controls>button,.editor-modal .project-cleanup-actions button{height:auto;min-height:30px;padding:5px 8px;white-space:normal}

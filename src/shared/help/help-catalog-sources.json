@@ -1,0 +1,274 @@
+[
+  {
+    "file": "ru/common.json",
+    "sha256": "6f864ee774f5856d2a51209a18b338b7301ab8743bb03e9597e9a035aff96a52"
+  },
+  {
+    "file": "ru/details.json",
+    "sha256": "735af9204ccfebbcfd1114ba35e4e066e27c2cb88e47cce1adf99a1354c222a1"
+  },
+  {
+    "file": "ru/editor.json",
+    "sha256": "c651ea2f275b7977f5779a2eb2b098da0250f7a7f8502c69f066d19f3c83fcaa"
+  },
+  {
+    "file": "ru/errors.json",
+    "sha256": "1f649dd663d8bf3df6fa24756e0177c0c8eb0a3c110b2de133d4cb280e9bdebd"
+  },
+  {
+    "file": "ru/help.json",
+    "sha256": "0e33907db53b61b90c8890e51eeacdc7ccc3f853bacccb9a096d87f5deb4d5d3"
+  },
+  {
+    "file": "ru/journal.json",
+    "sha256": "3aa1fa774119a7a0c462c93c72e02218bf104fa61a96e5f9dddc4567865c8478"
+  },
+  {
+    "file": "ru/legacy-tour.json",
+    "sha256": "4947ee19db0c6c565c24a625173591361481007b00e12583ff1865c47e4697fb"
+  },
+  {
+    "file": "ru/main.json",
+    "sha256": "0018d94e3b2d777cfaa0100b389b7b76aba98b974974b50a9cde906292466547"
+  },
+  {
+    "file": "ru/models.json",
+    "sha256": "059e6106bf0d3c17cd05f40b4978f77605efbe950a4f0c99552637192f9fad31"
+  },
+  {
+    "file": "ru/native.json",
+    "sha256": "6ba13ab4befda38e2ed7a6ec89ac0df3b48b9afd38c681fa2b6e75bd205c1399"
+  },
+  {
+    "file": "ru/plurals.json",
+    "sha256": "7c90e1255b6514e829a3eeb789fabbf7995d655bfb99b30788fa3fd9a7f87bb5"
+  },
+  {
+    "file": "ru/reference.json",
+    "sha256": "da6cb7cb6f3e8c9101592497f8757ed863efc56cf3f299ce8674b4bb4fe10e28"
+  },
+  {
+    "file": "ru/rename.json",
+    "sha256": "0865381c7edc938607a7f9a818799d17fee89df70322ac438dbecb4b87e99dcc"
+  },
+  {
+    "file": "ru/search.json",
+    "sha256": "0070a7e1dc95ba1a4433095ede5dc921fef557cf4a169c0abc4d9ef34c1207a2"
+  },
+  {
+    "file": "ru/settings.json",
+    "sha256": "5ae5845e3e641bc7b2a41a89ad64c3ab386339c049c0b4b4621e7cf7a95bb315"
+  },
+  {
+    "file": "ru/tour.json",
+    "sha256": "ca448cf7511eedbef2c1459fd1784359964bdce4b62c1c819c775352963b1d7a"
+  },
+  {
+    "file": "ru/viewer.json",
+    "sha256": "39b7a40ae328f53e565f7f5e97e603d06ff1af0e73c76f866acbed0ec969a88b"
+  },
+  {
+    "file": "en/common.json",
+    "sha256": "3fccf52b534f7d190dbef167ce2934106b0083429f424a8c2ed810b32c4a309c"
+  },
+  {
+    "file": "en/details.json",
+    "sha256": "bed2990f3b6e250bd75b8d745699aadee07f1eebef5dcc128e6de4ddf1a73e65"
+  },
+  {
+    "file": "en/editor.json",
+    "sha256": "cf7c2189a350086595703bb1ed0f5db83d146e76c4774933e0c67c22a06d7f23"
+  },
+  {
+    "file": "en/errors.json",
+    "sha256": "e6ea31e195b00338414e0e11a4bcb4fed8872cff33f7fe499f57c1267eb75f83"
+  },
+  {
+    "file": "en/help.json",
+    "sha256": "9dfe9ac0cbdc836a3de08b67673a7f12ed20d1311fea7692c602283b0f1ebc8f"
+  },
+  {
+    "file": "en/journal.json",
+    "sha256": "8bdc24b996d853d4f07017370e9120f8cabf41732f356edf3830205f8b5947af"
+  },
+  {
+    "file": "en/legacy-tour.json",
+    "sha256": "a48cadfcc1b1e5cfa34e1829d332f4dce69ccb577c7a0363aabc071eddecd23a"
+  },
+  {
+    "file": "en/main.json",
+    "sha256": "006d7ccfd6d8d71cbbec21c5f6c38a2ba145e49c3d140c3e4c64d7a3d3876035"
+  },
+  {
+    "file": "en/models.json",
+    "sha256": "3ddefbe87b6dbd4032f3f6bb95f72a2f9d2441dab5929d99f81139db32edd9a3"
+  },
+  {
+    "file": "en/native.json",
+    "sha256": "bb366a0221d17e5e872e35ee00396efacb3f47ec372e1f2591db069f6daa2d77"
+  },
+  {
+    "file": "en/plurals.json",
+    "sha256": "374a21acf225ed51bbc97d545e95c05562b29376727570ec8365e674d7328621"
+  },
+  {
+    "file": "en/reference.json",
+    "sha256": "1501c36fc365531deee16406e0f49b3764aef64646a2e1c456b5adfef6c0380f"
+  },
+  {
+    "file": "en/rename.json",
+    "sha256": "74b19fe954f857d23c8bcc2cfaf83bcf5021eccb220967879a18aafa882595b2"
+  },
+  {
+    "file": "en/search.json",
+    "sha256": "eb6689be5ea2acb8c62b8f12045345bca7fbfbadf4f6a44121fd45967d218751"
+  },
+  {
+    "file": "en/settings.json",
+    "sha256": "88be3c06ccec7fca1c79798641ae153e0005859fae730a320d58b6e0ceb6fc52"
+  },
+  {
+    "file": "en/tour.json",
+    "sha256": "60f099e3cf12134a8f13ef6e08d33baed6f9bcb928ea98abec3ac6412a73d6af"
+  },
+  {
+    "file": "en/viewer.json",
+    "sha256": "a37394397964c58a458db2f079ecefa22d0e5ef2452ad279b9d919b09a3e054b"
+  },
+  {
+    "file": "de/common.json",
+    "sha256": "3a9b804a11d7f8c8b0dac1311650306ea25334e63e3849f6de06164087a4aa8a"
+  },
+  {
+    "file": "de/details.json",
+    "sha256": "606f0d132ee71d02cc057406dee37875e7f84f8131a527b12483c960d6dbf959"
+  },
+  {
+    "file": "de/editor.json",
+    "sha256": "e9e84ff55ed5f278c061d742e66559be4847e103969e8ad449b14a187f29db85"
+  },
+  {
+    "file": "de/errors.json",
+    "sha256": "234ba18c4f3f7f26ce9931fd3859ccd93772d137bf921e9ca527455dcd97a006"
+  },
+  {
+    "file": "de/help.json",
+    "sha256": "cf07c822eac723b5cc49413cda3b132e1b53e16e47fca1d60f10c775aaf0f60e"
+  },
+  {
+    "file": "de/journal.json",
+    "sha256": "8c93e53e0aae26f98d0ef62f1dc76b716cc7e8624252130bb8e76813bd8e802e"
+  },
+  {
+    "file": "de/legacy-tour.json",
+    "sha256": "0df5dcf8fc2da5dd450164397b5cc87d9ace92664c6876ae868dffcf37341d7d"
+  },
+  {
+    "file": "de/main.json",
+    "sha256": "7ec6d1200a03fd2fea777486c0eaf17aeb61a389966f3187ea9da19bff49ca5f"
+  },
+  {
+    "file": "de/models.json",
+    "sha256": "983bf96a74467af7d7af52a6db451c4bc8df55a70a6b98c31ba9cb967fd1f1f1"
+  },
+  {
+    "file": "de/native.json",
+    "sha256": "e157f8876d048aa15ca7c2eb54ad5d3dd39bd8405d7b20b6e1e82ed6321fc33d"
+  },
+  {
+    "file": "de/plurals.json",
+    "sha256": "c8fbb173eedf2e2ae1bc36476ef413f2b189a0eeafcbac55ebe1758b9d334b31"
+  },
+  {
+    "file": "de/reference.json",
+    "sha256": "58a8478a7f6ed0da3350646b57144c062243de3deb63e583d0b874139ff2cb0b"
+  },
+  {
+    "file": "de/rename.json",
+    "sha256": "896bf9b738c07b2f438157caaccb54eb215f96f3a0136570e2594380657b5313"
+  },
+  {
+    "file": "de/search.json",
+    "sha256": "f27fb6547915f2a49b1dcdb8065d15d0efa393bffa66476f69d3334f1f8a589c"
+  },
+  {
+    "file": "de/settings.json",
+    "sha256": "19fad34ab7d1e7cda7e79751edd8f3988df2da2e6accd9dc3194474a0ff08493"
+  },
+  {
+    "file": "de/tour.json",
+    "sha256": "ceebd0bc3cfd6bf28c53f7cfbe1a4119a1f2dad1b6abf76cf1a9c488f7477246"
+  },
+  {
+    "file": "de/viewer.json",
+    "sha256": "bad8458b7aacd907271c7e4808cbaa2575df15fd8e70bd181f2f1f0ba9334831"
+  },
+  {
+    "file": "fr/common.json",
+    "sha256": "0519a5c13f7a0dfb3306f6f24c37c2ae365302488f158d3657e23083ac6465c9"
+  },
+  {
+    "file": "fr/details.json",
+    "sha256": "7295201cde65648986cbfe646cabdd86f27e298ec2a949a13eb457f5a4a88142"
+  },
+  {
+    "file": "fr/editor.json",
+    "sha256": "c27b0690f433af9d71ff1206b962eae9b661aad67afc8b1a4d93f3751f97a664"
+  },
+  {
+    "file": "fr/errors.json",
+    "sha256": "908b73055534e9622a5766438d024d8d6fa2e078e4d47aea681b674bd3de8c9f"
+  },
+  {
+    "file": "fr/help.json",
+    "sha256": "8a7e6e90fbe9625e9c38b53098d809703b94c40caecc55ceee871f5fd28a7547"
+  },
+  {
+    "file": "fr/journal.json",
+    "sha256": "feb856347225e6be1b5ffb2bf877ef2a4c2a780f6ff26744d7a052bd6b8ed69f"
+  },
+  {
+    "file": "fr/legacy-tour.json",
+    "sha256": "a4df1ef052982eef163dc5be83fb279ef45cae55316cadaf7fce53e3c6110981"
+  },
+  {
+    "file": "fr/main.json",
+    "sha256": "2f7f2d7a23e8e70ee0a2685a5c6a04f5e9dc2a71123f8a36c97d534394a9d52c"
+  },
+  {
+    "file": "fr/models.json",
+    "sha256": "1e8bb509245dbb363baec08d5618c7bc61d2e40d0b99d99bc80df9bae6610d84"
+  },
+  {
+    "file": "fr/native.json",
+    "sha256": "65d9087ed0cce23a708d83621fa5bbd9dae657c2440539c35889b2388a8a741f"
+  },
+  {
+    "file": "fr/plurals.json",
+    "sha256": "d9fa33306c915484852bb2e1c420aff09435a92161607c4d6f44b5c9aecabc98"
+  },
+  {
+    "file": "fr/reference.json",
+    "sha256": "19f7402687c8820f080cb9c485fef18384ec4e35bb48b8061e02ed5af6049c9d"
+  },
+  {
+    "file": "fr/rename.json",
+    "sha256": "e8605060e12b30e74f68e695ee9137c4faeb04bf2e7f2e18ec0f406f337a6127"
+  },
+  {
+    "file": "fr/search.json",
+    "sha256": "e8152760017d33b55f58cc2772a52d1ed8388763bd256b18cf4fc54586dc35f8"
+  },
+  {
+    "file": "fr/settings.json",
+    "sha256": "4cb4bb0b5720fb9702d73830f67f71c1d730254fa64365b903f2f7df768debd5"
+  },
+  {
+    "file": "fr/tour.json",
+    "sha256": "b74405b0c323aa32371a57cd3e46fe1cf6a51a845c11798c38eba74d2e7e9b13"
+  },
+  {
+    "file": "fr/viewer.json",
+    "sha256": "3a87cd3c9ee27e29dd6ea5e8a72ae38f2a7091b2deccdf4e42f20e8dc4d14cbc"
+  }
+]

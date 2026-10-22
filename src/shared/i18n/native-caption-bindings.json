@@ -1,0 +1,38 @@
+{
+  "keys": [
+    "dialog.choose-folder",
+    "native.0a6258a5f30f27c8",
+    "native.0c8798fd110f971d",
+    "native.38e1f3ca576770fd",
+    "native.58090fda80513b25",
+    "native.5d6a7db7a60704f8",
+    "native.6b01898c0c37e799",
+    "native.6dd7b5fe2f9bd72a",
+    "native.6f6b1ea32fcb36fd",
+    "native.7209e55a616dcd16",
+    "native.793b09aca69ff93f",
+    "native.7d4dccbe83ec14a2",
+    "native.839cda653445bf95",
+    "native.845af32efae7db1f",
+    "native.87ad2302bae459ac",
+    "native.8fbb3366ae7a3e8c",
+    "native.a53454afbe92ab78",
+    "native.aff6d6cbb33c32f8",
+    "native.d4e40b0715c7cb59",
+    "native.e978b00de465a271",
+    "native.fbd457a64a6b58b6",
+    "provider.openrouter-unavailable"
+  ],
+  "commands": [
+    "attach_editor_references",
+    "choose_folder_dialog",
+    "choose_index_backup_path",
+    "editor_full_backup",
+    "editor_project_package",
+    "editor_storage_command",
+    "export_editor_image",
+    "export_search_snapshot",
+    "import_editor_file",
+    "publish_editor_copy"
+  ]
+}

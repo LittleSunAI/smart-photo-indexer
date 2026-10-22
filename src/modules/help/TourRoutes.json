@@ -1,0 +1,3001 @@
+[
+  {
+    "id": "main.folder.choose",
+    "context": "main",
+    "groupId": "tour.group.main.folder",
+    "targetIds": [
+      "main.folder.choose"
+    ],
+    "unavailableIds": [
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "folders"
+  },
+  {
+    "id": "main.folder.refresh",
+    "context": "main",
+    "groupId": "tour.group.main.folder",
+    "targetIds": [
+      "main.folder.refresh"
+    ],
+    "unavailableIds": [
+      "no-folder",
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "refresh"
+  },
+  {
+    "id": "main.folder.refresh-options",
+    "context": "main",
+    "groupId": "tour.group.main.folder",
+    "targetIds": [
+      "main.folder.refresh-options"
+    ],
+    "unavailableIds": [
+      "no-folder",
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "refresh"
+  },
+  {
+    "id": "main.recognition.overview",
+    "context": "main",
+    "groupId": "tour.group.main.recognition",
+    "targetIds": [
+      "main.recognition.provider",
+      "main.recognition.model",
+      "main.recognition.output"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.recognition.provider",
+    "context": "main",
+    "groupId": "tour.group.main.recognition",
+    "targetIds": [
+      "main.recognition.provider"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.recognition.model",
+    "context": "main",
+    "groupId": "tour.group.main.recognition",
+    "targetIds": [
+      "main.recognition.model"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.recognition.output",
+    "context": "main",
+    "groupId": "tour.group.main.recognition",
+    "targetIds": [
+      "main.recognition.output"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.processing.overview",
+    "context": "main",
+    "groupId": "tour.group.main.processing",
+    "targetIds": [
+      "main.processing.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.processing.recursive",
+    "context": "main",
+    "groupId": "tour.group.main.processing",
+    "targetIds": [
+      "main.processing.recursive"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.processing.smart-name",
+    "context": "main",
+    "groupId": "tour.group.main.processing",
+    "targetIds": [
+      "main.processing.smart-name"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.processing.copy",
+    "context": "main",
+    "groupId": "tour.group.main.processing",
+    "targetIds": [
+      "main.processing.copy"
+    ],
+    "unavailableIds": [
+      "copy-needs-smart-name"
+    ],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.processing.only-missing",
+    "context": "main",
+    "groupId": "tour.group.main.processing",
+    "targetIds": [
+      "main.processing.only-missing"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.processing.action",
+    "context": "main",
+    "groupId": "tour.group.main.processing",
+    "targetIds": [
+      "main.processing.action"
+    ],
+    "unavailableIds": [
+      "process-selection",
+      "provider-not-ready",
+      "busy-action"
+    ],
+    "presentation": {},
+    "articleId": "recognition"
+  },
+  {
+    "id": "main.processing.mode",
+    "context": "main",
+    "groupId": "tour.group.main.processing",
+    "targetIds": [
+      "main.processing.mode"
+    ],
+    "unavailableIds": [
+      "provider-not-ready"
+    ],
+    "presentation": {},
+    "articleId": "recognition",
+    "fallbackTargetIds": [
+      "main.processing.overview"
+    ]
+  },
+  {
+    "id": "main.commands.overview",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.commands.edit",
+      "main.commands.rename",
+      "main.commands.settings",
+      "main.commands.logs",
+      "main.commands.theme"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "appearance",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.commands.edit",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.commands.edit"
+    ],
+    "unavailableIds": [
+      "one-photo"
+    ],
+    "presentation": {},
+    "articleId": "appearance"
+  },
+  {
+    "id": "main.commands.rename",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.commands.rename"
+    ],
+    "unavailableIds": [
+      "rename-source"
+    ],
+    "presentation": {},
+    "articleId": "rename"
+  },
+  {
+    "id": "main.commands.settings",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.commands.settings"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "privacy"
+  },
+  {
+    "id": "main.commands.logs",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.commands.logs"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "appearance"
+  },
+  {
+    "id": "main.commands.theme",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.commands.theme"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "appearance"
+  },
+  {
+    "id": "main.help.overview",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.help.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "appearance"
+  },
+  {
+    "id": "main.help.hover",
+    "context": "main",
+    "groupId": "tour.group.main.commands",
+    "targetIds": [
+      "main.help.hover"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "helpDrawer": true
+    },
+    "articleId": "appearance"
+  },
+  {
+    "id": "main.navigation.overview",
+    "context": "main",
+    "groupId": "tour.group.main.navigation",
+    "targetIds": [
+      "main.navigation.back",
+      "main.navigation.forward",
+      "main.navigation.up",
+      "main.navigation.computer",
+      "main.navigation.breadcrumbs"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "folders",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.navigation.back",
+    "context": "main",
+    "groupId": "tour.group.main.navigation",
+    "targetIds": [
+      "main.navigation.back"
+    ],
+    "unavailableIds": [
+      "history-back",
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "folders"
+  },
+  {
+    "id": "main.navigation.forward",
+    "context": "main",
+    "groupId": "tour.group.main.navigation",
+    "targetIds": [
+      "main.navigation.forward"
+    ],
+    "unavailableIds": [
+      "history-forward",
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "folders"
+  },
+  {
+    "id": "main.navigation.up",
+    "context": "main",
+    "groupId": "tour.group.main.navigation",
+    "targetIds": [
+      "main.navigation.up"
+    ],
+    "unavailableIds": [
+      "no-folder",
+      "no-parent",
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "folders"
+  },
+  {
+    "id": "main.navigation.computer",
+    "context": "main",
+    "groupId": "tour.group.main.navigation",
+    "targetIds": [
+      "main.navigation.computer"
+    ],
+    "unavailableIds": [
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "folders"
+  },
+  {
+    "id": "main.navigation.breadcrumbs",
+    "context": "main",
+    "groupId": "tour.group.main.navigation",
+    "targetIds": [
+      "main.navigation.breadcrumbs"
+    ],
+    "unavailableIds": [
+      "no-folder",
+      "busy-folder"
+    ],
+    "presentation": {},
+    "articleId": "folders",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.quick.overview",
+    "context": "main",
+    "groupId": "tour.group.main.quick",
+    "targetIds": [
+      "main.quick.scope",
+      "main.quick.fields",
+      "main.quick.query",
+      "main.quick.actions"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "search",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.quick.scope",
+    "context": "main",
+    "groupId": "tour.group.main.quick",
+    "targetIds": [
+      "main.quick.scope"
+    ],
+    "unavailableIds": [
+      "folder-scope"
+    ],
+    "presentation": {},
+    "articleId": "search"
+  },
+  {
+    "id": "main.quick.fields",
+    "context": "main",
+    "groupId": "tour.group.main.quick",
+    "targetIds": [
+      "main.quick.fields"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "search"
+  },
+  {
+    "id": "main.quick.query",
+    "context": "main",
+    "groupId": "tour.group.main.quick",
+    "targetIds": [
+      "main.quick.query"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "search"
+  },
+  {
+    "id": "main.quick.actions",
+    "context": "main",
+    "groupId": "tour.group.main.quick",
+    "targetIds": [
+      "main.quick.actions"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "search",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.workspace.overview",
+    "context": "main",
+    "groupId": "tour.group.main.workspace",
+    "targetIds": [
+      "main.workspace.explorer",
+      "main.workspace.search-tab",
+      "main.workspace.favorites",
+      "main.workspace.ready",
+      "main.workspace.collections",
+      "main.workspace.recent"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.workspace.explorer",
+    "context": "main",
+    "groupId": "tour.group.main.workspace",
+    "targetIds": [
+      "main.workspace.explorer"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "explorer"
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.search.overview",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.sections",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.sections"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.query",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.query"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.primary-filters",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.primary-filters"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.additional",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.additional"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.dates",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.additional"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.saved",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.saved"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "saved"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.result-actions",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.search.result-actions"
+    ],
+    "unavailableIds": [
+      "no-search-results"
+    ],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.search.results",
+    "context": "main",
+    "groupId": "tour.group.main.search",
+    "targetIds": [
+      "main.canvas"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "search",
+      "searchPane": "filters"
+    },
+    "articleId": "search"
+  },
+  {
+    "id": "main.workspace.favorites",
+    "context": "main",
+    "groupId": "tour.group.main.workspace",
+    "targetIds": [
+      "main.workspace.favorites"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "favorites"
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.workspace.ready",
+    "context": "main",
+    "groupId": "tour.group.main.workspace",
+    "targetIds": [
+      "main.workspace.ready"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "ready"
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.workspace.collections",
+    "context": "main",
+    "groupId": "tour.group.main.workspace",
+    "targetIds": [
+      "main.workspace.collections"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "workspace": "collections"
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.workspace.recent",
+    "context": "main",
+    "groupId": "tour.group.main.workspace",
+    "targetIds": [
+      "main.workspace.recent"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "recent": true
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.display.overview",
+    "context": "main",
+    "groupId": "tour.group.main.display",
+    "targetIds": [
+      "main.display.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.display.fit",
+    "context": "main",
+    "groupId": "tour.group.main.display",
+    "targetIds": [
+      "main.display.fit"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.display.view",
+    "context": "main",
+    "groupId": "tour.group.main.display",
+    "targetIds": [
+      "main.display.view"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.display.columns",
+    "context": "main",
+    "groupId": "tour.group.main.display",
+    "targetIds": [
+      "main.display.columns"
+    ],
+    "unavailableIds": [
+      "table-only"
+    ],
+    "presentation": {},
+    "articleId": "library",
+    "fallbackTargetIds": [
+      "main.display.view"
+    ]
+  },
+  {
+    "id": "main.display.sort",
+    "context": "main",
+    "groupId": "tour.group.main.display",
+    "targetIds": [
+      "main.display.sort"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.display.files",
+    "context": "main",
+    "groupId": "tour.group.main.display",
+    "targetIds": [
+      "main.display.files"
+    ],
+    "unavailableIds": [
+      "explorer-only"
+    ],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.display.filename",
+    "context": "main",
+    "groupId": "tour.group.main.display",
+    "targetIds": [
+      "main.display.filename"
+    ],
+    "unavailableIds": [
+      "explorer-only"
+    ],
+    "presentation": {},
+    "articleId": "library",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.canvas.overview",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.canvas"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.canvas.selection",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.canvas"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.canvas.open",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.canvas"
+    ],
+    "unavailableIds": [
+      "empty-content"
+    ],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.canvas.context",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.canvas"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.canvas.drag",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.canvas"
+    ],
+    "unavailableIds": [
+      "empty-content"
+    ],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.canvas.compare",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.canvas.compare"
+    ],
+    "unavailableIds": [
+      "two-photos"
+    ],
+    "presentation": {},
+    "articleId": "library",
+    "fallbackTargetIds": [
+      "main.canvas"
+    ]
+  },
+  {
+    "id": "main.footer.status",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.footer.status"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.footer.view",
+    "context": "main",
+    "groupId": "tour.group.main.canvas",
+    "targetIds": [
+      "main.footer.view"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "library"
+  },
+  {
+    "id": "main.inspector.overview",
+    "context": "main",
+    "groupId": "tour.group.main.inspector",
+    "targetIds": [
+      "main.inspector.overview"
+    ],
+    "unavailableIds": [
+      "right-panel-hidden"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details"
+    },
+    "articleId": "inspector"
+  },
+  {
+    "id": "main.inspector.tabs",
+    "context": "main",
+    "groupId": "tour.group.main.inspector",
+    "targetIds": [
+      "main.inspector.tabs"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details"
+    },
+    "articleId": "inspector"
+  },
+  {
+    "id": "main.details.overview",
+    "context": "main",
+    "groupId": "tour.group.main.details",
+    "targetIds": [
+      "main.details.overview"
+    ],
+    "unavailableIds": [
+      "selection-needed"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details"
+    },
+    "articleId": "inspector",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.details.preview",
+    "context": "main",
+    "groupId": "tour.group.main.details",
+    "targetIds": [
+      "main.details.preview"
+    ],
+    "unavailableIds": [
+      "one-photo"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details"
+    },
+    "articleId": "inspector",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.details.file-info",
+    "context": "main",
+    "groupId": "tour.group.main.details",
+    "targetIds": [
+      "main.details.file-info"
+    ],
+    "unavailableIds": [
+      "selection-needed"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details"
+    },
+    "articleId": "inspector",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.details.collections",
+    "context": "main",
+    "groupId": "tour.group.main.details",
+    "targetIds": [
+      "main.details.collections"
+    ],
+    "unavailableIds": [
+      "photo-selection"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details",
+      "disclosures": [
+        "selection-collections"
+      ]
+    },
+    "articleId": "inspector",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.details.collection-add",
+    "context": "main",
+    "groupId": "tour.group.main.details",
+    "targetIds": [
+      "main.details.collection-add"
+    ],
+    "unavailableIds": [
+      "collection-target"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details",
+      "disclosures": [
+        "selection-collections"
+      ]
+    },
+    "articleId": "inspector",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.details.collection-create",
+    "context": "main",
+    "groupId": "tour.group.main.details",
+    "targetIds": [
+      "main.details.collection-create"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "details",
+      "disclosures": [
+        "selection-collections"
+      ]
+    },
+    "articleId": "inspector",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.description.overview",
+    "context": "main",
+    "groupId": "tour.group.main.description",
+    "targetIds": [
+      "main.description.overview"
+    ],
+    "unavailableIds": [
+      "one-photo"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "aiDescription"
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.description.edit",
+    "context": "main",
+    "groupId": "tour.group.main.description",
+    "targetIds": [
+      "main.description.edit"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "aiDescription"
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.description.save",
+    "context": "main",
+    "groupId": "tour.group.main.description",
+    "targetIds": [
+      "main.description.save"
+    ],
+    "unavailableIds": [
+      "metadata-save"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "aiDescription"
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.tags.overview",
+    "context": "main",
+    "groupId": "tour.group.main.tags",
+    "targetIds": [
+      "main.tags.overview"
+    ],
+    "unavailableIds": [
+      "photo-selection"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tags"
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.tags.single",
+    "context": "main",
+    "groupId": "tour.group.main.tags",
+    "targetIds": [
+      "main.tags.single"
+    ],
+    "unavailableIds": [
+      "one-photo",
+      "metadata-save"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tags"
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.tags.batch-overview",
+    "context": "main",
+    "groupId": "tour.group.main.tags",
+    "targetIds": [
+      "main.tags.batch-overview"
+    ],
+    "unavailableIds": [
+      "photo-selection"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tags",
+      "disclosures": [
+        "batch-tags"
+      ]
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.tags.batch-add",
+    "context": "main",
+    "groupId": "tour.group.main.tags",
+    "targetIds": [
+      "main.tags.batch-add"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tags",
+      "disclosures": [
+        "batch-tags"
+      ]
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.tags.batch-remove",
+    "context": "main",
+    "groupId": "tour.group.main.tags",
+    "targetIds": [
+      "main.tags.batch-remove"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tags",
+      "disclosures": [
+        "batch-tags"
+      ]
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.tags.batch-save",
+    "context": "main",
+    "groupId": "tour.group.main.tags",
+    "targetIds": [
+      "main.tags.batch-save"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tags",
+      "disclosures": [
+        "batch-tags"
+      ]
+    },
+    "articleId": "results",
+    "targetMode": "union",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.tags.xmp",
+    "context": "main",
+    "groupId": "tour.group.main.tags",
+    "targetIds": [
+      "main.tags.xmp"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tags",
+      "disclosures": [
+        "xmp-metadata"
+      ]
+    },
+    "articleId": "results",
+    "fallbackTargetIds": [
+      "main.inspector.overview"
+    ]
+  },
+  {
+    "id": "main.queue.overview",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks"
+    },
+    "articleId": "queue"
+  },
+  {
+    "id": "main.queue.controls",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.controls"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks"
+    },
+    "articleId": "queue"
+  },
+  {
+    "id": "main.queue.cost",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.cost"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks"
+    },
+    "articleId": "queue",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.queue.progress",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.progress"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks"
+    },
+    "articleId": "queue"
+  },
+  {
+    "id": "main.queue.list",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.list"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-items"
+      ]
+    },
+    "articleId": "queue"
+  },
+  {
+    "id": "main.queue.new",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.new"
+    ],
+    "unavailableIds": [
+      "manual-queue"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-items"
+      ]
+    },
+    "articleId": "queue",
+    "fallbackTargetIds": [
+      "main.queue.list"
+    ]
+  },
+  {
+    "id": "main.queue.target",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.target"
+    ],
+    "unavailableIds": [
+      "manual-queue"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-items"
+      ]
+    },
+    "articleId": "queue",
+    "fallbackTargetIds": [
+      "main.queue.list"
+    ]
+  },
+  {
+    "id": "main.queue.card-actions",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.card-actions"
+    ],
+    "unavailableIds": [
+      "manual-queue"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-items"
+      ]
+    },
+    "articleId": "queue",
+    "fallbackTargetIds": [
+      "main.queue.list"
+    ]
+  },
+  {
+    "id": "main.queue.photo",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.photo"
+    ],
+    "unavailableIds": [
+      "no-queue-items"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-items"
+      ]
+    },
+    "articleId": "queue",
+    "fallbackTargetIds": [
+      "main.queue.list"
+    ]
+  },
+  {
+    "id": "main.queue.summary",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.summary"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-details"
+      ]
+    },
+    "articleId": "queue"
+  },
+  {
+    "id": "main.queue.parameters",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.parameters"
+    ],
+    "unavailableIds": [
+      "queue-selected"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-settings"
+      ]
+    },
+    "articleId": "queue"
+  },
+  {
+    "id": "main.queue.history",
+    "context": "main",
+    "groupId": "tour.group.main.queue",
+    "targetIds": [
+      "main.queue.history"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "tasks",
+      "disclosures": [
+        "queue-history"
+      ]
+    },
+    "articleId": "queue"
+  },
+  {
+    "id": "main.library.overview",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index"
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.library.roots",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.roots"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index",
+      "disclosures": [
+        "library-roots"
+      ]
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.library.maintenance",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.maintenance"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index",
+      "disclosures": [
+        "index-maintenance"
+      ]
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.library.duplicates",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.duplicates"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index",
+      "disclosures": [
+        "index-duplicates"
+      ]
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.library.backup",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.backup"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index",
+      "disclosures": [
+        "program-data-backup"
+      ]
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.library.cache",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.cache"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index",
+      "disclosures": [
+        "index-cache"
+      ]
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.library.projects",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.projects"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index",
+      "disclosures": [
+        "project-storage"
+      ]
+    },
+    "articleId": "privacy"
+  },
+  {
+    "id": "main.library.technical",
+    "context": "main",
+    "groupId": "tour.group.main.library",
+    "targetIds": [
+      "main.library.technical"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "index",
+      "disclosures": [
+        "index-technical"
+      ]
+    },
+    "articleId": "library"
+  },
+  {
+    "id": "main.journal.overview",
+    "context": "main",
+    "groupId": "tour.group.main.journal",
+    "targetIds": [
+      "main.journal.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "detailsTab": "journal"
+    },
+    "articleId": "results"
+  },
+  {
+    "id": "main.settings.overview",
+    "context": "main",
+    "groupId": "tour.group.main.settings",
+    "targetIds": [
+      "settings.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "settingsOpen": true,
+      "settingsTab": "general"
+    },
+    "articleId": "privacy",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.settings.general",
+    "context": "main",
+    "groupId": "tour.group.main.settings",
+    "targetIds": [
+      "settings.general"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "settingsOpen": true,
+      "settingsTab": "general"
+    },
+    "articleId": "privacy",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.settings.recognition",
+    "context": "main",
+    "groupId": "tour.group.main.settings",
+    "targetIds": [
+      "settings.recognition"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "settingsOpen": true,
+      "settingsTab": "recognition"
+    },
+    "articleId": "privacy",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.settings.queue",
+    "context": "main",
+    "groupId": "tour.group.main.settings",
+    "targetIds": [
+      "settings.queue"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "settingsOpen": true,
+      "settingsTab": "queue"
+    },
+    "articleId": "privacy",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.settings.storage",
+    "context": "main",
+    "groupId": "tour.group.main.settings",
+    "targetIds": [
+      "settings.storage"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "settingsOpen": true,
+      "settingsTab": "storage"
+    },
+    "articleId": "privacy",
+    "targetMode": "union"
+  },
+  {
+    "id": "main.settings.projects",
+    "context": "main",
+    "groupId": "tour.group.main.settings",
+    "targetIds": [
+      "settings.projects"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "settingsOpen": true,
+      "settingsTab": "projects"
+    },
+    "articleId": "privacy",
+    "targetMode": "union"
+  },
+  {
+    "id": "editor.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.introduction",
+    "targetIds": [
+      "editor.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.top.back",
+    "context": "editor",
+    "groupId": "tour.group.editor.introduction",
+    "targetIds": [
+      "editor.top.back"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.top.operations-panel",
+    "context": "editor",
+    "groupId": "tour.group.editor.introduction",
+    "targetIds": [
+      "editor.top.operations-panel"
+    ],
+    "unavailableIds": [
+      "editor-compact-panel"
+    ],
+    "presentation": {
+      "leftPanel": true,
+      "rightPanel": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.operations.overview"
+    ]
+  },
+  {
+    "id": "editor.top.restart",
+    "context": "editor",
+    "groupId": "tour.group.editor.introduction",
+    "targetIds": [
+      "editor.top.restart"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.tools.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.tools.select",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.select"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.top.more-tools"
+    ]
+  },
+  {
+    "id": "editor.tools.pan",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.pan"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.top.more-tools"
+    ]
+  },
+  {
+    "id": "editor.tools.point",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.point"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.top.more-tools"
+    ]
+  },
+  {
+    "id": "editor.tools.region",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.region"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.top.more-tools"
+    ]
+  },
+  {
+    "id": "editor.tools.mask",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.mask"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.top.more-tools"
+    ]
+  },
+  {
+    "id": "editor.tools.eraser",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.eraser"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.top.more-tools"
+    ]
+  },
+  {
+    "id": "editor.top.more-tools",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.more-tools"
+    ],
+    "unavailableIds": [
+      "editor-compact-tools"
+    ],
+    "presentation": {},
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.tools.point",
+      "editor.tools.region",
+      "editor.tools.mask",
+      "editor.tools.eraser",
+      "editor.top.orientation"
+    ],
+    "targetMode": "union"
+  },
+  {
+    "id": "editor.top.orientation",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.orientation"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "toolsMenu": true
+    },
+    "articleId": "editor",
+    "targetMode": "union",
+    "fallbackTargetIds": [
+      "editor.top.more-tools"
+    ]
+  },
+  {
+    "id": "editor.tools.brush",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.tools.brush"
+    ],
+    "unavailableIds": [
+      "brush-mode"
+    ],
+    "presentation": {
+      "brushField": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.top.compare",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.compare"
+    ],
+    "unavailableIds": [
+      "two-history-frames"
+    ],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.top.zoom",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.zoom"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor",
+    "targetMode": "union"
+  },
+  {
+    "id": "editor.top.project-save",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.project-save"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.project.preferences",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "settings.projects"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "editorMenu": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.top.image-save",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.image-save"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.top.parameters",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.parameters"
+    ],
+    "unavailableIds": [
+      "editor-compact-panel"
+    ],
+    "presentation": {
+      "leftPanel": true,
+      "rightPanel": true
+    },
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.inspector.overview"
+    ]
+  },
+  {
+    "id": "editor.top.menu",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.menu"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.top.help",
+    "context": "editor",
+    "groupId": "tour.group.editor.tools",
+    "targetIds": [
+      "editor.top.help"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.crop",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.crop"
+    ],
+    "unavailableIds": [
+      "editor-busy"
+    ],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.resize",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.resize"
+    ],
+    "unavailableIds": [
+      "editor-busy"
+    ],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.universal",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.universal"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.replace",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.replace"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.remove",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.remove"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.remove-background",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.remove-background"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.replace-background",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.replace-background"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.outpaint",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.outpaint"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.upscale",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.upscale"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.relight",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.relight"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.recolor",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.recolor"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.compose",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.compose"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.operations.restore",
+    "context": "editor",
+    "groupId": "tour.group.editor.operations",
+    "targetIds": [
+      "editor.operations.restore"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "leftPanel": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.canvas.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.canvas",
+    "targetIds": [
+      "editor.canvas"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.canvas.outpaint-frame",
+    "context": "editor",
+    "groupId": "tour.group.editor.canvas",
+    "targetIds": [
+      "editor.canvas.outpaint-frame"
+    ],
+    "unavailableIds": [
+      "outpaint-mode"
+    ],
+    "presentation": {},
+    "articleId": "editor",
+    "fallbackTargetIds": [
+      "editor.canvas"
+    ]
+  },
+  {
+    "id": "editor.inspector.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.inspector",
+    "targetIds": [
+      "editor.inspector.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.markup.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.markup",
+    "targetIds": [
+      "editor.markup.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-markup"
+      ]
+    },
+    "articleId": "editor-instruction-guide"
+  },
+  {
+    "id": "editor.markup.controls",
+    "context": "editor",
+    "groupId": "tour.group.editor.markup",
+    "targetIds": [
+      "editor.markup.controls"
+    ],
+    "unavailableIds": [
+      "no-markup"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-markup"
+      ]
+    },
+    "articleId": "editor-instruction-guide",
+    "fallbackTargetIds": [
+      "editor.markup.overview"
+    ]
+  },
+  {
+    "id": "editor.markup.mask-apply",
+    "context": "editor",
+    "groupId": "tour.group.editor.markup",
+    "targetIds": [
+      "editor.markup.mask-apply"
+    ],
+    "unavailableIds": [
+      "no-mask-strokes"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-markup"
+      ]
+    },
+    "articleId": "editor-instruction-guide",
+    "targetMode": "union"
+  },
+  {
+    "id": "editor.instruction.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.instruction",
+    "targetIds": [
+      "editor.instruction.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-instruction-guide"
+  },
+  {
+    "id": "editor.instruction.target",
+    "context": "editor",
+    "groupId": "tour.group.editor.instruction",
+    "targetIds": [
+      "editor.instruction.target"
+    ],
+    "unavailableIds": [
+      "instruction-targets"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-instruction-guide"
+  },
+  {
+    "id": "editor.instruction.text",
+    "context": "editor",
+    "groupId": "tour.group.editor.instruction",
+    "targetIds": [
+      "editor.instruction.text"
+    ],
+    "unavailableIds": [
+      "model-without-text"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-instruction-guide"
+  },
+  {
+    "id": "editor.references.whole",
+    "context": "editor",
+    "groupId": "tour.group.editor.references",
+    "targetIds": [
+      "editor.references.whole"
+    ],
+    "unavailableIds": [
+      "whole-image-references"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "whole-image-references"
+      ]
+    },
+    "articleId": "editor-instruction-guide",
+    "fallbackTargetIds": [
+      "editor.instruction.overview"
+    ]
+  },
+  {
+    "id": "editor.references.mark",
+    "context": "editor",
+    "groupId": "tour.group.editor.references",
+    "targetIds": [
+      "editor.references.mark"
+    ],
+    "unavailableIds": [
+      "mark-references"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-markup"
+      ]
+    },
+    "articleId": "editor-instruction-guide"
+  },
+  {
+    "id": "editor.references.limits",
+    "context": "editor",
+    "groupId": "tour.group.editor.references",
+    "targetIds": [
+      "editor.references.limits"
+    ],
+    "unavailableIds": [
+      "editor-reference-limits"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-markup"
+      ]
+    },
+    "articleId": "editor-instruction-guide",
+    "targetMode": "union",
+    "fallbackTargetIds": [
+      "editor.references.mark"
+    ]
+  },
+  {
+    "id": "editor.model.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.model.profiles",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.profiles"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow",
+    "targetMode": "union"
+  },
+  {
+    "id": "editor.model.filters",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.filters"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.model.details",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.details"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.model.output",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.output"
+    ],
+    "unavailableIds": [
+      "model-output"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.outpaint.size",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.outpaint.size"
+    ],
+    "unavailableIds": [
+      "outpaint-mode"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow",
+    "fallbackTargetIds": [
+      "editor.instruction.overview"
+    ]
+  },
+  {
+    "id": "editor.outpaint.autocrop",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.outpaint.autocrop"
+    ],
+    "unavailableIds": [
+      "outpaint-mode",
+      "pending-outpaint-crop"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow",
+    "fallbackTargetIds": [
+      "editor.instruction.overview"
+    ]
+  },
+  {
+    "id": "editor.model.advanced",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.advanced"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-model-advanced"
+      ]
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.model.limits",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.limits"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-model-advanced"
+      ]
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.model.inputs",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.model.inputs"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit",
+      "disclosures": [
+        "editor-model-advanced"
+      ]
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.launch",
+    "context": "editor",
+    "groupId": "tour.group.editor.model",
+    "targetIds": [
+      "editor.launch"
+    ],
+    "unavailableIds": [
+      "editor-launch"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "edit"
+    },
+    "articleId": "editor-safe-workflow"
+  },
+  {
+    "id": "editor.jobs.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.jobs",
+    "targetIds": [
+      "editor.jobs.overview"
+    ],
+    "unavailableIds": [
+      "no-editor-jobs"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "tasks"
+    },
+    "articleId": "editor-tasks"
+  },
+  {
+    "id": "editor.jobs.recovery",
+    "context": "editor",
+    "groupId": "tour.group.editor.jobs",
+    "targetIds": [
+      "editor.jobs.recovery"
+    ],
+    "unavailableIds": [
+      "recoverable-editor-job"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "tasks"
+    },
+    "articleId": "editor-tasks"
+  },
+  {
+    "id": "editor.jobs.cancel",
+    "context": "editor",
+    "groupId": "tour.group.editor.jobs",
+    "targetIds": [
+      "editor.jobs.cancel"
+    ],
+    "unavailableIds": [
+      "running-editor-job"
+    ],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "tasks"
+    },
+    "articleId": "editor-tasks"
+  },
+  {
+    "id": "editor.sources.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.sources",
+    "targetIds": [
+      "editor.sources.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "sources"
+    },
+    "articleId": "editor-instruction-guide"
+  },
+  {
+    "id": "editor.sources.roles",
+    "context": "editor",
+    "groupId": "tour.group.editor.sources",
+    "targetIds": [
+      "editor.sources.roles"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "rightPanel": true,
+      "inspectorTab": "sources"
+    },
+    "articleId": "editor-instruction-guide",
+    "targetMode": "union"
+  },
+  {
+    "id": "editor.history.overview",
+    "context": "editor",
+    "groupId": "tour.group.editor.history",
+    "targetIds": [
+      "editor.history.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {},
+    "articleId": "editor"
+  },
+  {
+    "id": "editor.history.compare",
+    "context": "editor",
+    "groupId": "tour.group.editor.history",
+    "targetIds": [
+      "editor.history.compare"
+    ],
+    "unavailableIds": [
+      "two-history-frames"
+    ],
+    "presentation": {},
+    "articleId": "editor",
+    "targetMode": "union"
+  },
+  {
+    "id": "editor.history.branches",
+    "context": "editor",
+    "groupId": "tour.group.editor.history",
+    "targetIds": [
+      "editor.history.tree"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "historyTree": true
+    },
+    "articleId": "editor"
+  },
+  {
+    "id": "viewer.overview",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.introduction",
+    "targetIds": [
+      "viewer.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.overview",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.edit",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.edit"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.rotate",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.rotate"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer",
+    "targetMode": "union"
+  },
+  {
+    "id": "viewer.top.delete",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.delete"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.print",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.print"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.share",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.share"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.more",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.more"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.menu.only-photo",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.more"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.menu.resize",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.more"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.menu.file-actions",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.more"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.help",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.help"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.top.window",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.top",
+    "targetIds": [
+      "viewer.top.window"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer",
+    "targetMode": "union"
+  },
+  {
+    "id": "viewer.image.overview",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.image",
+    "targetIds": [
+      "viewer.image"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.image.pan",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.image",
+    "targetIds": [
+      "viewer.image"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.image.neighbors",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.image",
+    "targetIds": [
+      "viewer.image.neighbors"
+    ],
+    "unavailableIds": [
+      "viewer-neighbors"
+    ],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer",
+    "targetMode": "union"
+  },
+  {
+    "id": "viewer.image.panels",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.image",
+    "targetIds": [
+      "viewer.image"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.bottom.overview",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.bottom",
+    "targetIds": [
+      "viewer.bottom.overview"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.bottom.favorite",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.bottom",
+    "targetIds": [
+      "viewer.bottom.favorite"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.bottom.details",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.bottom",
+    "targetIds": [
+      "viewer.bottom.details"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.bottom.interval",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.bottom",
+    "targetIds": [
+      "viewer.bottom.interval"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.bottom.slideshow",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.slideshow",
+    "targetIds": [
+      "viewer.bottom.slideshow"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.bottom.actual-size",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.bottom",
+    "targetIds": [
+      "viewer.bottom.actual-size"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.bottom.zoom",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.bottom",
+    "targetIds": [
+      "viewer.bottom.zoom"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer",
+    "targetMode": "union"
+  },
+  {
+    "id": "viewer.bottom.fit",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.bottom",
+    "targetIds": [
+      "viewer.bottom.fit"
+    ],
+    "unavailableIds": [],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer"
+  },
+  {
+    "id": "viewer.slideshow.controls",
+    "context": "viewer",
+    "groupId": "tour.group.viewer.slideshow",
+    "targetIds": [
+      "viewer.slideshow.controls"
+    ],
+    "unavailableIds": [
+      "slideshow-only"
+    ],
+    "presentation": {
+      "chromeVisible": true,
+      "pauseTimerOnly": true
+    },
+    "articleId": "viewer",
+    "targetMode": "union",
+    "fallbackTargetIds": [
+      "viewer.bottom.slideshow"
+    ]
+  }
+]
